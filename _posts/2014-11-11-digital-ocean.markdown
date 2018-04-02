@@ -19,11 +19,11 @@ I can't say whether it's the actual set up process or that I've simply become mo
 
 Dreamhost was my first time doing something like this, and it took a little over two hours. And the documentation was... ugly. It's not that it wasn't complete - it definitely was - it's just that at 3AM when you're frustrated and sleepy, this kind of thing is the *last* thing you want to see.
 
-![](/content/images/2014/11/DreamhostTutorial.jpg)
+![](/images/2014/11/DreamhostTutorial.jpg)
 
 Like I said, it gets the job done... It's just not easy. Contrast that with the Dreamhost version.
 
-![](/content/images/2014/11/GhostTutorial.jpg)
+![](/images/2014/11/GhostTutorial.jpg)
 
 Introductory tutorials are for beginners who have *no* idea what they're doing. You can't go wrong with catering to the lowest common denominator - the college freshman who just discovered coding at 4AM and is cranky is generally a good bet.
 

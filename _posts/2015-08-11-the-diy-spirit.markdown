@@ -64,11 +64,11 @@ Certainly the most daunting, since I had no idea about toilets. But I plunged ah
 
 In fact, to impress upon you how little I knew, I didn't even have a tool kit. So after a quick run to Home Depot and buying a standard tool kit, I took off the lid of the toilet and started on removing it completely.
 
-![](/content/images/2015/08/IMG_0214.JPG)
+![](/images/2015/08/IMG_0214.JPG)
 
 Luckily, there are plenty of guides on how to remove a toilet. Start with turning off the water to the toilet and then draining the toilet completely. Most of the water can be disposed of with a simply flush, but the rest will have to be removed manually. I found a large sponge to be easiest, but anything works. Once that was done, I simply took off the knuts and yanked the toilet off and placed it on top of paper towels I had arranged.
 
-![](/content/images/2015/08/IMG_0213.JPG)
+![](/images/2015/08/IMG_0213.JPG)
 
 Here's what we have right after removing the toilet. That dark ring of liquid is where the dirty water had been leaking. I decided at this point that I needed gloves; so another quick trip to the local Target where I bought *lots* of cleaning supplies, including gloves.
 
@@ -76,23 +76,23 @@ We can see a standard six inch sewer pipe along with the wax ring surrounding it
 
 Most guides mentioned to put a cloth loosely in the sewer pipe so no gases escaped, but I really didn't smell anything at all.
 
-![](/content/images/2015/08/IMG_0212.JPG)
+![](/images/2015/08/IMG_0212.JPG)
 
 Next step is to remove the wax (or as much as you can). Most plumbers / guides on YouTube seem to have a super cool flat knife sort of contraption, but I just used the back end of an old dirty spoon. However you do it, get as much out as you can.
 
-![](/content/images/2015/08/IMG_0215.JPG)
+![](/images/2015/08/IMG_0215.JPG)
 
 Another view of the post wax-removal stage.
 
-![](/content/images/2015/08/IMG_0216.JPG)
+![](/images/2015/08/IMG_0216.JPG)
 
 Then simply pop the wax ring (often times surrounded by a rubber or plastic gasket) out.
 
-![](/content/images/2015/08/IMG_0217.JPG)
+![](/images/2015/08/IMG_0217.JPG)
 
 Another view of the gasket. (Yay gloves!)
 
-![](/content/images/2015/08/IMG_0218.JPG)
+![](/images/2015/08/IMG_0218.JPG)
 
 All we have left here is the flange and the raw sewer pipe.
 
@@ -104,11 +104,11 @@ a. If I'm right, I've saved myself a ton of effort (needlessly replacing a flang
 
 b. If I'm wrong, I just wasted $4 buying a new wax ring. That's not too expensive of a waste on a plausible theory, so why not.
 
-![](/content/images/2015/08/IMG_0219.JPG)
+![](/images/2015/08/IMG_0219.JPG)
 
 Another view of the gasket on the floor (for scale). You can see the paper towels I had use to soak up the dirty leaking water; by this point they had actually become semi-glued to the floor (so gross!).
 
-![](/content/images/2015/08/IMG_0220.JPG)
+![](/images/2015/08/IMG_0220.JPG)
 
 And it turned out that was the case! Bought a new wax ring, put the toilet back on top, screwed it super tightly and wiggle free, and flushed it 21 times (sorry California drought!) to ensure that we are totally leak free!
 

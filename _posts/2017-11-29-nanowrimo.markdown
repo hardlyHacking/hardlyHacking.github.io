@@ -31,7 +31,7 @@ Non-writers are often confused by reference to word counts instead of page count
 
 Here is a larger chart featuring the most common genres of books and their respective word counts, taken from [The Write Life](https://thewritelife.com/how-many-words-in-a-novel/).
 
-![](/content/images/2017/11/Screen-Shot-2017-11-28-at-6-28-27-PM.png)
+![](/images/2017/11/Screen-Shot-2017-11-28-at-6-28-27-PM.png)
 
 50,000 words compared to this is quite lacking, of course. But the point is to get participants in the habit of writing daily and to show how quickly a novel can really be put together. This past month, I can happily say I finally wrote my 50,000 words - in just two weeks, actually. *I ended the month with 126,000 words!*
 

@@ -14,11 +14,11 @@ Several months ago, I stumbled upon Derek Low's slightly clickbaity [blog post](
 
 Amtrak itself is a remarkably comfortable ride, even on coach. Every pair of coach seats has plenty of outlets to charge electronics, can comfortably recline the headrest as well as a comfortable footrest. Overall, it reclines about sixty percent of being a completely flat bed. As someone who cannot sleep on plane rides at all, I was pleasantly surprised at how easily I could sleep on the train. It still wasn't great quality sleep, but overall far more relaxing mode of transportation than plane rides.
 
-![](/content/images/2017/06/img1.jpg)
+![](/images/2017/06/img1.jpg)
 
 Amtrak trains have the general format of having two or three sleeper cars in the very front. Sleepers are more expensive but offer amenities like showers and full sized beds. Behind the sleeper cabins is the dining car which serves three meals a day and offers a restaurant-style sit-down experience for meals. Overall, the meals were fairly decent (though, due to the schedule of our trips, I only had a chance to eat breakfast and lunch). They were a bit expensive, but the quality was definitely better than airplane food.
 
-![](/content/images/2017/06/img2.jpg)
+![](/images/2017/06/img2.jpg)
 
 Behind the dining cabin is the viewing car which is a two levels. On the top is a viewing platform with tables and chairs and extra large windows. On the bottom level are bathrooms and a snack cafeteria where passengers can buy hot and cool snacks and drinks at most hours of the day. The viewing car is, naturally, where I spent most of my time - that was the purpose of embarking on a trip like this, after all. The tables are meant to be shared among various passengers, and it's not uncommon for strangers to come and sit next to you. Many people opt to write on trains, and in fact Amtrak has a [writers residency program](http://blog.amtrak.com/meet-writers-selected-2016-amtrak-residency-program/) for just such a purpose.
 

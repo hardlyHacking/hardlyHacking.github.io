@@ -13,7 +13,7 @@ So the traditional saying goes, and in recent times, it's become somewhat of a m
 
 [Article](http://www.fastcoexist.com/3043858/world-changing-ideas/the-science-of-why-you-should-spend-your-money-on-experiences-not-thing) after [article](http://www.theatlantic.com/business/archive/2014/10/buy-experiences/381132/) after [article](http://www.lifehack.org/articles/money/this-why-you-might-spend-money-experiences-not-things.html) tout that people who buy experiences are simply [happier](http://elitedaily.com/news/world/people-spend-money-experiences-instead-things-much-happier/983208/). Naturally, this means that there are [WebMD articles](http://www.webmd.com/balance/features/can-money-buy-happiness?page=2) explaining the science of why such people are happier. And of course that means that MBA's simply have to chime in with corresponding [Ted Talks](http://www.ted.com/talks/joseph_pine_on_what_consumers_want) on how companies can utilize this and provide customers with experiences, not just goods.
 
-![](/content/images/2015/10/Screen-Shot-2015-10-18-at-2-23-55-PM.png)
+![](/images/2015/10/Screen-Shot-2015-10-18-at-2-23-55-PM.png)
 
 Google, apparently, agrees.
 
@@ -27,7 +27,7 @@ Then I started getting bug bites. They were mainly a couple; may be one every ot
 
 I took this video when I first managed to nab one of the fleas (before realizing what kind of bug it really was):
 
-![](/content/images/2015/10/output.gif)
+![](/images/2015/10/output.gif)
 
 So the month-long flea cycle began.
 
@@ -39,7 +39,7 @@ In the middle of all of this, I got the flu, and my company went through a huge 
 
 So, after numerous scratches, claw marks, and flea bites (and two *very* untrusting cats), the cycle finally ended.
 
-![](/content/images/2015/10/2015-08-30-00-11-17.jpg)
+![](/images/2015/10/2015-08-30-00-11-17.jpg)
 
 During the worst of it, I averaged four hours of sleep a night (for several weeks at a time), slept on the couch, where there were slightly fewer fleas, and idly googled the penalty for killing a cat as I contemplated simply driving by the Bay Bridge and throwing them into the ocean. I was miserable, and the cats were probably even more so.
 

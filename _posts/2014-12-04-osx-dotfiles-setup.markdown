@@ -27,7 +27,7 @@ Here are a list of the most awesome Homebrew packages that I use on a daily basi
 
 [autojump](https://github.com/joelthelion/autojump) is the new, awesome way to navigate between directories like a breeze. It does depend on caching, so you can't use autojump on a directory you haven't yet visited, but once you start using it, it adapts to your usage patterns.
 
-![](/content/images/2015/08/Autojump.gif)
+![](/images/2015/08/Autojump.gif)
 
 Keep in mind that to make autojump work, you want to add the following to your "$SHELL".rc file.
 
@@ -59,7 +59,7 @@ But by far more useful is [colordiff](http://www.colordiff.org/), which does exa
 
 Have you ever been in the middle of a series of pipes and wished that you could interactively select an option, and then feed it to the rest of the pipes? [peco](https://github.com/peco/peco) is your answer. The interface is beautiful, and you can navigate inside of peco just like ```vi``` (or ```less```).
 
-![](/content/images/2015/08/Peco.gif)
+![](/images/2015/08/Peco.gif)
 
 <h2 id="caskroom" name="caskroom">Caskroom</h2>
 
@@ -93,7 +93,7 @@ I like dealing with most things in Markdown, and [LightPaper](http://www.ashokge
 
 **Divvy**
 
-![](/content/images/2015/08/Divvy.gif)
+![](/images/2015/08/Divvy.gif)
 
 [Divvy](http://mizage.com/divvy/) is one of thos productivy porn must-haves. It easily allows me to resize windows. I've mapped the Divvy shortcut to ```Control-Space```, as I have Quicksilver using ```Command-Space```. The best part is it works easily with multiple monitors. For someone with OCD like me, I want my sizing to be in perfect squares, and Divvy ensures that.
 
@@ -142,7 +142,7 @@ setopt HIST_REDUCE_BLANKS
 
 **Fish Shell**
 
-![](/content/images/2015/08/fish-syntax.png)
+![](/images/2015/08/fish-syntax.png)
 
 The [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugin brings the awesome Fish-shell style syntax to zsh! It's very awesome, and to activate it simply include the following near the end of your .rc file.
 

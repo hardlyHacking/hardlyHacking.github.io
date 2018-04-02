@@ -28,7 +28,7 @@ Instead, I've shifted to building a habit every two months - and now that I've g
 
 For example, the first quarter was dental hygiene, and they were rather trivial habits - but like most habits, they seem *far* too difficult at the time. The key is choosing habits that you must do *every* day. Periodic habits are very hard to build, so choose something simple and easy that you are forcing yourself to do frequently.
 
-![](/content/images/2016/11/Screen-Shot-2016-11-19-at-3-23-18-PM.png)
+![](/images/2016/11/Screen-Shot-2016-11-19-at-3-23-18-PM.png)
 
 Notice that all of these are something done daily, not generally time consuming (though often annoying), and they all break down larger tasks into smaller steps. The point is to get yourself in the habit of doing things you general are too lazy to do or can't be bothered with doing.
 
@@ -36,17 +36,17 @@ Find an app that easily visualizes your progress for you. I had initially starte
 
 It quickly and easily gives you the general trend of how you're doing across multiple habits.
 
-![](/content/images/2016/11/7.png)
+![](/images/2016/11/7.png)
 
 Along with a deep dive into any particular habit.
 
-![](/content/images/2016/11/3.png)
+![](/images/2016/11/3.png)
 
-![](/content/images/2016/11/1.png)
+![](/images/2016/11/1.png)
 
-![](/content/images/2016/11/2.png)
+![](/images/2016/11/2.png)
 
-![](/content/images/2016/11/5.png)
+![](/images/2016/11/5.png)
 
 You can add new habits at whatever pace you want; life is a marathon we all run at different speeds, so pace yourself and don't burn yourself out. But I would argue a yearly cadence is far too slow for anyone who seriously wants self-change. People who feel the urge to wait for a particular calendar date to start forming good habits remind me of my twelve year-old self, just waiting for that next trimester.
 

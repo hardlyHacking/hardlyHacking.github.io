@@ -33,7 +33,7 @@ This is really quite self explanatory, and there are plenty of [guides](http://g
 
 Wow Ghost is awesome. I literally had *nothing* to do. Publish my first blog post, go to Feedly, search for my website, and BAM! It's right there on my phone!
 
-![](/content/images/2015/08/IMG_0221.PNG)
+![](/images/2015/08/IMG_0221.PNG)
 
 <h2 id="mailconfiguration" name="mailconfiguration">Mail Configuration</h2>
 
@@ -47,8 +47,8 @@ I ended up using [prism.js](http://prismjs.com/), which supports a fair number o
 
 [This](http://www.incrediblemolk.com/add-code-highlighting-to-your-ghost-blog/) blog post details the procedure quite well, though I ended up making some changes. The process of adding Prism itself is quite simple:
 
-* Add the relavent css and js files into the ```/ghost/content/themes/[theme name]/assets/```, where there is both a ```css``` folder and a ```js``` folder
-* Edit your ```default.hbs``` file, located at ```/ghost/content/themes/[theme name]/```
+* Add the relavent css and js files into the ```/ghost/themes/[theme name]/assets/```, where there is both a ```css``` folder and a ```js``` folder
+* Edit your ```default.hbs``` file, located at ```/ghost/themes/[theme name]/```
 
 If you need more details, the blog post linked above provides them.
 
@@ -60,7 +60,7 @@ Rather than trying to force this into an awkward Markdown syntax, I find using H
 
 Additionally, line numbers are handled beautifully and copying code is a breeze.
 
-![](/content/images/2015/08/out.gif)
+![](/images/2015/08/out.gif)
 
 <h2 id="fullmarkdown" name="fullmarkdown">Full Markdown</h2>
 

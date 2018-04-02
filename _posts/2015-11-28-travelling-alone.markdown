@@ -14,7 +14,7 @@ I'm on a one month trip to Europe! Follow along as I try not to get killed on my
 
 Sam and Pete are masters of hiding from the terrible cat boxes I use to transport them, and since almost all of their trips are to the vet, they associate the boxes with a horrible, horrible day. As soon as I bring the boxes out of the bedroom, they both scramble for safety.
 
-![](/content/images/2015/11/2015-11-27-11-42-38.jpg)
+![](/images/2015/11/2015-11-27-11-42-38.jpg)
 
 There's Pete hiding behind my surround sound system. Sam buries himself under the sofa (somehow). Deciding I can't be asked to handle this right now, I make a couple trips to the car as I pack up all their favorite toys, treats, food, and litter.
 
@@ -26,7 +26,7 @@ After 30 minutes of wrangling them into their boxes, I head out on the drive - a
 
 Sam was legitimately terrified (God only knows why, he's been to the vet 6 times - you'd think he'd be used to this by now), and at the *very* end, as I'm parking, he throws up. ```:'(```
 
-![](/content/images/2015/11/2015-11-27-18-17-38.jpg)
+![](/images/2015/11/2015-11-27-18-17-38.jpg)
 
 I got fairly lucky, as most of the vomit stayed in the transport box itself. So I rush into the poor cat sitter's house to give Sam a bath. Halfway through the bath, the lady asks "Oh, I thought you had two cats." ... Crap. I rush back to the car and get Pete out, and then make two more trips for all their toys. By the time everything is settled, Sam has had one of his worst days ever, and he's cowering under her couch. Pete, meanwhile, is in heaven.
 
@@ -36,13 +36,13 @@ Once everything's situated, I say bye to Sam. Pete walks with me down the stairs
 
 Driving back home, I grab my last meal at Taco Bell in a long time. 3 chalupa's with beans, no meat and 3 7-Layer burritos with Fire sauce. Yes, you read that right - I *do* spend $18.33 at Taco Bell whenever I go there. So if you were wondering who on earth that "spend 20, save 10" deal was useful for - it was me. ```:D```
 
-![](/content/images/2015/11/2015-11-27-12-43-29.jpg)
+![](/images/2015/11/2015-11-27-12-43-29.jpg)
 
 **130PM:** In the first smart decision of the day, I decided the clean my place and make it spotless because there was *no* way that once I got back, with all my jet lag, I'd ever be motivated to do that. 3 hours of vacuuming, cleaning cat litter, washing away cat vomit, washing dishes, and throwing out (many) pizza boxes and Amazon boxes later, I'm ready to finally pack my bag, take a shower, change clothes, and leave.
 
 I get on BART and have a fairly uneventful ride to the Airport and make it through security in **seven** minutes. I'm not sure if this was just nobody wanting to travel the day after Thanksgiving or SFO finally has its shit together (unlikely), but man was it *awesome*. It was a total of *ten* minutes from getting off at the Airport to being through security, and in another two minutes I was at my gate. Guys - I'm not saying I'm an expert traveler... but I might be an expert traveler.
 
-![](/content/images/2015/11/2015-11-27-18-07-24.png)
+![](/images/2015/11/2015-11-27-18-07-24.png)
 
 Also I didn't realize you could [bring Taco Bell](http://consumerist.com/2007/12/28/a-big-list-of-foods-that-you-can-bring-through-airport-security/) into the airport. Learn something new everyday. That basically means I'm eating Taco Bell, and the thought suddenly occurred to me as to whether or not TSA just missed it completely, or whether it's actually allowed. Stream of consciousness blogging people. It's a thing.
 
@@ -65,7 +65,7 @@ There's just something about the purple lights on top that makes me happier than
 
 Then there was the fact that the flight had *100* spare seats. Which meant I laid down all night and slept like a baby.
 
-![](/content/images/2015/11/2015-11-28-04-36-05.jpg)
+![](/images/2015/11/2015-11-28-04-36-05.jpg)
 
 Did you notice the two semicircles below the window? Virgin Atlantic flights don't actually have the normal shutters that old school planes have! They have a gradation system, where you press the darker circle and the window gets *slightly* darker. It was amazing to have it half-dark and see a brilliant blue sun shining through the window. The timing system is amazing.
 
@@ -79,7 +79,7 @@ The food was quite reasonable, even bordering on good - which for airplane food 
 
 We landed an hour early due to 180mph+ headwinds helping us in addition to an unusually light load. If I've learned anything, it's that I'm *always* flying the day after Thanksgiving from now on.
 
-![](/content/images/2015/11/2015-11-28-06-39-08.jpg)
+![](/images/2015/11/2015-11-28-06-39-08.jpg)
 
 I get off and eventually wind my way down to immigration. Cut me some slack for what I'm about to tell you - I was super groggy from the amazing sleep I had, and in general I'm a bumbling buffoon when it comes to this sort of stuff.
 
@@ -193,19 +193,19 @@ The view was fantastic. There's just something about having a river in the middl
 
 The view of the Eye, Big Ben, and the rest of the city is just gorgeous.
 
-![](/content/images/2015/11/2015-11-30-09-37-46.jpg)
+![](/images/2015/11/2015-11-30-09-37-46.jpg)
 
 ### Big Ben
 
 Big Ben was cool. I'm not quite so cynical as my idol [Ron Swanson](https://www.youtube.com/watch?v=MYgCVszCKaQ) is about it, but it didn't wow me as much as most of the other things in London. It's a pretty cool building with great architecture, but beyond that it wasn't so awe-inspiring or iconic as I thought it would be.
 
-![](/content/images/2015/11/2015-11-30-09-41-50.jpg)
+![](/images/2015/11/2015-11-30-09-41-50.jpg)
 
 ### Westminster Abbey
 
 This building was super cool. Cooler than Big Ben, but more or less a slightly more awesome version of it. The architecture is very similar. Unfortunately, it's closed on Sundays for tourism (but open for worship), and I didn't feel like praying, considering everything I had planned for today.
 
-![](/content/images/2015/11/2015-11-30-09-49-17.jpg)
+![](/images/2015/11/2015-11-30-09-49-17.jpg)
 
 Oh, and I thought this war rather hilarious:
 
@@ -216,7 +216,7 @@ Oh, and I thought this war rather hilarious:
 
 Next to all this was Parliament Square, which had some neat statues of rather famous (and some not so famous, at least to me) individuals. The view was pretty nice, and the lawn lived up to what I had been told about British lawns.
 
-![](/content/images/2015/11/2015-11-30-10-02-41.jpg)
+![](/images/2015/11/2015-11-30-10-02-41.jpg)
 
 ### Breakfast
 
@@ -230,7 +230,7 @@ I pick a place and start walking, but at the end it's closed (thanks a lot Yelp 
 
 This ended up being a phenomenal decision. This is the greatest McDonalds I've ever seen. Completely automated ordering system, and you simply pick up at the end. There's one worker in case something goes wrong with the machines, just like in Safeway when you bill for yourself.
 
-![](/content/images/2015/11/2015-11-30-09-54-49.jpg)
+![](/images/2015/11/2015-11-30-09-54-49.jpg)
 
 They had Android tablets with free games like Angry Birds and stuff you could play while you sat and ate. There were *tons* of Chinese people, and I realized later as I was walking around that it was right next to Chinatown.
 
@@ -244,15 +244,15 @@ I sit and plan out the rest of my destinations today.
 
 Trip Advisor, by the way, is totally misleading. It gives the impression for some reason that you have to pay for most of these (probably because that's how they make their money), but most of these are totally free and donation based. £5 donation is all they ask, so I have no idea where this £92 figure came from.
 
-![](/content/images/2015/11/2015-11-30-10-09-27.jpg)
+![](/images/2015/11/2015-11-30-10-09-27.jpg)
 
 The National Gallery was super cool. They mostly had religious paintings, and, between my PTSD flashbacks to Catholic high school days, I can't help but wonder how much of this could actually have happened. They had an entire room dedicated to paintings about the immaculate conception, and the very fact that somehow having sex would corrupt a woman just seems so... quaint (and of course it's men who came up with it, I mean give me a break). But that's for another day.
 
-![](/content/images/2015/11/2015-11-30-10-31-54.jpg)
+![](/images/2015/11/2015-11-30-10-31-54.jpg)
 
 I didn't end up taking too many pictures because it wasn't very clearly demarcated in which rooms you were allowed to take photos and which ones they preferred you not. So after I got yelled at a couple times (and I speak the language - I can only imagine how difficult a time people who don't have), I stuck to the safety of taking pictures of the architecture and the rooms in general, which were equally impressive (if not more so to me at least).
 
-![](/content/images/2015/11/2015-11-30-10-40-58.jpg)
+![](/images/2015/11/2015-11-30-10-40-58.jpg)
 
 I bought [Secret London](http://www.amazon.co.uk/Secret-London-Unusual-Jonglez-Guides/dp/2915807280) at the gift shop; it sounds promising! For those who don't know, every place I visit, rather than buying a standard touristy item, I prefer to buy something to add to my book collection.
 
@@ -262,41 +262,41 @@ The British Museum was *amazing*. I took about 150 pictures or more here alone, 
 
 The general layout when you enter - it's breathtaking.
 
-![](/content/images/2015/11/2015-11-30-11-10-27.jpg)
+![](/images/2015/11/2015-11-30-11-10-27.jpg)
 
 There's basically a section on everything you could imagine.
 
 A money room (the history of currency)
 
-![](/content/images/2015/11/2015-11-30-11-16-30.jpg)
+![](/images/2015/11/2015-11-30-11-16-30.jpg)
 
 The Renaissance room
 
-![](/content/images/2015/11/2015-11-30-11-20-05.jpg)
+![](/images/2015/11/2015-11-30-11-20-05.jpg)
 
 The India room (I may or may not have teared up a bit in this room)
 
-![](/content/images/2015/11/2015-11-30-11-21-08.jpg)
+![](/images/2015/11/2015-11-30-11-21-08.jpg)
 
 The 18th century room (the Steampmunk room - this one was super cool)
 
-![](/content/images/2015/11/2015-11-30-11-21-42.jpg)
+![](/images/2015/11/2015-11-30-11-21-42.jpg)
 
 China Jade room
 
-![](/content/images/2015/11/2015-11-30-11-22-08.jpg)
+![](/images/2015/11/2015-11-30-11-22-08.jpg)
 
 South East Asia room
 
-![](/content/images/2015/11/2015-11-30-11-22-45.jpg)
+![](/images/2015/11/2015-11-30-11-22-45.jpg)
 
 New temporary exhibit - Lykians room (part of Greece)
 
-![](/content/images/2015/11/2015-11-30-11-23-36.jpg)
+![](/images/2015/11/2015-11-30-11-23-36.jpg)
 
 Ancient Egypt rooms. These were a massive set of numerous excavations and statues; I simply couldn't photograph everything, and since most people have seen many of these, I decided to photograph these unique sets of doors instead. They had a very interesting history behind them, and ancient fortress building design is fascinating.
 
-![](/content/images/2015/11/2015-11-30-11-24-12.jpg)
+![](/images/2015/11/2015-11-30-11-24-12.jpg)
 
 The unabashed nature of the "here's all the shit we conquered" museum is truly astounding. ```:)``` It is tough. I'd be lying if I said I didn't feel anything as I walked through the numerous treasures taken from India, particularly South India, but at the same time I'm not so sure that I'm guilt-free. Am I not the product of an extremely long line of caste-based oppression? And if today a Dalit should come to me and spit in my face, would I be justified in my righteous indignation that I did nothing wrong?
 
@@ -312,15 +312,15 @@ In the end, I bought neither of these, though they seemed very interesting.
 
 Saint Paul's Cathedral was super impressive. Here are a couple views from the outside.
 
-![](/content/images/2015/11/2015-11-30-11-43-39.jpg)
+![](/images/2015/11/2015-11-30-11-43-39.jpg)
 
 So, *technically*, you're not supposed to take a picture of the inside. Oops. I was about to take a second picture when I saw the sign, so I felt bad and donated £10. I feel like that makes us even, especially because they had lots of "We don't have public funding, please donate to help with the upkeep" signs. Sorry Saint Paul! Hope you'll forgive me.
 
-![](/content/images/2015/11/2015-11-30-11-44-29.jpg)
+![](/images/2015/11/2015-11-30-11-44-29.jpg)
 
 The top picture is a view from the back, with an awesome lawn and water fountain. It was beautiful. I can only imagine the scene when it's actually sunny. See the building on the bottom? Doesn't it look weird? I thought so, and weird enough to warrant taking a picture. We'll come back to that building later.
 
-![](/content/images/2015/11/2015-11-30-11-45-19.jpg)
+![](/images/2015/11/2015-11-30-11-45-19.jpg)
 
 ### Millennium Bridge
 
@@ -328,7 +328,7 @@ Technically, I was supposed to head back to London Tower to take a tour, but as 
 
 I had no idea what it was, but as soon as I saw it, I recognized it from [Harry Potter](http://harrypotter.wikia.com/wiki/Millennium_Bridge)! No wonder it was so popular.
 
-![](/content/images/2015/11/2015-11-30-13-14-56.jpg)
+![](/images/2015/11/2015-11-30-13-14-56.jpg)
 
 I have about 20% of battery left, and there's some really cool stuff on the other side - chiefly Shakespeare's Globe. I'm a huge Shakespeare nerd myself, so I eagerly cross and decide to take a picture, and this is where everything goes wrong.
 
@@ -344,19 +344,19 @@ I have about ~10 seconds from when I start my phone to when it crashes, and the 
 
 Fitbit tells me I've hit 31,521 steps, 13.42 miles, and over 4200 calories. I decide to take an impromptu pit stop to BoxPark since it's just walking distance from the hostel, and even if my phone dies, I'll be fine.
 
-![](/content/images/2015/11/2015-11-30-13-26-57.jpg)
+![](/images/2015/11/2015-11-30-13-26-57.jpg)
 
 I've done plenty of exploring of classic London, but not as much of Shoreditch, the neighborhood of my hostel. BoxPark is the "world's first ever pop up mall" made entirely of old, used shipping containers. The bottom two pictures show the overall layout of the mall, which is very hip and describes Shoreditch rather perfectly. On the bottom floor you have small, mostly boutique shops local to London, and on the top floor you have eateries interspersed with performance areas for local artists (top left picture), with a different artist every day. Many of them were quite good. Next to the mall (top right picture), you have an outside cafe with a Coffee Gondola (slightly cut off in the picture, sorry) with a man fake-singing to Dean Martin with a real snow machine.
 
 Shoreditch is to London as the Mission is to SF. Many hipsters, lots of startups, small local shops, and urban grit. You have shops like "Falafelicious" which is right next to "Sucilicious" (not joking), and while they're not always authentic street foods, they're very unique and mostly very delicious. The street foods are as numerous and unique as Shoreditch's many bizarre bars. There are bars where you play drunken ping pong, bars where the price of beer varies depending on how many people are in the bar, and bars where you engage in pillow fights. Hyper-local, hyper-niche, and hyper-cool is the way I'd describe Shoreditch.
 
-![](/content/images/2015/11/2015-11-29-14-08-47.jpg)
+![](/images/2015/11/2015-11-29-14-08-47.jpg)
 
 The Pump, for example, is a collection of street food shops with interesting combinations. The Japanese Hotdog at the J-Dog stand is supposedly a must-have, but when I went I couldn't find it.
 
 Much like the Mission, Shoreditch also has its urban grit that it stands proudly by. Supposedly, if you look closely, you can see some early Banksy and other famous artists. While I did see a lot of graffiti, I didn't see any Banksy.
 
-![](/content/images/2015/11/2015-11-30-13-39-33.jpg)
+![](/images/2015/11/2015-11-30-13-39-33.jpg)
 
 ### Hostel
 
@@ -370,15 +370,15 @@ The bus isn't coming on time, for whatever reason, so I decide to walk to London
 
 Walking through the city gave me a great opportunity to check out the various buildings in London, actually. Well worth it. Most of these buildings I have no idea what they are, I just found them interesting.
 
-![](/content/images/2015/11/2015-11-30-13-48-01.jpg)
+![](/images/2015/11/2015-11-30-13-48-01.jpg)
 
-![](/content/images/2015/11/2015-11-30-13-47-40.jpg)
+![](/images/2015/11/2015-11-30-13-47-40.jpg)
 
 The [Saint Mary'x Axe](https://en.wikipedia.org/wiki/St_Mary_Axe), apparently the world's first ecologically designed building.
 
-![](/content/images/2015/11/2015-11-30-13-47-20.jpg)
+![](/images/2015/11/2015-11-30-13-47-20.jpg)
 
-![](/content/images/2015/11/2015-11-29-17-12-33.jpg)
+![](/images/2015/11/2015-11-29-17-12-33.jpg)
 
 On the right, the sloping building is City Hall, and on the left is Europe's tallest building (supposedly, according to what some people told me). Believe what you will ```:)```
 
@@ -386,15 +386,15 @@ On the right, the sloping building is City Hall, and on the left is Europe's tal
 
 I arrived too late to go inside the Tower of London, but the outside was marvelous. Perhaps next time!
 
-![](/content/images/2015/11/2015-11-30-14-08-21.jpg)
+![](/images/2015/11/2015-11-30-14-08-21.jpg)
 
 View from far away.
 
-![](/content/images/2015/11/2015-11-30-14-08-54.jpg)
+![](/images/2015/11/2015-11-30-14-08-54.jpg)
 
 I was curious as to what is below the tower - a large expanse of lawn, that now they've put tents in. I roamed around for quite a bit taking a look from various angles.
 
-![](/content/images/2015/11/2015-11-30-14-09-16.jpg)
+![](/images/2015/11/2015-11-30-14-09-16.jpg)
 
 There's also a plaza right next to the London Tower with great statues and a wonderful set of trees and lawn.
 
@@ -402,15 +402,15 @@ There's also a plaza right next to the London Tower with great statues and a won
 
 The Tower of London bridge was fantastic. I took a tour which took me inside where I could see the engine room, the second level pillars (with a glass ceiling looking down on the 140-foot drop), and a complete guided history tour of the bridge.
 
-![](/content/images/2015/11/2015-11-30-14-19-43.jpg)
+![](/images/2015/11/2015-11-30-14-19-43.jpg)
 
 Views of the bridge from the outside
 
-![](/content/images/2015/11/2015-11-30-14-18-43.jpg)
+![](/images/2015/11/2015-11-30-14-18-43.jpg)
 
 The second floor views
 
-![](/content/images/2015/11/2015-11-30-14-17-19.jpg)
+![](/images/2015/11/2015-11-30-14-17-19.jpg)
 
 Inside the engine room
 
@@ -476,15 +476,15 @@ I leave work at around 2, and I decide I'll come back later, since the museums a
 
 Oxford Street and Piccadilly Circle are *super* cool. The streets are well decorated and they have buildings with amazing architectures on all sides. The Twitter London office is in a remarkable location, and it's also super easy to access and very central to London.
 
-![](/content/images/2015/12/2015-12-01-14-18-48.jpg)
+![](/images/2015/12/2015-12-01-14-18-48.jpg)
 
 All four of these pictures were in the same square. The bottom right is an enormous art exhibit with fake trees. It's surrounded by these large buildings and gated with the doors you see on the top left picture. It's also right next to the longest running arcade in Europe, the Piccadilly Circus arcade.
 
-![](/content/images/2015/12/2015-12-01-14-18-32.jpg)
+![](/images/2015/12/2015-12-01-14-18-32.jpg)
 
 Some images of the street decorations. Oxford Street changes decorations frequently, and these are winter-time Christmas decorations. They vary tremendously, but they're all beautiful.
 
-![](/content/images/2015/12/2015-12-01-14-18-12.jpg)
+![](/images/2015/12/2015-12-01-14-18-12.jpg)
 
 Lots of images of Regent street as I was walking to Buckingham Palace. These were pictures of the Ritz Carlton hotel.
 
@@ -497,15 +497,15 @@ Buckingham Palace was super cool, but my favorite part had to be this:
 
 Green Park (a huge lead up into Buckingham Palace) was meh, to be honest. Wasn't so impressed for all its size.
 
-![](/content/images/2015/11/2015-11-30-22-27-01.jpg)
+![](/images/2015/11/2015-11-30-22-27-01.jpg)
 
-![](/content/images/2015/11/2015-11-30-22-27-42.jpg)
+![](/images/2015/11/2015-11-30-22-27-42.jpg)
 
 ### Saint James Park
 
 Saint James park is right next to Buckingham Palace, and it's absolutely gorgeous. Lots of geese and other birds, and from the top of the bridge, you can see the tower in Buckingham Palace.
 
-![](/content/images/2015/11/2015-11-30-22-29-13.jpg)
+![](/images/2015/11/2015-11-30-22-29-13.jpg)
 
 ### Natural History Museum
 
@@ -513,19 +513,19 @@ All these museums are so gorgeous - and impressively, free.
 
 The outside view is magnificent. They had set up a skating rink and a carousel ride for children right outside, adjacent to the museum.
 
-![](/content/images/2015/11/2015-11-30-22-30-16.jpg)
+![](/images/2015/11/2015-11-30-22-30-16.jpg)
 
 As soon as you enter, you're greeted with this massive dinosaur skeleton. The entire section on land animals is impressive. They have one on water creatures as well, but I wasn't too impressed. I hear they'll soon be replacing the dinosaur with a massive blue whale (life size), so perhaps that will soon change.
 
-![](/content/images/2015/11/2015-11-30-22-31-50.jpg)
+![](/images/2015/11/2015-11-30-22-31-50.jpg)
 
 They have an entire eight floors dedicated to insects in a section called the Cocoon. It's actually quite gross since I hate insects, but if you're into that sort of thing, I imagine it must be cool.
 
-![](/content/images/2015/11/2015-11-30-22-31-12.jpg)
+![](/images/2015/11/2015-11-30-22-31-12.jpg)
 
 The vault is a collection of super rare gems and minerals. The glass is set up in such a way that my pictures came out rather poorly with lots of glare, but if you ever go to this museum, definitely go for it. They actually have an entire auditorium filled with minerals and gemstones, but the Vault was by far the coolest.
 
-![](/content/images/2015/11/2015-11-30-22-32-13.jpg)
+![](/images/2015/11/2015-11-30-22-32-13.jpg)
 
 ### Victoria and Albert Museum
 
@@ -535,31 +535,31 @@ Honestly, you could spend an entire day at any one of these museums and never be
 
 You're greeted with this interesting set of glasswork as soon as you enter. I think the bottom left is a piece from Chihuly himself, or maybe his style. I went to Seattle several months ago, and the [Chihuly Museum](http://www.chihulygardenandglass.com/) is not one I'll soon forget. I was also greeted by a showroom of Indian fabrics, but... well, being Indian, I thought I'd just pass.
 
-![](/content/images/2015/11/2015-11-30-22-40-00.jpg)
+![](/images/2015/11/2015-11-30-22-40-00.jpg)
 
 A room filled with Renaissance sculptures of various materials.
 
-![](/content/images/2015/11/2015-11-30-22-41-59.jpg)
+![](/images/2015/11/2015-11-30-22-41-59.jpg)
 
 Japan room
 
-![](/content/images/2015/11/2015-11-30-22-43-06.jpg)
+![](/images/2015/11/2015-11-30-22-43-06.jpg)
 
 China room
 
-![](/content/images/2015/11/2015-11-30-22-43-19.jpg)
+![](/images/2015/11/2015-11-30-22-43-19.jpg)
 
 Massive plaster room (all things are real, but recreated from plaster). This was crazy cool. Just entering the room makes you hold in your breath. This was honestly my favorite room. They had two large ones of these, and I could have stayed here for hours.
 
-![](/content/images/2015/11/2015-11-30-22-44-20.jpg)
+![](/images/2015/11/2015-11-30-22-44-20.jpg)
 
 The second plaster room.
 
-![](/content/images/2015/11/2015-11-30-22-45-11.jpg)
+![](/images/2015/11/2015-11-30-22-45-11.jpg)
 
 Medieval tapestry room - this was actually in a sealed room with a special lighting and temperature along with humidity controls. These tapestries, believe it or not, are 700 years old. It's amazing how little they've faded. The guide did tell me that, while the color has not been restored, additional stitching was done around the edges of people so viewers could more easily distinguish the elaborate scenery.
 
-![](/content/images/2015/11/2015-11-30-22-45-46.jpg)
+![](/images/2015/11/2015-11-30-22-45-46.jpg)
 
 ### London Eye
 
@@ -581,7 +581,7 @@ I got a reasonably good night's sleep, actually; I only woke up once in the midd
 
 Yesterday on the bus, my card didn't beep for some reason, so I think I might be out of money (not sure though), so I decide to take the train into work since there's a station to "top off" the Oyster card there. Good thing I did; the walk took me past some interesting graffiti, and I finally saw some Banksy!
 
-![](/content/images/2015/12/2015-12-01-09-44-29.jpg)
+![](/images/2015/12/2015-12-01-09-44-29.jpg)
 
 I also ran out of moisturizer, so I made a quick stop to Tesco Express; £6 for a tiny 50ml thing of moisturizer!? Are you kidding me? Does no one in London have skin? Or do they just not care if it's not moisturized? What's wrong with this place...
 
@@ -606,11 +606,11 @@ For lunch, Daniel and I went to [Tortellini Cup](http://www.tripadvisor.co.uk/Re
 
 The bus ride up was gorgeous - for the first time since I got to London, I got to see the sunshine!
 
-![](/content/images/2015/12/2015-12-01-13-59-24.jpg)
+![](/images/2015/12/2015-12-01-13-59-24.jpg)
 
 More images of Piccadilly Circle in sunlight.
 
-![](/content/images/2015/12/2015-12-01-13-59-45.jpg)
+![](/images/2015/12/2015-12-01-13-59-45.jpg)
 
 This was from the bus ride up; the top picture is the edge of Regent Park, and the others are just interesting buildings which seemed cool.
 
@@ -628,15 +628,15 @@ So now it's just sitting at my desk, and the whole hallway smells of fruit. Ugh.
 
 Okay, after a hard day of work, Daniel and I set off to Winter Wonderland, and his friend Ben meets us there (the same Ben we had lunch with yesterday). It's *gorgeous*. Hyde Park itself is *massive*, and there wasn't enough light for any of the photos to come out well, but if you've never been, definitely do go. Winter Wonderland is an amusement part that's set up in Hyde Park every year, and they have food , an ice skating rink, carnival games, and the usual roller coasters. It's quite nice.
 
-![](/content/images/2015/12/2015-12-02-10-04-19.jpg)
+![](/images/2015/12/2015-12-02-10-04-19.jpg)
 
 On the bottom right is the entrance (it says Winter Wonderland, in case you couldn't make it out through the glare). The other three are lots of rides, all found near the entrance. There was already three food stations as soon as you enter, and cool enough, everything in the park is a clean £5, so you don't have to deal with any change or coins. Which also means, stupidly, a cup of juice is £5...
 
-![](/content/images/2015/12/2015-12-02-10-03-57.jpg)
+![](/images/2015/12/2015-12-02-10-03-57.jpg)
 
 Some more rides. They had several giant Christmas trees, but the one you see on the top right is the photo that came out best. The bottom left is a cool little movie thing where your seat shakes and you're "fully immersed", but to tell the truth I mostly took the picture to sarcastically tweet out "Someone better tell Stephen Hawking we already discovered the fifth dimension"... And then I had so much fun I actually forgot to send the sarcastic tweet... Damn you Winter Wonderland and your oodles of fun - next time my sarcasm will be out in full!
 
-![](/content/images/2015/12/2015-12-02-10-03-31.jpg)
+![](/images/2015/12/2015-12-02-10-03-31.jpg)
 
 Some of the cooler rides and sights to see. All in all, it was very well done. We did stop by the ice skating rink, but there was no way I was going to pay $30 a person to ice skate for an hour. On a shitty ice rink. No thanks. So I axed that.
 
@@ -644,21 +644,21 @@ But! The best part of the night, by far, was me winning a carnival game. That's 
 
 Here is Ben with the *tiny* minion prize I won for him. Look at that face. How could you say no to that face?
 
-![](/content/images/2015/12/2015-12-01-20-01-32.jpg)
+![](/images/2015/12/2015-12-01-20-01-32.jpg)
 
 I was feeling rather hungry, so I got a crepe and a veggie burger. It was quite good, except a bit too expensive, and the lady didn't have anything besides ketchup and hte actual patty and buns. No tomato, no lettuce. nothing. And she was acting like there was nothing wrong with that. I would have passed it off for just a weird English thing, only Ben was also looking at her like what the heck was wrong with her, so I think she's just weird.
 
 After the park, we went sightseeing outside. There were some cool war monuments (I think a dedication to Australians who fought with the Brits and died in WW2, along with some cool arches.
 
-![](/content/images/2015/12/2015-12-02-10-00-50-1.jpg)
+![](/images/2015/12/2015-12-02-10-00-50-1.jpg)
 
 There were also some *super* fancy buildings (hotels I think) right next to them; Ben and Daniel were rather unimpressed because Europe and London in particular has so many of these buildings that it's impossible to keep track, but I really liked the architecture. Plus, they were all decked out with Christmas decorations.
 
-![](/content/images/2015/12/2015-12-02-10-01-12-1.jpg)
+![](/images/2015/12/2015-12-02-10-01-12-1.jpg)
 
 After a bit of sightseeing, Ben demanded we go to a pub, because that's what Ben does. And with his cute minion, how could we say no? So we walked into a random pub called [The Grenedier](http://www.taylor-walker.co.uk/pub/grenadier-belgrave-square/c0800/), and it was obvious that it was no normal pub (so Daniel told me - how should I know? I'd never been in a pub before). Based on my research now, it's a super well established pub that's considered "royalty" among pubs in London, and it has ties to the Royal Airforce and military academies. But the coolest part was the numerous currency notes (mostly dollar bills) on the ceiling all throughout the pub. There were even some 100 Euro notes!
 
-![](/content/images/2015/12/2015-12-02-09-58-56-1.jpg)
+![](/images/2015/12/2015-12-02-09-58-56-1.jpg)
 
 Ben's flat is pretty close to me, just a few more stops along the same bus route, so we say bye to Daniel and head back. On the way back Ben meets an old friend and she asks to go to a pub; by this time I'm *super* exhausted, and while Ben is just a machine that turns alcohol into energy (somehow), I'm a machine that operates mostly on sleep. So I politely decline and go back to the hostel for some sleep.
 
@@ -670,7 +670,7 @@ Which is retarded, because how is it going to dry? Not to mention I've now spent
 
 I want to take a different route to the office every day, if only to experience different parts of the city. So this time I take two different tube lines (a transfer in the middle). I see some more graffiti and some interesting sites.
 
-![](/content/images/2015/12/2015-12-02-10-00-26.jpg)
+![](/images/2015/12/2015-12-02-10-00-26.jpg)
 
 I've been feeling a bit bad that I haven't said hi to Ramon and Filipa and the others in the London team with whom I worked on Tweet Pivots, so I decide I'll Hipchat them after breakfast - but speak of the devil - as I'm eating breakfast, Filipa recognizes me across the table and says hi! We catch up for a bit, and later on I Hipchat Ramon. He swings over to say hi and invites me for lunch with some other friends. He's *super* nice and welcoming and offers me some suggestions for when I go to Madrid (he's from there). Also had time to say hi to Oliver, the DRI for Communities, and he's super welcoming, too. He invited me out to lunch tomorrow to Borough Market, which is something I've wanted to do for a while (on Trip Adviser's top list!), so I'm super excited. All in all, a very awesome and nice team in London.
 
@@ -680,15 +680,15 @@ Lunch was pretty good. Daniel and I went to [Wagamama](http://www.wagamama.com/)
 
 The Palladium is a very famous theater.
 
-![](/content/images/2015/12/2015-12-02-13-58-03.jpg)
+![](/images/2015/12/2015-12-02-13-58-03.jpg)
 
 The Liberty is a famous shop and looks super cool from the outside.
 
-![](/content/images/2015/12/2015-12-02-14-13-49.jpg)
+![](/images/2015/12/2015-12-02-14-13-49.jpg)
 
 And we walked down Carnaby Street, which is, like Oxford Street, a famous shopping street.
 
-![](/content/images/2015/12/2015-12-02-12-19-41.jpg)
+![](/images/2015/12/2015-12-02-12-19-41.jpg)
 
 But the *best* part of today was getting proper moisturizer. Apparently I've been looking in the wrong place entirely. Tesco is for foods mostly (who knew) - and this store called Boot has an entire section for nothing but skincare! So I finally bought some Aveeno (500mL for £10, as opposed to 50mL for £5). It's still much more expensive than the US, but whatever; good enough. Thank god for knowing locals. Who would have thought that a store called "Boot" would have pharmaceutical stuff - and yes, apparently moisturizer is categorized as pharmaceuticals in the UK. Anyways, thank god that's over.
 
@@ -700,11 +700,11 @@ We came back to work and one of our coworkers who sat across from us had made [M
 
 For dinner I went to a classic English chain called [Nando's](http://www.nandos.co.uk/). It had a variety of foods from burgers to wraps along with many vegetarian options. It was pretty decent, but we went right as the place was closing, so their options were far fewer than they normally would have been. The cheese was incredible, and one of Daniel's friends ordered a veggie burger with avocado, cheese, and pineapple. Incredible.
 
-![](/content/images/2015/12/2015-12-02-21-44-06.jpg)
+![](/images/2015/12/2015-12-02-21-44-06.jpg)
 
 Me and some of Daniel's friends. Ben you recognize of course from the previous photo where I won him a Minion. On the bottom is Ayden; he comes out to SF quite frequently, actually, and he's a very cool guy. On the top next to me is Neelam. These are all Daniel's childhood friends (since Elementary school years). She's a solicitor, and Ayden and Ben both do software. I actually think I've met Ayden once before when he visited Daniel in SF, but at the time I didn't know Daniel quite so well, but going through his Facebook pictures now, I clearly remember Ayden and his girlfriend visiting the SF office. Crazy small world.
 
-![](/content/images/2015/12/2015-12-02-23-29-21.jpg)
+![](/images/2015/12/2015-12-02-23-29-21.jpg)
 
 I took a rather interesting route back to the hostel, and along the way I caught this cool street. Besides that, I'm afraid I didn't end up doing too much yesterday besides work.
 
@@ -714,7 +714,7 @@ It only took six days, but I'm finally able to navigate the tube without aid of 
 
 And I'm glad I did - I saw some pretty cool sites today!
 
-![](/content/images/2015/12/2015-12-03-09-53-09.jpg)
+![](/images/2015/12/2015-12-03-09-53-09.jpg)
 
 This is all one giant building with the label "PROGRESS" at the top. The bottom left is actually the Shoreditch town hall, but on the right, I was delighted to see, is [the Clove Club](http://thecloveclub.com/) - [the Michelin Star restaurant](http://www.timeout.com/london/restaurants/clove-club) in which Patrick from Denmark works! It only has 2 £'s on Timeout, so maybe if I can book a lunch table for when I come back, Daniel and I can eat there. It'll certainly be interesting, eating at a Michelin Star restaurant.
 
@@ -722,15 +722,15 @@ This is all one giant building with the label "PROGRESS" at the top. The bottom 
 
 Oliver unfortunately got too busy to go to Borough Market today, but I decided I might as well go myself. The commute was super easy - probably because I'm just getting used to the Tube system - I didn't end up needing maps at all.
 
-![](/content/images/2015/12/2015-12-03-16-06-14.jpg)
+![](/images/2015/12/2015-12-03-16-06-14.jpg)
 
 Borough Market is right next to Southwark Cathedral, London's oldest Gothic Cathedral - one that's over 1000 years old, actually. It's a massive structure that's super impressive. It's also right next to the Shard (pencil like building to the left), which is the tallest in building in London and I believe all of Europe at a staggering 309 meters (oh, sorry, this is England - metres. Happy now? ```;)```).
 
-![](/content/images/2015/12/2015-12-03-16-05-20.jpg)
+![](/images/2015/12/2015-12-03-16-05-20.jpg)
 
 Another view of the Shard at the top - a plane happened to be going right past it, and I thought that was kind of cool. The bottom left is a frontal view of the cathedral. Very imposing structure. And at the bottom right is the gate that leads to Borough Market (you can see it says Market).
 
-![](/content/images/2015/12/2015-12-03-16-05-50.jpg)
+![](/images/2015/12/2015-12-03-16-05-50.jpg)
 
 The market itself is an enormous indoor/outdoor market that's a conglomeration of various local shops, farmers' markets, and random goods. It was super cool - the top picture is the building in which most of the market is housed, and on the bottom right you can see the roof system. Parts of the market are outdoors (sort of covered in tents), so if it starts raining, you may get slightly wet, but it shouldn't be too bad.
 
@@ -744,17 +744,17 @@ After that, I came back and did some work at the office. I'm mostly done with my
 
 The British Library is *enormous*. The trip there was actually pretty cool. I got to see King's Cross station as well as an international train station (Euston). It was very similar an airport but had different feel at the same time.
 
-![](/content/images/2015/12/2015-12-04-12-31-29.jpg)
+![](/images/2015/12/2015-12-04-12-31-29.jpg)
 
 I actually had to walk through the international train station and to the other side to get to the library, and when I crossed I realized the library actually went on for about two blocks! The library has so much more than the library attached to it - research facilities, specialized rooms for historians, and so much more. It was absolutely massive!
 
 On the top left is the St Pancras train station - also an international train station, though I didn't go through that, and on the bottom left you can see the Kings Cross train station for the London Underground. Enormous and super famous. On the bottom right is part of the library building, and on the top right is one of the courtyards I passed on the way to the library.
 
-![](/content/images/2015/12/2015-12-03-17-01-38.jpg)
+![](/images/2015/12/2015-12-03-17-01-38.jpg)
 
 The view from the front is pretty cool, too. A nice courtyard set up with Christmas trees and everything.
 
-![](/content/images/2015/12/2015-12-04-12-31-53-1.jpg)
+![](/images/2015/12/2015-12-04-12-31-53-1.jpg)
 
 Top right is the entrance to the library, and bottom right is the view as soon as you enter.
 
@@ -792,7 +792,7 @@ It was an absolutely phenomenal production, and barring very minor issues, it wa
 
 On the way back, I found this cool museum.
 
-![](/content/images/2015/12/2015-12-04-12-32-16.jpg)
+![](/images/2015/12/2015-12-04-12-32-16.jpg)
 
 The coolest thing about London is that, randomly, thing like this will simply pop up. Turn the corner and they've set up a new exhibit. In this case, it was a museum-ship that you could go inside and check out. By this time it was becoming very late, and raining very hard, so I decide to just go back to the hostel and pass out.
 
@@ -827,7 +827,7 @@ Anyways, by the time the bus comes, I feel like I've already had an adventure.
 
 Oh, here's this awesome photo I captured to prove to all the non-believers that, for about 7% of the year, England is actually sunny. And let me tell you - it's *gorgeous* when it's sunny. That's right - not a single cloud in the entire sky.
 
-![](/content/images/2015/12/2015-12-04-08-12-36.jpg)
+![](/images/2015/12/2015-12-04-08-12-36.jpg)
 
 The bus ride was awesome - I definitely did the right thing in taking the bus. I'm sitting right next to a super shy but super nice girl from Singapore. It's obvious we're both tourists because we keep swiveling our heads in unison to take in all the views. I didn't take any pictures of the English countryside (that would have been *way* too touristy - I have *some* dignity, after all), but let me tell you - it's exactly how I imagined it. I don't know if it's just that I've see too much Harry Potter, Game of Thrones, and so many other stories like Merlin, but I think the English countryside is something that most Americans have this iconic image of. And they'd actually be spot on. The quaint farms that dot the hills are *just* how I imagined them. It's quite beautiful.
 
@@ -893,7 +893,7 @@ The walk is all uphill (and somehow these old people in front of me are beating 
 
 Madrid, like Rome, is a super walk-able city. I realize based on Google Maps I'm actually passing all of the sights I'm supposed to see while I'm here, purely by accident.
 
-![](/content/images/2015/12/2015-12-05-10-43-27.jpg)
+![](/images/2015/12/2015-12-05-10-43-27.jpg)
 
 The royal palace, an important arch, and some other magnificent building.
 
@@ -903,7 +903,7 @@ God. Dammit. The ultimate face-palm moment. That's what I get for thinking badly
 
 I feel bad that I thought ill of these dudes, but I stand by my decision.
 
-![](/content/images/2015/12/2015-12-05-10-42-59.jpg)
+![](/images/2015/12/2015-12-05-10-42-59.jpg)
 
 The Christmas tree the dude showed me on the train.
 
@@ -929,7 +929,7 @@ I go to checkout the party at the terrace along with the common rooms. They have
 
 The walk to the ATM was gorgeous as well.
 
-![](/content/images/2015/12/2015-12-05-10-42-32.jpg)
+![](/images/2015/12/2015-12-05-10-42-32.jpg)
 
 So many beautiful buildings with amazing architecture.
 
@@ -957,17 +957,17 @@ I decide I'll start with the East side today and just walk around everywhere. I 
 
 I saw this at night last night as I was looking for Barclays, but at that point I was so intent on just getting cash and going to bed that I didn't really pay attention. It is the [lower house of the legislative](https://en.wikipedia.org/wiki/Congress_of_Deputies_%28Spain%29) in Spain.
 
-![](/content/images/2015/12/2015-12-05-11-21-41.jpg)
+![](/images/2015/12/2015-12-05-11-21-41.jpg)
 
 There is also this neat statue right next to the building.
 
-![](/content/images/2015/12/2015-12-05-18-23-16.jpg)
+![](/images/2015/12/2015-12-05-18-23-16.jpg)
 
 ### Fuente de Neptuno
 
 Was also something I saw last night on the way to the bank, but at the time I had no idea what it was. The night photos generally came out rather poorly, so whenever I can I'll prefer the day time photos.
 
-![](/content/images/2015/12/2015-12-05-18-28-51-1.jpg)
+![](/images/2015/12/2015-12-05-18-28-51-1.jpg)
 
 ### Museo del Prado
 
@@ -977,29 +977,29 @@ Unfortunately, I'm quite done with museums at least temporarily, and I decide I'
 
 A front view.
 
-![](/content/images/2015/12/2015-12-05-21-00-59.jpg)
+![](/images/2015/12/2015-12-05-21-00-59.jpg)
 
 And a side view.
 
-![](/content/images/2015/12/2015-12-05-21-01-17.jpg)
+![](/images/2015/12/2015-12-05-21-01-17.jpg)
 
 ### Real Academia Española
 
 The official [government entity responsible for the Spanish language](https://en.wikipedia.org/wiki/Real_Academia_Espa%C3%B1ola). The libertarian in me cringes, but then again we have words like "fleek" so maybe they're onto something.
 
-![](/content/images/2015/12/2015-12-05-21-02-22.jpg)
+![](/images/2015/12/2015-12-05-21-02-22.jpg)
 
 ### San Jeronimo el Real
 
 A very [famous church](https://en.wikipedia.org/wiki/San_Jer%C3%B3nimo_el_Real) also right next to RAE and the Prado museum.
 
-![](/content/images/2015/12/2015-12-05-21-01-57.jpg)
+![](/images/2015/12/2015-12-05-21-01-57.jpg)
 
 ### Cason del Buen Retiro
 
 An annexed building that's now part of the Prado museum. Didn't do any of the Prado museum today, so you'll see pictures of the insides later (if they allow photographs).
 
-![](/content/images/2015/12/2015-12-05-21-02-59.jpg)
+![](/images/2015/12/2015-12-05-21-02-59.jpg)
 
 ### Retiro Park
 
@@ -1007,39 +1007,39 @@ Retiro park is enormous and has a lot of things to see. I didn't take pictures o
 
 A view from the entrance of the park and the Jacinto Benavente Monumento.
 
-![](/content/images/2015/12/2015-12-05-11-43-35.jpg)
+![](/images/2015/12/2015-12-05-11-43-35.jpg)
 
 I didn't have any breakfast yet, and I'm a very poor hydrator. Since I'm going to be doing plenty of walking in the sun, I decide it'd be good for me to get some water early on. I see a stand with snacks and drinks and I ask for some "agua frîa" (yeah, be jealous of my compendium of Spanish vocabulary), and he says something like one euro. I give him a five and he gives me back one euro in five twenty cent coins. I stare at him incredulously, and he's like "Oh, perdon! Lo siento, señor, lo siento, and he gives me three more Euros." Dude tried to rip me off! Guess it's a dog eat dog world out there for tourists. I thought about confronting him further, but he gave me the rest, and honestly it just wasn't worth it.
 
 A view from the top of the hill.
 
-![](/content/images/2015/12/2015-12-05-11-50-43.jpg)
+![](/images/2015/12/2015-12-05-11-50-43.jpg)
 
 This is no doubt one of the most famous and easily recognized monuments in Madrid - Monumento Alfonso XII. It's behind a large pond where people can rent peddle boats. It's an absolutely breathtaking monument, and something about the cellphone camera just loses the sheer size of the thing.
 
 A view from the front
 
-![](/content/images/2015/12/2015-12-05-11-55-42.jpg)
+![](/images/2015/12/2015-12-05-11-55-42.jpg)
 
 Closer up to the actual statue
 
-![](/content/images/2015/12/2015-12-05-21-49-16.jpg)
+![](/images/2015/12/2015-12-05-21-49-16.jpg)
 
 The pillars surrounding the statue
 
-![](/content/images/2015/12/2015-12-05-21-50-24.jpg)
+![](/images/2015/12/2015-12-05-21-50-24.jpg)
 
 A cool building in the middle of the park - Palacio de Velázquez
 
-![](/content/images/2015/12/2015-12-05-21-47-58.jpg)
+![](/images/2015/12/2015-12-05-21-47-58.jpg)
 
 There was a cool building made of glass. Inside there were large bones hanging from the ceiling. The Spanish have a weird taste in art.
 
-![](/content/images/2015/12/2015-12-05-21-48-23.jpg)
+![](/images/2015/12/2015-12-05-21-48-23.jpg)
 
 Another view of the same glass building but from father away. It's next to a cool fountain and a lake.
 
-![](/content/images/2015/12/2015-12-05-21-49-01.jpg)
+![](/images/2015/12/2015-12-05-21-49-01.jpg)
 
 There's a large set of tennis courts in the middle of the park, but sadly they were hard courts. So disappointing. I wanted to see some of that famed Spanish red clay. And weirdly enough, there was an English team practicing, with the coach yelling (quite distinctly) "bend the knees!"
 
@@ -1047,7 +1047,7 @@ There's a large set of tennis courts in the middle of the park, but sadly they w
 
 A very cool building. They apparently had some tours, but I couldn't really decipher the signs well enough with my broken Spanish well enough to really figure out what was going on, and I wasn't brave enough to confront the guards who had guns visibly poised. I decided that pictures were quite enough (don't want an incident due to translation issues, after all!).
 
-![](/content/images/2015/12/2015-12-05-21-37-12.jpg)
+![](/images/2015/12/2015-12-05-21-37-12.jpg)
 
 ### Lunch
 
@@ -1081,19 +1081,19 @@ Was not that great to be honest. But the outside is certainly cool. The value of
 
 Here's a picture of the outside, at any rate.
 
-![](/content/images/2015/12/2015-12-05-12-56-49.jpg)
+![](/images/2015/12/2015-12-05-12-56-49.jpg)
 
 ### Real Jardin Botanico
 
 I think there's a reason this isn't even on Trip Advisor's top 20 things to do, despite being so close to Prado Museum and Retiro Park. I really didn't like this as much, and left in like 20 minutes. If you've seen any other botanical garden, you've seen better.
 
-![](/content/images/2015/12/2015-12-05-13-50-56.jpg)
+![](/images/2015/12/2015-12-05-13-50-56.jpg)
 
 ### Puerta de Alcalá
 
 This arch, which I had no idea what it was yesterday night, turns out to be gorgeous during the daytime!
 
-![](/content/images/2015/12/2015-12-05-14-21-41.jpg)
+![](/images/2015/12/2015-12-05-14-21-41.jpg)
 
 ### Plaza de Cibeles
 
@@ -1103,25 +1103,25 @@ National bank of Spain was, unfortunately, under construction or maintainance wh
 
 Then of course, in the middle of the plaza, is the very historic Cybele Fountain. It's hard to get close because there's traffic all around, and there's no actual walkways to approach the fountain super closely.
 
-![](/content/images/2015/12/2015-12-05-14-07-25-1.jpg)
+![](/images/2015/12/2015-12-05-14-07-25-1.jpg)
 
 And the Cybele Palace, which I didn't realize until later, is actually City Hall! Entrance is free, but as you'd imagine, it is a functioning City Hall, so there isn't actually much to do besides walk around. There is a viewpoint at the very top for 3 euros or so, but they were out of tickets for the day when I went. ```:(``` Oh well; the good thing about being here for a week is that I get to come back and make sure I do stuff like this.
 
 The palace is seriously gorgeous though.
 
-![](/content/images/2015/12/2015-12-05-21-21-58.jpg)
+![](/images/2015/12/2015-12-05-21-21-58.jpg)
 
 ### Biblioteca Nactional de España
 
 Super impressive national library. For some reason Google labels this the National Archeological Museum. Very confusing. Here, too, guards with guns. I think I'll come back later when I work up the courage (seriously, why all the guns guys!?).
 
-![](/content/images/2015/12/2015-12-05-14-36-30.jpg)
+![](/images/2015/12/2015-12-05-14-36-30.jpg)
 
 ### The Incident
 
 AKA Fernán Gómez Centro Cultural de la Villa
 
-![](/content/images/2015/12/2015-12-05-14-38-55.jpg)
+![](/images/2015/12/2015-12-05-14-38-55.jpg)
 
 It's a cute little center with a small ice skating rink set up and a theater as well. I'm walking around, taking photographs.
 
@@ -1172,19 +1172,19 @@ By the way, there's an excellent [National Geographic video](https://www.youtube
 
 Nothing super special, but it has cool buildings (and a Barclays, yay) along with a fountain and some statues.
 
-![](/content/images/2015/12/2015-12-05-21-20-14.jpg)
+![](/images/2015/12/2015-12-05-21-20-14.jpg)
 
 ### Museo de Sarolla
 
 Was a let down. This should not have been as high on Trip Advisor as it was, personally.
 
-![](/content/images/2015/12/2015-12-05-21-19-24.jpg)
+![](/images/2015/12/2015-12-05-21-19-24.jpg)
 
 ### Thyssen-Bornemisza Museum
 
 Enormous art museum, but I didn't realize (I should have) that modern-ish art would play such a huge role. An entire floor dedicated to Picasso and Cubism; a large room for surrealist work, including Salvador Dali, and a ground floor that can only be described as modern art. I can see how many people would like it, but it just wasn't my cup of tea.
 
-![](/content/images/2015/12/2015-12-05-21-18-50.jpg)
+![](/images/2015/12/2015-12-05-21-18-50.jpg)
 
 ### Pub Crawl
 
@@ -1198,7 +1198,7 @@ Met two people from England there not related to the actual pub crawl, but both 
 
 All in all it was a pretty fun crawl! I went home early at 4:30 (reached home at 5), but I later found out from Charlie's texts most of them didn't get home until 7. That's how the Spanish evidently party *every* night. I can totally believe it's a lot of fun; I just can't possibly function like that on a daily basis. I think once is enough for me, thank you very much.
 
-![](/content/images/2015/12/2015-12-06-01-24-39.jpg)
+![](/images/2015/12/2015-12-06-01-24-39.jpg)
 
 ##Day 9: Recovery
 
@@ -1208,13 +1208,13 @@ Today's theme is recovery. I was out way too late last night, and, as I discover
 
 Woke up at around 10 to El Rastro by 11, which is this huge open air flea market every Sunday. El Rastro is absolutely filled with pickpockets though becuase it's *packed* with people, and that's the perfect environment for them, so I didn't take too many pictures there. The walk there was super cool - saw a lot of urban art.
 
-![](/content/images/2015/12/2015-12-07-14-49-14.jpg)
+![](/images/2015/12/2015-12-07-14-49-14.jpg)
 
 The market itself was pretty interesting. They had all sorts of goods (including many Indian fabrics, which are very popular here). Once store though takes the cake - it was *filled* with live birds. The entire street was so noisy from all the birds. There must have been two hundred cages there, all with live birds. It was crazy because it didn't seem like a proper pet store - just a random hole in the wall with dozens of birds!
 
 And as I'm walking back, I run into a protest. Must have been around thirty protestors escorted by two or so police officers on scooters. They handed out flyers and I gladly took one, mostly out of curiosity. Turns out it was an animal rights protest.
 
-![](/content/images/2015/12/2015-12-07-14-49-31.jpg)
+![](/images/2015/12/2015-12-07-14-49-31.jpg)
 
 ### Puerta del Sol
 
@@ -1222,31 +1222,31 @@ Since it was on the way, I took another tour through the famous Puerta del Sol -
 
 The famous El Oso y El Madroño (bear and strawberry tree) statue.
 
-![](/content/images/2015/12/2015-12-07-15-14-32.jpg)
+![](/images/2015/12/2015-12-07-15-14-32.jpg)
 
 Some other sights to see in Puerta del Sol.
 
-![](/content/images/2015/12/2015-12-07-15-15-02.jpg)
+![](/images/2015/12/2015-12-07-15-15-02.jpg)
 
 And, in what seems to be a day filled with protests, a communist protest. On the left you can see a flag that says "no Nazis", and several people were holding up flags of the hammer and sickle.
 
-![](/content/images/2015/12/2015-12-06-13-12-07.jpg)
+![](/images/2015/12/2015-12-06-13-12-07.jpg)
 
 ### Plaza Mayor
 
 This is probably the most famous plaza in Madrid, and while [on Google](https://www.google.es/search?q=plaza+mayor&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjJ5LOy88nJAhWHOhQKHUZtC24Q_AUICCgC&biw=1916&bih=1098#imgrc=GmjqDjuMiT9D1M%3A) you may find images of this grand, empty courtyard, it's basically never like that. It's packed with semi-permanent pop-up shops and crowded with people in costumes and various street performers.
 
-![](/content/images/2015/12/2015-12-07-14-57-08.jpg)
+![](/images/2015/12/2015-12-07-14-57-08.jpg)
 
 Around this time, I realize that Gandhi's Curse has hit me, so I run back to the hostel to do my business in a poor race against time. Afterwards, I come out and make the same journey, this time admiring the very awesome buildings Madrid has.
 
-![](/content/images/2015/12/2015-12-07-14-58-39.jpg)
+![](/images/2015/12/2015-12-07-14-58-39.jpg)
 
 ### Mercado de San Miguel
 
 Plaza Mayor is at one of the hearts of Madrid; tons of shopping and small restaurants everywhere, but a particularly famous mercado is Mercado de San Miguel.
 
-![](/content/images/2015/12/2015-12-07-15-00-12.jpg)
+![](/images/2015/12/2015-12-07-15-00-12.jpg)
 
 It's a combination of farmers markets, restaurants, and souveneir shops - and it is *packed*. It took me nearly half an hour to get from one end to another despite the all actually being rather small. I couldn't even get my phone out of my pockets to get a picture of it.
 
@@ -1258,11 +1258,11 @@ If you've been to Madrid, you know they take their churros with chocolate seriou
 
 The [most famous](https://es.wikipedia.org/wiki/Chocolater%C3%ADa_San_Gin%C3%A9s) is Chocolatería San Ginés. As one of the first in the area to begin the strong tradition, it boasts an illustrious history. The inside of the restaurant walls are filled with historic pictures regarding the founder and his family. Super cool stop - and if you're ever in Madrid, it's a must do.
 
-![](/content/images/2015/12/2015-12-07-15-01-52.jpg)
+![](/images/2015/12/2015-12-07-15-01-52.jpg)
 
 If you have a hard time finding it, don't be ashamed. It's tucked away inconspicuously in a corner.
 
-![](/content/images/2015/12/2015-12-07-09-31-39.jpg)
+![](/images/2015/12/2015-12-07-09-31-39.jpg)
 
 Good luck finding a table though! ```:)```
 
@@ -1272,17 +1272,17 @@ A very cool cathedral quite close to the royal palace.
 
 A view from the outside.
 
-![](/content/images/2015/12/2015-12-07-15-07-49.jpg)
+![](/images/2015/12/2015-12-07-15-07-49.jpg)
 
 Inside views.
 
-![](/content/images/2015/12/2015-12-07-15-08-02.jpg)
+![](/images/2015/12/2015-12-07-15-08-02.jpg)
 
 I had just finished up and was about to do the Royal Palace when Gandhi's Curse struck again. I decided to call it quits - if I'm going to be rushing to the bathroom every two hours with stomach pains on five hours of sleep, I may as well just take a break and resume tomorrow. I am here for a week, after all.
 
 On the way back, though, one of my greatest mysteries was answered. All throughout London and Madrid, I'd been seeing motorcyclists and scooters drive with giant oven mitts on. I thought I was losing my mind. If it's that cold, just don't ride! Riding with oven mitts is so dangerous. And finally, I saw two scooters, parked, with the oven mitt attachments. Everything made sense.
 
-![](/content/images/2015/12/2015-12-07-15-11-17.jpg)
+![](/images/2015/12/2015-12-07-15-11-17.jpg)
 
 I promptly pass out once I get home.
 
@@ -1296,21 +1296,21 @@ If you haven't bought tickets, I recommend getting there *early*. The line is fa
 
 The view of the palace from where you stand in line.
 
-![](/content/images/2015/12/2015-12-07-22-23-19.jpg)
+![](/images/2015/12/2015-12-07-22-23-19.jpg)
 
 Along with the back of the cathedral.
 
-![](/content/images/2015/12/2015-12-07-10-29-12-1.jpg)
+![](/images/2015/12/2015-12-07-10-29-12-1.jpg)
 
 It's really quite impressive. On the side there's a section with a beautiful view of southwest Madrid.
 
-![](/content/images/2015/12/2015-12-07-22-32-38.jpg)
+![](/images/2015/12/2015-12-07-22-32-38.jpg)
 
 It was super confusing where you were and weren't allowed to take pictures from inside the palace, so I got yelled at quite frequently. I ended up just asking the guides in a room by room basis whether we were allowed to take pictures.
 
 Scenes from the entrances (where you were allowed to take pictures).
 
-![](/content/images/2015/12/2015-12-07-22-35-52.jpg)
+![](/images/2015/12/2015-12-07-22-35-52.jpg)
 
 It was quite a surreal experience to be in the castle, honestly. I've always read about royalty, but it was quite another thing to *see* it for myself. Literally, they had a room for changing (for both the queen and the king), a room for sleeping, a room for dining, a room for balls, a private dining chamber - there were too many to name off. But the private church was *amazing* - the entire ceiling was gilded with gold! Blew me away.
 
@@ -1320,7 +1320,7 @@ Overall, a super cool experience.
 
 Some of the rooms I saw (where you may or may not have been allowed to take pictures - it's unclear).
 
-![](/content/images/2015/12/2015-12-07-22-36-41.jpg)
+![](/images/2015/12/2015-12-07-22-36-41.jpg)
 
 ### Parque Mardid Río
 
@@ -1330,19 +1330,19 @@ I traveled a fair distance along it, but I definitely didn't cover most (or even
 
 These were my favorite portions of the walk I did today.
 
-![](/content/images/2015/12/2015-12-07-16-45-11.jpg)
+![](/images/2015/12/2015-12-07-16-45-11.jpg)
 
 A super cool swirly bridge that's actually split in two, with a small viewing platform of the park in the middle. Takes bicycles and pedestrians.
 
-![](/content/images/2015/12/2015-12-07-16-45-43.jpg)
+![](/images/2015/12/2015-12-07-16-45-43.jpg)
 
 Some views of statues and lawns I thought were scenic. Seen from the swirly bridge.
 
-![](/content/images/2015/12/2015-12-07-16-45-59.jpg)
+![](/images/2015/12/2015-12-07-16-45-59.jpg)
 
 The maze gardens that border both sides of the river.
 
-![](/content/images/2015/12/2015-12-07-16-46-11.jpg)
+![](/images/2015/12/2015-12-07-16-46-11.jpg)
 
 Views of both sides of the river.
 
@@ -1350,11 +1350,11 @@ Views of both sides of the river.
 
 Very close by is the Real Basilica de San Francisco, but it was closed!
 
-![](/content/images/2015/12/2015-12-07-11-23-10.jpg)
+![](/images/2015/12/2015-12-07-11-23-10.jpg)
 
 So I start looking for good restaurants nearby, and Google Maps tells me that [Tacos and Tapas](http://www.tripadvisor.es/Restaurant_Review-g187514-d8133293-Reviews-Tacos_Tapas-Madrid.html) was super nearby! I eagerly start walking, only to find that it, too, is closed. ```:'(```
 
-![](/content/images/2015/12/2015-12-07-16-40-09.jpg)
+![](/images/2015/12/2015-12-07-16-40-09.jpg)
 
 I decide I'll try both of them another day - probably Wednesday.
 
@@ -1362,7 +1362,7 @@ Nearby, however, there was a curious burger place, so I step inside. The entire 
 
 I'm so glad I did come in. The food was amazing! I've had my fair share of veggie burgers, but this one takes the cake by far. It came with potatoes that had a mayo-like cream on it along with a boul of hot lentil soup. Delicious! And, of course, I had to ask for cafe con leche, since that's one of the few things I can say in Spanish, and I was thirsty.
 
-![](/content/images/2015/12/2015-12-07-16-39-54.jpg)
+![](/images/2015/12/2015-12-07-16-39-54.jpg)
 
 My phone is having some more problems - keeps saying "PDP authentication failure", and no data will work. This is particularly frustrating since I'm 100% reliant on Google Maps. I've saved places and location works even without data, but it's still fairly annoying. I decide to come back to the hostel to try and debug, and a quick [Google search](https://discussions.apple.com/thread/4380402?start=15&tstart=0) reveals that I have to a hard reset, and sure enough it works after that!
 
@@ -1375,7 +1375,7 @@ Alfred suggests we get paella, and I think that's a good idea; a good traditiona
 
 Some of the places at night.
 
-![](/content/images/2015/12/2015-12-07-21-56-40.jpg)
+![](/images/2015/12/2015-12-07-21-56-40.jpg)
 
 We decide after an hour of walking that it would be good to go down for dinner. There's this place called El Cordero which Google says has the number one paellas in town... Only we go to the wrong one. We end up walking 30 minutes, only to realize that the place we go to doesn't even *have* paellas. That, and the average price for a dish is 38 euros. No thanks.
 
@@ -1383,7 +1383,7 @@ So we walk all the way back (almost stepping in dog shit) and go [this place](ht
 
 So I order one.
 
-![](/content/images/2015/12/2015-12-07-21-53-54.jpg)
+![](/images/2015/12/2015-12-07-21-53-54.jpg)
 
 And let me tell you, it was awful. No sauces, nothing. Just bread and calamari. Good lord. I'm glad I did it, but never again. They were selling these like crazy - and I don't know how. It was miserable.
 
@@ -1397,7 +1397,7 @@ We head back and have a pretty relaxed night of just talking, playing music, and
 
 About an hour or so into the relaxing the two from the original pub come back and join us, so now there's eight of us.
 
-![](/content/images/2015/12/2015-12-08-10-58-58.jpg)
+![](/images/2015/12/2015-12-08-10-58-58.jpg)
 
 On the bottom is a selfie with Alfred and me, and on the top is the picture of the group. Starting from the left, Oscar is from Colombia and is in the same hostel room as me; he's studying in Milan and thus knows Italian, Spanish, and English. Next to him is this *beautiful* Indian man. Next to him is Sebastian who is Oscar's friend from childhood and also studying in Milan with him. The two are really cool people. Next to him is Suzanna; she's also from Colorado (seriously - how many people from Colorado are here?), and was a Spanish major in college and now teaches English to Spanish children. She's fluent, and she and Sebastian helped me with my Spanish. On the bottom row is Vida who is Australian like Alfred. She and Alfred know not a lick of Spanish, but in Madrid you can get by on English honestly. And then there are the two Germans who are studying in Sevilla; their Spanish is quite good, though not as fluent as Suzanna or Oscar.
 
@@ -1419,31 +1419,31 @@ On the way I saw some pretty nifty buildings.
 
 The Senate of Spain
 
-![](/content/images/2015/12/2015-12-08-13-22-54-1.jpg)
+![](/images/2015/12/2015-12-08-13-22-54-1.jpg)
 
 La Iglesia de Santa Theresa y San José (the church of Saint Theresa and San Jose)
 
-![](/content/images/2015/12/2015-12-08-12-35-36.jpg)
+![](/images/2015/12/2015-12-08-12-35-36.jpg)
 
 And a beautifully constructed hotel
 
-![](/content/images/2015/12/2015-12-08-13-20-57.jpg)
+![](/images/2015/12/2015-12-08-13-20-57.jpg)
 
 The temple itself is on a giant hill, surrounding by an awesome park where people can bike and bring their dogs.
 
-![](/content/images/2015/12/2015-12-08-16-58-51.jpg)
+![](/images/2015/12/2015-12-08-16-58-51.jpg)
 
 The view from the hill overlooks most of Madrid, including the Royal Palace and the famous cathedral right next to it.
 
-![](/content/images/2015/12/2015-12-08-16-58-24.jpg)
+![](/images/2015/12/2015-12-08-16-58-24.jpg)
 
 The view of the Temple of Dabod itself. For those who don't know, it was donated by the Egyptian government to Spain for Spain's efforts in helping preserve many valuable temples in archaeological findings. It was disassembled brick by brick, moved to Spain, and reassmbled. Pretty neat!
 
-![](/content/images/2015/12/2015-12-08-16-57-47.jpg)
+![](/images/2015/12/2015-12-08-16-57-47.jpg)
 
 And the view inside
 
-![](/content/images/2015/12/2015-12-08-16-56-34.jpg)
+![](/images/2015/12/2015-12-08-16-56-34.jpg)
 
 ### Lunch
 
@@ -1451,7 +1451,7 @@ For those who don't know, [Cocido](https://www.google.es/search?q=madrid+cocido&
 
 I didn't realize they were cash only and that you need reservations, normally. I got doubly lucky - I was having about 30 Euros in my pocket (really not the end of the world, since I could have just walked back and gotten the cash), and since I was just a single person, they could actually fit me in without any wait at all!
 
-![](/content/images/2015/12/2015-12-08-17-16-11.jpg)
+![](/images/2015/12/2015-12-08-17-16-11.jpg)
 
 In the beginning, you're given this bowl of what's basically tomato soup with some rice noodles inside (see the picture on the top right). The table is already set wiht the bread and olives for extra flavoring - though you really don't need *any* extra flavoring. Cocido takes over a day to cook, and the way they carefully prepare it ensures all the flavors are locked in. If anything, use the bread as a palette clearer because you're going to need it as your taste buds tossed back and forth in one of the most heavenly battle of the senses.
 
@@ -1467,11 +1467,11 @@ Some other cool places I saw on the walk back -
 
 A monestary!
 
-![](/content/images/2015/12/2015-12-08-14-26-42.jpg)
+![](/images/2015/12/2015-12-08-14-26-42.jpg)
 
 And the Plaza de España
 
-![](/content/images/2015/12/2015-12-08-13-20-06.jpg)
+![](/images/2015/12/2015-12-08-13-20-06.jpg)
 
 ### Planning
 
@@ -1496,7 +1496,7 @@ We all ordered five main courses and just shared amongst each other. Everyone ex
 
 At the end, Alfred's card didn't work for some reason as we split the bill, so I paid for him, and he paid me in cash. I felt bad because he had to suffer the embarassing scene as all of us were waiting for him outside, and his card was declined. #WalkOfShame ```:p``` But the restaurant took it in good spirit and assured him this sort of thing happens all the time.
 
-![](/content/images/2015/12/2015-12-10-14-02-34.jpg)
+![](/images/2015/12/2015-12-10-14-02-34.jpg)
 
 ### Fútbol
 
@@ -1506,7 +1506,7 @@ We took the metro, and this time Vida confirmed that Google Maps' directions wer
 
 By the time we get there, the game's well under way. It takes us a couple times to even find the ticket office, but when we do, there are tickets for 45 euros. I look to Vida and she decides it's not worth it for her - her said limit was 35 euros. I decide to go ahead and do it (how many times am I coming back here? Hopefully never).
 
-![](/content/images/2015/12/2015-12-10-14-01-53.jpg)
+![](/images/2015/12/2015-12-10-14-01-53.jpg)
 
 The game was awesome. Let me clarify - I'm not a soccer fan. I really don't know the rules that well, and I've never seen a game before. And usually when I watch, it's incredibly boring because there's just not that much action. This particular game was one of [the highest scoring matches](http://www.telegraph.co.uk/sport/football/football-live-blogs/12039016/Real-Madrid-vs-Malmo-Champions-League-live.html) - Real Madrid picking up over Malmo 8-0!
 
@@ -1520,7 +1520,7 @@ Awesome time, highly recommend if only once and never again.
 
 On the way back I decide to get off a couple stops early and just walk back along the Gran Via. It's on my todo list anyways, and since I'm not going to do any actual shopping, I may as well cross one thing off the list for tomorrow or Thursday.
 
-![](/content/images/2015/12/2015-12-10-14-01-22.jpg)
+![](/images/2015/12/2015-12-10-14-01-22.jpg)
 
 It's very beautiful, and if you're into shopping, it's definitely the place to be.
 
@@ -1540,19 +1540,19 @@ The whole thing is not a bad deal actually. 20 euros for a round trip bus ticket
 
 The plaza in which the bus stops; it's very famous, as it's the main plaza right in the center of town. We walk around the town for a bit and see the various sights.
 
-![](/content/images/2015/12/2015-12-10-14-00-18.jpg)
+![](/images/2015/12/2015-12-10-14-00-18.jpg)
 
 Typical Toledo streets
 
-![](/content/images/2015/12/2015-12-10-13-59-28.jpg)
+![](/images/2015/12/2015-12-10-13-59-28.jpg)
 
 The cathedral
 
-![](/content/images/2015/12/2015-12-10-13-59-05.jpg)
+![](/images/2015/12/2015-12-10-13-59-05.jpg)
 
 The university
 
-![](/content/images/2015/12/2015-12-10-13-58-17.jpg)
+![](/images/2015/12/2015-12-10-13-58-17.jpg)
 
 We end up stopping for lunch, as we're all hungry. The restaurant is pretty good! I have ministrone soup for my first course (with my free bread), potato-stuffed tortilla with salsa for my second course, and tiramisu for my dessert. Not bad!
 
@@ -1560,37 +1560,37 @@ We then decide to take our free train ride. The views were *goreous*, and we lea
 
 It was ruled by Muslims for a long time, and even then Jews had their own quarters with synogogues and everything they'd need. The Christians at the time lived with the Jews in the Jewish quarters because they felt a commonality with them. When Christians conquered the city in the 1500s, surprisingly little changed. Some of the synogogues were converted to churches, but it was still a marvel in terms of various cultures living together in harmony. That's the "tldr" version, anyways.
 
-![](/content/images/2015/12/2015-12-10-17-03-20.jpg)
+![](/images/2015/12/2015-12-10-17-03-20.jpg)
 
 Some of the views from the skyline
 
-![](/content/images/2015/12/2015-12-10-13-57-36.jpg)
+![](/images/2015/12/2015-12-10-13-57-36.jpg)
 
 Famous arches into what used to be the Jewish quarters. Today, only 2 of the original 12 synogogues remain
 
-![](/content/images/2015/12/2015-12-10-17-02-59.jpg)
+![](/images/2015/12/2015-12-10-17-02-59.jpg)
 
 More famous parts from outside the city
 
 After the train ride, we spot the most famous church (besides the cathedral, which we chose not to enter) in Toledo, and for just 2.50 euros, we can go inside and on top to get one of the best panoramic shots in Toledo!
 
-![](/content/images/2015/12/2015-12-09-15-34-55.jpg)
+![](/images/2015/12/2015-12-09-15-34-55.jpg)
 
 The insides of the church - it's absolutely stunning, and for some reason, virtually no one was there!
 
-![](/content/images/2015/12/2015-12-10-13-53-00.jpg)
+![](/images/2015/12/2015-12-10-13-53-00.jpg)
 
 More shots of the insides
 
-![](/content/images/2015/12/2015-12-10-13-55-21.jpg)
+![](/images/2015/12/2015-12-10-13-55-21.jpg)
 
 The panoramic shots we took at the top - absolutely beautiful
 
-![](/content/images/2015/12/2015-12-10-13-56-03.jpg)
+![](/images/2015/12/2015-12-10-13-56-03.jpg)
 
 For some reason Oscar and Sebastian didn't want to accompany us inside, so Vida and I went alone. When we came out, Oscar had bought this tiny Lord of the Rings letter opener sword. Turns out the second movie was actually filmed here, which is why there are LoTR shops *everywhere*. Here is the man himself with his new "sword".
 
-![](/content/images/2015/12/2015-12-10-13-51-22.jpg)
+![](/images/2015/12/2015-12-10-13-51-22.jpg)
 
 Toledo was super cool; it's such a sleep town in comparison to Madrid, but it's amazing to think that, 500 years ago, this was a massive city. It must have been just three by three miles, and yet back in those days it was immense. It's a very cool trip back in time.
 
@@ -1598,13 +1598,13 @@ When we come back, Sebastian leaves us forever. ```:'(``` He had a flight back t
 
 Dinner was *amazing*. Vida and I went to [Casa Gallega](http://www.tripadvisor.com/Restaurant_Review-g187514-d697476-Reviews-Casa_Gallega-Madrid.html) (somewhere I'd been dying to go for a while); I definitely needed Vida because it was a super fancy restaurant, and I just felt weird going by myself. It was quite delicious, and we got this cool dessert souffle thing that they brought out and then *set on fire*. It was pretty impressive (you can see the scorch marks on the sides).
 
-![](/content/images/2015/12/2015-12-10-13-52-28.jpg)
+![](/images/2015/12/2015-12-10-13-52-28.jpg)
 
 Oscar and I have a pretty awesome heart to heart; we talk a lot about Colombia and India and exchange cool bits of information, and we bond over how difficult it is to learn languages. I learn that the real reason Oscar is staying for three extra days is a girl ```;)``` of course, you dog. I'm so proud!
 
 Obligatory goodbye selfie with Vida ```:'(```
 
-![](/content/images/2015/12/2015-12-09-21-17-22.jpg)
+![](/images/2015/12/2015-12-09-21-17-22.jpg)
 
 ##Day 13: Sick
 
@@ -1624,21 +1624,21 @@ I've already decided that the Real Basilica de San Francisco and the Casa de Cam
 
 The museum is quite nice, and even though I don't really have an appreciation for modern art, it was a good visit. I'd definitely recommend any visitors to Madrid go. Some pictures of the plaza right outside the museum.
 
-![](/content/images/2015/12/2015-12-10-17-47-19.jpg)
+![](/images/2015/12/2015-12-10-17-47-19.jpg)
 
 The museum also has a nice courtyard right in the middle, with trees and strange modern art sculptures.
 
-![](/content/images/2015/12/2015-12-10-17-45-51.jpg)
+![](/images/2015/12/2015-12-10-17-45-51.jpg)
 
 Most of the pieces of modern art I saw were *super* weird, and taking pictures is frowned upon in some rooms, and allowed in others. So in general, unless I saw someone else taking a picture, I didn't bother. There was an enormous wing dedicated to [New Babylon](https://en.wikipedia.org/wiki/New_Babylon_%28Constant_Nieuwenhuys%29) and the artist behind it, [Constant Nieuwenhuys](https://en.wikipedia.org/wiki/Constant_Nieuwenhuys). It was certainly interesting watching the philsopher / artist lecture on the perils of capitalism, and yet, whenever confronted with the actual implementation of his paradise, simply respond with a vague "I'm here to ask questions, not offer solutions". Seems very emblematic of nearly every discussion with anti-capitalists I've had. "We think X is bad." "Okay, what's better?" "Doesn't matter, X is bad." Bummer.
 
 To give you a small taste of pretty much what fills this museum, here are two pieces that occupy *whole rooms*. I honestly don't know what I'm looking at.
 
-![](/content/images/2015/12/2015-12-10-17-54-54.jpg)
+![](/images/2015/12/2015-12-10-17-54-54.jpg)
 
 On the way back, I saw another museum, and the outside looked cool, but I was rather sick at this point and decided to just go back to the hostel, lie down on my bed, and catch up on 2.5 days' blogging.
 
-![](/content/images/2015/12/2015-12-10-15-38-46.jpg)
+![](/images/2015/12/2015-12-10-15-38-46.jpg)
 
 As I'm sitting in the common room, no fewer than six people have come in, all saying they're sick. And Oscar has verified that he has that feeling in the back of his throat that you get before you fall ill. The whole hostel is doomed. ```:'(```
 
@@ -1652,25 +1652,25 @@ I say goodbye to Theo (what a character) for the last time as well. He was liste
 
 Left the hostel ```:'(```, but not before making my mark!
 
-![](/content/images/2015/12/2015-12-12-16-36-01.jpg)
+![](/images/2015/12/2015-12-12-16-36-01.jpg)
 
 The entire hostel is covered with various people's silly goodbyes, so I figured I had to leave mine, too. Also I noticed only at the very end (because I never used the elevators) that they actually had the load bearing displays right there, and if you got in with roughly six people, the elevator would give a warning that it's too heavy and actually not move! How cool.
 
 The Atocha train station is super cool, and it's gorgeous inside. They have a rain forest type setup, and it even has a pond with turtles!
 
-![](/content/images/2015/12/2015-12-12-16-36-39-1.jpg)
+![](/images/2015/12/2015-12-12-16-36-39-1.jpg)
 
 I did arrive about 20 minutes or so too early, but that's not bad. Worked on my Duo Lingo and boarded.
 
 Trains are amazing. I'm convinced they're the best form of transportation, and the US did itself an enormous disservice in disassembling so many railroad lines in the advent of the highway boom. The train was nearly *silent* despite going nearly 200 mph! People could stand and walk around, and there were just far fewer disturbances or regulations than in an airplane. And *so* much legroom; just way more convenient than planes or cars by far. They also had these super cool glass doors that would sense when you were coming and open. They separated most of the carriages. Amazing.
 
-![](/content/images/2015/12/2015-12-12-16-36-57.jpg)
+![](/images/2015/12/2015-12-12-16-36-57.jpg)
 
 Also, mysteriously, the PDP error that has plagued my phone for a week now just stopped. Data (slow 3G speeds) have resumed functioning. I have no idea what's going on or how it got fixed. Weird.
 
 I finally got awesome views of the Spanish countrysides on the train ride!
 
-![](/content/images/2015/12/2015-12-12-16-37-47.jpg)
+![](/images/2015/12/2015-12-12-16-37-47.jpg)
 
 Super satisfying, and super cool. We would go from nearly barren desert wasteland to, all of a sudden, super heavy fog and then to a dust storm! It was quite an enjoyable train ride.
 
@@ -1678,7 +1678,7 @@ Once I got off, Google Maps is once again not giving me actual metro routes to t
 
 The air is also *much* cleaner here. I pass a cool skate park thing on the way.
 
-![](/content/images/2015/12/2015-12-12-16-37-56.jpg)
+![](/images/2015/12/2015-12-12-16-37-56.jpg)
 
 I get to the hostel and this is by far the best hostel yet. The rooms are the perfect temperature, it's super clean, and the people are super friendly. There are also a *ton* of Americans in this one. But I think most importantly, unlike other hostels, people are hanging out in the common rooms more and just enjoying company. I got to meet a *ton* of new people, and the community is super vibrant. I think I underestimated hostel quality in affecting how much / little one ends up liking the place. And somehow, this hostel is the cheapest yet! By a factor of two! I don't know how, but if you ever have a chance at staying at [Black Swan Hostel](http://blackswanhostel.com/), do it. So worth it.
 
@@ -1686,19 +1686,19 @@ The hostel has a ton of activities, and tonight, we're going to see the magic fo
 
 On the way, we see some cool sights like 
 
-![](/content/images/2015/12/2015-12-12-16-39-58.jpg)
+![](/images/2015/12/2015-12-12-16-39-58.jpg)
 
 The fountains were super gorgeous. A nice water and music show. Turns out they don't have a drought here; amazing. They're called the Font Mágica de Montjuïc (the magical fountains of Montjuïc).
 
-![](/content/images/2015/12/2015-12-12-16-38-13.jpg)
+![](/images/2015/12/2015-12-12-16-38-13.jpg)
 
 And right behind it was the Museu Nacional d'Art de Catalunya - super gorgeous and lit up at night! I didn't have a chance to go inside, but I figure since I'm here for a week, I can do it later once I run out of things to do.
 
-![](/content/images/2015/12/2015-12-12-16-38-35.jpg)
+![](/images/2015/12/2015-12-12-16-38-35.jpg)
 
 There were about 15 of us in the group, and after a while we head back to do a pub crawl. The pub crawl was lots of fun! Since we're all American, of course the first place we head to is... an Irish pub. Unbelievable.
 
-![](/content/images/2015/12/2015-12-12-12-49-37.jpg)
+![](/images/2015/12/2015-12-12-12-49-37.jpg)
 
 We eventually wind our way down to the beach! The beach is really nice, though the water is freezing. There's sand everywhere - in my clothes, my suitcase (which was open when I took off my pants and shoes). Oh well; not a bad night overall! Certainly love this new hostel and Barcelona!
 
@@ -1718,39 +1718,39 @@ Me, Mario and his wife (a Colombian couple in their late 20's who've been travel
 
 The Plaça de Catalunya
 
-![](/content/images/2015/12/2015-12-14-14-09-23.jpg)
+![](/images/2015/12/2015-12-14-14-09-23.jpg)
 
 The major plaza in Barcelona - has city hall as well as the palace where the royal family lives. The three flags are the flags of Spain, the flag of Catalunya, and the flag of Barcelona. The flags you can see on the houses are basically symbols for a independent Catalan. The movement for a separate state is very much alive, though currently the blocker is what the currency would be, and what the impact to the economy would be.
 
-![](/content/images/2015/12/2015-12-14-14-11-14.jpg)
+![](/images/2015/12/2015-12-14-14-11-14.jpg)
 
 This particular plaza was a school and a church, and during World War 2, Franco sought Hitler and Mussolini's help in establishing a fascist regime. His fellow dictators agreed and wanted to bomb the previous plaza where the city hall was, but bombed this one instead. You can see the damage on the buildings. And worst of all, nearly all the casualties were children because the school was entirely demolished.
 
-![](/content/images/2015/12/2015-12-14-14-11-01.jpg)
+![](/images/2015/12/2015-12-14-14-11-01.jpg)
 
 The Santa Maria del Mar. At this time, many churches started charging to hear the word of God, and the poor people of the city couldn't afford it, so they built their own in 53 years (which is very quick relative to the time it took to construct the other churches). People would literally just bring over rocks during their spare hours. During the civil war, anarchists set fire to the church for siding with Franco, and you can still see the scorch marks.
 
-![](/content/images/2015/12/2015-12-14-14-14-32.jpg)
+![](/images/2015/12/2015-12-14-14-14-32.jpg)
 
 Roman towers. Barcelona is built on top of many Roman ruins, and this is one of the better preserved ones. The museum in Barcelona has the best ones.
 
-![](/content/images/2015/12/2015-12-14-14-16-43.jpg)
+![](/images/2015/12/2015-12-14-14-16-43.jpg)
 
 Small church dedicated to Saint Christopher, the patron saint of traveling. Underneath you can see the Roman ruins - this particular spot has been popular for travelers for hundreds of years.
 
-![](/content/images/2015/12/2015-12-14-14-17-02.jpg)
+![](/images/2015/12/2015-12-14-14-17-02.jpg)
 
 Other cools spots I saw on the walking tour.
 
-![](/content/images/2015/12/2015-12-14-14-19-50.jpg)
+![](/images/2015/12/2015-12-14-14-19-50.jpg)
 
 The walking tour ultimately culminated at the Barcelona Cathedral, which is at the heart of the Gothic quarters. The Gothic influences are responsible for the wide arching doorways that are so typical of many churches here, but usually they're not so ornate. This is because recently with the Neo-Gothic revival, they've changed the styles and all the ornamentation is actually extremely recent. You can see the older walls of the cathedral, which haven't been modernized, are still plain and true to the older Gothic styles.
 
-![](/content/images/2015/12/2015-12-14-14-10-30.jpg)
+![](/images/2015/12/2015-12-14-14-10-30.jpg)
 
 Inside the cathedral lies the tomb of Saint Eulalia, a martyr who died during the Roman occupation. She was a twelve year old girl who was reportedly tortured for twelve days, and at the end of each day, she was asked "Are you still a Christian?" To which, each day, she responded with a firm "Yes."
 
-![](/content/images/2015/12/2015-12-14-14-09-59.jpg)
+![](/images/2015/12/2015-12-14-14-09-59.jpg)
 
 After the walking tour I come back and basically do laundry all day. Not very exciting, and not super fun, but *so* essential. It was also a ridiculous 7 euros, but at this point I can't say no.
 
@@ -1764,15 +1764,15 @@ But it's 3 euros for a one way bus ticket, and in about 35 minutes you'll be the
 
 And boy is it worth it! I wanted to go here initially because Oscar and Sebastian recommended it to me in Madrid, and we were lucky enough to get there just as the sun was setting. You get gorgeous panoramic views of all of Barcelona. There's also a really cool church up there along with an amusement park, where the rides take you off the edge of the mountain and back, so if you're into that sort of thing, go for it.
 
-![](/content/images/2015/12/2015-12-14-14-00-56.jpg)
+![](/images/2015/12/2015-12-14-14-00-56.jpg)
 
-![](/content/images/2015/12/2015-12-14-14-01-11.jpg)
+![](/images/2015/12/2015-12-14-14-01-11.jpg)
 
 We split up to take in the various views, and Leo and I do all the views while Edin wanted to do some of the rides. Edin is Muslim, so we wander for a bit trying to find a non-pork based source of food, as he's super hungry. Eventually, we find a beef hot dog stand, and he's just chilling.
 
 Not cognizant of the fact that Church is now in session, Edin's trying to walk in with a hot dog in hand, munching noisily. I'm trying to tell him to stop, that church is now in session, that you can't just go into it with a hot dog in hand, but, maybe due to language barriers, Edin doesn't get the memo. He saunters in, licking ketchup off of one hand, hot dog in the other, and starts walking through the pews! I rush in after him to get him out while Leo screams through the open door "[Damn it feels good to be a gangsta!](https://www.youtube.com/watch?v=rL9ihXiFAko)"
 
-![](/content/images/2015/12/2015-12-14-14-00-24.jpg)
+![](/images/2015/12/2015-12-14-14-00-24.jpg)
 
 We were in tears the whole bus ride back, just reliving the absurdity of what just happened.
 
@@ -1788,7 +1788,7 @@ I woke *way* too late and missed Ben and company for Sagrada Família. We were s
 
 Me, Leo, Edin, and Erdal had to form the most dysfunctional lunch group of all time. We all woke up late and did absolutely nothing all day. Eventually we meandered to a restaurant, and we were so out of it that no one even tried to speak in Spanish. Some of us mumbled for coffee, and by the end we devolved into cavemen who just pointed at previous orders of coffee and water. As we were leaving, Edin almost left 100 euros in cash on the table! It was only when I pointed it out that he mumbled "Oh yeah, good point" and then pocketed his money. Classic.
 
-![](/content/images/2015/12/2015-12-14-15-54-34.jpg)
+![](/images/2015/12/2015-12-14-15-54-34.jpg)
 
 And in true dysfunctional form, my man Edin took the selfie upside down. ```:)``` So in honor of his memory, I'm keeping it this way. I'm on the right, then Erdal, then Leo, then the man himself.
 
@@ -1798,7 +1798,7 @@ That evening, we set up to watch [Straight Outta Compton](http://www.imdb.com/ti
 
 That night we did salsa at a cool bar with the most Latin salsa instructor you can imagine. While it was a lot of fun, it was also *packed* in that tiny bar and incredibly hot. And I was hungry. There was a restaurant called [Tapas 24](http://www.tripadvisor.com/Restaurant_Review-g187497-d1314895-Reviews-Tapas_24-Barcelona_Catalonia.html) that was closing soon, so Anna, Ben and I went and had an *amazing* meal. Ben and I nerderd out about the various films and TV shows, including the awesome Jar Jar Binks conspiracy theory that we both totally buy; Anna just hung her head in shame mostly and tried to pretend she didn't know us.
 
-![](/content/images/2015/12/FA535A19-673A-4E73-9095-5F56371DF8DE.jpg)
+![](/images/2015/12/FA535A19-673A-4E73-9095-5F56371DF8DE.jpg)
 
 Went to bed at about 2:30.
 
@@ -1820,35 +1820,35 @@ The church is absolutely mind blowing. And although I took 247 pictures of it, b
 
 Starting from the outside, the first and only facade completed by Gaudi himself. It's absolutely breathtaking and super intricate.
 
-![](/content/images/2015/12/IMG_2539.JPG)
+![](/images/2015/12/IMG_2539.JPG)
 
 The inside just gets even more stunning. Gaudi designed this building with church-style acoustics in mind, and it's actually meant to house four organs. The large ceilings help to prevent echoes. Notice how the pillars branch out more and more like trees, but at the same time support the enormous weight of the roof. He had to design specialized hyperbolic arches which used less material but could support more weight.
 
-![](/content/images/2015/12/07305B00-01B7-4ACE-982C-D4A0347BDFE2.jpg)
+![](/images/2015/12/07305B00-01B7-4ACE-982C-D4A0347BDFE2.jpg)
 
 The stain glass windows are designed with an optimal amount of light during the day, and artificial lights provide the same amount of light at night. In Gaudi's own words (paraphrased from memory) - a church cannot have too little or too much light, for in either case, one cannot see. He wanted this to be a place that encouraged contemplation and ultimately enabled people to achieve enlightenment.
 
-![](/content/images/2015/12/1A013CBA-68A7-4336-8166-BBA65DEF7A3D-1.jpg)
+![](/images/2015/12/1A013CBA-68A7-4336-8166-BBA65DEF7A3D-1.jpg)
 
 The detailed alter.
 
-![](/content/images/2015/12/IMG_2554-1.JPG)
+![](/images/2015/12/IMG_2554-1.JPG)
 
 There's a museum underneath the church where they go into the designs of how the hyperbolic arches work, along with all the other innovations Gaudi made specifically for this church. It also has cool miniature plaster models of how the church is meant to look upon its completion (est 2026). This is also knows as the unfinished church, as it's never been completed.
 
-![](/content/images/2015/12/B98A73EE-774C-4735-939E-D79E9379E511.jpg)
+![](/images/2015/12/B98A73EE-774C-4735-939E-D79E9379E511.jpg)
 
 Outside the church there is a tiny school, which looks very unimpressive, until you realize the architectural feats achieved to create it. Its unique wavy shape allows only two walls, each 10 cm thick, to support it. It has enough space for three classrooms, and was designed in such a way as to require as few materials as possible while maintaining structural integrity.
 
-![](/content/images/2015/12/91105907-F79C-426E-BE60-2F003690AB53-1.jpg)
+![](/images/2015/12/91105907-F79C-426E-BE60-2F003690AB53-1.jpg)
 
 And on top you have the towers which give an absolutely stunning view of Barcelona.
 
-![](/content/images/2015/12/AF93AA1D-C8DC-481F-9119-9A01997C478D.jpg)
+![](/images/2015/12/AF93AA1D-C8DC-481F-9119-9A01997C478D.jpg)
 
 On the back side, we have what will be the main entrance (upon completion). This facade is more standard Gaudi with its weird shapes and thought provoking sculptures.
 
-![](/content/images/2015/12/3B4B18DE-AF19-48E6-911B-B1652D700A14.jpg)
+![](/images/2015/12/3B4B18DE-AF19-48E6-911B-B1652D700A14.jpg)
 
 ### Park Güell
 
@@ -1856,39 +1856,39 @@ Definitely do not pay to go inside; the views alone are not worth it. But if you
 
 The architecture is quite cool, and the park is well worth a visit. I'm becoming more and more a fan of Gaudi. It just looks *cool*.
 
-![](/content/images/2015/12/05E50306-2D12-4905-967D-037318AB446E.jpg)
+![](/images/2015/12/05E50306-2D12-4905-967D-037318AB446E.jpg)
 
 It also has a cool Casa Museu Gaudi, too.
 
-![](/content/images/2015/12/B0E503E4-9B4C-422D-9FFC-67132E5A88A4.jpg)
+![](/images/2015/12/B0E503E4-9B4C-422D-9FFC-67132E5A88A4.jpg)
 
 Other views.
 
-![](/content/images/2015/12/D17CE021-B797-4D8D-A66A-67FA7519EFA1.jpg)
+![](/images/2015/12/D17CE021-B797-4D8D-A66A-67FA7519EFA1.jpg)
 
 ### Ciutadella Park
 
 Arc de Triumph
 
-![](/content/images/2015/12/C24DE27D-61EC-4B96-A2A7-78B5EDFCEE54.jpg)
+![](/images/2015/12/C24DE27D-61EC-4B96-A2A7-78B5EDFCEE54.jpg)
 
 Cascada Monumental
 
-![](/content/images/2015/12/46034288-1A2E-40D2-AA6F-8E1A649FD7CC.jpg)
+![](/images/2015/12/46034288-1A2E-40D2-AA6F-8E1A649FD7CC.jpg)
 
 Parlament de Catalunya
 
-![](/content/images/2015/12/401517EC-5BF8-40A5-8D1F-AC7683F7F4DC.jpg)
+![](/images/2015/12/401517EC-5BF8-40A5-8D1F-AC7683F7F4DC.jpg)
 
 Castell dels Tres Dragons
 
-![](/content/images/2015/12/A1B9E681-F100-4F17-A6F3-B7590F272926-1.jpg)
+![](/images/2015/12/A1B9E681-F100-4F17-A6F3-B7590F272926-1.jpg)
 
 ### Lunch
 
 Met back up with Ben at the hostel and we went out to [El Xampanyet](http://www.tripadvisor.com/Restaurant_Review-g187497-d697571-Reviews-El_Xampanyet-Barcelona_Catalonia.html), which was a *super* traditional tapas place. Very authentic, and extremely good. Highly recommend if you're in the area. Spaniards are extremely fond of their bread and tomato sauce.
 
-![](/content/images/2015/12/IMG_2752.JPG)
+![](/images/2015/12/IMG_2752.JPG)
 
 ### Picasso Museum
 
@@ -1898,19 +1898,19 @@ The Picasso Museum was *much* better than most of the art museums in Madrid that
 
 Mirador de Colom - a tribute to Christopher Columbus
 
-![](/content/images/2015/12/IMG_2765.JPG)
+![](/images/2015/12/IMG_2765.JPG)
 
 Walked down la Rambla - a super historic street in Barcelona filled with lots of cool shops
 
-![](/content/images/2015/12/93744E21-A872-447D-857B-AA83F9E706E5.jpg)
+![](/images/2015/12/93744E21-A872-447D-857B-AA83F9E706E5.jpg)
 
 Mercat St Josep La Boqueria - an indoor, massive farmer's market
 
-![](/content/images/2015/12/550A3442-CE76-4522-98A5-071846B7B271.jpg)
+![](/images/2015/12/550A3442-CE76-4522-98A5-071846B7B271.jpg)
 
 Port building
 
-![](/content/images/2015/12/71536ED0-161F-4A05-A0FB-5BA6365A3528.jpg)
+![](/images/2015/12/71536ED0-161F-4A05-A0FB-5BA6365A3528.jpg)
 
 All in all, it was an awesome day hanging out with Ben. Super cool dude and willing to actually do stuff instead of just partying. Fun fact about Ben - he was actually *in Paris* watching a soccer game the day of the attacks. He was in the stadium. Very interesting to hear an alternative and first hand perspective of the attacks that runs counter to what most of the media insists on.
 
@@ -1922,7 +1922,7 @@ Ended up walking about 16 miles, so I'm quite happy.
 
 Ben and I make a pit stop at the supermarket right outside our hostel so I can grab some of my favorite juice - this weird blend of all these berries. But the coolest thing happened (shut up, Ben, it was super cool) - I saw the *tiniest* little eggs! I was wondering why they'd be so small when it hit me: the eggs are for *tapas*! Blew my mind. Aren't they adorable?
 
-![](/content/images/2015/12/IMG_2782.JPG)
+![](/images/2015/12/IMG_2782.JPG)
 
 We put on a movie - [Kingsman](http://www.imdb.com/title/tt2802144/). But I'm absolutely exhausted so I keep falling asleep halfway through. After the movie I pack up and go to bed; it's not even 7PM yet.
 
@@ -1930,7 +1930,7 @@ I wake up super hungry around midnight. There's a lot of noise coming from outsi
 
 Most of the bars are closed, and we didn't want to go to George Payne's *again* because that's boring, but ironically the only bar that ends up being open is another Irish bar. Typical.
 
-![](/content/images/2015/12/IMG_3395.jpg)
+![](/images/2015/12/IMG_3395.jpg)
 
 I met some really cool people, so I'm glad I went out with them.
 
@@ -1964,69 +1964,69 @@ We head first to the National Museum of Catalan, and on the way we see some awes
 
 The Plaça d'Espanya
 
-![](/content/images/2015/12/IMG_2798.JPG)
+![](/images/2015/12/IMG_2798.JPG)
 
 [Fira de Barcelona](https://en.wikipedia.org/wiki/Fira_de_Barcelona), which is a trade fair institution - and one of the most important in Europe.
 
-![](/content/images/2015/12/IMG_2800.JPG)
+![](/images/2015/12/IMG_2800.JPG)
 
 Awesome daytime views of the entire plaza and the cool monuments
 
-![](/content/images/2015/12/thumb_3649D40E-CD3A-4CC1-8510-2564838F92A5_1024.jpg)
+![](/images/2015/12/thumb_3649D40E-CD3A-4CC1-8510-2564838F92A5_1024.jpg)
 
 And daytime views of the museum and the pillars
 
-![](/content/images/2015/12/thumb_592B37BA-6918-492B-A979-B9BFC008CE9B_1024.jpg)
+![](/images/2015/12/thumb_592B37BA-6918-492B-A979-B9BFC008CE9B_1024.jpg)
 
 The museum was *spectacular*. It's one of the top three museums I've been to for sure, and maybe the best in Barcelona. It has a number of sections, but one of the most unique and interesting was a set of paintings they carefully preserved and moved from 1000 years ago. These works of art are certainly astounding, but the way they're presented is even more so. They recreate the rooms in which the original paintings were found within the museum itself, leading to some spectacular exhibits.
 
-![](/content/images/2015/12/thumb_BA90A587-E375-45B7-96C2-0E4C04677516_1024.jpg)
+![](/images/2015/12/thumb_BA90A587-E375-45B7-96C2-0E4C04677516_1024.jpg)
 
 It then transitions to a more standard religious paintings section.
 
-![](/content/images/2015/12/thumb_06913861-F81D-4B72-8F06-E178B2539EF3_1024.jpg)
+![](/images/2015/12/thumb_06913861-F81D-4B72-8F06-E178B2539EF3_1024.jpg)
 
 Within the museum there's this breathtaking, large open space which has a cafe, a musical venu (currently unused), and some other stuff.
 
-![](/content/images/2015/12/IMG_2862-1.JPG)
+![](/images/2015/12/IMG_2862-1.JPG)
 
 An entire section on propoganda, which is awesome.
 
-![](/content/images/2015/12/thumb_10E43251-9C50-4ECD-A22F-5E7CFAFB6418_1024.jpg)
+![](/images/2015/12/thumb_10E43251-9C50-4ECD-A22F-5E7CFAFB6418_1024.jpg)
 
 And much, much more. Many sections are classic art, so I respectfully didn't take pictures of those sections. But the best thing by far is that you can go on top of the museum, which is already on top of a hill, and see the beautiful views of Barcelona!
 
-![](/content/images/2015/12/thumb_D226C99A-A08B-4E36-ACEC-8A9DF0AE63A7_1024.jpg)
+![](/images/2015/12/thumb_D226C99A-A08B-4E36-ACEC-8A9DF0AE63A7_1024.jpg)
 
 We ate at [El Jabalí](http://www.tripadvisor.com/Restaurant_Review-g187497-d1096478-Reviews-El_Jabali-Barcelona_Catalonia.html), another authentic Tapas place. The restaurant itself wasn't so special, but there was this very interesting mushroom and pesto tapa that I thought was quite different than most of the other places we'd been to.
 
-![](/content/images/2015/12/IMG_2912.JPG)
+![](/images/2015/12/IMG_2912.JPG)
 
 After that, we went back around the back of the museum and started hiking around the gardens and the mountain in the back. It's quite beautiful. But the coolest part was finding the monument made to light the flame for 1992 Olympics.
 
-![](/content/images/2015/12/thumb_IMG_2917_1024.jpg)
+![](/images/2015/12/thumb_IMG_2917_1024.jpg)
 
 Eventually, Ben and I remember our conversation from the previous day - particularly the Gondolas that led all the way up this mountain, and we decide to start climbing and stop wandering. Turns out it led to a castle! The Castel de Montjuïc.
 
-![](/content/images/2015/12/thumb_95EF3F4B-C44D-4549-A6B6-4549334369E1_1024.jpg)
+![](/images/2015/12/thumb_95EF3F4B-C44D-4549-A6B6-4549334369E1_1024.jpg)
 
 The castle is literally right on the water's edge, and you get amazing views from it.
 
-![](/content/images/2015/12/thumb_808124A0-D631-4F1D-B339-78DE48B2CA3A_1024.jpg)
+![](/images/2015/12/thumb_808124A0-D631-4F1D-B339-78DE48B2CA3A_1024.jpg)
 
 Inside the castle you have... well, a standard castle. Fortresses, cannons, the whole deal. This castle is particularly significant in terms of history regarding Franco's domination of the Catalan peoples and his oppression over their republican government. So you often find not-so-neutral signs, like this one.
 
-![](/content/images/2015/12/thumb_091F3C56-50E5-4A2A-B25C-7CE5E92FE7BF_1024.jpg)
+![](/images/2015/12/thumb_091F3C56-50E5-4A2A-B25C-7CE5E92FE7BF_1024.jpg)
 
 The castle has some cool plazas and open spaces.
 
-![](/content/images/2015/12/thumb_6F750FED-6113-45A5-8477-4A707FA83E7F_1024.jpg)
+![](/images/2015/12/thumb_6F750FED-6113-45A5-8477-4A707FA83E7F_1024.jpg)
 
 Underneath, there's also a museum dedicating all the ways in which Franco and his cronies messed with the president of Catalan.
 
 We start walking around and there are some other cool plazas, like El Pla de Barcelona, which basically seems like a cat sanctuary. There must have been around 20 cats there. Beautiful scene though.
 
-![](/content/images/2015/12/thumb_5D9B04D9-F17A-4031-B29C-10EBA0698CFA_1024.jpg)
+![](/images/2015/12/thumb_5D9B04D9-F17A-4031-B29C-10EBA0698CFA_1024.jpg)
 
 We hike back down the mountain, and on the way, Ben and I develop a conspiracy theory that I now completely believe.
 
@@ -2036,13 +2036,13 @@ We stop by the supermarket, and I show Ben the amazingness of this one juice - i
 
 Only to see Anna's unbelievably happy face.
 
-![](/content/images/2015/12/thumb_IMG_2968_1024.jpg)
+![](/images/2015/12/thumb_IMG_2968_1024.jpg)
 
 Why would her face be so happy, you might ask. Turns out she got her wallet back. A kind stranger Facebook messaged her during the day - "Hey, you left your wallet on the train last night. Where do you want to meet up?" Not only did she *not* get pickpocketed, she managed to have her wallet be found by the *one* person in Barcelona who would not only find her, but be willing to go out of the way to meet her and return it. Unbelievable. #classicAnnaMove
 
 That night, the Texans (Anna and her two friends), Spencer and I all spend a bunch of time having a really good conversation. It was a great way to end the day - especially considering Ben and I had walked 17.3 miles! (And that's on the iPhone, so the Fitbit probably would have said way more.)
 
-![](/content/images/2015/12/thumb_IMG_2969_1024.jpg)
+![](/images/2015/12/thumb_IMG_2969_1024.jpg)
 
 Notice how Ben is having that juice I told him about? You're welcome Ben. ```:D```
 
@@ -2066,47 +2066,47 @@ Anyways, without more complaining, here are the places we saw on the walking tou
 
 Gaudi's first and last job with the actual city government. Two twin lampposts in the plaza from which we leave. The city tried to skimp and only pay him half, so he sued them and got his money, deciding to never build for them ever again.
 
-![](/content/images/2015/12/CD280C74-D255-4212-8B2F-065BF05FCB0A.jpg)
+![](/images/2015/12/CD280C74-D255-4212-8B2F-065BF05FCB0A.jpg)
 
 This was a mansion he designed for one of his close friends. The Palau Güell features a phoenix in the very center because at the time, this used to be a very seedy and dangerous part of Barcelona, and the Güell family thought that by coming in and being so influential, they would make the entire area better along with them. The doors are designed *super* wide for horses, and the house actually has a stable in the basement, along with 12 chimneys to reduce the smell. The windows in the bottom floors of these buildings are always the most ornate, since that's where the family lives (why climb all those stairs). Servants and guests lived in the upper floors, so it doesn't have to be so ornate, and it was not uncommon to find the rich families even renting out upper rooms.
 
-![](/content/images/2015/12/672934E5-7A3D-4995-9E5C-A91A566E67A8.jpg)
+![](/images/2015/12/672934E5-7A3D-4995-9E5C-A91A566E67A8.jpg)
 
 The next building was by far my favorite. Casa Batlló (pronounced baht-yo) is a fantastic work of art that mirrors the ocean. I actually ended up going into this one and doing the audio tour after the walking tour, and *boy* was it worth it.
 
-![](/content/images/2015/12/IMG_2992.JPG)
+![](/images/2015/12/IMG_2992.JPG)
 
 Gaudi is super intense. Not only does he design the buildings, he designs everything within as well - including the furniture. In this case, he designed even a custom typography to go on the apartment doors to fit with his oceanic theme. I love his attention to detail and his obsession with small things. Even custom door handles were designed specifically for this apartment and were cast with his own hand.
 
-![](/content/images/2015/12/thumb_CE7AF1E0-8CA9-49A8-94AD-98982889484A_1024.jpg)
+![](/images/2015/12/thumb_CE7AF1E0-8CA9-49A8-94AD-98982889484A_1024.jpg)
 
 As reflected in his masterpiece, the Sagrada, his attention to light was borderline fanatical as well. Normally the upper rooms would get the most natural light, leaving the lower rooms darker. He changed the game here with alternating window sizes, obsession with roof holes, and a brand new ceiling atrium to enhance the building's natural light in an attempt to make sure all rooms got an equal amount of light.
 
-![](/content/images/2015/12/thumb_9BA7AE29-36A4-4C16-A81D-EBB17552084A_1024.jpg)
+![](/images/2015/12/thumb_9BA7AE29-36A4-4C16-A81D-EBB17552084A_1024.jpg)
 
 There's far more I can say about Gaudi - if it isn't clear by now, he was an absolute mastermind. I've spoken at length about the design decisions he took with regard to acoustics, too, and he does the same things here. Here are more pictures of this awesome building.
 
-![](/content/images/2015/12/thumb_6E371DD0-2022-4972-8B31-DF258BAC416D_1024.jpg)
+![](/images/2015/12/thumb_6E371DD0-2022-4972-8B31-DF258BAC416D_1024.jpg)
 
 La Pedrera is the final one we saw - the tour of course ends at La Sagrada, but I already did this very in depth yesterday, so I gave her the tip and just hopped off. I ended up going inside this one as well, with the audio guide.
 
 Some neat facts about the buildings. Construction was stopped twice on this. This building was commissioned after people saw the Batlló, and they wanted something similar. The owners thought this building was so ugly and hated it so much that Gaudi threatened to just quit and walk away. Once more when the city declared that one of the pillars extended four feet too far into the sidewalk. Rather than change his designs, Gaudi took them to court, won the lawsuit (having his building declared as a work of art rather than a building), and then celebrated by taking the court transcript home. An interesting guy.
 
-![](/content/images/2015/12/IMG_2996.JPG)
+![](/images/2015/12/IMG_2996.JPG)
 
 The inside was very cool, too, and actually it still functions as a working apartment building on the upper floors. You can enter the main hallways, the first floor, an apartment on the 4th floor, the roof, and the attic. The rest of it is closed to visitors.
 
 The roof was *very* interesting, and interestingly enough, the chimneys were actually the inspiration for George Lucas' Stormtrooper helmets.
 
-![](/content/images/2015/12/thumb_7AC76DB2-B65A-4261-8341-820A8557A317_1024.jpg)
+![](/images/2015/12/thumb_7AC76DB2-B65A-4261-8341-820A8557A317_1024.jpg)
 
 The attic features more of the similar arches that Gaudi pioneered.
 
-![](/content/images/2015/12/thumb_6F94598D-9D98-40D7-B6AD-EFBF4B599721_1024.jpg)
+![](/images/2015/12/thumb_6F94598D-9D98-40D7-B6AD-EFBF4B599721_1024.jpg)
 
 The apartment on the 4th floor has been furnished with the items that Gaudi himself would have designed for the place. It's kept in great condition.
 
-![](/content/images/2015/12/thumb_ADC04B38-9DDA-49C8-9537-DA3A1D157C91_1024-1.jpg)
+![](/images/2015/12/thumb_ADC04B38-9DDA-49C8-9537-DA3A1D157C91_1024-1.jpg)
 
 The first floor is without a doubt the coolest portion of the place. Gaudi was well ahead of his time and actually planned an open floor space with no walls separating the enormous living room floor. But it's now been turned into a super cool museum where pictures are forbidden. Still, wicked cool.
 
@@ -2118,7 +2118,7 @@ I ended up buying < insert name here > at the Casa Batlló gift store because I'
 
 Interesting tidbit - when the Olympics came to Barcelona in 1992, they made many of the major street sidewalks filled with Gaudi's designs from La Pedrera.
 
-![](/content/images/2015/12/thumb_A902BDE3-DA3A-49C1-8108-569B34F77D18_1024.jpg)
+![](/images/2015/12/thumb_A902BDE3-DA3A-49C1-8108-569B34F77D18_1024.jpg)
 
 ### Labyrinth Gardens
 
@@ -2128,11 +2128,11 @@ While I'm at the the hotel, I meet this Colombian girl named Maria. She sees tha
 
 We metro to the gardens, and they were pretty awesome. It's only 2 euros to get in, so if you have the time, it's well worth it. But that said, they're not super well maintained (hence it's only 2 euros). But I'd never been in a maze garden before, so why not.
 
-![](/content/images/2015/12/thumb_A2ABF50A-9947-4DCF-8B5C-160B7151B3B1_1024.jpg)
+![](/images/2015/12/thumb_A2ABF50A-9947-4DCF-8B5C-160B7151B3B1_1024.jpg)
 
 We started out mostly making fun of stupid Instagram culture and everything wrong with it, but much like [Sarcastaball](http://southpark.wikia.com/wiki/Sarcastaball), we get too drawn in. By the end it's not clear whether we're making fun of it or actually doing it. [Help me, Sharon. Help me.](https://www.youtube.com/watch?v=TNMAha7KjvU) But I got some sweet pics though, so maybe #worthIt.
 
-![](/content/images/2015/12/thumb_F53ADD32-9FB7-4078-9061-EDE683C9916F_1024.jpg)
+![](/images/2015/12/thumb_F53ADD32-9FB7-4078-9061-EDE683C9916F_1024.jpg)
 
 ### Hike to Tibidabo
 
@@ -2142,7 +2142,7 @@ We make a classic mistake, though. I'm navigating.
 
 We get lost, twice. There's a high school right next door, and we're basically stuck on campus. We double back twice and go on the wrong road once. And all this time, I really have to pee. So we stop for a bit to read a map while I pee. One hour left on the clock.
 
-![](/content/images/2015/12/thumb_AC6E210C-7A6B-4903-8AA2-9D6ED8BDE135_1024.jpg)
+![](/images/2015/12/thumb_AC6E210C-7A6B-4903-8AA2-9D6ED8BDE135_1024.jpg)
 
 And we just. Fucking. *Book* it. There's a super winding portion of the path where it snakes back on itself numerous times, and rather than going on this path, we just go through the bushes. We're literally on our hands and knees, looking for further footholds and trees onto which we can grab, and bouldering our way up this mountain. And once we get up the mountain, we're still setting a brutal pace. Eventually, we see the top of the cathedral, and a sign tells us it's only 2km away. And wonder of wonders, we decide to start *running*.
 
@@ -2150,21 +2150,21 @@ We ended up doing a 1 hour 46 minute hike in 58 minutes...
 
 And missed the sunset by 2 minutes. We were at the top at 5:25, and captured the moments *just* after the sunset.
 
-![](/content/images/2015/12/IMG_3260.JPG)
+![](/images/2015/12/IMG_3260.JPG)
 
 This was a *phenomenal* hike, and *man* was it thrilling. Unfortunately, when we get to the top, Tibidabo is totally abandoned for some reason! But I get some shots of the inside of the church, which was in session last time, so that was cool. And I also get to see Barcelona at night from Tibidabo, which I didn't see last time either.
 
 The inside of the church
 
-![](/content/images/2015/12/thumb_EAADF644-A0DD-4AE1-AFBD-6ED94F5863D7_1024-1.jpg)
+![](/images/2015/12/thumb_EAADF644-A0DD-4AE1-AFBD-6ED94F5863D7_1024-1.jpg)
 
 Barcelona at night
 
-![](/content/images/2015/12/thumb_7431ABE4-359D-4142-BC44-3ADAA60DFE5E_1024.jpg)
+![](/images/2015/12/thumb_7431ABE4-359D-4142-BC44-3ADAA60DFE5E_1024.jpg)
 
 We take this sketchy bus back and take a ferry down!
 
-![](/content/images/2015/12/thumb_486F768B-BF89-4B72-B60B-81D7FF4D558E_1024.jpg)
+![](/images/2015/12/thumb_486F768B-BF89-4B72-B60B-81D7FF4D558E_1024.jpg)
 
 This was absolutely the best day; we bonded a ton on the hike, and it was something I really needed given how much I've been eating here.
 
@@ -2180,13 +2180,13 @@ Dammit.
 
 Like drunken idiots who are too exhausted to think, we groan back to the cashier's line. Let me tell you - *everyone* in the store was confused.
 
-![](/content/images/2015/12/IMG_3294.JPG)
+![](/images/2015/12/IMG_3294.JPG)
 
 3 people who all buy one item. All of them pay with *exact* change. The cashier was looking around to make sure that the juice mafia wasn't in town looking to collect. When Ben first dropped the change and said "1 Euro 45 cents", he took a couple seconds to verify. But by the time it came to me, the cashier didn't even really check that much - he just kind of stared at me.
 
 We collapse onto the hostel couch and don't move for the rest of the night. A bunch of us (me, Ben, Spencer, Anna and her Texan gang, Antariksh, and this new guy named Jeff) stay up talking until 2AM, and eventually I fall asleep at around 3. What an awesome last day.
 
-![](/content/images/2015/12/thumb_2681E9E5-14AC-4663-BEC7-C4CC2672A699_1024-1.jpg)
+![](/images/2015/12/thumb_2681E9E5-14AC-4663-BEC7-C4CC2672A699_1024-1.jpg)
 
 ##Day 21: Bienvenue à Paris
 
@@ -2209,13 +2209,13 @@ The hostel also was more active than Madrid. The common rooms were *packed* ever
 
 Anyways, I had a horribly overpriced salad and then got on the train.
 
-![](/content/images/2015/12/920F253C-E273-4484-AB4E-C252BEE4AE2E.jpg)
+![](/images/2015/12/920F253C-E273-4484-AB4E-C252BEE4AE2E.jpg)
 
 Train ride itself was pretty awesome - got to see the awesome French countrysides as well as the ocean. The train had numerous stops and hugged the ocean as long as possible.
 
-![](/content/images/2015/12/F9D616D2-55E7-4951-A195-FD92D9407BD4.jpg)
+![](/images/2015/12/F9D616D2-55E7-4951-A195-FD92D9407BD4.jpg)
 
-![](/content/images/2015/12/C499AB92-E432-47C3-BBD3-37F4B222F871.jpg)
+![](/images/2015/12/C499AB92-E432-47C3-BBD3-37F4B222F871.jpg)
 
 For the first time I figured out the metro without any problems at all. Getting tickets took a couple tries because deciphering French is not obvious, but besides that, Google Maps took me all the way, even with a train change in the middle. The hostel itself seems okay; they have lots of facilities including laundry, which is nice. But the bedroom is *super* hot which is my main issue. We'll see though, I'm keeping my hopes up.
 
@@ -2223,11 +2223,11 @@ I chilled in the common room, catching up on my blog for a bit, before heading o
 
 I like the way they have their overground rail system - with grass all along the tracks. I guess they can afford to do this since the cars don't share the same lane, like they do in San Francisco and many places in the US.
 
-![](/content/images/2015/12/249E79D3-435B-4935-B8DE-5BA6B370D62E.jpg)
+![](/images/2015/12/249E79D3-435B-4935-B8DE-5BA6B370D62E.jpg)
 
 Also, I had always been told that the Québécois were more french than the French. And today I finally have proof. The stop signs in Quebec all say arrêt, while in France they say...
 
-![](/content/images/2015/12/IMG_3399.JPG)
+![](/images/2015/12/IMG_3399.JPG)
 
 Fascinating.
 
@@ -2261,7 +2261,7 @@ Get to the catacombs, and the line is *way* too long. I think this is one of tho
 
 The closest star on my map is Place Denfert Rochereau, but it turns out that's closed. So I start walking around because supposedly the plaza is famous as well, and that way, when it's open mid-week, I'll just zip in, do the building, and continue onwards.
 
-![](/content/images/2015/12/F210902E-DF74-4E14-9FAB-BCFF2777193E.jpg)
+![](/images/2015/12/F210902E-DF74-4E14-9FAB-BCFF2777193E.jpg)
 
 There was a cute dog park and some cool buildings, but overall I wouldn't spend more than 20 minutes here.
 
@@ -2269,11 +2269,11 @@ Strolled through a very large cemetery but obviously didn't take pictures out of
 
 Montparnasse tower is a standard skyscraper, but you can go all the way to the top to get some of the best panoramic views of Paris around. If you don't know what to do, I'd suggest coming here first - they have a *lot* of demarcated landmarks that you can see in the skyline, along with binoculars and LCD touch screen TV's to help you identify them. The elevator ride is crazy fast - 60 floors in under 40 seconds.
 
-![](/content/images/2015/12/9D4732A8-C3FB-4433-9108-A98B66989D4F.jpg)
+![](/images/2015/12/9D4732A8-C3FB-4433-9108-A98B66989D4F.jpg)
 
 And the views are worth it - if you can stand the €15 fee.
 
-![](/content/images/2015/12/1DE6224F-09B7-4C24-86B2-D85A20A592B9.jpg)
+![](/images/2015/12/1DE6224F-09B7-4C24-86B2-D85A20A592B9.jpg)
 
 I also said 'Hola' to the first three people to said 'Bonjour' to me; apparently context switching to French takes a while.
 
@@ -2281,11 +2281,11 @@ I decide to head to the Army Museum after lunch because that's closest (Metro!),
 
 You know you don't appreciate art when you like the gardens and the architecture of the rooms more than the actual bronze sculptures.
 
-![](/content/images/2015/12/92C0B1F6-57E3-42FE-AF0E-E6E455F8A0D7.jpg)
+![](/images/2015/12/92C0B1F6-57E3-42FE-AF0E-E6E455F8A0D7.jpg)
 
 But if you do like bronze sculptures, there are many. Particularly about the 100 year war. One cool thing this museum did was put the signs about the sculpture a couple paces away, and usually behind the actual sculpture. I think this was a very good idea - one that more museums should start doing. This way, when you first see it, you have time to just soak it all in and see how the piece makes you feel. You're not tempted to start reading right away. After a couple moments, you can read the sign and see if you agree with how the piece made you feel, and maybe even come back to it and reexamine.
 
-![](/content/images/2015/12/83B4C868-D910-4BD5-A46B-C40079A05EA1.jpg)
+![](/images/2015/12/83B4C868-D910-4BD5-A46B-C40079A05EA1.jpg)
 
 Inside the building they talk a bit about how they're actually made, and many people make busts out of marble first before doing the cast in bronze, which was super cool. Maybe this was just a France thing, but inside there were tons of people drawing various sculptures, and even a grandfather teaching is granddaughter; I thought that was pretty neat.
 
@@ -2295,19 +2295,19 @@ Turns out that everything I had mentioned was basically in one giant complex! Ho
 
 The outside of Napolean's Tomb
 
-![](/content/images/2015/12/CDC4DD60-6591-4226-AB08-8655AE8978B2.jpg)
+![](/images/2015/12/CDC4DD60-6591-4226-AB08-8655AE8978B2.jpg)
 
 The inside plaza and backside of the Army Museum
 
-![](/content/images/2015/12/4D1CA82E-EE57-421D-B56B-8309787B3CF7.jpg)
+![](/images/2015/12/4D1CA82E-EE57-421D-B56B-8309787B3CF7.jpg)
 
 The Army Museum was by far the coolest. At times it lacked English signs, but honestly, who cares. You're looking at super old, super awesome, intricately crafted antique weapons. I don't think you need signs to say - "this is an old gun." It's awesome. I could have stayed there the entire day. They also had various floors dedicated to various weapons and the histories of how the infantry units evolved (pikemen vs halbediers vs cavalry vs heavy cavalry, etc). Fascinating stuff, and had their giftshop had any books in English, I would have bought one. The history of war is something that's always fascinated me.
 
-![](/content/images/2015/12/C4CC41F7-2DC6-4914-AABF-9B4641ACBD5A-1.jpg)
+![](/images/2015/12/C4CC41F7-2DC6-4914-AABF-9B4641ACBD5A-1.jpg)
 
 Next up was the inside of Napoleon's Tomb. It's absolutely gorgeous inside, and unfortunately I went at around sunset, so the pictures didn't turn out super duper well.
 
-![](/content/images/2015/12/A17E1D39-A6F9-4D09-90CF-869DC0637FDC.jpg)
+![](/images/2015/12/A17E1D39-A6F9-4D09-90CF-869DC0637FDC.jpg)
 
 I had initially planned to watch Star Wars tonight, but each of the three theaters I went to (three! but Metro, yay!) were all sold out for the next two nights and today or just weren't showing it. I decide to go back to the hostel and buy tickets online. On my way back, I find my favorite €1 for 7 bananas guy, and today it's €1.50! I only had €1.10 in my pocket, so I go with 7 oranges instead. If tomorrow the oranges are also €1.50, I'm going to riot. That's some serious dynamic pricing going on man.
 
@@ -2323,25 +2323,25 @@ I think it's maybe the sleep debt catching up to me or maybe traveling while per
 
 First stop is the Bastille monument and the entire plaza around it. There's a large market all along the Boulevard Richard Lenoir leading up to the monument which was pretty cool.
 
-![](/content/images/2015/12/96AD1E93-0546-49A7-A3D3-1195293DDF0D.jpg)
+![](/images/2015/12/96AD1E93-0546-49A7-A3D3-1195293DDF0D.jpg)
 
 Also saw the Opera Bastille building.
 
-![](/content/images/2015/12/IMG_3642.JPG)
+![](/images/2015/12/IMG_3642.JPG)
 
 Okay, don't judge me, but I happened to wander into this set of gardens which was quite beautiful - and I bet if it wasn't winter and all the flowers were in bloom, it would be even more beautiful.
 
-![](/content/images/2015/12/B62BBD3D-4E59-4DC1-A2B5-8DF370ABA103.jpg)
+![](/images/2015/12/B62BBD3D-4E59-4DC1-A2B5-8DF370ABA103.jpg)
 
 But, it just so happened that right next to it was a really famous cemetery. I don't know why I keep wandering into these graveyards, but apparently this one is really famous. The [Cimetière du Père-Lachaise](https://en.wikipedia.org/wiki/P%C3%A8re_Lachaise_Cemetery) is famous for being one of the first garden cemeteries, as well has having many World War 1 monuments. There were a *ton* of tourists here, but at the same time it didn't really feel right taking pictures of the graves.
 
 I compromised and only took pictures of monuments or graves that others were taking pictures of.
 
-![](/content/images/2015/12/E5841959-B5A8-4677-8050-82955AE1A00C.jpg)
+![](/images/2015/12/E5841959-B5A8-4677-8050-82955AE1A00C.jpg)
 
 Inside the massive cemetery there's also a crematorium.
 
-![](/content/images/2015/12/04685208-B505-4770-80D7-B1C33222118C.jpg)
+![](/images/2015/12/04685208-B505-4770-80D7-B1C33222118C.jpg)
 
 The crematorium felt more real than the rest; there were too many tourists, whereas the crematorium actually had an underground section that was super quiet and somber. I saw old couples leaving in tears, and nearly ever cupboard in there had fresh flowers. Kind of sweet, but I can't help but wonder whether these ornate graveyards are for the dead or for the living. As Hindus, we cremate our dead, but the Western tradition of having a burial is interesting I suppose.
 
@@ -2349,7 +2349,7 @@ I suppose the counter argument is that why would they want such ornate graves if
 
 Also saw a lot of people mourning deceased of the recent Paris attacks. Sad.
 
-![](/content/images/2015/12/IMG_3667.JPG)
+![](/images/2015/12/IMG_3667.JPG)
 
 Also, many famous persons' graves are here - like Jim Morrison. I think the rule is that, regardless of nationality, race, religion, etc - so long as you have lived in Paris, you have a right to be buried here. I think it stems from one of Napoleon's old edicts.
 
@@ -2357,7 +2357,7 @@ Anyways, off to the Arc de Triumph (but my metro of course!).
 
 The Arc was super cool, and way bigger than the one in Barcelona. I walked for about 30 minutes just circling to get views from all sides of it.
 
-![](/content/images/2015/12/2380FA50-B757-4282-B3AF-92377F276FE9.jpg)
+![](/images/2015/12/2380FA50-B757-4282-B3AF-92377F276FE9.jpg)
 
 But the line was *enormous*. This is what I get for trying to do touristy things on a weekend. It ended up being an hour long queue to go up, but that wouldn't have been *so* bad if not for the worst couple behind me.
 
@@ -2369,11 +2369,11 @@ I also contemplated just leaving and going to the back of the line; it really wo
 
 An hour of torture later, I get to go up the arc. It's about 240 stairs, and the only way up is via stairs. Good old stair climber for the win! The insides of the arc were pretty cool.
 
-![](/content/images/2015/12/855ABA87-9B9D-43DD-9ADA-708B0E42F180.jpg)
+![](/images/2015/12/855ABA87-9B9D-43DD-9ADA-708B0E42F180.jpg)
 
 But the views were quite nice.
 
-![](/content/images/2015/12/6D713873-79CC-421F-A2C3-3DE40D096E64-1.jpg)
+![](/images/2015/12/6D713873-79CC-421F-A2C3-3DE40D096E64-1.jpg)
 
 I come back to the hostel and blog while my Australian friends put on the Matrix series. We end up watching all three, and I don't mind since I have a *lot* of catching up to do on the blog. Ended up going to bed at around 3.
 
@@ -2389,19 +2389,19 @@ I got curious so I started researching - apparently, if done successfully, you w
 
 Views of the gorgeous lawns next to it.
 
-![](/content/images/2015/12/4BFC1905-4053-4352-A39B-F1B807FE0A2F.jpg)
+![](/images/2015/12/4BFC1905-4053-4352-A39B-F1B807FE0A2F.jpg)
 
 And on the far side, you have this fancy building and this weird art exhibit thing.
 
-![](/content/images/2015/12/7C0FD4B6-398F-482C-8EFB-4F582F352123.jpg)
+![](/images/2015/12/7C0FD4B6-398F-482C-8EFB-4F582F352123.jpg)
 
 Then the actual tower from afar.
 
-![](/content/images/2015/12/IMG_3775.jpg)
+![](/images/2015/12/IMG_3775.jpg)
 
 Underneath was pretty cool, too!
 
-![](/content/images/2015/12/DA215E62-D038-43D4-B1FC-37D71089A0F9.jpg)
+![](/images/2015/12/DA215E62-D038-43D4-B1FC-37D71089A0F9.jpg)
 
 I took the south entrance, which means you have to take stairs. If you're willing to wait in line a bit longer (and pay more), you can take an elevator. But the stairs weren't *too* bad. Besides, with how much bread and cheese I've been having on this French diet, I think I need it quite honestly.
 
@@ -2409,43 +2409,43 @@ And once you get to the first floor, there are even more stairs to the second fl
 
 But the views are amazing.
 
-![](/content/images/2015/12/46B14A02-08EF-49DF-8D50-C7845F9244DF.jpg)
+![](/images/2015/12/46B14A02-08EF-49DF-8D50-C7845F9244DF.jpg)
 
 On the other side you have some super cool fountains and buildings, including a marine museum, an aquarium, and a theater.
 
 The water works
 
-![](/content/images/2015/12/712F20FF-FFAF-44C7-BE54-1ABB273E6D3C.jpg)
+![](/images/2015/12/712F20FF-FFAF-44C7-BE54-1ABB273E6D3C.jpg)
 
 Back views of the Eiffel Tower
 
-![](/content/images/2015/12/IMG_3841-1.jpg)
+![](/images/2015/12/IMG_3841-1.jpg)
 
 The plaza
 
-![](/content/images/2015/12/26DFD5AA-ACD8-4A69-A0D9-16B349C1AACD.jpg)
+![](/images/2015/12/26DFD5AA-ACD8-4A69-A0D9-16B349C1AACD.jpg)
 
 I actually stopped a guy from getting pickpocketed today! If you can believe it - *it was another clipboard lady*!! I explained my story in Madrid to him, and he was super grateful. Felt like a pro ```:D```
 
 I stopped by the Le Plais de Congrés de Paris, which turned out is a huge shopping center as well as a music venue.
 
-![](/content/images/2015/12/EE071F4D-617E-40C2-B3F1-0FEE3471973D.jpg)
+![](/images/2015/12/EE071F4D-617E-40C2-B3F1-0FEE3471973D.jpg)
 
 I decide to pick another location at random - why note Notre Dame cathedral?
 
 The Notre Dame cathedral looks pretty cool! I decide that, while daylight hours are there, I'll see all the other buildings on this little island and come back to do the inside later.
 
-![](/content/images/2015/12/IMG_3879.jpg)
+![](/images/2015/12/IMG_3879.jpg)
 
 *Way* too many things are closed on Mondays. Honestly, France - how are you even a functional country? Oh wait, you're not. #UnemploymentJoke But seriously, it's frustrating. The crypts? Closed. Luxembourg Gardens? Closed. The Crypts next to the Notre Dame Cathedral? Closed. [Why you do dis?](http://knowyourmeme.com/memes/y-u-do-dis)
 
 I decide to do the Conciergerie, otherwise known as the Palais de la Cité.
 
-![](/content/images/2015/12/CE6002C2-1CB0-4A07-9181-EAD19D93B6A9.jpg)
+![](/images/2015/12/CE6002C2-1CB0-4A07-9181-EAD19D93B6A9.jpg)
 
 Which proves to be the dumbest €9 I've ever spent. If you're ever in Paris, don't do it. I don't care that it's historic or that it used to be where the kings lived and then turned into a prison. Such a waste. Notre Dame is *free*. Eiffel Tower is €7. For €9 it better blow my pants off. (Hint: It didn't.)
 
-![](/content/images/2015/12/D1324946-B35A-49ED-9EA6-66DAF0B49C4B-1.jpg)
+![](/images/2015/12/D1324946-B35A-49ED-9EA6-66DAF0B49C4B-1.jpg)
 
 Right next to it is the Saint Chapelle, which is also on the Trip Advisor top 20 (so was the Conciergerie, but so much for that). I arrive an hour before closing, and the sign says "Last admittance 30 minutes before closing." But guess what? Yup, the guards were tired and too lazy, so they closed the entrance early. ```:D```
 
@@ -2474,47 +2474,47 @@ I'm finally caught up guys. Finally.
 
 Woke up super early to get to Star Wars! Antariksh found a theater about an hour away, so I'm at the train station by 9:30. As you can see, it's completely empty; probably because everyone is already at work, right? ```;)```
 
-![](/content/images/2015/12/IMG_3942.JPG)
+![](/images/2015/12/IMG_3942.JPG)
 
 The theater was super cool - there's a river in between and the theater is on both sides of it, which is awesome.
 
-![](/content/images/2015/12/E3D9EC7F-5E35-4619-A1AF-9D13C6333C49.jpg)
+![](/images/2015/12/E3D9EC7F-5E35-4619-A1AF-9D13C6333C49.jpg)
 
 And it was... *totally empty*. We were both shocked. The Grand Rex was sold out for most of the week, while this one was *completely* empty!
 
-![](/content/images/2015/12/B16F6839-5C89-43A4-8C1B-5A09EE0BDAD9.jpg)
+![](/images/2015/12/B16F6839-5C89-43A4-8C1B-5A09EE0BDAD9.jpg)
 
 I'll put my thoughts on the movie in a separate blog post, for fear of spoilers and such. I'm a hard core enough fan that my thoughts on Star Wars merit a separate blog post. Anyways, Antariksh is actually flying out to Italy right away, so we say goodbye. Turns out his hostel (the super cool one right on the water's edge that was #1 rated in Paris) wasn't as good as Black Swan either. We both bond over how awesome that hostel was - how many cool people we met in addition to the general culture here.
 
 I went to Basilique du Sacré-Cœur de Montmartre, which was pretty cool! Montmartre is a very tourist-friendly little town, and it's on top of a hill that overlooks most of Paris. So if you're concerned about people hating English speakers, eat here; they're totally fine with it. But of course there are also many pickpockets and such.
 
-![](/content/images/2015/12/695EEE14-6B18-48E8-92C7-AACE926E44C0-1.jpg)
+![](/images/2015/12/695EEE14-6B18-48E8-92C7-AACE926E44C0-1.jpg)
 
 I roamed around for a bit, but basically all museums are closed (the Louvre, the Orangerie Museum, and a whole bunch). But there's so much awesome stuff next to it that I decided to just walk outside and take in the sights while the sun is still out.
 
 The plaza in which the Louvre is located
 
-![](/content/images/2015/12/C172287F-A9FB-4C52-9521-F0847CD50B63.jpg)
+![](/images/2015/12/C172287F-A9FB-4C52-9521-F0847CD50B63.jpg)
 
 Mini arc right next to it
 
-![](/content/images/2015/12/3D2FD245-A566-4FD7-93A9-B8E0C3C8409B.jpg)
+![](/images/2015/12/3D2FD245-A566-4FD7-93A9-B8E0C3C8409B.jpg)
 
 The Jardines des Tuileries. Another pick-pocketer with the clipboard scam came at me! I can recognize pick-pocketers fairly well now.
 
-![](/content/images/2015/12/210A76E0-7ABB-484D-BED0-AA46777D5091.jpg)
+![](/images/2015/12/210A76E0-7ABB-484D-BED0-AA46777D5091.jpg)
 
 The Bridge of Alexander III
 
-![](/content/images/2015/12/3AEF37FF-902C-41CC-9B87-2B127F50D47A.jpg)
+![](/images/2015/12/3AEF37FF-902C-41CC-9B87-2B127F50D47A.jpg)
 
 The Grand Palace
 
-![](/content/images/2015/12/D5828497-1F08-4414-9725-56D92F096B00.jpg)
+![](/images/2015/12/D5828497-1F08-4414-9725-56D92F096B00.jpg)
 
 The Little Palace
 
-![](/content/images/2015/12/BF7EF265-4345-4840-9260-58588CFF7A3A.jpg)
+![](/images/2015/12/BF7EF265-4345-4840-9260-58588CFF7A3A.jpg)
 
 Went to the Catacombs today and someone gave me the bad news that it's basically closed till 2016 because all available tickets have been sold out. ```:'(``` Guess I won't do the Catacombs while I'm in Paris. A lot of people at the hostel gave me the idea to go to Versailles if I run out of things to do, so I think for the next two days I'll do museums, and on the last day I'll go there.
 
@@ -2564,43 +2564,43 @@ But for the purpose of completeness, and some sort of backup in case my other pi
 
 The [Venus de Milo](https://en.wikipedia.org/wiki/V%C3%A9nus_de_Milo) is, unlike many of the other sculptures in the room which are Roman copies, an original Greek statue. The arms were never found, and we know the sculpture was never meant to be showcased in the manner that it is - from behind, you can see significantly less detail along with the two separate marble blocks that were used. Most likely, it was meant to be put up against a wall. Probably sculptured around 130BC and reflective of the female nude trend - something that was original back in those days.
 
-![](/content/images/2015/12/A278B5B1-DF6C-49EE-9374-77CE8972547E-1.jpg)
+![](/images/2015/12/A278B5B1-DF6C-49EE-9374-77CE8972547E-1.jpg)
 
 Diana is the goddess of hunting; the bow is missing due to being broken. The most interesting thing is that she is also the goddess of the moon and [wears a crescent moon on her head](https://en.wikipedia.org/wiki/Shiva)! Diana of Versailles
 
-![](/content/images/2015/12/9CEFBC1B-3C31-4E16-922C-A848599CAC76.jpg)
+![](/images/2015/12/9CEFBC1B-3C31-4E16-922C-A848599CAC76.jpg)
 
 This huge golden gallery is dedicated to the god Apollo. It's all about domination, which is why you can see men in chains all across the room. But Apollo is also a protector, and there are nine women representing the nine muses. It was an enormous room that was a dedication to Louis XIV.
 
-![](/content/images/2015/12/07867791-DB1E-43BB-A138-23E8A404F5E6.jpg)
+![](/images/2015/12/07867791-DB1E-43BB-A138-23E8A404F5E6.jpg)
 
 The [Battle of San Romano](https://en.wikipedia.org/wiki/La_Bataille_de_San_Romano). It depicts a battle between the Florentine and Sienese forces. The background was originally a vibrant green but is now faded to a deep dark. But the most important thing is that the rules of perspective were first being developed in Florence, so the artist used these to make the armor more realistic.
 
-![](/content/images/2015/12/IMG_4129.jpg)
+![](/images/2015/12/IMG_4129.jpg)
 
 The coronation of Napoleon. Interestingly, very heavily doctored. The priest has the features of Caesar, as an honor to Napoleon. And his mother is there, even though in reality she refused to attend because she didn't approve, but here the artist portrays her as willing and eager.
 
-![](/content/images/2015/12/2196C2A8-FCFC-4579-B3BB-26C503175327.jpg)
+![](/images/2015/12/2196C2A8-FCFC-4579-B3BB-26C503175327.jpg)
 
 A statue regarding the Franco Prussian War; the center is empty because it was meant to be where Louis XIV stood, but during the French Revolution it was melted down; the victims, on the other hand, were spared.
 
-![](/content/images/2015/12/331F57EF-5F7E-42A0-82D8-B659F605C9EC.jpg)
+![](/images/2015/12/331F57EF-5F7E-42A0-82D8-B659F605C9EC.jpg)
 
 The [Winged Victory of Samothrace](https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace). It's been through many restorations, and it's only post restoration that we can see the two different kinds of marbles used. It's meant to demonstrate an angel captured just at the moment of victory.
 
-![](/content/images/2015/12/AF030576-A129-43D7-A01E-57B6839EC90A-1.jpg)
+![](/images/2015/12/AF030576-A129-43D7-A01E-57B6839EC90A-1.jpg)
 
 And of course, the Mona Lisa.
 
-![](/content/images/2015/12/IMG_4140.jpg)
+![](/images/2015/12/IMG_4140.jpg)
 
 Those familiar with [Freakonomics](http://freakonomics.com/2011/09/29/the-myth-of-common-sense-why-the-social-world-is-less-obvious-than-it-seems/) will know that it actually wasn't the global phenomenon it is today; in fact, it was only when it was stolen and recovered several years later did it become so valued. Although at the time, it was quite large for a portrait, by today's standards it's actually quite small. And since it's located right opposite this *ginormous* painting, it seems even more diminutive by comparison.
 
-![](/content/images/2015/12/IMG_4133.jpg)
+![](/images/2015/12/IMG_4133.jpg)
 
 For perspective, here's the *giant* wall it's mounted on.
 
-![](/content/images/2015/12/IMG_4142.jpg)
+![](/images/2015/12/IMG_4142.jpg)
 
 I bought the English version of the [Understanding the Tragedy of the Cathars](http://www.cultura.com/comprendre-la-tragedie-des-cathares-gb-9782737362767.html). Seems fascinating. 
 
@@ -2638,21 +2638,21 @@ I saw Iglese Saint Gervais, but it's hard to get a good photo of it due to all t
 
 Stopped by Hotel de Ville.
 
-![](/content/images/2015/12/IMG_4182.JPG)
+![](/images/2015/12/IMG_4182.JPG)
 
 Came back to Notre Dame, heard the bells, but decided not to go inside. Line is still way too long, and I've done more than enough of churches for the time being, thank you very much.
 
 Stopped by Tour Saint-Jacques, which is a huge tower in a nice little park.
 
-![](/content/images/2015/12/73771302-42C4-4546-9599-5993D7CB56D5.jpg)
+![](/images/2015/12/73771302-42C4-4546-9599-5993D7CB56D5.jpg)
 
 Also saw the Center Pompidou, aka the Centre national d'art et de culture Georges-Pompidou, which is an art and culture center.
 
-![](/content/images/2015/12/IMG_4200-1.JPG)
+![](/images/2015/12/IMG_4200-1.JPG)
 
 Next to it was the famous Stravinsky fountain, but it unfortunately was not on. ```:'(```
 
-![](/content/images/2015/12/IMG_4205.JPG)
+![](/images/2015/12/IMG_4205.JPG)
 
 After that, came back and relaxed at the hostel. Tomorrow is Christmas, which unfortunately I think means that the Palace of Versailles will be closed. I think I'll go there regardless, since I've done most of everything else I wanted to do in Paris. That, or maybe check out the Fondation d'entreprise Louis Vuitton. Overall, more than ready to go back to London I think.
 
@@ -2664,7 +2664,7 @@ Stayed up super late talking with people. Two of the hostel people had guitars, 
 
 I don't really feel comfortable sharing them publicly, but you can imagine the kinds of things they involve if you've seen Breaking Bad.
 
-![](/content/images/2015/12/IMG_4211.JPG)
+![](/images/2015/12/IMG_4211.JPG)
 
 The man on the left is a hostel worker, and he had one of the guitars. Making our way rightwards, the guy next to him is a Canadian dude (I think his name was Mark or something?). The hang-loose gentleman to his right is Kaiden, and the right-most guy is our German subway-riding street performer. He does a *really* good Eminem's Lose Yourself though - all just with a guitar.
 
@@ -2678,17 +2678,17 @@ So I wandered about for a bit until I found a Muslim restaurant that was open an
 
 I forgot to take pictures of the omelette for some reason; but it was your standard omelette with a salad and fries (I don't know, it's weird for me too).
 
-![](/content/images/2015/12/91431894-2DCC-4EBA-B118-EEFE84C87DCC.jpg)
+![](/images/2015/12/91431894-2DCC-4EBA-B118-EEFE84C87DCC.jpg)
 
 Wandered around until I found the famous love-lock bridge.
 
-![](/content/images/2015/12/371EC77E-C0C9-48EA-97CF-6E8945544B57.jpg)
+![](/images/2015/12/371EC77E-C0C9-48EA-97CF-6E8945544B57.jpg)
 
 Kaiden was actually talking about it, and his crazy plan for proposing to his maybe-someday future wife would basically be to get that lock today, keep it engraved with the date for a decade (or however long it took), and when you're ready, fly out to Paris, put the lock on the bridge a couple days early (so you know where it is), and as the two of you are going on a walk, you bring out the key and she can unlock it or something.
 
 Anyways, I thought it was super cute and romantic.
 
-![](/content/images/2015/12/IMG_4221.JPG)
+![](/images/2015/12/IMG_4221.JPG)
 
 Unfortunately, as you can see from how many locks there are, there are concerns about [structural integrity of the bridge](http://www.bbc.co.uk/news/world-europe-32960470), so they removed large sections of locks on the bridge, as you can see here.
 
@@ -2700,7 +2700,7 @@ Come back to the hostel and do some work.
 
 Met a bunch of new people, and we all go out for Indian (really Sri Lankan, but whatever) food. It was pretty good actually!
 
-![](/content/images/2015/12/IMG_4232.jpg)
+![](/images/2015/12/IMG_4232.jpg)
 
 The crazy thing is the guy on the right-most side (Ryan) was actually a teacher at [Challenger middle school](http://www.challengerschool.com/), which was my middle school! He taught in the Las Vegas location, which is where he's from - but it was just crazy to meet someone who actually taught at Challenger.
 
@@ -2726,7 +2726,7 @@ The hostel is basically an enormous mansion (or frat house, depending on your pe
 
 All the rooms are super fancy, with fancy fireplaces and cool two-story rooms (super high ceilings all around) with beds that have these cool curtains around them for some modicum of privacy! And thank heavens, unlike the last one, the bedrooms are actually cool enough that I can sleep.
 
-![](/content/images/2015/12/E45F23EE-0994-44EC-A310-7C84D51D8FD3.jpg)
+![](/images/2015/12/E45F23EE-0994-44EC-A310-7C84D51D8FD3.jpg)
 
 Went to bed at... 7PM! Thank you, thank you. I'll collect my old person card at the door.
 
