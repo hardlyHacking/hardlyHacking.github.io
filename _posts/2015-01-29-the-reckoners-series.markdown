@@ -8,7 +8,7 @@ tags:
 - the-reckoners
 ---
 
-####The Reckoners Series
+#### The Reckoners Series
 
 Having just finished the first two books and the short story of [The Reckoners](https://www.goodreads.com/series/93010-reckoners) series, I felt compelled to write a blog post. At the time of this writing, the third book, Calamity, has not yet been released.
 
@@ -18,7 +18,7 @@ And it was totally worth it. Of course, being a YA novel has its penalties; cert
 
 As with any fantasy series, when I get thoroughly engrossed in the universe, I want to start picking things apart. I read all three books in just under a week, so the following points are by no means insults or claims that this is a bad series. It's a great series, and Brandon Sanderson will always be one of my favorite authors. These are just some thoughts I can't get out of my head.
 
-####David Needs a Nerf
+#### David Needs a Nerf
 
 David is right a little too much. He makes thoroughly groundbreaking discoveries back to back with little to no effort. Of *course*, he's been researching this for 10 years, yadda yadda insert nerd joke. But seriously. The fact that weaknesses are tied to fears.
 
@@ -32,7 +32,7 @@ I guess my problem is that, although he spent a lot of text on it, I'm not compe
 
 Contrast this with the approach that was taken in the first book with respect to Steelheart's weakness. There were five dominant theories, and *none* of them were correct. It's only in the very end that they find out by accident. Here, on the other hand, within four chapters the main character has somehow solved the mystery. That seems a little... weak sauce.
 
-####Megan... Wat
+#### Megan... Wat
 
 Seriously.
 
@@ -46,7 +46,7 @@ Also, she's 20 right now. And apparently Steelheart recruited her fairly early o
 
 But, she's the main character's love interest. So... there-ya-go.
 
-####Obliteration
+#### Obliteration
 
 Is Obliteration dead or not?
 
@@ -58,15 +58,15 @@ This is the scene right as he is killing Regalia. Only, it has been very clearly
 
 Has Sanderson just made an oopsie here? Not sure. The only other option is Obliteration, who very clearly teleported away.
 
-####Calamity
+#### Calamity
 
 The fact that Calamity was an EPIC was awesome, if perhaps a little predictable. Maybe that's just the way my brain works, but I figured that's where this was going. One thing I was *terrified* about was the whole David becoming an EPIC. There could not have been a single thing that could have ruined the series more than this happening. Remember Eragon and what a clusterfuck that was? Thank. The. Heavens.
 
-####If This Weren't YA
+#### If This Weren't YA
 
 This is one of the reasons I wish it weren't a young adult novel. There is so much awesome, super dark, gritty material here. Experimentation on EPICs by the government? People killing EPICs and defiling their corpses like vultures? The remorse EPICs must have felt when they returned back to normal. Think Lews Therin in Wheel of Time when he kills everyone he loves. All of these are, of course, not acceptable for a children's novel. And Sanderson skirts away from these issues by having David, a rather naive character, as his point of view. I understand the decision. I just wish it could be another way. I think in many ways GRRM has spoiled me; I've fallen in love with dark material and can't go back. ```:)```
 
-####Update 2016
+#### Update 2016
 
 Update: October 2016 - just finished reading Calamity
 

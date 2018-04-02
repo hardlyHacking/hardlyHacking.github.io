@@ -180,7 +180,7 @@ Also, I finally noticed that all cars seem to have white license plates in the f
 
 I did a *lot* today, so I'll put them as heading 3's, so you can easily navigate through. In general, I used [Trip Advisor's list](http://www.tripadvisor.co.uk/Attractions-g186338-Activities-London_England.html) of top things to do in London as a guide, and sorted by distance and ranking.
 
-###London Bridge
+### London Bridge
 
 London Bridge was pretty cool. I stumbled upon it mostly by accident; my stop to Westminster Abbey took me right past it, so I just got off a stop early and walked around. Also, I thought I was particularly witty with this tweet:
 
@@ -195,13 +195,13 @@ The view of the Eye, Big Ben, and the rest of the city is just gorgeous.
 
 ![](/content/images/2015/11/2015-11-30-09-37-46.jpg)
 
-###Big Ben
+### Big Ben
 
 Big Ben was cool. I'm not quite so cynical as my idol [Ron Swanson](https://www.youtube.com/watch?v=MYgCVszCKaQ) is about it, but it didn't wow me as much as most of the other things in London. It's a pretty cool building with great architecture, but beyond that it wasn't so awe-inspiring or iconic as I thought it would be.
 
 ![](/content/images/2015/11/2015-11-30-09-41-50.jpg)
 
-###Westminster Abbey
+### Westminster Abbey
 
 This building was super cool. Cooler than Big Ben, but more or less a slightly more awesome version of it. The architecture is very similar. Unfortunately, it's closed on Sundays for tourism (but open for worship), and I didn't feel like praying, considering everything I had planned for today.
 
@@ -212,13 +212,13 @@ Oh, and I thought this war rather hilarious:
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Not even Westminster Abbey is free from rubbish on the lawns 😂 <a href="https://t.co/efPFh7anbc">pic.twitter.com/efPFh7anbc</a></p>&mdash; Chander Ramesh (@chander) <a href="https://twitter.com/chander/status/671263856975609856">November 30, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-###Houses of Parliament
+### Houses of Parliament
 
 Next to all this was Parliament Square, which had some neat statues of rather famous (and some not so famous, at least to me) individuals. The view was pretty nice, and the lawn lived up to what I had been told about British lawns.
 
 ![](/content/images/2015/11/2015-11-30-10-02-41.jpg)
 
-###Breakfast
+### Breakfast
 
 **842AM:** Waiting for the bus to go get breakfast. It's been a productive ~2 hours to say the least. All of the above are right next to each other, by the way; don't think I'm some sort of miracle worker here.
 
@@ -240,7 +240,7 @@ I know what you're thinking - you flew all the way around the world just to take
 
 I sit and plan out the rest of my destinations today.
 
-###National Gallery
+### National Gallery
 
 Trip Advisor, by the way, is totally misleading. It gives the impression for some reason that you have to pay for most of these (probably because that's how they make their money), but most of these are totally free and donation based. £5 donation is all they ask, so I have no idea where this £92 figure came from.
 
@@ -256,7 +256,7 @@ I didn't end up taking too many pictures because it wasn't very clearly demarcat
 
 I bought [Secret London](http://www.amazon.co.uk/Secret-London-Unusual-Jonglez-Guides/dp/2915807280) at the gift shop; it sounds promising! For those who don't know, every place I visit, rather than buying a standard touristy item, I prefer to buy something to add to my book collection.
 
-###British Museum
+### British Museum
 
 The British Museum was *amazing*. I took about 150 pictures or more here alone, and it's far too numerous to go through and upload each and every picture here. So I'm just uploading a select few that really amazed me.
 
@@ -308,7 +308,7 @@ The bookstore there was fascinating. There were numerous books mirroring my thou
 
 In the end, I bought neither of these, though they seemed very interesting.
 
-###St. Paul's Cathedral
+### St. Paul's Cathedral
 
 Saint Paul's Cathedral was super impressive. Here are a couple views from the outside.
 
@@ -322,7 +322,7 @@ The top picture is a view from the back, with an awesome lawn and water fountain
 
 ![](/content/images/2015/11/2015-11-30-11-45-19.jpg)
 
-###Millennium Bridge
+### Millennium Bridge
 
 Technically, I was supposed to head back to London Tower to take a tour, but as I was walking, a group of tourists ask this lady in front of me where Millennium Bridge was, and she replied that it was just a minute's walk "that way". I decide I have nowhere better to be and follow them.
 
@@ -338,7 +338,7 @@ So as I'm walking back (continuously trying to start my phone, by the way, to no
 
 I have about ~10 seconds from when I start my phone to when it crashes, and the most likely culprit is the corrupted photo I recently took. If I manage to delete it in time before the phone crashes, it should be fine. After seven restarts, I managed to do it, and I was proven right. Deciding not to temp fate anymore, I turn back to the hostel so I can charge my phone (now at 10%).
 
-###Box Park
+### Box Park
 
 **144PM** Back on the bus to the hostel.
 
@@ -358,11 +358,11 @@ Much like the Mission, Shoreditch also has its urban grit that it stands proudly
 
 ![](/content/images/2015/11/2015-11-30-13-39-33.jpg)
 
-###Hostel
+### Hostel
 
 **330PM**: Walk back to the hostel, so I can charge my phone. At the same time, get the *real* WiFi password (because the one they gave me yesterday didn't work, and I've been using data the whole time). I decide to use this time to write yesterday's Day 1 blog post and outline most of today's as well. It's a lot of time to go through everything. Took about ~370 pictures, and I'm not even a picture taking guy to be honest. I suspect that, given how long it's taking to charge my phone and upload everything, I'll only be leaving around 5.
 
-###Walking Around Town
+### Walking Around Town
 
 I decide to leave a little early and head out to London Tower.
 
@@ -382,7 +382,7 @@ The [Saint Mary'x Axe](https://en.wikipedia.org/wiki/St_Mary_Axe), apparently th
 
 On the right, the sloping building is City Hall, and on the left is Europe's tallest building (supposedly, according to what some people told me). Believe what you will ```:)```
 
-###Tower of London
+### Tower of London
 
 I arrived too late to go inside the Tower of London, but the outside was marvelous. Perhaps next time!
 
@@ -398,7 +398,7 @@ I was curious as to what is below the tower - a large expanse of lawn, that now 
 
 There's also a plaza right next to the London Tower with great statues and a wonderful set of trees and lawn.
 
-###Tower of London Bridge
+### Tower of London Bridge
 
 The Tower of London bridge was fantastic. I took a tour which took me inside where I could see the engine room, the second level pillars (with a glass ceiling looking down on the 140-foot drop), and a complete guided history tour of the bridge.
 
@@ -414,7 +414,7 @@ The second floor views
 
 Inside the engine room
 
-###Back to the Hostel
+### Back to the Hostel
 
 It was *pouring* the entire walk back, so I didn't take any detours, preferring instead to just get inside as quick as possible.
 
@@ -472,7 +472,7 @@ Apparently today is just a classic English food kind of day; after the tradition
 
 I leave work at around 2, and I decide I'll come back later, since the museums are only open during the day. Besides, I'd rather come back and work at night once the venues during the day are closed. The added benefit of this is that I'm also more in line with HQ time.
 
-###Oxford Street
+### Oxford Street
 
 Oxford Street and Piccadilly Circle are *super* cool. The streets are well decorated and they have buildings with amazing architectures on all sides. The Twitter London office is in a remarkable location, and it's also super easy to access and very central to London.
 
@@ -488,7 +488,7 @@ Some images of the street decorations. Oxford Street changes decorations frequen
 
 Lots of images of Regent street as I was walking to Buckingham Palace. These were pictures of the Ritz Carlton hotel.
 
-###Buckingham Palace
+### Buckingham Palace
 
 Buckingham Palace was super cool, but my favorite part had to be this:
 
@@ -501,13 +501,13 @@ Green Park (a huge lead up into Buckingham Palace) was meh, to be honest. Wasn't
 
 ![](/content/images/2015/11/2015-11-30-22-27-42.jpg)
 
-###Saint James Park
+### Saint James Park
 
 Saint James park is right next to Buckingham Palace, and it's absolutely gorgeous. Lots of geese and other birds, and from the top of the bridge, you can see the tower in Buckingham Palace.
 
 ![](/content/images/2015/11/2015-11-30-22-29-13.jpg)
 
-###Natural History Museum
+### Natural History Museum
 
 All these museums are so gorgeous - and impressively, free.
 
@@ -527,7 +527,7 @@ The vault is a collection of super rare gems and minerals. The glass is set up i
 
 ![](/content/images/2015/11/2015-11-30-22-32-13.jpg)
 
-###Victoria and Albert Museum
+### Victoria and Albert Museum
 
 It was raining rather heavily, so I didn't bother to stand outside and take pictures of the impressive museum; instead, I just ran inside. But you don't need my shoddy pictures at any rate - not when you have [professionals](https://www.google.co.uk/search?q=victoria+and+albert+museum&espv=2&biw=1916&bih=1105&site=webhp&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwjVlc7zmrnJAhWHmw4KHfXDCLcQ_AUIBygC).
 
@@ -561,11 +561,11 @@ Medieval tapestry room - this was actually in a sealed room with a special light
 
 ![](/content/images/2015/11/2015-11-30-22-45-46.jpg)
 
-###London Eye
+### London Eye
 
 I came back to work for ~2 hours, and then decided to head out to the London Eye before it closed. Again, the twoffice in London is beautifully located. Just next to the Underground, so it's only 10 minutes away from the Eye!
 
-###... Just Kidding
+### ... Just Kidding
 
 Nope. I just woke up to the security guard patting me on the shoulder. I had passed out on the desk for half an hour. It's time to go back. This jet lag is brutal.
 
@@ -718,7 +718,7 @@ And I'm glad I did - I saw some pretty cool sites today!
 
 This is all one giant building with the label "PROGRESS" at the top. The bottom left is actually the Shoreditch town hall, but on the right, I was delighted to see, is [the Clove Club](http://thecloveclub.com/) - [the Michelin Star restaurant](http://www.timeout.com/london/restaurants/clove-club) in which Patrick from Denmark works! It only has 2 £'s on Timeout, so maybe if I can book a lunch table for when I come back, Daniel and I can eat there. It'll certainly be interesting, eating at a Michelin Star restaurant.
 
-###Borough Market
+### Borough Market
 
 Oliver unfortunately got too busy to go to Borough Market today, but I decided I might as well go myself. The commute was super easy - probably because I'm just getting used to the Tube system - I didn't end up needing maps at all.
 
@@ -740,7 +740,7 @@ I was so engrossed I kind of forgot to take pictures once I entered. It was a su
 
 After that, I came back and did some work at the office. I'm mostly done with my major reviews, so I think it's time for a change of scenery. The British library is open, and it's a must-see place apparently, so why not? Luckily, I remember to print my boarding pass to Madrid at the Twoffice before leaving, since I'm probably not going to be back tomorrow (10AM checkout of the hostel and then straight to the airport). I'm not sure why non-EU members must print the boarding pass, but whatever.
 
-###The British Library
+### The British Library
 
 The British Library is *enormous*. The trip there was actually pretty cool. I got to see King's Cross station as well as an international train station (Euston). It was very similar an airport but had different feel at the same time.
 
@@ -766,7 +766,7 @@ They also had another showroom of super rare books that belong to the library - 
 
 One thing that was rather odd is that, although they have books as recent as 2014, JK Rowling wasn't featured in the library at all! Maybe they asked her and she declined? But you'd think she'd be one of the most prominently featured considering...
 
-###Shakespeare Globe Theater
+### Shakespeare Globe Theater
 
 I decide to go back to my hostel because from what I remember there's not any space to actually store backpacks and such in these theaters. Might as well pack while I'm at it, too, since I have a bit of time. After having dinner at the same pizza place (it's quite good - I later yelp them and discover they're the #1 delivery/take-out place in Shoreditch), I pack my bag. One good thing about traveling light is that it takes literally 10 minutes. I pack everything except for the shower essentials for tomorrow morning, leave my backpack in the trunk and lock it.
 
@@ -788,7 +788,7 @@ The play itself was reasonable, as far as Shakespearean comedies go. [Cymbeline]
 
 It was an absolutely phenomenal production, and barring very minor issues, it was a great experience. I would recommend anyone who visits London to do it at least once. I'll be coming back myself for a tragedy, which is more my cup of tea when it comes to Shakespeare. I think most of his comedies have aged poorly (how many deus ex machina can one man have, by Jupiter!), but there is something to be said for the legend that influenced literature for so long and to such a great degree.
 
-###Sir Francis Drake Museum
+### Sir Francis Drake Museum
 
 On the way back, I found this cool museum.
 
@@ -953,7 +953,7 @@ I get ready and leave the room at about 11:15. I meet the girl who's staying in 
 
 I decide I'll start with the East side today and just walk around everywhere. I did so many museums in London that I can't be asked to do many more today. Besides, after all the rain, it's incredible to see a clear sky and warm weather - it's 65 degrees! I want to wear shorts, but that's such an American thing (big no no in Europe), so I decide not to take any jackets with me.
 
-###Congreso de los Diputados
+### Congreso de los Diputados
 
 I saw this at night last night as I was looking for Barclays, but at that point I was so intent on just getting cash and going to bed that I didn't really pay attention. It is the [lower house of the legislative](https://en.wikipedia.org/wiki/Congress_of_Deputies_%28Spain%29) in Spain.
 
@@ -963,13 +963,13 @@ There is also this neat statue right next to the building.
 
 ![](/content/images/2015/12/2015-12-05-18-23-16.jpg)
 
-###Fuente de Neptuno
+### Fuente de Neptuno
 
 Was also something I saw last night on the way to the bank, but at the time I had no idea what it was. The night photos generally came out rather poorly, so whenever I can I'll prefer the day time photos.
 
 ![](/content/images/2015/12/2015-12-05-18-28-51-1.jpg)
 
-###Museo del Prado
+### Museo del Prado
 
 Is the number one thing to do on Trip Advisor, and it's supposedly a phenomenal museum.
 
@@ -983,25 +983,25 @@ And a side view.
 
 ![](/content/images/2015/12/2015-12-05-21-01-17.jpg)
 
-###Real Academia Española
+### Real Academia Española
 
 The official [government entity responsible for the Spanish language](https://en.wikipedia.org/wiki/Real_Academia_Espa%C3%B1ola). The libertarian in me cringes, but then again we have words like "fleek" so maybe they're onto something.
 
 ![](/content/images/2015/12/2015-12-05-21-02-22.jpg)
 
-###San Jeronimo el Real
+### San Jeronimo el Real
 
 A very [famous church](https://en.wikipedia.org/wiki/San_Jer%C3%B3nimo_el_Real) also right next to RAE and the Prado museum.
 
 ![](/content/images/2015/12/2015-12-05-21-01-57.jpg)
 
-###Cason del Buen Retiro
+### Cason del Buen Retiro
 
 An annexed building that's now part of the Prado museum. Didn't do any of the Prado museum today, so you'll see pictures of the insides later (if they allow photographs).
 
 ![](/content/images/2015/12/2015-12-05-21-02-59.jpg)
 
-###Retiro Park
+### Retiro Park
 
 Retiro park is enormous and has a lot of things to see. I didn't take pictures of everything - only the most memorable things. It's extremely bike and dog friendly, and they have numerous bike paths right next to the stairs. I also saw many people rollerblading on some of the larger roads that intersect the park.
 
@@ -1043,13 +1043,13 @@ Another view of the same glass building but from father away. It's next to a coo
 
 There's a large set of tennis courts in the middle of the park, but sadly they were hard courts. So disappointing. I wanted to see some of that famed Spanish red clay. And weirdly enough, there was an English team practicing, with the coach yelling (quite distinctly) "bend the knees!"
 
-###Ministerio de Agricultura
+### Ministerio de Agricultura
 
 A very cool building. They apparently had some tours, but I couldn't really decipher the signs well enough with my broken Spanish well enough to really figure out what was going on, and I wasn't brave enough to confront the guards who had guns visibly poised. I decided that pictures were quite enough (don't want an incident due to translation issues, after all!).
 
 ![](/content/images/2015/12/2015-12-05-21-37-12.jpg)
 
-###Lunch
+### Lunch
 
 Lunch was pretty interesting. I had lunch at a very authentic place - I intentionally chose something where the waitors wouldn't speak English, and it didn't look too big or modern, and *definitely* not a chain like KFC or Starbucks. I wanted an authentic experience for what a real lunch at Madrid would be like.
 
@@ -1075,7 +1075,7 @@ Oh well. Still, not a bad way to spend lunch.
 
 Oh, and Duolingo says I'm 25% fluent in Spanish. That counts for something, right?
 
-###Museo Nacional de Anthropologia
+### Museo Nacional de Anthropologia
 
 Was not that great to be honest. But the outside is certainly cool. The value of museums is greatly diminished if you're Spanish isn't up to snuff, I find. Some museums are kind enough to put some English on the bottom, but a lot don't. And museums are, by their very nature, dealing with very technical stuff. This isn't Dora the Explorer. So if you're going to go in, be sure you have a dictionary handy. I paid $10 for an app, but even then, it was quite difficult.
 
@@ -1083,19 +1083,19 @@ Here's a picture of the outside, at any rate.
 
 ![](/content/images/2015/12/2015-12-05-12-56-49.jpg)
 
-###Real Jardin Botanico
+### Real Jardin Botanico
 
 I think there's a reason this isn't even on Trip Advisor's top 20 things to do, despite being so close to Prado Museum and Retiro Park. I really didn't like this as much, and left in like 20 minutes. If you've seen any other botanical garden, you've seen better.
 
 ![](/content/images/2015/12/2015-12-05-13-50-56.jpg)
 
-###Puerta de Alcalá
+### Puerta de Alcalá
 
 This arch, which I had no idea what it was yesterday night, turns out to be gorgeous during the daytime!
 
 ![](/content/images/2015/12/2015-12-05-14-21-41.jpg)
 
-###Plaza de Cibeles
+### Plaza de Cibeles
 
 Super cool plaza with *tons* of important buildings right there.
 
@@ -1111,13 +1111,13 @@ The palace is seriously gorgeous though.
 
 ![](/content/images/2015/12/2015-12-05-21-21-58.jpg)
 
-###Biblioteca Nactional de España
+### Biblioteca Nactional de España
 
 Super impressive national library. For some reason Google labels this the National Archeological Museum. Very confusing. Here, too, guards with guns. I think I'll come back later when I work up the courage (seriously, why all the guns guys!?).
 
 ![](/content/images/2015/12/2015-12-05-14-36-30.jpg)
 
-###The Incident
+### The Incident
 
 AKA Fernán Gómez Centro Cultural de la Villa
 
@@ -1168,25 +1168,25 @@ Lessons learned
 
 By the way, there's an excellent [National Geographic video](https://www.youtube.com/watch?v=mUHAQnyVveg) about one of the most famous pickpockets in Italy.
 
-###Plaza de Colón
+### Plaza de Colón
 
 Nothing super special, but it has cool buildings (and a Barclays, yay) along with a fountain and some statues.
 
 ![](/content/images/2015/12/2015-12-05-21-20-14.jpg)
 
-###Museo de Sarolla
+### Museo de Sarolla
 
 Was a let down. This should not have been as high on Trip Advisor as it was, personally.
 
 ![](/content/images/2015/12/2015-12-05-21-19-24.jpg)
 
-###Thyssen-Bornemisza Museum
+### Thyssen-Bornemisza Museum
 
 Enormous art museum, but I didn't realize (I should have) that modern-ish art would play such a huge role. An entire floor dedicated to Picasso and Cubism; a large room for surrealist work, including Salvador Dali, and a ground floor that can only be described as modern art. I can see how many people would like it, but it just wasn't my cup of tea.
 
 ![](/content/images/2015/12/2015-12-05-21-18-50.jpg)
 
-###Pub Crawl
+### Pub Crawl
 
 After everything, I came back to my room and just digested everything for about an hour. All in all, the pick pocketing could have been *much* worse. But I do want to take it easy for a night and not go crazy far. I decide to just go to a restaurant right next to the hostel because I don't want to exercise my broken Spanish any further today. I stop by an Indian place - the guy has been in Spain for 16 years. He speaks to me in Hindi at first, but I explain I don't know Hindi, and that I'm from Tamil Nadu. The meal is fine, and I go back to the hostel.
 
@@ -1204,7 +1204,7 @@ All in all it was a pretty fun crawl! I went home early at 4:30 (reached home at
 
 Today's theme is recovery. I was out way too late last night, and, as I discovered partway through the day, I got [Gandhi's Curse](http://www.phrases.org.uk/meanings/montezumas-revenge.html) from the Indian food last night. So midway through the day I just call it quits and go to bed early.
 
-###El Rastro
+### El Rastro
 
 Woke up at around 10 to El Rastro by 11, which is this huge open air flea market every Sunday. El Rastro is absolutely filled with pickpockets though becuase it's *packed* with people, and that's the perfect environment for them, so I didn't take too many pictures there. The walk there was super cool - saw a lot of urban art.
 
@@ -1216,7 +1216,7 @@ And as I'm walking back, I run into a protest. Must have been around thirty prot
 
 ![](/content/images/2015/12/2015-12-07-14-49-31.jpg)
 
-###Puerta del Sol
+### Puerta del Sol
 
 Since it was on the way, I took another tour through the famous Puerta del Sol - this time during the day.
 
@@ -1232,7 +1232,7 @@ And, in what seems to be a day filled with protests, a communist protest. On the
 
 ![](/content/images/2015/12/2015-12-06-13-12-07.jpg)
 
-###Plaza Mayor
+### Plaza Mayor
 
 This is probably the most famous plaza in Madrid, and while [on Google](https://www.google.es/search?q=plaza+mayor&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjJ5LOy88nJAhWHOhQKHUZtC24Q_AUICCgC&biw=1916&bih=1098#imgrc=GmjqDjuMiT9D1M%3A) you may find images of this grand, empty courtyard, it's basically never like that. It's packed with semi-permanent pop-up shops and crowded with people in costumes and various street performers.
 
@@ -1242,7 +1242,7 @@ Around this time, I realize that Gandhi's Curse has hit me, so I run back to the
 
 ![](/content/images/2015/12/2015-12-07-14-58-39.jpg)
 
-###Mercado de San Miguel
+### Mercado de San Miguel
 
 Plaza Mayor is at one of the hearts of Madrid; tons of shopping and small restaurants everywhere, but a particularly famous mercado is Mercado de San Miguel.
 
@@ -1252,7 +1252,7 @@ It's a combination of farmers markets, restaurants, and souveneir shops - and it
 
 But if you have an hour or two to spare, I highly recommend it. The shops all have various treats you can buy for one or two Euros each, and you can just shop around and eat goodies.
 
-###Chocolatería San Ginés
+### Chocolatería San Ginés
 
 If you've been to Madrid, you know they take their churros with chocolate seriously. All along Puerto del Sol (and most of Madrid for that matter), are various chocolaterías offering the same. But how to choose which one?
 
@@ -1266,7 +1266,7 @@ If you have a hard time finding it, don't be ashamed. It's tucked away inconspic
 
 Good luck finding a table though! ```:)```
 
-###Catedral de la Almudena
+### Catedral de la Almudena
 
 A very cool cathedral quite close to the royal palace.
 
@@ -1290,7 +1290,7 @@ I promptly pass out once I get home.
 
 Oh *man* did I need that day off yesterday. Woke up feeling fantastic, and I slept like a log for a good thirteen hours. Evidently I should have checked the weather before starting out because today was quite chilly. It was the first cloudy day since I came to Madrid, and since I left early in the morning, it was quite nippy. Must have been low 40's, though by the end of the day it warmed up to high 50s.
 
-###Palacio Real de Madrid
+### Palacio Real de Madrid
 
 If you haven't bought tickets, I recommend getting there *early*. The line is fairly long, and I was fortunate enough to get there early enough that I only had to wait for 20 minutes. Unfortunately, it was really cold, and I was rather underdressed.
 
@@ -1322,7 +1322,7 @@ Some of the rooms I saw (where you may or may not have been allowed to take pict
 
 ![](/content/images/2015/12/2015-12-07-22-36-41.jpg)
 
-###Parque Mardid Río
+### Parque Mardid Río
 
 The Parque Madrid Río is a super long park that borders both banks of the river that intersects Madrid. It's absolutely gorgeous and is a dream for bikers (much like the rest of the city, actually). There are many bridges that pedestrians and byciclists can take to cross from one side to the other.
 
@@ -1346,7 +1346,7 @@ The maze gardens that border both sides of the river.
 
 Views of both sides of the river.
 
-###Lunch
+### Lunch
 
 Very close by is the Real Basilica de San Francisco, but it was closed!
 
@@ -1368,7 +1368,7 @@ My phone is having some more problems - keeps saying "PDP authentication failure
 
 I stayed for a couple hours in the hostel common room writing my blog and talking to people. It was cool meeting some of the others and exchanging awesome tourist details about Madrid. Met another Australian named Alfred, and he seems like a cool guy. We're planning to get dinner together.
 
-###The Paella Fiasco
+### The Paella Fiasco
 
 
 Alfred suggests we get paella, and I think that's a good idea; a good traditional Spanish dinner is just what I'm thinking about. We have plenty of time, and I have nothing better to do, so we go around the various sights and I show him the places he should visit quickly. I take him through Retiro Park, the Alcalá arch, and city hall.
@@ -1413,7 +1413,7 @@ Had a fairly late start today; woke up at around 10:30 and tried to fix my phone
 
 I actually saw Alfred sitting at the lounge on the fourth floor, and he was having a rough morning, too. He actually stayed up much later than I did, and he had signed up for a walking tour and was contemplating not attending. I end up persuading him to go, and Theo walks Alfred and several other people to the walking tour.
 
-###Temple of Dabod
+### Temple of Dabod
 
 On the way I saw some pretty nifty buildings.
 
@@ -1445,7 +1445,7 @@ And the view inside
 
 ![](/content/images/2015/12/2015-12-08-16-56-34.jpg)
 
-###Lunch
+### Lunch
 
 For those who don't know, [Cocido](https://www.google.es/search?q=madrid+cocido&ie=utf-8&oe=utf-8&gws_rd=cr&ei=XQJnVsW9AYPrec3mvfAP) is a famous, traditional food in Madrid. It's a chickpea stew, and while the various ingredients may vary from restaurant to restaurant, [La Bola Taberna](http://www.timeout.com/madrid/restaurants-and-cafes/la-bola-taberna) holds the distinguished title of being the home of cocido. It's a super historic and famous restaurant, and if you're looking for traditional Madrid-style food, this is where you need to go.
 
@@ -1473,7 +1473,7 @@ And the Plaza de España
 
 ![](/content/images/2015/12/2015-12-08-13-20-06.jpg)
 
-###Planning
+### Planning
 
 Back to the hostel, where I meet Alfred after a while. My phone's been having problems still - the same PDP error, and some people suggest to completely factory reset the phone (after backing it up), and restoring it. This is actually what to do in order to unlock the iPhone per T-Mobile's own instructions, and I'd been holding off on doing it for later, but now is as good a time as any.
 
@@ -1488,7 +1488,7 @@ We start planning what to do for dinner and when to go to the game. I finally ca
 
 I also use this time to catch up on the blogging.
 
-###Dinner
+### Dinner
 
 Dinner was quite good - we went to [Rosi La Loca](http://www.tripadvisor.com/Restaurant_Review-g187514-d7204621-Reviews-Rosi_La_Loca-Madrid.html) that was recommended to Alfred by his walking tour guide, and it was phenomenal. The waiter was an Indian guy who grew up in London, and he was very friendly.
 
@@ -1498,7 +1498,7 @@ At the end, Alfred's card didn't work for some reason as we split the bill, so I
 
 ![](/content/images/2015/12/2015-12-10-14-02-34.jpg)
 
-###Fútbol
+### Fútbol
 
 After this, we split up. Alfred didn't want to see the football game since he'd signed up to see one in London anyways, and Oscar and Sebastian already had tickets. Vida and I wanted to go just to get pictures of the stadium and really see if we could get tickets. I told myself if there were tickets for under 50 euros, I'd do it (that's how much cash I had), and if not oh well.
 
@@ -1516,7 +1516,7 @@ When I walked in it was 2-0, and I was super sad that I'd missed (what I thought
 
 Awesome time, highly recommend if only once and never again.
 
-###Gran Vía
+### Gran Vía
 
 On the way back I decide to get off a couple stops early and just walk back along the Gran Via. It's on my todo list anyways, and since I'm not going to do any actual shopping, I may as well cross one thing off the list for tomorrow or Thursday.
 
@@ -1808,7 +1808,7 @@ Woke up at 8AM to leave by 8:30 and be at Sagrada by 9. I met these two cool Bra
 
 That's why I travel alone. That's exactly why.
 
-###Sagrada Família
+### Sagrada Família
 
 If there is only *one* thing you can do in Barcelona, this should absolutely be it. It is, without a doubt, the best Barcelona has to offer. And do yourself a favor, and take the audio guide. This is a solitary experience that encourages contemplation, so do yourself and everyone there a favor - shut your mouth, put your phone away, and just *be there*. It's amazing.
 
@@ -1850,7 +1850,7 @@ On the back side, we have what will be the main entrance (upon completion). This
 
 ![](/content/images/2015/12/3B4B18DE-AF19-48E6-911B-B1652D700A14.jpg)
 
-###Park Güell
+### Park Güell
 
 Definitely do not pay to go inside; the views alone are not worth it. But if you're super into architecture, *then* it's worth it. You get better views from above the park or even at Bunker del Carmel, which has 360 views of the city. Totally Awesome.
 
@@ -1866,7 +1866,7 @@ Other views.
 
 ![](/content/images/2015/12/D17CE021-B797-4D8D-A66A-67FA7519EFA1.jpg)
 
-###Ciutadella Park
+### Ciutadella Park
 
 Arc de Triumph
 
@@ -1884,17 +1884,17 @@ Castell dels Tres Dragons
 
 ![](/content/images/2015/12/A1B9E681-F100-4F17-A6F3-B7590F272926-1.jpg)
 
-###Lunch
+### Lunch
 
 Met back up with Ben at the hostel and we went out to [El Xampanyet](http://www.tripadvisor.com/Restaurant_Review-g187497-d697571-Reviews-El_Xampanyet-Barcelona_Catalonia.html), which was a *super* traditional tapas place. Very authentic, and extremely good. Highly recommend if you're in the area. Spaniards are extremely fond of their bread and tomato sauce.
 
 ![](/content/images/2015/12/IMG_2752.JPG)
 
-###Picasso Museum
+### Picasso Museum
 
 The Picasso Museum was *much* better than most of the art museums in Madrid that focused on modern art, in my opinion. I think most art, but modern art in particular, is heavily context dependent. If I walk into a room, and all I see is just a black square in the middle of the room, it's very difficult for me to appreciate what I'm looking at. But the Picasso Museum was actually super cool - they organize it in chronological order, and you go through Picasso's life. You can step through his various masterpieces in order and watch his transition to Cubism unfold. Very cool experience, but not worth 11 Euros in my opinion, so if you can get a student discount (free), then do it. Otherwise, feel free to skip. Unfortunately, you're not allowed to take pictures in there, but [Las Meridas](https://en.wikipedia.org/wiki/Las_Meninas_%28Picasso%29) is super cool. You also get to see how, for many of his masterpieces, he prepares many times with each specific part.
 
-###Walk to the Harbor
+### Walk to the Harbor
 
 Mirador de Colom - a tribute to Christopher Columbus
 
@@ -1916,7 +1916,7 @@ All in all, it was an awesome day hanging out with Ben. Super cool dude and will
 
 We decide to make plans for tomorrow as well; we saw some cool stuff from the harbor and we didn't know what it was - based on rough maps guesstimation, we think it's near the National Museum of Art of Catalan, so we'll do that and just explore the gardens around it.
 
-###Bye Kush
+### Bye Kush
 
 Ended up walking about 16 miles, so I'm quite happy.
 
@@ -2054,7 +2054,7 @@ Turns out he was in way worse shape - he was quite hungover and, when I saw him,
 
 We set off for what will by far be one of the best days in Barcelona.
 
-###All the Gaudi
+### All the Gaudi
 
 The walking tour was not as good as the other one. Me, Ben, Edin, and many others from the hostel go to the Gaudi walking tour, which meets in the same large plaza as the other one. This one was not as good, though. The group was *insanely* big, so you could barely hear the guide. And she made really awkward comments asking for money - "Hey guys, this is my only source of income, so if you could please tip me, etc." The other guide was just much classier - a simple "Give as much as you think it's worth; if it wasn't worth anything, that's fine, too." But this went on for like 10 minutes. So awkward.
 
@@ -2120,7 +2120,7 @@ Interesting tidbit - when the Olympics came to Barcelona in 1992, they made many
 
 ![](/content/images/2015/12/thumb_A902BDE3-DA3A-49C1-8108-569B34F77D18_1024.jpg)
 
-###Labyrinth Gardens
+### Labyrinth Gardens
 
 Edin, Ben and I had been doing the Gaudi tour together, as well as Casa Batlló, but we split up for lunch; Edin and Ben head off for McDonalds and I decide to do La Pedrera. We wanted to do the maze gardens and then hike up the mountain to Tibidabo in time for sunset, so we were a little short on time - Google tells us it's going to be roughly a 2 hour hike. So on the way back I grab a 2 euro pizza from the super market, microwave and eat it super quickly. We meet up with Spencer at the hostel, and he's going to join us for the maze gardens and the hike to Tibidabo. Spencer, Ben and I are all leaving tomorrow morning, and honestly these two were super cool dudes, and I couldn't have asked for a better group. So many people at the hostel just wanted to get drunk and do nothing, so it's refreshing to find people who are actually willing to do things in the city and go sightseeing.
 
@@ -2134,7 +2134,7 @@ We started out mostly making fun of stupid Instagram culture and everything wron
 
 ![](/content/images/2015/12/thumb_F53ADD32-9FB7-4078-9061-EDE683C9916F_1024.jpg)
 
-###Hike to Tibidabo
+### Hike to Tibidabo
 
 We basically have an hour and a half until sunset at this point, and Google says it's a 2 hour walk from the maze gardens to Tibidabo. So we're going to have to book it. First we decide on the route - we can either walk all the way down, follow the road west, and eventually climb the mountain; or, we can climb the mountain, and just walk west on the mountain itself. We decide for the latter since it's more scenic.
 
@@ -2168,7 +2168,7 @@ We take this sketchy bus back and take a ferry down!
 
 This was absolutely the best day; we bonded a ton on the hike, and it was something I really needed given how much I've been eating here.
 
-###Aftermath
+### Aftermath
 
 We ended the day on 17 miles and 122 flights of stairs climbed (per the iPhone). I shower, blog a lot, and have some free pasta per the hostel. All in all, can't say I have any regrets for Barcelona. Over 3 days I've walked more than 50 miles.
 

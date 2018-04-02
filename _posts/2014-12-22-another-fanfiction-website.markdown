@@ -6,13 +6,13 @@ tags:
 - fanfiction
 ---
 
-###A Saturated Market?
+### A Saturated Market?
 
 I've been a reader of fanfiction for quite some time, and over the years plenty of websites have emerged. Of course, the most common ones mentioned are [AO3](https://archiveofourown.org/) and [FF.net](https://www.fanfiction.net/). Still, there are plenty of others: [Kindle Worlds](https://kindleworlds.amazon.com/), [Fanfic.me](http://fanfic.me/), [MediaMiner](http://www.mediaminer.org/fanfic/), [Fictionpad](https://fictionpad.com/), [Livejournal](http://www.livejournal.com/), [Goodreads](http://www.goodreads.com/), [Wattpad](https://www.wattpad.com/), [Quotev](http://www.quotev.com/), and [Ficwad](http://ficwad.com/). There are dozens more websites, especially when it concerns a specific domain (I can think of at least ten websites for Harry Potter fanfiction alone, and a similar situation for Naruto). It's a *deeply* saturated market.
 
 And yet, none of them satisfy me very much. Fanfiction.net comes the closest, but that's only because it is the overwhelming dominant force in the market. It seems like nearly all websites are lacking one or more major features that are essential. Fanfiction.net can rest on its laurels because, for the forseeable future, its network effects will keep it alive. Even now I get engagement (reviews, follows, favorites, etc) on stories that are over six years old, while on AO3 or similar websites even new stories don't receive any attention. The fundamental fact is that although the market is saturated, it's also very clearly in a monopoly.
 
-###The Vision
+### The Vision
 
 No set of individuals can predict how a network will evolve. FF.net began as a great website back in 1997, but it seems that as the many uses evolved, the site stopped evolving with the community. It's a very decent first step, but we need to move forward. To be clear, the features I enumerate below are *not* the vision.
 
@@ -20,7 +20,7 @@ As a community, we need a website that is responsive to our growing needs. We ar
 
 We need a fanfiction website that caters to this incredibly diverse set of needs and groups. More importantly, we need a single website that brings all of these groups together in a cohesive manner. The website needs to connect these various groups seamlessly, and at the same time allow a single user to partake in all of these groups effortlessly.
 
-###Essential Features
+### Essential Features
 
 **Better mobile support**
 
@@ -54,7 +54,7 @@ This is the number one problem with FF.net. There are too many fanfictions, and 
 
 I'm considering whether to bother including communities are not. Communities are great ways to enable content aggregators, but in general this is symptomatic of the problems of bad filtering. Why would anyone need communities if not for a fundamentally broken search process? You already have access to others' favorites, as well as creating your own lists.
 
-###Nice to Have Features
+### Nice to Have Features
 
 Here are a set of features that I think would be nice to have; not essential, but useful.
 
@@ -128,7 +128,7 @@ Take in all major formats.
 
 This isn't that complicated. Why hasn't this happened already? 'Nuff said.
 
-###Where to Go From Here
+### Where to Go From Here
 
 I'm going to be working on this regardless. Will it become a full fledged website? I don't know. I'm a full-time developer, and this is a side project. Mainly I want to do this as a proof of concept, and the idea is that once it's done completely to open source the code so that (hopefully) the major fanfiction websites will adopt this, and we all win.
 

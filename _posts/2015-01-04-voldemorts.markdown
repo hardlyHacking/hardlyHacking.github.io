@@ -14,7 +14,7 @@ As it turns out, a *lot* worse than JKR lets on. Sure, reading the book, you get
 
 Not at all.
 
-##### An Estimate of the Wizarding Population
+### An Estimate of the Wizarding Population
 
 Let's do some numbers. How many wizards are there in England at this time? Somewhere between [4 and 10 thousand](http://scifi.stackexchange.com/questions/3354/during-the-events-of-the-harry-potter-series-what-is-the-total-population-of-wiza/3363#3363). A quick, back of the envelope calculation for the more skeptical amongst you:
 
@@ -25,7 +25,7 @@ Let's do some numbers. How many wizards are there in England at this time? Somew
 
 ```40 wizards & witches / year * 140 years = 5600 wizards and witches``` Let's leave some extra padding just in case and call it ```7000``` wizards and witches in England. Remember, these are conservative numbers.
 
-##### Deaths Due to Voldemort
+### Deaths Due to Voldemort
 
 Estimating the exact number of deaths in the wizarding wars is not easy, particularly because of the clandestine way Voldemort operates. Unlike Grindelwald who seemed to offer a more traditional style of warfare (setting up clear headquarters / prisons, having a literal army, etc), Voldemort has evolved to guerrilla tactics. He strikes in targetted, isolated events to spread general fear and distrust amongst the population.
 
@@ -67,7 +67,7 @@ This is on the scale of another Black Death.
 
 Dumbledore was really understating Voldemort's ability to cause panic and fear. One in three people were dying - and with the Dark Mark floating above people's houses, the cause was not uncertain. It's little wonder that England didn't become a failed state!
 
-#####A Historical, Muggle Comparison
+### A Historical, Muggle Comparison
 
 Combining the Order of the Pheonix and the Death Eaters (excluding the Ministry of Magic, since there were spies on both sides in the ministry and we don't want to double count,) there were about [500 people](http://scifi.stackexchange.com/questions/3445/how-many-people-actually-participated-in-the-original-voldemort-conflict) directly involved in the war. Again, that's almost **one in ten people** directly fighting for one side or another.
 
@@ -79,19 +79,19 @@ In other words, the wizarding war was **fifteen times more deadly** than the Ame
 
 Did *that* come across on your first read of the books?
 
-#####Fudge Explained
+### Fudge Explained
 
 Keeping these facts in mind, a great number of things becomes more clear. I always hated Fudge for denying Voldemort's return, but in light of this, it makes a lot more sense. Who wants to think about the possiblity of thirty percent of your population at risk *again*? Of course you'd deny the word of some fourteen year-old.
 
 Would you honestly trust the word of a high-schooler that a third of your population was going to vanish? It would be outlandish.
 
-#####Crouch Senior Explained
+### Crouch Senior Explained
 
 In this new light, the Auror desperation to finally end Voldemort's spree a la Crouch Senior's methods makes a *lot* more sense to me. Remember, the police force was effectively authorized to torture and kill during this period. A blanket *anything necessary* issued to stop the crisis. And with the scale of the crisis now abundently clear, it suddenly makes more senes to me why Crouch's methods were so popular.
 
 It's hard to have a moral high ground against torture when a third of the populace is dying. (Not that this speaks to the efficacy of torture in the slightest - just that the general populace, caught up in fear, may prefer such a security theater, ineffective as it may be.)
 
-#####Muggle Indifference Explained
+### Muggle Indifference Explained
 
 It also, believe it or not, explains the Muggle indifference to Voldemort. Ignoring, for the moment, that most Muggles don't believe in magic or Voldemort, let's calculate the number of estimated deaths from Death Eaters over the course of Voldemort's activities.
 
@@ -99,7 +99,7 @@ Somewhere between [1000 and 5000](http://scifi.stackexchange.com/questions/8822/
 
 Looking at the [population demographics](http://en.wikipedia.org/wiki/Demography_of_the_United_Kingdom#Population), over eleven years, this wouldn't even be a blip! We're talking at most 450 deaths a year. With the Muggle ministry passing a large majority of these off as gas explosions or car accidents or what have you, most Muggles like the Dursleys would simply shrug and move on... Kind of like what they do in the books.
 
-#####Sidenote: The Most Dangerous?
+### Sidenote: The Most Dangerous?
 
 > Did I know that I had just met the most dangerous Dark wizard of all time? No.
 >
@@ -163,7 +163,7 @@ Ultimately, it may very well be true that Voldemort is a better duelist and more
 
 So who knows. And without a clear answer for Gellert's casualties, it's hard to determine what metric is being used for "the most dangerous Dark wizard of all time", but without a doubt Voldemort is up there.
 
-#####Geeks Unite
+### Geeks Unite
 
 It was super fun writing this. All of these thoughts had been swirling around in my head for quite some time, and it was nice to get them all down somewhere.
 
@@ -175,7 +175,7 @@ I've started reading [Methods of Rationality](http://hpmor.com/), which does a p
 
 Ta-ta for now.
 
-####Corrections
+## Corrections
 
 1/4/15
 

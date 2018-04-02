@@ -24,24 +24,28 @@ Let me preface this section with the following: *it does not matter what package
 
 Historically, Pathogen was the first on the scene, and it was revolutionary. Prior to Pathogen, installing plugins on Vim was a pain. [This](http://learnvimscriptthehardway.stevelosh.com/chapters/42.html) is probably the best example of how ridiculously painful it was to install plugins. Every part of the plugin had to be placed in the correct folder!
 
-<pre class="line-numbers"><code class="language-bash">.vim/
-	colors/
-	indent/
-	syntax/
+```
+.vim/
+  colors/
+  indent/
+  syntax/
     docs/
     ftdetect/
-    ftplugin/</code></pre>
+    ftplugin/
+```
 
-Every file inside the plugin must be placed inside the proper ```.vim``` subfolder. If the plugin has five or six files, they better be placed in the correct folders, or strange things could occur. What a pain! And no real way to automate this!
+Every file inside the plugin must be placed inside the proper `.vim` subfolder. If the plugin has five or six files, they better be placed in the correct folders, or strange things could occur. What a pain! And no real way to automate this!
 
 Behold the post-Pathogen reality:
 
-<pre class="line-numbers"><code class="language-bash">.vim/
-	bundle/
-    	plugin_1/
-        plugin_2/</code></pre>
+```
+.vim/
+  bundle/
+    plugin_1/
+    plugin_2/
+```
 
-It's as simple as that! In fact, all you have to do is <code class="language-git">git clone</code> the plugin repository into the bundle folder, and Pathogen takes care of everything else!
+It's as simple as that! In fact, all you have to do is `git clone` the plugin repository into the bundle folder, and Pathogen takes care of everything else!
 
 So why do we have two other popular package managers?
 
@@ -49,7 +53,7 @@ So why do we have two other popular package managers?
 
 Here is an example of my <code class="language-bash">setup.sh</code> script when using Pathogen. (This is the script I that runs to setup my coding environment on a new laptop.)
 
-```git
+```bash
 # Autoclose - close parens, braces, and brackets automatically
 git clone https://github.com/Townk/vim-autoclose.git ~/.vim/bundle
 
@@ -228,7 +232,8 @@ let g:syntastic_python_flake8_args = '--ignore="E111,E121,E123,E501"'
 
 * [NerdTree Tabs](https://github.com/jistr/vim-nerdtree-tabs): Navigate directories with ease and open files with simplicity. It's helpful to alias ```nt``` to toggle nerd tree tabs. I prefer this over [Nerd Tree](https://github.com/scrooloose/nerdtree).
 
-```vim" NerdTree
+```vim 
+" NerdTree
 " Close vim if all that's left open is NERDTree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 " Map NERDTreeToggle to nt

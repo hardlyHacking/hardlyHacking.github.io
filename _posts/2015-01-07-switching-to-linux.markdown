@@ -7,7 +7,7 @@ tags:
 - windows
 ---
 
-###Why I Chose MacbookPro
+### Why I Chose MacbookPro
 
 I've been an Apple user for quite some time, and I will continue to use the Macbook Pro my office gives me for work. But I'm switching my personal computer to a PC and either use VirtualBox for Linux or perhaps a bootable USB.
 
@@ -41,7 +41,7 @@ Retina is one aspect that I really like, but with multiple monitors and everythi
 
 Quicksilver, JiTouch, Bartender, Divvy - just to name a few. I think this is a direct effect of #3, but for whatever reason, the Mac community has so many fantastic apps. And I will miss them. Windows in particular is so GUI based that it kills me. I think Quicksilver alone was such a game changer for me because the Finder navigation system might be one of the worst things Apple has done. I do almost all of my changes via Quicksilver or Terminal for the more complex things.
 
-###Why I'm Leaving MacbookPro
+### Why I'm Leaving MacbookPro
 
 I love all of these things about Apple, and yet I just as fervently hate so many things Apple does around these awesome things.
 
@@ -73,7 +73,7 @@ GeekTool is super awesome, and it does a fairly good job. But it simply cannot c
 
 Touchscreen *is* good for one thing in particular, which I use avidly on my new laptop: OneNote. Seriously, this is a godsend that everyone should learn to embrace. No more notebooks, no more pens. Especially on the surface, the pen that comes with it is a fantastic way to take notes super quickly. Simply double clicking brings up OneNote automatically, and double clicking again saves the note! It does not get better than this.
 
-###Change Is Good
+### Change Is Good
 
 It wasn't *so* long ago that I switched from a Windows machine to my first ever Apple product. Heck, even the Vista fiasco wasn't so long ago. And change is good. Competition is good. Who knows, perhaps Apple will really make a revolutionary change that will bring back many power users including myself.
 

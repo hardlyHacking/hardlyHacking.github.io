@@ -23,7 +23,7 @@ You should install all applications, command line or mac applications, with [Hom
 
 Here are a list of the most awesome Homebrew packages that I use on a daily basis.
 
-######autojump
+**Autojump**
 
 [autojump](https://github.com/joelthelion/autojump) is the new, awesome way to navigate between directories like a breeze. It does depend on caching, so you can't use autojump on a directory you haven't yet visited, but once you start using it, it adapts to your usage patterns.
 
@@ -35,11 +35,11 @@ Keep in mind that to make autojump work, you want to add the following to your "
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 ```
 
-######fzf Fuzzy Finder
+**fzf Fuzzy Finder**
 
 [fzf](https://github.com/junegunn/fzf) fuzzy finder has forever changed the nature of reverse history search. This is a fuzzy finder that has an awesome text interface tied with it, which makes finding obscure past history commands a breeze, even if you don't exactly remember them.
 
-######ag the Silver Searcher
+**ag the Silver Searcher**
 
 [ag](https://github.com/ggreer/the_silver_searcher) the silver searcher is the really, *really* fast alternative to grep. And remarkably enough, it doesn't do any caching - it's just absurdly fast. Seriously. Just try it.
 
@@ -50,12 +50,13 @@ grep --color=auto --exclude-dir={.bzr,.cvs,.git,.hg,.svn} -r "README" source  10
 ag "README"  5.56s user 7.20s system 197% cpu 6.462 total
 ```
 
-######Better Diff
+**Better Diff**
 [wdiff](http://www.gnu.org/software/wdiff/) compares files on a word per word basis, where words are defined as anything between whitespace. This is useful on select occasions.
 
 But by far more useful is [colordiff](http://www.colordiff.org/), which does exactly what it sounds. No more columns, not more indentation, and no more wierd carats on either side. Just plain, easy breezy colors.
 
-######peco
+**peco**
+
 Have you ever been in the middle of a series of pipes and wished that you could interactively select an option, and then feed it to the rest of the pipes? [peco](https://github.com/peco/peco) is your answer. The interface is beautiful, and you can navigate inside of peco just like ```vi``` (or ```less```).
 
 ![](/content/images/2015/08/Peco.gif)
@@ -72,31 +73,31 @@ Like Homebrew, it works best if you use Caskroom for installing all Mac applicat
 
 Some of my favorite applications.
 
-######Quicksilver
+**Quicksilver**
 
 [Quicksilver](http://qsapp.com/) is so popular that by now it needs to introduction. But it's been a favorite of mine for many years, so it deserves special mention.
 
-######iTerm2
+**iTerm2**
 
 We'll have a section on this later, but you should certainly install it with Cask and not from the actual website.
 
-######Bartender
+**Bartender**
 
 If you're like me, you have tons of applications at the top menu bar open. I have 1Password, Caffeine, Divvy, Wifi, Bluetooth, Battery, Notifications, Spotlight, Time Machine, Volume, Quicksilver, VPN, JiTouch, Evernote, Dropbox, and the list goes on.... and on...
 
 [Bartender](http://www.macbartender.com/) has been a life saver - it cleans up my screen and makes organization a breeze. Note that it is not free, though it has a lengthy trial run.
 
-######LightPaper
+**LightPaper**
 
 I like dealing with most things in Markdown, and [LightPaper](http://www.ashokgelal.com/lightpaper-for-mac/) is a super easy way for me to visualize and edit in Markdown actively.
 
-######Divvy
+**Divvy**
 
 ![](/content/images/2015/08/Divvy.gif)
 
 [Divvy](http://mizage.com/divvy/) is one of thos productivy porn must-haves. It easily allows me to resize windows. I've mapped the Divvy shortcut to ```Control-Space```, as I have Quicksilver using ```Command-Space```. The best part is it works easily with multiple monitors. For someone with OCD like me, I want my sizing to be in perfect squares, and Divvy ensures that.
 
-######JiTouch2
+**JiTouch2**
 
 The trackpad is one of the best features about the Mac. Unlike when using a PC, I've never felt the need to have a mouse on a Mac. But it's time to take multigesture to the next level with [JiTouch2](https://www.jitouch.com/). You can change tabs, close tabs, reopen the most recent tab, minimize, maximize, resize, and do a whole lot more with complex gestures.
 
@@ -114,7 +115,7 @@ I had fought for a long time between [oh-my-zsh](https://github.com/robbyrussell
 
 Couple comments on the ZSH features that I love specifically.
 
-######History
+**History**
 
 I *hate* long and repetitive histories that I have to do complex searches on. If I have a command I find useful, I expect to have it in my history and be easily found with a simple reverse search (or forward search). To aid me, I've added some useful settings:
 
@@ -139,7 +140,7 @@ setopt HIST_IGNORE_SPACE
 setopt HIST_REDUCE_BLANKS
 ```
 
-######Fish Shell
+**Fish Shell**
 
 ![](/content/images/2015/08/fish-syntax.png)
 
@@ -152,7 +153,7 @@ source $ZSH/oh-my-zsh.sh
 
 Remember to put it at the end of the plugins list.
 
-######Prompts
+**Prompts**
 
 Version control plugins are seriously awesome. Having ZSH tab complete in an intelligent manner what you want to do is great. This is particularly useful when configuring [awesome prompts](http://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/), and the blog post I've linked does it far better than I could hope. One word of caution though: Although these prompts are awesome, when dealing with extremely [large ~~git~~ repositories](http://jijoejv.wordpress.com/2012/06/22/workaround-slowness-of-oh-my-zsh-git-plugins-on-large-repositories/), there are [known issues](http://stackoverflow.com/questions/12765344/oh-my-zsh-slow-but-only-for-certain-git-repo) of every command taking a [long time](http://marc-abramowitz.com/archives/2012/04/10/fix-for-oh-my-zsh-git-svn-prompt-slowness/comment-page-1/). So be careful.
 

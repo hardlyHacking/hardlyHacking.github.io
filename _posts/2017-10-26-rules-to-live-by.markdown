@@ -51,7 +51,7 @@ Lately I force myself to learn new things whenever the opportunity presents itse
 
 Maybe that attitude works for other people, but as an engineer, I find that attitude extremely dangerous. Of course, there are exceptions - maybe you've had an extremely hard day at work and you have numerous personal issues going on or whatever. But on an average day, rather than getting frustrated, this principle means opening yourself up to a new experience and learning *how* to learn. Each new experience (good and bad) is that lesson couched in a different situation.
 
-###Honesty
+### Honesty
 
 As I start down this road of dating more seriously and finding longer-term partners, I find that we all have white lies we tell each other. "Oh I go to the gym all the time", "Oh I really liked that movie", etc. Perhaps it's because I'm such an awful liar, or maybe it's because every lie I've ever told has ended in disaster, but I find these small things to be exhausting. Maintaining a web of who I told what to is extremely tiresome and (at least for me) inevitably backfires.
 
@@ -59,7 +59,7 @@ Furthermore, it seems like whenever a relationship hasn't worked out in my life 
 
 People are always afraid of insulting other people, but I've found it's not *what* you say, but how you say it. You really can word things in a way that stays true to your feelings while communicating the message in a non-confrontational way, and so far my life has benefited pretty tremendously from it.
 
-###Tidyness
+### Tidyness
 
 This last thing is what I struggle with most, which is why I included it for myself.
 

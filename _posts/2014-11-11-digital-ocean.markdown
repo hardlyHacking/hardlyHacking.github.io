@@ -35,7 +35,8 @@ And don't even get me started on Github.io. Between the early adoption and learn
 
 And that was before this pleasant surprise:
 
-######Dreamhost
+Dreamhost
+---------
 
 	64 bytes from 173.236.188.12: icmp_seq=0 ttl=47 time=107.135 ms
 	64 bytes from 173.236.188.12: icmp_seq=1 ttl=47 time=114.784 ms
@@ -44,7 +45,8 @@ And that was before this pleasant surprise:
 	64 bytes from 173.236.188.12: icmp_seq=4 ttl=47 time=99.623 ms
 	64 bytes from 173.236.188.12: icmp_seq=5 ttl=47 time=138.444 ms
 
-######Github IO
+Github IO
+---------
 
 	64 bytes from 192.30.252.154: icmp_seq=0 ttl=51 time=100.028 ms
 	64 bytes from 192.30.252.154: icmp_seq=1 ttl=51 time=99.137 ms
@@ -53,7 +55,8 @@ And that was before this pleasant surprise:
 	64 bytes from 192.30.252.154: icmp_seq=4 ttl=51 time=101.994 ms
 	64 bytes from 192.30.252.154: icmp_seq=5 ttl=51 time=103.038 ms
 
-######Digital Ocean
+Digital Ocean
+-------------
 
 	64 bytes from 162.243.155.22: icmp_seq=0 ttl=53 time=56.726 ms
 	64 bytes from 162.243.155.22: icmp_seq=1 ttl=53 time=25.045 ms

@@ -21,7 +21,7 @@ So from now on, this blog post will be my standard response to all requests for 
 
 I find that in general, there are two broad categories of people who ask me for advice - and these are lessons I find that can be broadly applied to other areas, too.
 
-####Jon Snow's Incredibly Annoying Reincarnation
+### Jon Snow's Incredibly Annoying Reincarnation
 
 These are people who have literally no idea what to do.
 
@@ -38,7 +38,7 @@ I can't even blame them, honestly. If I found some schmuck who would teach me ev
 
 I now say no to these people firmly but immediately. Don't let them down softly - 'oh, maybe next week' and hope they get the hint. Make it clear you don't have time for this and put it past you (but nicely). It's just not worth your time.
 
-####The Condescending Know-It-All
+### The Condescending Know-It-All
 
 The problem with real estate is that so much of whether it's a good investment just depends on the maths behind it. What's the estimated vacancy rate? How old is the property, and have you factored in repairs? What about bad tenants? Property tax? These are nitty gritty details that every investor knows to factor in. Sure, we may disagree on what percentages we should use, but rarely can we afford to just shrug them off like they're nothing.
 
@@ -68,7 +68,7 @@ You don't need advice. You need to do research.
 
 So go and do it.
 
-####Real Tips
+### Real Tips
 Real Estate investing is not some easy win. You'll have to deal with bad tenants, property managers, the government, and so many more things. I'm on Zillow for more hours than I can count each day. Finding a good deal is not easy.
 
 If you're a beginner, the you should read [this](http://affordanything.com/2012/01/25/income-property/) and [this](http://www.mrmoneymustache.com/2011/10/10/lets-buy-a-foreclosure-episode-2-what-is-the-50-2-rule/). They are quite decent blogs overall and do a great job in making most of this accessible for beginners.

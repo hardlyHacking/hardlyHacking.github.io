@@ -8,7 +8,7 @@ tags:
 
 I guess I've been visiting too many churches and reading too many philosophy books to *not* have these thoughts swirling around in my head. This is my documenting them for the future.
 
-###In Which Hell Exists
+### In Which Hell Exists
 
 Let us assume for a moment that Hell exists.
 
@@ -114,7 +114,7 @@ One last point - I realize that in many of these cases, I am picking out edge ca
 <blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">I&#39;m starting to think my script &#39;The theory of some things&#39; isn&#39;t looking ambitious enough now.</p>&mdash; chris o&#39;dowd (@BigBoyler) <a href="https://twitter.com/BigBoyler/status/569722492400504832">February 23, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-###In Which Hell Does Not Exist
+### In Which Hell Does Not Exist
 
 [And man created God](http://www.amazon.co.uk/And-Man-Created-God-Conquests/dp/1843546973), as he often does, and the modern man definitely prefers that Hell not exist. It solves many of our rather nasty questions in the previous section, and the image of God/Yahweh/Allah/Whoever becomes considerably kinder. No more killing first born sons simply because the pharaoh didn't listen to Him; we prefer to believe instead, now, that the sins of the father should not pass onto the child.
 
@@ -152,7 +152,7 @@ So I'm still left wondering why death is tragic. In the Hindu and Buddhist sense
 
 Interestingly, though, in all the histories of [mass suicides](https://en.wikipedia.org/wiki/Mass_suicide) that I can find, none of their reported motivations are to reach Heaven quicker. So clearly, no one believes this. Perhaps because the Christian notion that suicide equates to the ultimate sin is so deeply ingrained in most people.
 
-###Original Sin
+### Original Sin
 
 This is a strictly Judeo-Christian concept, and I'm not very persuaded.
 

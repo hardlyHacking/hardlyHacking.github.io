@@ -49,7 +49,7 @@ The key point that most people don't understand is that motorcycling takes a lot
 
 So now that I knew, sort of, what I was doing, I went back and got all new gear. A helmet that didn't squeeze my head like a melon and give me migraines. Gloves that fit my hands. And most importantly, a jacket that kept me cozy even up to 30 degree temperatures. When you have the right gear, motorcycling feels as comfortable as driving but as enjoyable as... well, as motorcycling. Spending an extra $1000 on gear is almost always better than spending an extra $1000 on the bike. Earplugs make a world of a difference when riding on freeways. Not only does the wind noise prevent you from listening to your music (and the traffic), it actually does hurt your eardrums.
 
-##1. Riding Is About Freedom
+## 1. Riding Is About Freedom
 
 I don't think most people understand why motorcyclists ride. Certainly, at least some people ride for the usual reasons: they want the thrill of quick accelerations, or they want to look cool to impress someone. It's undoubtedly true for at least some riders, but I don't think it's why most people ride.
 
@@ -63,7 +63,7 @@ A rider notices each and every nook in the road; we *have* to because we don't h
 
 Bored drivers fidget with their phone or fiddle with various radio stations. Not so with bikers. Bikers *enjoy* riding - it's why we're out there, risking our lives. Being on the road isn't a nuisance; it's an enjoyment. Is it any wonder why [we're better drivers](http://www.visordown.com/motorcycle-news--general-news/motorcyclists-23-better-behind-the-wheel-of-a-car/23971.html)?
 
-##2. But It's Also About Discipline
+## 2. But It's Also About Discipline
 
 This isn't really a separate lesson, as much as a corollary to lesson number one. Any freedom must be exercised responsibly, since one person's freedom ends where another's begins. Many would argue that's the whole point of having a society and a government [in the first place](https://en.wikipedia.org/wiki/Pigovian_tax). And risking your life every day comes at a cost.
 
@@ -73,7 +73,7 @@ And unlike cars, you can't just buy one and forget about it. Check your bike *ev
 
 A rather funny channel that I think captures all of this discipline is [this video](https://www.youtube.com/watch?v=9BYqg0GoWpo).
 
-##3. The Community is Amazing
+## 3. The Community is Amazing
 
 This may be divisive, especially considering the various wars between biker factions I see on YouTube, but my personal experience has been nothing short of miraculous. The moment I see an individual wearing a helmet, there's an instant bond. It might be at 3AM when I'm drunk (AND TOOK AN UBER), but wherever I see this person, we instantly have a 10 minute conversation.
 
@@ -83,7 +83,7 @@ Motorcyclists are some of the nicest people you will meet, and although they may
 
 At the end of the day, you're putting your life on the line each and every day you're on these streets, and it doesn't matter what kind of bike you ride. I've never seen as much love as I have from all the awesome motovloggers on Youtube. Seriously - the community is *amazing*. I'm blown away each and every day by [how much kindness](https://www.youtube.com/watch?v=mVb-4QMcirY) I see from anyone who has ever ridden a motorcycle.
 
-##4. It's Always Your Fault
+## 4. It's Always Your Fault
 
 Dress for the fall, not for the ride.
 
@@ -126,7 +126,7 @@ And for what it was worth, although it could have been [a real 'fucked up day'](
 
 A day is only as fucked up as your attitude allows it to be. So be happy - it's why you're out here. But be prepared.
 
-##5. Know Yourself
+## 5. Know Yourself
 
 Motorcycling will teach you a *lot* about... well, yourself. There's just no other way around it. Do you overestimate your capabilities frequently? Do you underestimate yourself? Are you a prepare-er or a 'let's wing it'-er?
 

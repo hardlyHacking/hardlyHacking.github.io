@@ -10,11 +10,11 @@ Piṭi is a simple card game that my grandfather taught me - think of it as brid
 
 Whenever I go back to India, I play this game with my relatives, and I was looking to learn a new framework one weekend, so I decided to get my boots dirty with Angular 2. The code can be found at my Bitbucket [here](https://bitbucket.org/caliChander/piti), and the new website, ```piti.notablog.xyz```, is [live](https://piti.notablog.xyz).
 
-######Typescript is awesome
+### Typescript is awesome
 
 [Typescript](https://www.typescriptlang.org/docs/tutorial.html) is awesome. When I first heard that Angular 2 was shipping typescript by default, I was incredibly skeptical. But I've since become a huge fan. Microsoft is doing some awesome work lately, and Typescript is only the latest proof. The typing works really well, and it helped me catch some gnarly errors on the server side.
 
-######Angular 2 Is Not Ready
+### Angular 2 Is Not Ready
 
 It's really, really not ready for prime time yet. Seriously. The [website](angular.io) is cool enough, but once you get into the weeds you start seeing all the places in which it is falling apart. The [tutorial](https://angular.io/docs/ts/latest/tutorial/toh-pt5.html) asks you to import ```'@angular/router-deprecated'```, which by itself should make you pause.
 
@@ -32,7 +32,7 @@ Half the time I would end up looking into other people's repos and copy pasta-in
 
 The biggest issue, though, is that currently the tooling is simply not there. Chrome, for whatever reason, handles the Angular errors out of the box a bit better than Firefox. But ultimately, unless you have some [nifty external hotloader](http://blog.mgechev.com/2015/10/26/angular2-hot-loader-hot-loading-tooling/), you are absolutely *screwed* when it comes to debugging.
 
-######Angular Is Doomed
+### Angular Is Doomed
 
 Even if Angular fixes all of the above, I think Angular is doomed in the long run.
 
@@ -48,7 +48,7 @@ If I have a component that takes an object ```A```, and I instead pass it object
 
 [This](https://medium.com/@jeffwhelpley/there-are-some-specific-pieces-of-information-in-this-article-that-are-accurate-315124670b84#.igqm604sy) comment is promising that at least some of these things will get better. And I hope they do. But at least for now, React is the *clear* winner. And if they don't, it wins in the long-run, too.
 
-######Javascript Ecosystem Is Shit
+### Javascript Ecosystem Is Shit
 
 To be honest, I don't understand the raving praise behind Node and the entire NPM ecosystem.
 

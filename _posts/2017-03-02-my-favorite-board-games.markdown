@@ -12,9 +12,9 @@ First, it's important to determine what kind of board games one likes. Some peop
 
 And that's fine. But for the most part, these aren't the kinds of games that I enjoy. Being a nerd, I enjoy games that have strategic depth (and thus have replay value). The game must have a minimal element of luck (not none - this isn't chess), and ideally it should have multiple optimal strategies - none of which are very clear upon first or second play. These games generally take longer, require a bit of focus, but can be very rewarding if you have a group of nerdy, dedicated friends, as I am fortunate enough to have.
 
-#Acquire
+## Acquire
 
-##How to Play Acquire
+### How to Play Acquire
 
 This section is a general overview of the rules of Acquire. If you are already well versed with the game, feel free to skip down into the strategy section.
 
@@ -50,7 +50,7 @@ Some edge cases for bonuses include the following: if only one player has shares
 
 If all of this sounds tedious, check out this **[cool spreadsheet](https://docs.google.com/spreadsheets/d/122k6krU97M6mh7QSTtDZkTuM81G0_hLylEHLN6R1jsc/edit#gid=0)** calculator some friends and I made - just fill in the green squares!
 
-##Strategy of Acquire
+### Strategy of Acquire
 
 There are two overarching strategies in the game, and victory usually requires a mix of both.
 
@@ -84,9 +84,9 @@ Micro-optimizations generally lose out to macro-optimizations, unless it's a ver
 
 And resist the urge to found a hotel simply because you can.
 
-#Avalon: The Resistance
+## Avalon: The Resistance
 
-##How to Play Avalon
+### How to Play Avalon
 
 Avalon is a game very similar to Mafia; there are two factions - the good guys (the citizens of Camelot) and the bad (minions of Mordred). The bad people know who the other bad people are, but most of the good people don't know who the bad people are (or who the other good people are).
 
@@ -116,7 +116,7 @@ A player's proposal does not have to be accepted, however. Each round, there is 
 
 With some player counts (the board will tell you), occasionally the fourth mission will require *two* failures from the bad guys to fail - so the bad team will try and put two bad team members on that team. There will always be more good players than bad, naturally. So for a five person game, there will be `3` good and `2` bad. For a six person game, there will be `4` good and `2` bad. For a seven person game, `4` good and `3` bad, and so on and so forth.
 
-##Strategy of Avalon
+### Strategy of Avalon
 
 As much as you may think your intuition is best, do not rely on it. This game does have a strategy, and you should use the signals that people provide. Although there will be a great deal of accusations and defenses happening, most of this is for show - either to mislead Merlin by the bad guys or by Merlin to mislead the Assassin. If you are a generic good guy, *do not* pay attention to this, and do not have a strong opinion either way. You will likely be mislead by the bad guys.
 
