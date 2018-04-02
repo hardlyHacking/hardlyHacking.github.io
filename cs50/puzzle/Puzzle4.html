@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Puzzle4</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="puzzle4">Puzzle 4</h1>
+
+<p>This is a <strong>long</strong> one. If you want to ease yourself into it, go and read the other ones for today which are much shorter and then come back to this one. Seriously - it&#8217;s a doozy. Pointers, one of the toughest part of C, is what we&#8217;ll be tackling today.</p>
+
+<h2 id="basicpointers">Basic Pointers</h2>
+
+<p>So you&#8217;ve had the past week to wrestle with pointers on your own, and no doubt you&#8217;ve all become something of self-made experts on the subject. So let&#8217;s have a rather simple warm-up puzzle. So what&#8217;s the output of this file?</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    int a = 5, b = 15;
+    int *p1, *p2;
+
+    p1 = &amp;a;
+    p2 = &amp;b;
+    *p1 = 10;
+    *p2 = *p1;
+    p1 = p2;
+    *p1 = 20;
+
+    printf(&quot;a: %d &quot;, a);
+    printf(&quot;b: %d\n&quot;, b);
+    printf(&quot;p1: %p p2: %p\n&quot;, p1, p2);
+
+    return 0;
+}
+</code></pre>
+
+<p>Did you get it?</p>
+
+<pre><code>a: 10 b: 20
+p1: 0x7fff58bbd754 p2: 0x7fff58bbd754
+</code></pre>
+
+<p>Of course, the particular pointer locations are irrelevant except in that <code>p1</code> and <code>p2</code> should be the same value; since the operating system is what allocates memory, these values should most likely be different each time you run the program. But in case you didn&#8217;t quite get the right answer, let&#8217;s break it down.</p>
+
+<p>What&#8217;s a <strong>pointer</strong>? A pointer is just a variable that represents a location in memory. So after initializing <code>a</code> and <code>b</code> to <code>5</code> and <code>15</code> respectively, we create two addresses <code>p1</code> and <code>p2</code>. How do we assign the two pointers to the addresses in which <code>a</code> and <code>b</code> are stored? We create a <strong>reference</strong> with the <code>&amp;</code> operator. The error most novices make is that the reference operator <em>can never be on the left side of the assignment operator</em>. This makes logical sense - you can&#8217;t change the address in which something is stored. All you can do is instead copy the same information held at that address to a new location, and then later <code>free</code> whatever was held in the original location. Okay, so far so good.</p>
+
+<p>The <code>*</code> operator is known as <strong>dereferencing</strong> a pointer. It means we&#8217;re accessing not the address represented by the pointer, but the value in memory represented by that address. Unlike the reference operator, the dereference operator can be present on <em>either side of the assignment operator</em>. So <code>*p1</code> accesses the value that <code>a</code> stores; in this case, we&#8217;re functionally resetting <code>a</code> to be <code>10</code>, and similarly we set <code>b</code> to the same value.</p>
+
+<p>Here is the part that may have confused some of you. We set <code>p1</code> to point to the same address to which <code>p2</code> points, so they are both manipulating the area of memory in which <code>b</code> is stored. Then, we set that value to be <code>20</code>, thus altering <code>b</code>. And that&#8217;s it!</p>
+
+<p>So now that we&#8217;ve had this quick three-minute review of pointers, we&#8217;re ready for some better puzzles.</p>
+
+<h2 id="pointerdisambiguation">Pointer Disambiguation</h2>
+
+<p>This puzzle tests <a href="https://stackoverflow.com/questions/859634/c-pointer-to-array-array-of-pointers-disambiguation">disambiguation of pointers</a>. Fundamentally, we&#8217;re going to explore an array of <code>type</code> versus pointer to <code>type</code>. Here&#8217;s <code>pointer_test.c</code>. What&#8217;s the output?</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+
+int main(int argc, const char *argv[])
+{
+    int a[5] = { 1, 2, 3, 4, 5 };
+    int *ptr = (int *)(&amp;a + 1);
+
+    printf(&quot;%d %d\n&quot;, *(a + 1), *(ptr - 1));
+
+    return 0;
+}
+</code></pre>
+
+<p>You may remember from the lecture that the variable that represents an array is actually a pointer referencing the zero-eth element in that array. So in this example, <code>a</code> is actually a pointer referencing <code>a[0]</code> - in this case, <code>1</code>. By that logic, <code>a + 1</code> merely references the next integer - <code>a[1]</code>; thus, the first integer printed is <code>2</code>. That&#8217;s the easy part.</p>
+
+<p>The next one is a little tougher. If you treated <code>*ptr</code> as a simple pointer to an integer &#8211; like you treated <code>a</code> &#8211; you&#8217;d be tempted to give the following <em>incorrect</em> explanation:</p>
+
+<p>Since <code>ptr</code> points to the location of <code>a</code>, <code>a + 1</code> merely points to the location of <code>a[1]</code>; thus, <code>ptr - 1</code> goes back to referencing <code>a[0]</code>. So the second number printed must be <code>1</code>.</p>
+
+<p>Nope! The trick here is that <code>ptr</code> is <em>not</em> a pointer to an integer. It is a pointer to an <em>array</em> &#8211; which is entirely different. Pointer arithmetic on these two variables works entirely differently. A pointer to an integer, when incremented, will simply move up in memory by the number of bytes an integer represents. A pointer to an array, however, will move up in memory by the <em>length of the array</em> when incremented. Thus, when incremented, it moves up by <em>five</em> elements - to the slot in memory right <em>after</em> <code>5</code> in the array <code>a</code>. When decremented, however, <code>printf</code> is treating the output as a pointer to an integer, and <em>not</em> a pointer to an array. So when we subtract <code>1</code> inside the <code>printf</code> statement, <code>ptr</code> references <code>a[4]</code> instead of <code>a[5]</code>, and dereferencing that gives us <code>5</code>.</p>
+
+<p>So the output is <code>2 5</code>. Phew!</p>
+
+<p>This puzzle is testing a concept known as <strong>pointer disambiguation</strong>, where the same pointer can be treated differently depending on the context. Let&#8217;s warm up our disambiguation skills with a little puzzle: What are the differences between the following three declarations.</p>
+
+<pre><code>int* arr1[8];
+int (*arr2)[8];
+int *(arr3[8]);
+</code></pre>
+
+<p>The first is an array of integer pointers - specifically, an array of length eight. The second is a pointer to an array of integers. And the third is the same as the first! So how the heck do we start evaluating these things? The difference here <em>is critical</em>. <a href="http://unixwiz.net/techtips/reading-cdecl.html">Operator precedence</a> can be a rather esoteric subject &#8211; especially when function pointers get involved, as you&#8217;ll see next time &#8211; but there are a couple simple rules that can help you learn rather quickly how this works.</p>
+
+<p>As the C Bible (K&amp;R, as you all should know well by now) suggests using <a href="http://cdecl.org/">cdecl</a> for any very complicated situations. It is wonderful, and you should definitely consider it.</p>
+
+<h2 id="orderofoperations">Order of Operations</h2>
+
+<p>Order of operations seems fairly obvious, and in general we encounter fairly trivial examples. But what about when you get something like the following:</p>
+
+<pre><code>char *(*(**foo[][8])())[];
+</code></pre>
+
+<figure>
+<img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/173/576/Wat8.jpg?1315930535" alt="" />
+<figcaption></figcaption></figure>
+
+<ul>
+<li>&#8220;Array of&#8221; (<code>[ ]</code>) and &#8220;function returning&#8221; (<code>( )</code>) have higher precedence than &#8220;pointer to&#8221; (<code>*</code>).</li>
+<li><em>Always</em> start with the variable name. <code>foo is...</code></li>
+<li><em>Always</em> end with the basic type. <code>foo is... int</code></li>
+<li>&#8220;Go right when you can, go left when you must&#8221;. Use this to fill in the middle of the English sentence we&#8217;re constructing.</li>
+</ul>
+
+<p>Let&#8217;s go through some examples.</p>
+
+<pre><code>long **foo[7];
+</code></pre>
+
+<p>As we go through the example, I&#8217;ll strikeout whatever we&#8217;ve delt with. We start with the variable, and end with the type. <code>foo is ... long</code>. Okay, simple enough. Now let&#8217;s fill in the middle.</p>
+
+<p><code><strike>long</strike> **<strike>foo</strike>[7];</code></p>
+
+<p>&#8220;Array of&#8221; has the highest precedence, so we can and must go right. This gives us the sentence <code>foo is array of 7 long</code>.</p>
+
+<p><code><strike>long</strike> **<strike>foo[7]</strike></code></p>
+
+<p>Now, we&#8217;ve gone as far to the right as possible. This means we have no choice but to go left. <code>foo is array of 7 pointer to long</code> takes care of the first &#8220;pointer to&#8221;, but we have on last pointer. Here is the final result: <code>foo is array of 7 pointer to pointer to long</code>.</p>
+
+<p>Think you&#8217;ve got the hang of it? Let&#8217;s try some really hairy examples to really get it down.</p>
+
+<pre><code>char * ( * ( * *foo [][8])())[];
+</code></pre>
+
+<p>We start as usual, with the variable and the simple type: <code>foo is ... char</code>. Sweet, let&#8217;s see what we have left.</p>
+
+<p><code><strike>char</strike> * ( * ( * *<strike>foo</strike> [][8])())[]</code></p>
+
+<p>Since <code>foo</code> touches both &#8220;pointer to&#8221; and &#8220;array of&#8221;, we go right as much as we can. This gives us:</p>
+
+<pre><code>foo is array of array of 8 ... char
+</code></pre>
+
+<p><code><strike>char</strike> * ( * ( * *<strike>foo [][8]</strike>)())[]</code></p>
+
+<p>Okay, now we have no choice but to go left. It has <em>two</em> &#8220;pointer to&#8221; phrases to add:</p>
+
+<pre><code>foo is array of array of 8 pointer to pointer to ... char
+</code></pre>
+
+<p>Leaving this:</p>
+
+<p><code><strike>char</strike> * ( * <strike>( * *foo [][8])</strike>())[]</code></p>
+
+<p>What do we do now!? There seems to be an <em>empty set of parentheses</em>? It must be a function call! This involves pointers to functions. Remember, we try and go right when we can. On the right is a function call, and on the left is a &#8220;pointer to&#8221;. Remember our rule &#8211; &#8220;function returning&#8221; has higher precedence. So here is our new sentence:</p>
+
+<pre><code>foo is array of array of 8 pointer to pointer to function returning ... char
+</code></pre>
+
+<p>This leaves us with the following:</p>
+
+<p><code><strike>char</strike> * ( * <strike>( * *foo [][8]) () </strike>)[]</code></p>
+
+<p>We would <em>like</em> to go right, but we have a set of parentheses that block our way. As you know, parens have a much higher precedence than anything else, so we must oblige and go left. This gives us the following:</p>
+
+<pre><code>foo is array of array of 8 pointer to pointer to function returning pointer to ... char
+</code></pre>
+
+<p>Which gives us this left over:</p>
+
+<p><code><strike>char</strike> * <strike>( * ( * * foo [][8])() )</strike> []</code></p>
+
+<p>So all that&#8217;s left is an &#8220;array of&#8221; and a &#8220;pointer to&#8221;; as you well know, we can go right and then left, finishing off our sentence. That gives us the final result &#8211; the following mouthful:</p>
+
+<pre><code>foo is array of array of 8 pointer to pointer to function returning pointer to array of pointer to char
+</code></pre>
+
+<p>Wow!</p>
+
+<h2 id="functionpointers">Function Pointers</h2>
+
+<p>Thought we were done? We&#8217;re just getting started. What we say in the more complicated example there was a <strong>function pointer</strong> &#8211; a pointer to a function. These nasty beasts are unique to C; in higher languages like C++, you should use <a href="https://en.wikipedia.org/wiki/Polymorphism_%28computer_science%29">polymorphism</a> and <a href="https://en.wikipedia.org/wiki/Virtual_function">virtual functions</a>; thus, function pointers have been exclusive to C. Lucky you.</p>
+
+<p>Why do we have pointers to functions? There are lots of cases where it&#8217;s more useful to design a function to be general purpose; this way, the function you&#8217;re writing can accept any function as a parameter and simply call <em>that</em> function. The most common example is sorting. Your sort function can take a compare function as a parameter &#8211; this way, you can write seven small compare functions and just a single sorting function, rather than seven long sorting functions. This follows good coding design of factoring out code as well.</p>
+
+<p>Let&#8217;s start with a simple example.</p>
+
+<pre><code>void (*foo)(int);
+</code></pre>
+
+<p>Here, <code>foo</code> is a pointer to a function that takes a single argument, an <code>int</code>, and returns <code>void</code>. The tip to make it easier is that you&#8217;re just writing out the function declaration but surrounding the function name by a set of parens. So <code>foo</code> would be declared like this:</p>
+
+<pre><code>void foo(int a);
+</code></pre>
+
+<p>Pretty simple! What about this?</p>
+
+<pre><code>void *(*foo)(int *);
+</code></pre>
+
+<p>Again, re-writing the function header helps.</p>
+
+<pre><code>void *foo (int * a);
+</code></pre>
+
+<p>One interesting thing about function pointers is that the reference operator (<code>&amp;</code>) becomes optional, as does the dereference (<code>*</code>). Because why not. Pointers were too simple anyways.</p>
+
+<pre><code>void foo(int a) { return a; }
+
+int main() {
+    void (*func)(int);
+    func = foo;
+    func = &amp;foo;
+    
+    func(5);
+    (*func)(5);
+    
+    return 0;
+}
+</code></pre>
+
+<p>Both ways of assigning <code>func</code> are legal, and both ways of calling <code>func</code> are also legal. Here are some guidelines to keep in mind when talking about pointers and specifically function pointers:</p>
+
+<ul>
+<li>Type void is restricted - it&#8217;s a special pseudo-type</li>
+</ul>
+
+<pre><code>    void *foo;    // legal
+    void foo();   // legal
+    void foo;     // not legal
+    void foo[];   // not legal
+</code></pre>
+
+<ul>
+<li>In arrays, only the leftmost set of brackets can be empty</li>
+</ul>
+
+<pre><code>    char foo[1][2][3][4][5]  // legal
+    char foo[]                    // legal
+    char foo[][5]                // legal
+    char foo[5][]                // not legal
+</code></pre>
+
+<ul>
+<li><p>Functions cannot return arrays; they can return pointers, and they can return pointers to arrays, but they cannot return arrays.</p></li>
+<li><p>Functions cannot return functions. (<a href="http://knowyourmeme.com/memes/we-need-to-go-deeper">We need to go deeper.</a>)</p></li>
+<li><p>Cannot have an array of functions.</p></li>
+</ul>
+
+<p>But with function pointers, come <strong>abstract declarators</strong>. These wonderful little creatures are used in two places: casts, and arguments for <code>sizeof</code>. They look something like this:</p>
+
+<pre><code>int ( * ( * ) ( ) ) ( )
+</code></pre>
+
+<p>This is another wonderful moment of sublime</p>
+
+<p><img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/173/576/Wat8.jpg?1315930535" alt="" />.</p>
+
+<p>It seems unfair, certainly. I told you to always start at the variable name, which led to the logical conclusion of giving you an example without a variable name. Put away your inhaler and calm down. There are four rules that govern where a variable can be:</p>
+
+<ul>
+<li>to the right of all the &#8220;pointer to&#8221; derived type tokens</li>
+<li>to the left of all &#8220;array of&#8221; derived type tokens</li>
+<li>to the left of all &#8220;function returning&#8221; derived type tokens</li>
+<li>inside all the grouping parentheses</li>
+</ul>
+
+<p>There&#8217;s actually only two places in the given example that a variable can be using those syntax rules.</p>
+
+<p><code><strike>int ( * ( * </strike> x ) x <strike>( ) ) ( )</strike></code></p>
+
+<p>The two <code>x</code>&#8217;s represent the two possible locations of a variable. A quick look back at the fourth rule above tells us that there&#8217;s only one location, so we can read the abstract declarator as the following:</p>
+
+<pre><code>int (*(*foo)())()
+</code></pre>
+
+<p>which translates to:</p>
+
+<pre><code>foo is a pointer to function returning pointer to function returning int
+</code></pre>
+
+<p>So, after all this advice, when you&#8217;re reading some truly advanced C code, you won&#8217;t freak out when you see this:</p>
+
+<pre><code>BOOL (__stdcall *foo)(...); 
+</code></pre>
+
+<p>You&#8217;ll think - hey! This is simple &#8211; <code>foo is a pointer to a __stdcall function returning BOOL</code> . Piece of cake. I highly recommend you read <a href="http://unixwiz.net/techtips/reading-cdecl.html">this guide</a> - it&#8217;s wonderful.</p>
+
+<h2 id="multi-dimensionalpointerarithmetic">Multi-Dimensional Pointer Arithmetic</h2>
+
+<p>Multidimensional pointers aren&#8217;t too difficult. Let&#8217;s have a three dimensional array <code>buffer</code>, where each of the dimensions are <code>10</code>. We could directly index into it:</p>
+
+<pre><code>char buffer[3][4][5];
+</code></pre>
+
+<p>Or we could use pointers</p>
+
+<pre><code>*( *( *( buffer + 3) + 4) + 5);
+</code></pre>
+
+<p>Here, <code>buffer</code> is a triple pointer; adding <code>3</code> moves it over to the third triple pointer. Dereferencing that gives us a double pointer, and adding four to that gives us the fourth double pointer. Dereferencing that gives us just a regular pointer, and adding five gives us the fifth pointer. Finally, one last dereference gives us just a regular <code>char</code>.</p>
+
+<p>That&#8217;s pretty much it! Here&#8217;s one puzzle just to make sure you really understood the concept.</p>
+
+<pre><code>int main() {
+    char arr[5][7][6];
+    char (*p)[5][7][6] = &amp;arr;
+
+    printf(&quot;%d\n&quot;, (&amp;arr + 1) - &amp;arr);
+    printf(&quot;%d\n&quot;, (char *)(&amp;arr + 1) - (char *)&amp;arr);
+    printf(&quot;%d\n&quot;, (unsigned)(arr + 1) - (unsigned)arr);
+    printf(&quot;%d\n&quot;, (unsigned)(p + 1) - (unsigned)p);
+
+    return 0;
+}
+</code></pre>
+
+<p>The output should be</p>
+
+<pre><code>1
+210
+42
+210
+</code></pre>
+
+<h2 id="constcorrectness">Const Correctness</h2>
+
+<p>Why does this program give an error?</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+void foo(const char **p) { }
+int main(int argc, char **argv) {
+    foo(argv);
+    return 0;
+}
+</code></pre>
+
+<p>This program uses a <strong>const pointer</strong>. This simply means that while the pointer itself can be changed, the memory it touches <em>cannot</em> change in value. In other words, it&#8217;s not the pointer that&#8217;s a const, but rather what it points to. This is why the <code>const</code> appears before the <code>*</code>. If you put the <code>const</code> <em>after</em> the <code>*</code> (like <code>int * const p_int = &amp;x;</code>) then you get a regular old pointer to an int, but this time the value of <code>p_int</code> cannot change. Thus, it&#8217;s the pointer that&#8217;s a const.</p>
+
+<p>Here is a hint to the for the code example above.</p>
+
+<pre><code>char const        c = 'a';
+char*             p = 0;
+char const**      pp = &amp;p; // not allowed in C
+ 
+*pp = &amp;c; // p now points to c.
+*p = 'b'; // changing a const value!
+</code></pre>
+
+<p>The first code snippet would work perfectly fine, without any warning, if <code>p</code> were a single pointer instead of a double pointer. So why does this break with double pointers? This is known as <strong>const correctness</strong> in C. Although it is possible to cast from <code>char *</code> to <code>const char *</code> without warning, C will prohibit <code>char **</code> to <code>const char **</code> casting.</p>
+
+<p>So why would this be prohibited? Imagine <code>p</code> is a <code>char *</code> &#8211; if so, logically, it could be used to <em>modify</em> whatever it&#8217;s pointing at. Imagine you have another pointer, <code>pp</code> that points to <code>p</code>. You could use <code>pp</code> to assign to <code>p</code> the address of a const char - you could even use <code>p</code> to <em>modify</em> the const char, which might even be in read-only memory!</p>
+
+<p>So why use <code>const</code>? One misconception is that this can be utilized to make further optimizations. However, this is rarely the case. Usually, this is generally for conceptual clarity and readability.</p>
+
+<p>Here is some further <a href="https://stackoverflow.com/questions/7016098/implicit-cast-from-char-to-const-char">explanations</a> of this <a href="http://www.parashift.com/c++-faq-lite/constptrptr-conversion.html">issue</a> in C. Oh, of course <a href="http://www.cprogramming.com/tutorial/const_correctness.html">Alex Alain</a> has another great tutorial.</p>
+
+<h2 id="closingthoughts">Closing Thoughts</h2>
+
+<p><a href="http://www.learncpp.com/cpp-tutorial/68-pointers-arrays-and-pointer-arithmetic/">Here</a> are some <a href="http://www.cs.umd.edu/class/sum2003/cmsc311/Notes/BitOp/pointer.html">awesome resources</a> about <a href="https://stackoverflow.com/questions/394767/pointer-arithmetic">pointer arithmetic</a> and an awesome <a href="http://cslibrary.stanford.edu/104/">video series</a> by Stanford University.</p>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tips5</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="valgrind">Valgrind</h1>
+
+<h2 id="memoryleaks">Memory Leaks</h2>
+
+<p>What&#8217;s wrong with the following program, <code>leaky.c</code>?</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    char *x = (char *) malloc(sizeof(char) * 10);
+    return 0;
+}
+</code></pre>
+
+<p>This program, quite obviously, demonstrates a basic <strong>memory leak</strong>. A memory leak is when allocated memory is not freed. Unlike in Java, which does garbage collection for you, C and C++ do not. This means that you as the programmer have to keep track of everything that&#8217;s been dynamically allocated. How do we fix this? Quite simple, in this example.</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    char *x = (char *) malloc(sizeof(char) * 10);
+    free(x);
+    return 0;
+}
+</code></pre>
+
+<p>Great - now everything that&#8217;s been allocated has been freed. But there should be an automatic way to do this right? I mean, what are you guys going to do in the crawler? You have three data structures - what if you forgot to free just one of those nodes? What happenes when you&#8217;re leaking memory for hours and hours?</p>
+
+<p>Enter <a href="http://valgrind.org/">Valgrind</a>, the automated way to find memory leaks.</p>
+
+<p>Let&#8217;s run Valgrind on the above example. Oh right, installation. If you&#8217;re on a Mac, <code>brew install valgrind</code> will suffice. If you&#8217;re on Ubuntu, <code>sudo apt-get install valgrind</code>. Now, we simply <code>gcc leaky.c</code>, which produces our familiar executable <code>a.out</code>. To run valgrind, we simply run <code>valgrind --tool=memcheck --leak-check=yes ./a.out</code>.</p>
+
+<p>This produces a <em>lot</em> of output, but the snippet we care about is the summary statistics at the bottom.</p>
+
+<pre><code>==46250== LEAK SUMMARY:
+==46250==    definitely lost: 10 bytes in 1 blocks
+==46250==    indirectly lost: 0 bytes in 0 blocks
+==46250==      possibly lost: 0 bytes in 0 blocks
+==46250==    still reachable: 0 bytes in 0 blocks
+==46250==         suppressed: 25,198 bytes in 375 blocks
+==46250==
+==46250== For counts of detected and suppressed errors, rerun with: -v
+==46250== Use --track-origins=yes to see where uninitialised values come from
+==46250== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 150 from 50)
+</code></pre>
+
+<p>From this, we can see that you can actually run valgrind with a verbose (<code>-v</code>) option, which will help you identify any particularly tricky errors. I suggest getting used to valgrind quickly, as all of your labs from now on <strong>must be without memory leaks</strong>.</p>
+
+<p>There are a couple other use cases for valgrind, too.</p>
+
+<h2 id="invalidpointeruse">Invalid Pointer Use</h2>
+
+<h2 id="detectinguninitializedvariables">Detecting Uninitialized Variables</h2>
+
+<p>Here&#8217;s a simple example.</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    int x;
+    if (x == 0)
+        printf(&quot;x is totally less than 0\n&quot;);
+    
+    return 0;
+}
+</code></pre>
+
+<p>Or a more complex one that valgrind will also catch.</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+
+int foo(int x) {
+    if (x &lt; 10)
+        printf(&quot;x is less than 10\n&quot;);
+}
+
+int main() {
+    int y;
+    foo(y);
+}
+</code></pre>
+
+<h2 id="whatelse">What Else</h2>
+
+<p>Invalid / mismatched frees! This is a lifesaver. Imagine you have a linked list, and you&#8217;re iterating over it and freeing nodes along the way when &#8211; oops! You freed something twice. Or perhaps, you freed something what wasn&#8217;t allocated. Valgrind can warn you of these things.</p>
+
+<h2 id="caveatsrevalgrind">Caveats Re Valgrind</h2>
+
+<p>Valgrind is far from a perfect tool. There are a few things to keep in mind:</p>
+
+<ul>
+<li>Consume up to twice as much memory</li>
+<li>Program runs 20&#8211;30 times slower</li>
+<li>Doesn&#8217;t catch buffer overflows if you don&#8217;t test with very long input strings</li>
+<li>Won&#8217;t tell you that your program may write over memory that it shouldn&#8217;t</li>
+</ul>
+
+<p>Example:</p>
+
+<pre><code>int main() {
+    char x[10];
+    x[11] = 'a';
+}
+</code></pre>
+
+<p>Valgrind won&#8217;t complain about the above at all. Why not? Some of you might think it contradicts the above example for &#8220;invalid pointer use&#8221;, but you&#8217;ll notice that this is not a pointer; it&#8217;s statically allocated here.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p>Want to learn more about valgrind? Here are some other great reads.</p>
+
+<p><a href="http://www.cprogramming.com/debugging/valgrind.html">C Programming</a> is always a trusted source. You should also check out their pre-processing directives.</p>
+
+<p><a href="http://valgrind.org/docs/manual/QuickStart.html">Full documentation</a> of valgrind - probably more in depth than you&#8217;d need.</p>
+
+<p><a href="http://cs.ecs.baylor.edu/~donahoo/tools/valgrind/">Very basic</a>, probably not the most useful.</p>
+</body>
+</html>

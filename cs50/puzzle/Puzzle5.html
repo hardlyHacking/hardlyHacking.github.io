@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Puzzle5</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="puzzle5">Puzzle 5</h1>
+
+<p>Let&#8217;s talk about the comma operator <code>,</code> in C. You&#8217;ve seen in plenty of times already:</p>
+
+<p>In variable initialization</p>
+
+<pre><code>int a = 5, b = 6;
+</code></pre>
+
+<p>and in for loops.</p>
+
+<pre><code>for (int i = 0, j = 3; i &lt; 5 &amp;&amp; j &lt; 5; i++, j++)
+</code></pre>
+
+<p>But do you <em>really</em> know what&#8217;s going on? Haven&#8217;t you been the least bit curious? This class <em>is</em> a &#8220;death to abstraction&#8221; after all, so let&#8217;s clear up this bit of haze surrounding this comma operator as well. While there is no overloading in C, the comma is actually overloaded to be both an operator <em>and</em> a separator. In the above two examples, it is serving as a separator between multiple expressions. The case of being a separator is not so interesting. Let&#8217;s look at the operator example instead.</p>
+
+<p>What is the output of the following program <code>comma.c</code>?</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    int a = 1, 2, 3;
+    printf(&quot;a : %d\n&quot;, a);
+    return 0;
+}
+</code></pre>
+
+<p>Trick question! Doesn&#8217;t compile. Oops. What about this?</p>
+
+<p>Here is <code>comma1.c</code>:</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    int a;
+    a = 1, 2, 3;
+    printf(&quot;a : %d\n&quot;, a);
+    return 0;
+}
+</code></pre>
+
+<p>And <code>comma2.c</code>:</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    int a;
+    a = (1, 2, 3);
+    printf(&quot;a : %d\n&quot;, a);
+    return 0;
+}
+</code></pre>
+
+<p>So what&#8217;s the output? Go on, take a case &#8211; don&#8217;t just lazily scroll down. <em>Guess!</em></p>
+
+<p>The answer is that <code>comma1.c</code> outputs <code>1</code> and <code>comma2.c</code> outputs <code>3</code>. So what&#8217;s going on? As it turns out, the comma ( <code>,</code> ) has lower precedence than the assignment operator ( <code>=</code> ). This means that in <code>comma1.c</code>, <code>a</code> gets assigned to <code>1</code>, and only afterwards the other two expressions are evaluated. If you compile this code with <code>-Wall</code>, it will show you the following warning:</p>
+
+<pre><code>warning: expression result unused [-Wunused-value]
+</code></pre>
+
+<p>The other two expressions in the line simply return <code>2</code> and <code>3</code>, but since the return values are not assigned to anything, the compiler just disregards them.</p>
+
+<p>In <code>comma2.c</code>, however, the <code>( )</code> operator has higher precedence than the assignment operator. So in this case, the final return value is the result of the grouped expression; thus, <code>3</code> is returned to be assigned to <code>a</code>, and the return values <code>1</code> and <code>2</code> are ignored. A similar warning is generated with this code as well.</p>
+
+<p>Remember that expressions are evaluated <strong>left to right</strong> and the return value is that of the <strong>rightmost expression</strong>.</p>
+
+<p>With this in mind, the following statement makes more sense all of a sudden.</p>
+
+<pre><code>int array[] = {23,34,12,17,204,99,16};
+</code></pre>
+
+<p>The braces <code>{ }</code> group statements together. The comma operator returns a value, and the braces group these comma statements together, and the result is a new statement that groups the statements within together; we call such a grouping an array.</p>
+
+<p>Let&#8217;s return to the second case, where the comma can be used as a separator for expressions as well. This can be a particularly useful way of grouping together multiple short, concise statements.</p>
+
+<pre><code>int j = (func1(), func2());
+</code></pre>
+
+<p>Or for a more context-filled example:</p>
+
+<pre><code>int main() {
+    int x = 10, y;
+  
+    // The following is equavalent to y = x++
+    y = (x++, printf(&quot;x = %d\n&quot;, x), ++x, printf(&quot;x = %d\n&quot;, x), x++);
+  
+    // Note that last expression is evaluated
+    // but side effect is not updated to y
+    printf(&quot;y = %d\n&quot;, y);
+    printf(&quot;x = %d\n&quot;, x);
+  
+    return 0;
+}
+</code></pre>
+
+<p>I hope this puzzle clears up some of the mystery with the comma operator!</p>
+
+<p><a href="http://www.geeksforgeeks.org/comna-in-c-and-c/">Here</a> are some further resources to understand commas.</p>
+</body>
+</html>

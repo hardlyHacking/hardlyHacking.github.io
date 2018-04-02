@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recitation6</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="recitation6">Recitation 6</h1>
+
+<p>Welcome to the final recitation section! How quickly time flew! I will miss you all very dearly.</p>
+
+<p>But before the goodbyes, we need to discuss <strong>two</strong> labs - the Query Engine and the sockets lab. First, as I&#8217;m sure you&#8217;ve heard, the sockets lab is optional. Why would you want to do it?</p>
+
+<ul>
+<li>Sockets are fundamental to C, and you can&#8217;t complete your education without learning them.</li>
+<li>Sockets are used everywhere, especially in the internet.</li>
+<li>If <a href="https://www.youtube.com/watch?v=3WSe9ugpXIw">you done messed up</a> a previous lab, now is the time to raise your grade.</li>
+<li>It is a rather easy lab, especially compared to the Tiny Search Engine.</li>
+</ul>
+
+<p>Of course, if you&#8217;re interested in none of these things, then feel free to skip the section about the final lab.</p>
+
+<h2 id="queryengine">Query Engine</h2>
+
+<p>For this lab, you will have to turn in <strong>all</strong> portions of your Tiny Search Engine. This is the final package, so I expect all parts to be there and polished completely. This means</p>
+
+<ul>
+<li>refactored code</li>
+<li>unit tests present</li>
+<li>commented well</li>
+<li>no memory leaks</li>
+<li>no segmentation faults</li>
+</ul>
+
+<p>None of these are optional. Even unit tests. I expect a well documented README explaining how to run your unit tests, how to build your project, etc.</p>
+
+<p>Once you get past all the other fluff requirements like refactoring, the actual deliverables for the Query Engine section of the Tiny Search Engine isn&#8217;t too bad. Essentially, you&#8217;re developing a rudimentary querying language. This last step is how Google makes all of its money - it matches the best by relevance, giving the best signal to noise ratio. But given that we only have a week, we&#8217;re doing to develop a rather crude algorithm.</p>
+
+<p>This algorithm just has two operators: AND and OR. OR has higher precedence than AND. Feel free to develop past this requirement, but beware that it <em>must</em> meet at least this requirement. For full examples, see the code he&#8217;s given as examples.</p>
+
+<p>This lab is essentially just testing your ability to code logically and use string manipulation functions. Not too bad after the indexer.</p>
+
+<h2 id="processvsthread">Process Vs Thread</h2>
+
+<p>What&#8217;s a process and what&#8217;s a thread? What&#8217;s the difference between the two?</p>
+
+<p>As it turns out, everything. Recall the virtual memory diagram from the last recitation section.</p>
+
+<figure>
+<img src="http://www.cprogramming.com/tutorial/memorg.png" alt="" />
+<figcaption></figcaption></figure>
+
+<p>This is not the virtual memory for your entire computer. Rather, this is a diagram representing the virtual memory for a <em>single process</em>. Each process has its own stack that looks much like this. That is, each process has its own stack, its own heap, its own data, and its own text (or code). This is important, so I&#8217;ll say it again. <em>Each process has its own stack, its own heap, its own globals, and its own code</em>.</p>
+
+<p>A thread, on the other hand, is always associated to a particular process. It shares the heap, data, and code with the process to which it is attached. Instead, it has its own stack. That&#8217;s it.</p>
+
+<p>So what are the benefits of threads? Remember that a thread has its own stack, but that&#8217;s it. It shares everything else.</p>
+
+<ul>
+<li>Less time to create a new thread &#8211; all you have to do is copy an empty stack space</li>
+<li>Less time to terminate a thread &#8211; just &#8220;free&#8221; the stack</li>
+<li>Less time to switch between threads</li>
+<li>Less communication overhead</li>
+</ul>
+
+<p>So overall, threads are just more efficient. No two ways about it; no matter how you optimize your operating system, threads are <em>always</em> more efficient than processes. What are some of the disadvantages of threads?</p>
+
+<ul>
+<li>Race conditions!</li>
+<li>Depending on the language / implementation, true parallelization may only be achieved by using processes.</li>
+</ul>
+
+<p>The second point is rather elusive and is not necessary for this class, so I&#8217;ll be brief about it.</p>
+
+<p>Threads are often implemented by using by a single core switching back and forth between threads, whereas processes can be fanned out to multiple cores &#8211; this is true parallelism. Is this faster? Well, depends on whether you are <a href="https://en.wikipedia.org/wiki/I/O_bound">I/O bound</a> or <a href="https://en.wikipedia.org/wiki/CPU_bound">CPU bound</a>, doesn&#8217;t it? This is why there is a raging debate as to how to resolve issues like <a href="https://wiki.python.org/moin/GlobalInterpreterLock">Global Interpreter Lock</a>. Because of this limitation of threads, interpreted languages like Python and Ruby don&#8217;t actually get faster when it comes to using threads, so you&#8217;re forced to use <em>processes</em>.</p>
+
+<h2 id="raceconditions">Race Conditions</h2>
+
+<p>If you didn&#8217;t understand that, don&#8217;t worry about it. For those of you who are even more curious, come talk to me about it later. The more important point is the first one: <a href="https://en.wikipedia.org/wiki/Race_condition">race conditions</a>, otherwise known as a data race.</p>
+
+<p>The fundamental question here is, since threads share the same heap and data, what happens when two threads try and access the same global variable at the same time? For example, thread A is trying to read from the memory, but at the same time thread B is going to write to it. Uh oh&#8230; <em>That</em> is a data race.</p>
+
+<p>The point of race conditions is that you get <strong>non-deterministic</strong> outcomes. You will never be guaranteed that this is precisely the order in which threads will alternate because that&#8217;s up to the operating system and not you. So how can we ensure that we don&#8217;t accidentally mess with the same data?</p>
+
+<p>Enter the <a href="https://en.wikipedia.org/wiki/Mutual_exclusion">mutex</a>. A mutex, or a lock, is something that can only be acquired once; once acquired, it is considered to be &#8220;locked&#8221;. Upon releasing the mutex, it is no longer &#8220;locked&#8221;. So how do we use this?</p>
+
+<p>We need a notion of a <strong>critical section</strong> here. A critical section is the segment of code where a thread is accessing common data that may be reused by other threads. So this may be the global data structure or what have you. The paradigm for such access is the following:</p>
+
+<ol>
+<li>Acquire the lock.</li>
+<li>Make changes to the critical section.</li>
+<li>Release the lock.</li>
+</ol>
+
+<p>Some of you have taken algorithms so you are familiar with <a href="https://en.wikipedia.org/wiki/Loop_invariant">loop invariants</a>. For those who have not, a loop invariant is a set of conditions that must always be true at the beginning of every loop iteration. The conditions may be violated during the loop, but at the end they must be restored to true once more. This is a very similar principle.</p>
+
+<p>Before any thread accesses the critical sections, the invariants must be true that no other thread is accessing that section at that moment. If it&#8217;s not true, the thread simply waits to get the lock.</p>
+
+<p>What happens when a thread forgets to release a lock? Uh oh&#8230; All the other threads will eventually just hang, waiting for a lock they can never acquire! The program will hang infinitely. This is known as <a href="https://en.wikipedia.org/wiki/Deadlock">deadlock</a>.</p>
+
+<p>There are all sorts of other nasty situations, like starvation or overfeeding, that can occur if you do not properly follow the paradigm set out for critical sections.</p>
+
+<p>As a side note, there are other types of locks, but we won&#8217;t discuss them here. If you&#8217;re curious, there are two other popular ones known as <a href="https://en.wikipedia.org/wiki/Semaphore_%28programming%29">semaphores</a> and <a href="https://computing.llnl.gov/tutorials/pthreads/#ConditionVariables">condition variables</a>.</p>
+
+<h2 id="nomenclature">Nomenclature</h2>
+
+<p>One tiny note on language that is my personal pet peeve. The notion of &#8220;fork&#8221; only applies to processes. You fork a process; you do <em>not</em> fork a thread. You spawn threads, or create threads, or do any number of other things with threads, but you don&#8217;t fork them.</p>
+
+<h2 id="sockets">Sockets</h2>
+
+<p>I don&#8217;t have a whole lot to say about this last lab; it&#8217;s quite easy, and you&#8217;ve reached the stage in your CS career where I&#8217;m not going to give you psuedo-code outlines for labs. Read the lectures on processes vs threads and the sockets lecture as well as the lab assignment. You should have what you need from that. This lab truly isn&#8217;t so difficult.</p>
+
+<p>One conceptual sticking point is the difference between pipes and sockets. <a href="http://www.perlmonks.org/?node_id=180842">Here</a> is a great resource for this. Here is the sparknotes version:</p>
+
+<blockquote>
+<p>A major difference between pipes and sockets is that pipes require a common parent process to set up the communications channel. A connection between sockets can be set up by two unrelated processes, possibly residing on different machines.</p>
+</blockquote>
+
+<p>Because of this difference, you&#8217;ll find sockets being used for internet communication (where there are no common parent processes to set this up) while <a href="https://en.wikipedia.org/wiki/Inter-process_communication">inter-process communication</a> (generally on the same computer) is done using pipes.</p>
+
+<p>Less important but still relavent are the large <a href="https://stackoverflow.com/questions/1235958/ipc-performance-named-pipe-vs-socket">performance differences</a> depending on OS and implementation.</p>
+</body>
+</html>

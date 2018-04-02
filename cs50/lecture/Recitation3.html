@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recitation3</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="recitation3">Recitation 3</h1>
+
+<h2 id="moredebugging">More Debugging</h2>
+
+<blockquote>
+<p>Debugging is like being the detective in a crime movie where you are also the murderer.</p>
+
+<p>&#8211; <cite>Felipe Fortes, technical lead at Flipboard</cite></p>
+</blockquote>
+
+<p>Debugging, while frustrating, is absolutely essential. Figuring out what your crazed, sleep-deprived self of yesterday <em>meant</em> to do and what your code is <em>actually</em> doing is no simple task. So we&#8217;re discussing some more debugging tips before you start building this search engine.</p>
+
+<p><strong>Tip 0: Read the GDB Notes</strong></p>
+
+<p>I mean Professor Campbell&#8217;s this time, particularly the part of patching code while inside of GDB. <a href="http://www.cs.dartmouth.edu/~campbell/cs50/gdb.html">This is super awesome</a>. Learn it. Not having to quit GDB to make every little change to your code is fantastic, and it will save you lots of time in the long run.</p>
+
+<p>Step through the examples in both the notes as well as the previous recitation yourself and see if you can really employ the practices. I urged you to do this in the lab as well, and I hope you followed my advice. Moving on.</p>
+
+<p><strong>Tip 1: Small Functions</strong></p>
+
+<p>Why do we split things up into multiple functions? Why not have one giant main method? It&#8217;s to save the <em>programmer&#8217;s time</em>. Anytime you see code appearing in multiple places, you should factor it out and write a single function to do this. C, unlike many other places, has much much smaller function call overhead, so you&#8217;ll find this won&#8217;t impact your performance much.</p>
+
+<p>But besides all of the usual bull-**** you hear, why do you <em>really</em> write many functions? Let me be devil&#8217;s advocate for a moment. I don&#8217;t care that I have to type out lots of things. I have the power of Vim and regular expressions! I can copy-paste content onto fifty files with a single Unix command! Hell, I won&#8217;t even write loops. I&#8217;ll literally write the same loop body fifty times and manually decrement <code>i</code> for all I care. Come on, give me a better reason.</p>
+
+<p>Well, there are really two main reasons two write small functions besides the whole saving programmer time / code design.</p>
+
+<ol>
+<li>Readability. Yup, small functions is the <strong>best</strong> way to improve readability, and I don&#8217;t care what someone else told you. Better than comments, better than good variable names. Reading a function that&#8217;s ten lines of code just makes life easy. It allows further abstraction. Once I understand each of the tiny functions, putting them together is simple. This is super helpful for anyone who will read your code later one - <em>i.e. yourself at a later point in time</em>.</li>
+<li>Testing. Testing. Testing. How do you debug your code? So far in your computer science career, more than likely you&#8217;ve simply been running your code and hoping it works. Do you have a rigorous testing protocol? What is it? Enter the world of <strong>unit tests</strong>.</li>
+</ol>
+
+<p><strong>Tip 2: Code, Don&#8217;t Write - Test Driven Developoment</strong></p>
+
+<p>This really is a part of the previous point, but it&#8217;s large enough that I decided to allocate a separate bullet point for it.</p>
+
+<p>There are <a href="https://stackoverflow.com/questions/520064/what-is-unit-test-integration-test-smoke-test-regression-test">lots</a> and lots of different kinds of tests. There are unit tests, integration tests, smoke tests, regression tests, acceptance tests, build tests, and many many more. People dedicate their whole lives to testing code - yes, it <em>is</em> that important.</p>
+
+<p>But since this is your first introduction to standardized testing, we&#8217;ll start with unit tests. The purpose of a unit test is to test a very narrow segment of code - in Java, it would be to test a single method of a class. In C, it would be to test a single function.</p>
+
+<p>Designing tests in a rigorous manner to really make sure your functions work is super important. In fact, there is a whole group of people who write their tests <em>first</em>. By writing the tests first, you plan out the entire design of the program down to what functions will do what. It allows you to think abstractly about the problem and focus on high-level design choices. Then, you go ahead and write the individual functions. It&#8217;s just like writing an outline and then filling it in to create an essay. This approach is called <a href="https://en.wikipedia.org/wiki/Test-driven_development">Test Driven Development</a>. It&#8217;s all the rage these days in industry.</p>
+
+<p>But we&#8217;re not in industry, so I won&#8217;t mandate you do it this way. Suffice it to say that I&#8217;m thoroughly convinced, and these days even for school projects I employ TDD. The most common concern by testing newbies is something of the following sentiment:</p>
+
+<p>&#8220;Well okay, I have to in addition to writing the code I would normally, write all these tests that have to be all rigorous and thorough, yo. Talk about wasting time.&#8221;</p>
+
+<p>Listen well &#8220;yo&#8221;. This is work you&#8217;ll have regardless - it&#8217;s just that you&#8217;ll be doing it in pieces throughout rather than all at once. By doing it all at once, you&#8217;re forced to think about your design and implementation - and hey by the way, it&#8217;s been <a href="http://www.skylinetechnologies.com/Blog/Article/191/Test-Driven-Development-Can-Save-You-Time-in-the-Long-Run.aspx">proven</a> by <a href="https://programmers.stackexchange.com/questions/2042/who-does-test-driven-development">many</a> a <a href="http://grokcode.com/439/test-driven-development-and-the-meaning-of-done/">person</a> smarter <a href="http://www.celerity.com/blog/2013/09/14/test-driven-development/">than</a> you <a href="http://www.embedded.com/design/prototyping-and-development/4398723/The-mock-object-approach-to-test-driven-development">or</a> I <a href="http://blog.typemock.com/2009/03/05/the-cost-of-test-driven-development">that</a> TDD <a href="http://trycatchfail.com/blog/post/Test-Driven-Development-Is-Not-Slower.aspx">saves</a> time in the <a href="http://www.jbrains.ca/permalink/how-test-driven-development-works-and-more">long</a> run. It&#8217;s become standard industry practice.</p>
+
+<p>The real reason people run into so many issues coding is that they treat it like writing an essay. When writing a paper, often times you breeze through the entire paper with a rough draft. Then you go over it several more times in phases of editing, and eventually a polished paper comes out. This is <em>not</em> how to approach coding at all. If you think you can write the entire assignment and just &#8220;edit&#8221; your way through it, you&#8217;re gonna have a bad time. Write a small function, make sure it works. Move onto the next small function. Rinse and repeat.</p>
+
+<p><strong>Tip 3: Unit Testing</strong></p>
+
+<p>So I hope the immensely long rant convinced you that testing your code is absolutely essential. If you&#8217;re ever going to be doing industry standard coding (getting a job, doing an internship, even doing open source volunteer work,) submitting the tests along side your code is <em>expected</em>, not viewed as a bonus. So let&#8217;s look at doing some actual unit tests!</p>
+
+<p>Admittedly, unit testing in C is slightly more difficult than Python&#8217;s <a href="https://nose.readthedocs.org/en/latest/">nose</a> framework or the very famous Java <a href="http://junit.org/">JUnit</a>. The <a href="https://code.google.com/p/googletest/">Google Testing Framework</a> is in my opinion the best one - some may argue that <a href="http://check.sourceforge.net/">Check</a> is better, but I disagree. Regardless of which one you use, unit test your code. Today&#8217;s recitation, however, will focus on the incredibly simple <a href="http://www.jera.com/techinfo/jtns/jtn002.html">MinUnit</a>.</p>
+
+<p>The entire &#8220;framework&#8221; is literally just <code>3</code> lines of code &#8211; <code>4</code> because one line is wrapped, and all of it is contained within <code>minunit.h</code>. It doesn&#8217;t get better than this. It&#8217;s my hope that by presenting the most simple framework in the existance of the web, all of you will do some sort of testing of your code.</p>
+
+<pre><code>/* file: minunit.h */
+#define mu_assert(message, test) do { if (!(test)) return message; } while (0)
+#define mu_run_test(test) do { char *message = test(); tests_run++; \
+                                if (message) return message; } while (0)
+extern int tests_run;
+</code></pre>
+
+<p>That&#8217;s it! <em>That</em> is the entire framework. So how do we use it?</p>
+
+<p>Let&#8217;s go through an example. Here is my obviously buggy <code>swap.c</code> C file that I want to test:</p>
+
+<pre><code>void swap(int *a, int *b) {
+    return;
+}
+</code></pre>
+
+<p>And here is the corresponding header file:</p>
+
+<pre><code>void swap(int *a, int *b);
+</code></pre>
+
+<p>Let&#8217;s test it! For this extremely introductory example, let&#8217;s just do one single test case. I&#8217;ve put all my tests in <code>test.c</code>:</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+#include &quot;swap.h&quot;
+#include &quot;minunit.h&quot;
+
+int tests_run = 0;
+
+int a = 5;
+int b = 4;
+
+static char *test_swap() {
+    swap(&amp;a, &amp;b);
+    mu_assert(&quot;error, a != 4&quot;, a == 4);
+    mu_assert(&quot;error, b != 5&quot;, b == 5);
+    return 0;
+}
+
+static char *all_tests() {
+    mu_run_test(test_swap);
+    return 0;
+}
+
+int main() {
+    char *result = all_tests();
+    if (result != 0)
+        printf(&quot;%s\n&quot;, result);
+    else
+        printf(&quot;ALL TESTS PASSED\n&quot;);
+    printf(&quot;Tests run: %d\n&quot;, tests_run);
+
+    return result != 0;
+}
+</code></pre>
+
+<p>Couple things to note here. Obviously, whatever file is doing the actual testing will have to <code>#include &quot;minunit.h&quot;</code>. Feel free to include this file in your SVN repo.</p>
+
+<p>Next, you&#8217;ll notice the actual testing file has to do a bit of setup to create the data that you will test. This is common practice, and it leads to testing files being a bit long - but luckily it&#8217;s not too difficult to create it.</p>
+
+<p>Lastly, the <code>all_tests</code> function here is rather unnecessary since we only have a single test; however, if we had many tests, it would be nice to put all the calls within a single function.</p>
+
+<p>Okay, let&#8217;s run it.</p>
+
+<pre><code>error, a != 4
+Tests run: 1
+</code></pre>
+
+<p>Bummer. It doesn&#8217;t work. Well, the fix is simple enough:</p>
+
+<pre><code>#include &quot;swap.h&quot;
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+</code></pre>
+
+<p>And the new output:</p>
+
+<pre><code>ALL TESTS PASSED
+Tests run: 1
+</code></pre>
+
+<p>If you are more interested, here are further readings.</p>
+
+<ul>
+<li><a href="https://stackoverflow.com/questions/65820/unit-testing-c-code">Stack Overflow synopsis</a></li>
+<li><a href="http://meekrosoft.wordpress.com/2009/11/09/unit-testing-c-code-with-the-googletest-framework/">GoogleTest framework</a></li>
+<li><a href="https://github.com/meekrosoft/helloc">Source code for google test example</a></li>
+<li><a href="http://pragprog.com/book/jgade/test-driven-development-for-embedded-c">Awesome C TDD book</a></li>
+</ul>
+
+<p><strong>Tip 4: Advanced GDB</strong></p>
+
+<p>These are two things I forgot to mention in my actual GDB tutorial!</p>
+
+<p>Debugging segmentation faults with GDB is super easy. Use the <code>backtrace</code> or <code>bt</code> command if you&#8217;re running the executable within GDB. If not, don&#8217;t worry. Usually segmentation faults will produce <strong>core dumps</strong>, which produce a <code>.core</code> file. Usually there will be a series of numbers after the word &#8220;core&#8221; in the filename, but choose the latest one (otherwise you&#8217;ll be debugging a wrong core dump!).</p>
+
+<p>The other really handy trick is attaching GDB to a process that&#8217;s <em>already begun</em>. Once you have the process ID to which you wish to attach, simply call <code>gdb -p PID</code>.</p>
+
+<h2 id="gnumake">GNU Make</h2>
+
+<p>One last thing to talk about before we discuss the details of the lab: GNU Make.</p>
+
+<p>For this lab, you&#8217;ll have many source files and many header files. Imagine you have some of the following completely made up files: <code>dictionary.c</code>, <code>dictionary.h</code>, <code>crawler.c</code>, <code>crawler.h</code>, <code>url.c</code> and <code>url.h</code>. Now, every time you compile, you have to do <code>mygcc dictionary.c url.c crawler.c</code>, and if you made a special debugging version, you have to do a different command. Then all those <code>.o</code> and <code>.gch</code> files created may have to be cleaned up after your test run. There should be a way to automate this process. Enter GNU Make.</p>
+
+<p><a href="https://www.gnu.org/software/make/">GNU Make</a> is an awesome tool used to create configurable executables quickly an easily, including debuggable versions of those executables, and remove any &#8216;junk&#8217; created afterwards (think <code>.gch</code>, <code>.o</code>, and other files).</p>
+
+<p>Here is an example make file to help you get started.</p>
+
+<pre><code># Lines that start with &quot;#&quot; are comments
+# Filename
+# Description / Purpose
+# Any specific warnings to build special files, should they apply
+
+# Which compiler? This should be gcc
+CC=gcc
+
+# Any params you'll pass to gcc
+# I have 2 sets of params - one for normla, one for a debugging version
+CFLAGS=-Wall -pedantic -std=c99 -O3
+DEBUG_FLAGS=$(CFLAGS) -ggdb
+
+# What are the relavent .c .h files
+SOURCES=./crawler.c ./crawler.h ./dictionary.c ./dictionary.h ./url.c ./url.h
+
+# Here are the make commands
+crawler:$(SOURCES)
+    $(CC) $(CFLAGS) -o crawler $(SOURCES)
+debug:$(SOURCES)
+    $(CC) $(DEBUG_FLAGS) -o debug $(SOURCES)
+
+clean:
+    rm -f debug
+    rm -f crawler
+    rm -f *.o
+    rm -f *.gch
+    rm -f *#
+    rm -f *~
+    rm -f *.swp
+</code></pre>
+
+<p>Now, if I call <code>make clean</code> it will execute all the statements below it. If I call <code>make debug</code>, it will create an executable called <code>debug</code> that I can use GDB on. No more long complicated <code>gcc</code> commands - it&#8217;s all done for you!</p>
+
+<p>The directory to find your source files (notice <code>./crawler.c</code> instead of <code>crawler.c</code>) is rooted at your Makefile. So if <code>crawler.c</code> is inside another folder <code>foo</code>, the Makefile would have said <code>./foo/crawler.c</code>.</p>
+
+<p>The most common source of bugs is that the indented lines underneath each command like <code>crawler</code> or <code>debug</code> or <code>clean</code> <strong>must use a tab</strong> - not spaces. Do soft tabs screw this up? Try it and find out. <code>:)</code> You may be surprised.</p>
+
+<p>You should <strong>of course</strong> include in your README how someone else should build / use your Makefile, and any special instructions. Obviously, submit your Makefile to SVN as well.</p>
+
+<h2 id="thecrawlerlab">The Crawler Lab</h2>
+
+<p>Okay, now that we have our toolbox filled to the brim with new knowledge and tips, let&#8217;s talk about the lab.</p>
+
+<p>This is not an easy lab. I&#8217;ll say it again - this is not an easy lab.</p>
+
+<p>Start early, get it working. You&#8217;ll find your future labs depend on this one being a success. Do I expect all of you to turn in a bug-free lab this time? Nope. And I&#8217;m not even going to point out all of the bugs. Your job over the next four weeks is to build a cohesive search engine. If that means your query engine breaks because of some small bug you wrote into your crawler three weeks beforehand then so be it.</p>
+
+<p>You should be thinking of this as one large lab. In fact, part of your later assignment will be to come back to this lab and make it squeaky clean - no memory leaks, optimize this, etc. But we&#8217;ll talk about tools like <code>valgrind</code> and <code>gprof</code> later. For now, let&#8217;s talk about the design pattern for this assignment.</p>
+
+<p>You&#8217;ve actually seen the implementation and design patterns for this assignment in class already, and most likely Professor Campbell has spoken about this at length. There&#8217;s not much discussion here - you&#8217;re all implementing the design we laid out in class, end of story.</p>
+
+<p>How does a crawler work? We&#8217;re given a starting URL, often referred to as the <em>seed</em>. We crawl until we hit a predetermined maximum depth value. The seed is given a depth of <code>0</code> by convention. All URLs found in the seed are of depth <code>1</code>, and so on.</p>
+
+<p>So what data structures do we need?</p>
+
+<ul>
+<li>Something to tell us in which order we will be visiting URLs</li>
+<li>Something to tell us if we&#8217;ve already visited a URL before</li>
+<li>Something to store information about URLs - the depth at which it was found, the actual URL, and anything else we deem necessary</li>
+</ul>
+
+<p>These are of course just suggestions, but I think they&#8217;re very good ones that we should all use. The first one is obviously some sort of ordered data structure we have to implement; the real question is what order should this be. Should it be a stack? A queue? Something else?</p>
+
+<p>Well, this depends on your implementation of the crawler. I would do something in the style of Breadth First Search: crawl everything with depth <code>0</code> first, then crawl everything with depth <code>1</code>, and so on. This would mean a standard queue. For the actual implementation, you need something that allows you to pop off the front quickly and something that allows you to add onto the end very quickly. What this becomes is up to you. The obvious solution is a linked list. If you have a better, non-obvious solution, feel free to implement that as well.</p>
+
+<p>For the second data structure, we have some choices. But there will be many, <em>many</em> URLs that we are searching for. One choice - one that optimizes for time complexity, rather than memory - is a dictionary (or a HashMap for the Java crowd).</p>
+
+<p>How do dictionaries (or hash tables) work? A dictionary is a data structure that, in the worst case, takes <code>O(n)</code> lookup time. So why use them? Hell, a simple array takes <code>O(n)</code> worst case lookup time. Why not just use those? Well, most of the time, a dictionary takes <em>constant</em> lookup time.</p>
+
+<p>Let&#8217;s imagine a dictionary as a simple array with length <code>1000</code>. Now let&#8217;s say we want to insert a string <code>&quot;Hello world&quot;</code> into this dictionary so we can easily find it. We take a <strong>hash function</strong>, apply it to a string, and it gives us a value. Good hash functions always provide unique results for unique inputs - that is, they should have no collisions. If two different strings <code>&quot;goodbye&quot;</code> and <code>&quot;hello&quot;</code> <em>both</em> had a hash value of <code>6</code>, well then that wouldn&#8217;t be a very good hash function would it?</p>
+
+<p>The hash function we&#8217;ve given you is a pretty decent one - feel free to use a better one should you find one online (of <em>course</em> you will cite it&#8230;). Great! So we have some unique hash value as a result of this awesome mathy hash function. Now what?</p>
+
+<p>Well we can&#8217;t just use that as an index automatically - remember how our dictionary is just a <code>1000</code> element array? So how do we fit this integer into our array? How about the <code>modulus</code> operator. By modding the output of the hash function with the size of the dictionary, we get some value between <code>0</code> and <code>999</code> inclusive - the size of our dictionary.</p>
+
+<p>So we can use <em>this</em> value as our index into the dictionary. So&#8230; is that it? No! The modulus function artificially creates collisions! Think about it. Imagine we have a perfect hash function which never creates the same value given two different inputs. Great. So we have two values <code>1000</code> and <code>2000</code>. Well, when we mod them both by <code>1000</code>, won&#8217;t they both be assigned to <code>0</code>?</p>
+
+<p>Of course. So what do we do now? Well, what if we changed our data structure from being a simple array of ints to an array of linked lists. Now that each element in the array contains a <em>linked list</em>, we can assign both both of those hashes to the same index in the linked list.</p>
+
+<p>But this adds another wrench into our problem. What if we wanted to find out whether the string <code>&quot;goodbye&quot;</code> was in our dictionary? Well, we&#8217;d input that value into our hash function, mod the operator by the size of the dictionary, and look in that index. But we can&#8217;t just <em>assume</em> that if the value is not null it will be what we&#8217;re looking for. Remember, there can be collisions - the string <code>&quot;hello&quot;</code> could have been assigned to the same value. So we <em>iterate through the linked list</em> and look for the string, and only if we don&#8217;t find it there can we conclude it is not in the dictionary.</p>
+
+<p>Is it becoming clear why in the worst case a dictionary is also <code>O(n)</code>? What&#8217;s the worst case? Imagine a dictionary with the size of <code>1</code>. Just a single pointer to a linked list. That means <em>every</em> call to the dictionary would have to look through the entire linked list - in other words, just like a normal array.</p>
+
+<p>You will implement a hash table for this lab, so you&#8217;ll get to experience its inner workings first hand.</p>
+
+<p>Fancier hash tables in languages like Java or Python actually dynamically adjust in size. When they see that the number of collisions has reached a certain threshold, they&#8217;ll increase their size from <code>1000</code> to <code>2000</code> (or whatever the size is) and then <em>re-hash</em> all their elements. This is naturally a rather time intensive operation, but the <a href="http://en.wikipedia.org/wiki/Amortized_analysis">amortized cost</a> is quite small (algorithms, people!).</p>
+
+<p>Great, so now you&#8217;ve designed all your three data structures, the methods that go along with them, and you&#8217;ve <em>unit tested all of them</em> so you <em>know</em> the error cannot be within any of these files.</p>
+
+<p>Awesome! If you&#8217;ve truly done all of these things, then the actual <code>crawler.c</code> file just has to be a single main method - in fact, it doesn&#8217;t have to be more than <code>25</code> lines of code!</p>
+
+<pre><code>1. Create all the data structures you'd use - your dictionary, your queue, etc
+2. As long as your queue is not empty
+    3. Pop off the first element from the queue
+    4. Download the contents of the page the URL points to
+    5. Search through all URLs in this page, adding them to the dictionary / queue if they're not already there and they're not beyond MAXDEPTH
+    6. Store the depth of this URL, and all the URLs you found in it into a file
+</code></pre>
+
+<p>That&#8217;s it! There&#8217;s the lab. Go get &#8217;em!</p>
+</body>
+</html>

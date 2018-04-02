@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recitation2</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="recitation2">Recitation 2</h1>
+
+<h2 id="whygdb">Why GDB?</h2>
+
+<p>Pretty much no one argues against the importance of debugging these days. Rather, the issue is with how people choose to debug - which begs the question why have debuggers at all?</p>
+
+<p>Many of you in CS1 or CS10 may have never bothered to touch the Eclipse debugger, and I don&#8217;t blame you - I think it is quite cumbersome and difficult to use. You may be thinking to yourself &#8220;I don&#8217;t need a debugger - I just look at my code and use print statements.&#8221; Interesting. Let&#8217;s examine that proposition.</p>
+
+<p>Let&#8217;s imagine for a moment that you&#8217;re writing a program that takes quite a long time to run - on the order of maybe an hour. If you think that&#8217;s ridiculous, just wait until you finish writing your crawler - many of yours <em>will</em> take an hour, and when you put all three parts of your search engine together it almost certainly will take longer than that.</p>
+
+<p>So we have this program that is quite expensive to run in terms of run time. And, like many programs, it has a bug in it. Fantastic. Realizing how precious each run is (lest you waste an hour of your life,) you diligently spend the next 10 minutes inserting every print statement you can think of. And then you run your code.</p>
+
+<p>20 minutes in, the inevitable happens. You realize you forgot to put one print statement. For the sake of argument, assume that you could not have known this before running - rather, only by examining the variables you are already printing could you have deduced the importance of this variable. So what now?</p>
+
+<p>Add the print statement and re-run the bloody thing? That sounds awful!</p>
+
+<p>Some of the stubborn members of this class will persist and argue that their ability to make deductions purely based on stepping through the code is unparalleled. These individuals will say fine, I am willing to struggle through commenting and un-commenting and re-commenting all those print statements. After all, it&#8217;s certainly easier than <em>learning something new</em>.</p>
+
+<p>Fine.</p>
+
+<p>What if you have multiple processes running at the same time? Later on in this course, you will write a program that uses threads and processes for <strong>parallel programming</strong>. In this scenario, threads and processes will interact with each other in various ways in often unpredictable outcomes. So your print statements will produce different results every time, and depending on the outcome, you may want to print different things. What now?</p>
+
+<p>The reason I&#8217;ve spent a page of text stressing this simple point is that nearly every time I have tried to teach someone a debugging tool, I nearly always face resistance with the same qualm: &#8220;why is this necessary when I have <code>printf</code>?&#8221;</p>
+
+<p>I hope you understand why now.</p>
+
+<p><strong>G</strong>nu Project <strong>D</strong>e<strong>b</strong>ugger is absolutely essential for you to learn. In advanced projects such as the ones you will code later this term, <code>printf</code> statements simply will not cut it. GDB is the ultimate tool in being able to freeze your code and examine all relavent variables at a given moment in time. Even better, it allows you to travel up and down the stack to examine each frame and everything it contains.</p>
+
+<h2 id="learninggdbpart1:gdbsavesus">Learning GDB Part 1: GDB Saves Us</h2>
+
+<p>We enter GDB by simply typing <code>gdb</code> on our command line. This brings up the GDB interpreter.</p>
+
+<p>Protip: If you&#8217;re ever confused about a command, enter gdb prompt and <code>help [command]</code> will show you the way.</p>
+
+<p>Here&#8217;s a sample C program with a small bug in it. I understand that for <em>this</em> toy example a <code>printf</code> statement would suffice, but since we are learning a new tool, it&#8217;s best to start with a simple example. The purpose of this code is to sort an array.</p>
+
+<pre><code>0   #include &lt;stdio.h&gt;
+1   #include &lt;stdlib.h&gt;
+2
+3   #define LENGTH (7)
+4   int array[] = {34, 2, -1, 6, 10, -8, 30};
+
+5   void swap(int a, int b) {
+6     int temp = a;
+7     a = b;
+8     b = temp;
+9   }
+10
+11  void printArray(int list[]) {
+12    printf(&quot;array: &quot;);
+13    for (int i = 0; i &lt; LENGTH; i++)
+14      printf(&quot;%d &quot;, list[i]);
+15    printf(&quot;\n&quot;);
+16  }
+17
+18 void sortArray(int list[], int length) {
+19   for (int j = 0; j &lt; length; j++) {
+20      int min = j;
+21      for (int i = j; i &lt; length; i++)
+22          if (list[i] &lt; list[min])
+23              min = i;
+24      swap(j, min);
+25   }
+26 }
+27
+28 int main() {
+29   printArray(array);
+30   sortArray(array, LENGTH);
+31   printArray(array);
+32   return 0;
+33 }
+</code></pre>
+
+<p>So let&#8217;s run this code. Remember that for GDB, you have to compile the code with the GDB flag - so that would be <code>gcc -ggdb bug.c</code>. This will produce the executable <code>a.out</code>, and then we enter GDB with <code>gdb a.out</code>.</p>
+
+<p>Great, now we can run the program. Just type <code>run</code>. The program will run as normal - if it crashes, the crash message will usually be the same in GDB as normal; otherwise, you get the standard outputs.</p>
+
+<p>Here is what I get when I run the code:</p>
+
+<pre><code>array: 34 2 -1 6 10 -8 30
+array: 34 2 -1 6 10 -8 30
+</code></pre>
+
+<p>Hmm.. The array values do not change in the slightest! It&#8217;s now time to use GDB to debug this code. We already have a print statement, and it&#8217;s never being executed. Hmm. This is where <strong>breakpoints</strong> come in.</p>
+
+<p>Breakpoints are used to freeze a program at a specific point so that the variables can be examined more thoroughly. You can also change breakpoints, remove old ones, and add new ones, once a gdb session has already started. This gives you the advantage of basically having dynamic print statements - ones that change every single time you run without having to add all those lines of code to your program.</p>
+
+<p>We use <code>break bug.c:main</code>. This handy little trick sets the breakpoint to the main function - which means as soon as GDB enters the main function, it stops and waits for user input. You can also specify line numbers, so we instead could have said <code>break bug.c:29</code>. These would have been the same. Note that I chose <code>29</code> instead of <code>28</code> - GDB breaks <em>before</em> executing the line number specified.</p>
+
+<p>The GDB command <code>next</code> executes the next step; type this to see the output of the first call to <code>printArray</code>.</p>
+
+<pre><code>(gdb) n
+array: 34 2 -1 6 10 -8 30
+40      sortArray(array, LENGTH);
+</code></pre>
+
+<p>Upon calling <code>next</code>, GDB executes the <code>printArray</code> function, displays the output, and then shows the line of code <em>it will execute after this</em>.</p>
+
+<p>Clearly the <code>printArray</code> function is working as intended - so the bug is not here. Instead, it must be in <code>sortArray</code> or swap. Let&#8217;s step <em>into</em> the <code>sortArray</code> function to see what&#8217;s happening. Use <code>step</code> for this.</p>
+
+<pre><code>(gdb) s
+sortArray (list=0x601050 &lt;array&gt;, length=7) at sort.c:28
+28      for (int j = 0; j &lt; length; j++) {
+</code></pre>
+
+<p>GDB shows first the location in the source code that we have stepped into: the <code>sortArray</code> function, which is what we expected. Even better, it shows the first line that it is about to execute - in this case, the for loop.</p>
+
+<p>Do we really want to step through every iteration of the for loop? Of course not. <strong>The first order of business is figuring out which function is wrong</strong> - not where in the code it is going wrong. So now we have to decide whether the <code>swap</code> function or the <code>sortArray</code> function is wrong. Let&#8217;s skip ahead to right before the swap function!</p>
+
+<pre><code>(gdb) b swap
+Breakpoint 2 at 0x40058a: file sort.c, line 8.
+(gdb) c
+Continuing.
+
+Breakpoint 2, swap (a=0, b=5) at sort.c:8
+8       int temp = a;
+</code></pre>
+
+<p>Okay, so we set a breakpoint at the swap function and then continued the execution of the code. GDB dutifully stopped us when it first reached the swap function. Notice that it also gives us the values of the parameters <code>a=0, b=5</code>. How useful! Let&#8217;s step through the swap function and see if the values actually change.</p>
+
+<pre><code>(gdb) n
+9       a = b;
+(gdb) n
+10      b = temp;
+(gdb) n
+11  }
+(gdb) print a
+$1 = 5
+(gdb) print b
+$2 = 0
+</code></pre>
+
+<p>Cool! It looks like the swap function worked. <code>a</code> is now <code>5</code> and <code>b</code> is now <code>0</code>. Awesome! Let&#8217;s continue through now that we know the problem is in <code>sortArray</code>.</p>
+
+<p>WAIT! Let&#8217;s just double check if that is true. If swap really worked, then the minimum value in <code>array</code> should be in position <code>0</code>. So let&#8217;s verify:</p>
+
+<pre><code>(gdb) print array[0]
+$3 = 34
+(gdb) print array[1]
+$4 = 2
+</code></pre>
+
+<p>Interesting! Despite the fact that <code>a</code> and <code>b</code> changed values, the values inside <code>array</code> did not change at all! Looks like swap only changes values locally!</p>
+
+<p>Hooray! We successfully debugged a program. Exit GDB with <code>C-D</code> (control-D).</p>
+
+<p>Let&#8217;s make the final change to the source code and re-run it.</p>
+
+<pre><code>void realSwap(int array[], int i, int j) {
+    int temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+}
+</code></pre>
+
+<p>The more C way to write this would be the following:</p>
+
+<pre><code>void realSwap(int *a, int *b) {
+    int temp;
+    temp = *a;
+    *a = *b;
+    *b = temp;
+}
+</code></pre>
+
+<p>But that will come later once we get to pointers&#8230;</p>
+
+<p>Let&#8217;s recompile this and re-run it:</p>
+
+<pre><code>array: 34 2 -1 6 10 -8 30
+array: -8 -1 2 6 10 30 34
+</code></pre>
+
+<p>Nice! It works. GDB saves the day!</p>
+
+<h2 id="learninggdbpart2:gdbfailsus">Learning GDB Part 2: GDB Fails Us</h2>
+
+<p>Here is the file <code>bug.c</code>.</p>
+
+<pre><code>0  #include &lt;stdio.h&gt;
+1  #define TOTAL_ELEMENTS (sizeof(array) / sizeof(array[0]))
+2
+3  int array[] = {23, 24, 12, 17, 204, 99, 16};
+4
+5  int main() {
+6      int d;
+7      for (d = -1; d &lt;= (TOTAL_ELEMENTS-2); d++)
+8          printf(&quot;%d\n&quot;, array[d+1]);
+9      return 0;
+10  }
+</code></pre>
+
+<p>So what does the code do? Well it is <em>supposed</em> to print out every element in the array. But what does it <em>actually</em> do? Upon running this code we see that no output is generated at all!</p>
+
+<p>As usual, let&#8217;s do <code>break bug.c:main</code>. Now that we&#8217;ve set the break point, let&#8217;s <code>run</code>. You should see output similar to the following:</p>
+
+<pre><code>Starting program: /net/tahoe3/chander/a.out
+
+Breakpoint 1, main () at bug.c:8
+8       for (d = -1; d &lt;= (TOTAL_ELEMENTS-2); d++)
+</code></pre>
+
+<p>Interesting. Even though we broke at main, it actually skipped right past the declaration of <code>d</code> and instead stopped right before the for loop.</p>
+
+<p>Let&#8217;s see if something is already wrong at this state. <code>print d</code> is self explanatory. I get this output:</p>
+
+<pre><code>(gdb) print d
+$1 = 0
+</code></pre>
+
+<p>Okay, so <code>d</code> is alright. Regardless of what the value was, it gets set to <code>-1</code> in the beginning of the for loop regardless, so thats okay. What about the contents of the array? <code>print array</code> yields:</p>
+
+<pre><code>(gdb) print array
+$3 = {23, 24, 12, 17, 204, 99, 16}
+</code></pre>
+
+<p>And that&#8217;s fine, too. Great. So nothing in the setup went wrong - all the data seems correct. So what could be going wrong? Well, because nothing in the for loop is being printed, we can hypothesize that the program is not entering the for loop at all. The most common reason for that is the condition is not being met.</p>
+
+<p>In otherwords, <code>d &lt;= (TOTAL_ELEMENTS-2)</code> is never true. So let&#8217;s examine this part next.</p>
+
+<pre><code>(gdb) print sizeof(array)
+$4 = 28
+(gdb) print sizeof(array)/sizeof(array[0])
+$5 = 7
+</code></pre>
+
+<p>Okay, so that part is working fine. Now here is a cool little trick. Let&#8217;s execute that particular line and see if it works out.</p>
+
+<pre><code>(gdb) print d &lt;= 7
+$6 = 1
+</code></pre>
+
+<p>Remember, in C <code>1</code> is <code>true</code> and <code>0</code> is <code>false</code>. So <code>d</code> is in fact less than or equal to <code>7</code>. So how could the loop condition not be satisfied?</p>
+
+<p>Some of you may already know: we&#8217;re not quite being fair to the program here. We tested whether <code>d &lt;= 7</code> and <em>not</em> <code>d &lt;= (TOTAL_ELEMENTS - 2)</code>. Okay, nitpickers. Let&#8217;s try that.</p>
+
+<pre><code>(gdb) print d &lt;= (TOTAL_ELEMENTS - 2)
+No symbol &quot;TOTAL_ELEMENTS&quot; in current context.
+</code></pre>
+
+<p>What now!? As it turns out, the limitation of GDB is that it cannot know about <code>define</code> statements. This is because of the way <code>define</code>s work in C - it is actually a compile time issue; the compiler goes through the code and replaces any instance of <code>TOTAL_ELEMENTS</code> with whatever it is defined as. Well, if that&#8217;s true, we can do the same thing and preserve the integrity of the code! So let&#8217;s try again:</p>
+
+<pre><code>(gdb) print d &lt;= ((sizeof(array) / sizeof(array[0])) - 2)
+$4 = 1
+</code></pre>
+
+<p>It&#8217;s still true! Hmm. So why doesn&#8217;t it enter the loop? Well, as it turns out, there <em>is</em> a difference between using an actual define statement and just copy-pasting the code following the define to replace <code>TOTAL_ELEMENTS</code>. <code>define</code>s are almost always <code>unisgned int</code>, whereas when we copy paste the code into GDB, it becomes <code>int</code>. When comparing unsigned int to a signed int, <code>d</code> gets casted to an <code>unsigned int</code>, and <code>-1</code> becomes <code>11111111111111111111111111111111</code> in binary, which is <code>4,294,967,295</code>. So it evaluates to false!</p>
+
+<p>If you&#8217;re not sure as to why that becomes <code>-1</code>, you need to review your computer architecture. This goes back to how negative numbers are stored internally. Read up on <a href="https://en.wikipedia.org/wiki/Two%27s_complement">2&#8217;s complement</a>.</p>
+
+<p>So, we need to change our for loop code to make sure both sides of the comparison are being treated as signed integers.</p>
+
+<pre><code>for (d = -1; d &lt;= (signed int) (TOTAL_ELEMENTS - 2); d++)
+</code></pre>
+
+<p>Now run the code again:</p>
+
+<pre><code>[bear:~] 127) gcc bug.c
+
+[bear:~] 128) ./a.out
+23
+24
+12
+17
+204
+99
+16
+
+</code></pre>
+
+<p>Sure enough, it works. This example illustrates some of the weaknesses of <code>gdb</code>, and why it is absolutely essential to really understand <code>define</code> statements.</p>
+
+<h2 id="learninggdbpart3:commandsgalore">Learning GDB Part 3: Commands Galore</h2>
+
+<p><code>break</code> or <code>b</code> - creates a new breakpoint. Can specify line numbers in a file or a function name.</p>
+
+<p><code>clear</code> - deletes an individual break point. Usually takes an argument as to <em>which</em> breakpoint to clear.</p>
+
+<pre><code>(gdb) b main
+Breakpoint 3 at 0x400534
+(gdb) clear main
+Deleted breakpoint 3
+</code></pre>
+
+<p><code>continue</code> or <code>c</code> - continues running a program from where it last left off until it finishes or is interrupted by another breakpoint.</p>
+
+<p><code>delete</code> or <code>d</code> - deletes all breakpoints.</p>
+
+<p><code>down</code> - goes down a stack frame.</p>
+
+<p><code>list</code> or <code>l</code> - shows the source code at a given line number. For example, <code>list 39</code> would show the first couple lines above line <code>39</code> and the first several lines after line <code>39</code>. Useful viewing source code without ever leaving GDB.</p>
+
+<p><code>next</code> or <code>n</code> - executes the next statement of a program that is already being run and is currently paused at a breakpoint.</p>
+
+<p><code>print</code> or <code>p</code> - prints the value of a variable or the given expression.</p>
+
+<p><code>run</code> or <code>r</code> - runs a program <em>from the beginning</em>. If a session has already begun and you are paused on a breakpoint and you type <code>run</code>, GDB will warn you:</p>
+
+<pre><code>(gdb) run
+The program being debugged has been started already.
+Start it from the beginning? (y or n)
+</code></pre>
+
+<p><code>step</code> or <code>s</code> - steps <em>into</em> the next statement rather than just executing it. For example, if the next statement was <code>foo();</code>, rather than just executing it, GDB would pause at the first line of the <code>foo</code> function.</p>
+
+<p><code>up</code> - goes up a stack frame.</p>
+
+<p><code>watch</code> - this extremely useful command pauses the program whenever the value of the variable provided changes.</p>
+
+<h2 id="noteformacusers">Note For Mac Users</h2>
+
+<p>Mac, especially OS X Mavericks, <a href="https://stackoverflow.com/questions/19554439/gdb-missing-in-os-x-mavericks">has deprecated</a> GDB (and GCC). The new Mac equivalents are <code>lldb</code> and <code>clang</code>, respectively. <a href="https://developer.apple.com/library/mac/documentation/IDEs/Conceptual/gdb_to_lldb_transition_guide/document/lldb-terminal-workflow-tutorial.html">Here</a> is a quick guide to lldb - you&#8217;ll find that it is extremely similar but with extended capacity to debug applications and not just C programs.</p>
+
+<p>If you still want to install old school GCC, use <code>brew install homebrew/dupes/gdb</code>. Then, follow <a href="https://stackoverflow.com/questions/11504377/gdb-fails-with-unable-to-find-mach-task-port-for-process-id-error">this guide</a>. You need to grant GCC root user permissions and certificate access, otherwise Mac will think it&#8217;s a virus and kill it (yay security!).</p>
+
+<p>Note than when following the guide I linked, the &#8220;Snow Leapord&#8221; section applies to everything Snow Leapord <em>and after</em>, not <em>just</em> Snow Leapord (it&#8217;s an old guide). If it <em>still</em> doesn&#8217;t work after all that, try using <code>sudo</code> when you build as well as when running GDB.</p>
+
+<p>I would <em>highly</em> recommend that Mac users actually do this simply because testing locally is much preferrable to doing all the debugging on a remote server - it&#8217;s much slower, and remote environments are not as configurable as your own local box.</p>
+
+<h2 id="miscbenefits">Misc Benefits</h2>
+
+<p>We&#8217;ve only done a limited example here, but trust me that when you get to pointers, GDB becomes even <em>more</em> invaluable. In the mean time though, did you know you can use GDB to print <code>struct</code>s? This is an <em>awesome</em> feature of GDB.</p>
+
+<pre><code>struct foo {
+    int a;
+    int b;
+    char c;
+};
+
+int main() {
+    struct foo bar;
+    bar.a = 5;
+    bar.b = 9;
+    bar.c = 'f';
+    return 0;
+}
+</code></pre>
+
+<p>Enter GDB and try and print <code>bar</code>:</p>
+
+<pre><code>Breakpoint 1, main () at stuff.c:18
+18    printf(&quot;%d\n&quot;, bar.a);
+(gdb) print bar
+$1 = {a = 15, b = 9, c = 102 'f'}
+</code></pre>
+
+<p>That&#8217;s really useful - especially when you start your crawler and start dealing with rather complicated <code>struct</code>s.</p>
+
+<p>GDB has more or less redefined the standard for debugging. Did you know python also has a GDB equivalent? It&#8217;s called - wait for it - PDB. <a href="http://docs.python.org/2/library/pdb.html">Read all about it</a> and debug your code more effectively.</p>
+
+<h2 id="truelocaltesting-virtualbox">True Local Testing - Virtual Box</h2>
+
+<p>There have been many concerns regarding the differences between Mac-C and standard Linux C. These are fair concerns - you will find that programs that work on Linux may not work on Mac or vice versa. I highly recommend getting a local linux environment set up on your laptop.</p>
+
+<p>Many of you are not comfortable with partitioning your hard drive to do so; I understand. Partitioning is a daunting task for people, especially if you have never done this sort of thing, and it requires careful preparation (taking a back up) because should something go wrong, you are truly in deep doo-doo (that, I believe, is a technical term).</p>
+
+<p>Behold the solution to all your qualms: <a href="https://www.virtualbox.org/">Virtual Box</a>. Now, <em>for free</em>, you too can partake in the wonders of Linux. Simply select your favorite distro (newbies, you should choose <a href="http://www.ubuntu.com/">Ubuntu</a> - &#8220;The World&#8217;s Most Popular Free OS&#8221; - it is the easiest and most user friendly bar none,) and develop in an environment that is identical (in all ways that this class is concerned about) to the Linux servers. No more worries of whether your Mac/Windows code will break on the servers! No more strange platform-related bugs!</p>
+
+<p>This is also a fantastic exercise - take a weekend when you have free time, and try this out. Seriously. Making an executable USB, learning how to interact with a VM. This is <em>fantastic</em> systems stuff - you will be surprised in how much you can learn from simple hacky stuff like this.</p>
+
+<p>Some of the more advanced peeps may want to try out:</p>
+
+<ul>
+<li><a href="http://lubuntu.net/">LUbuntu</a> (Low Ubuntu) - it&#8217;s Ubuntu but without all the GUI&#8217;s that seem to slow down Ubuntu; less graphical, more light weight.</li>
+<li><a href="http://www.linuxmint.com/">Linux Mint</a> - if you&#8217;re reminiscent of the old Windows XP days, this is the one for you! I tried it out and really liked it to be honest; it&#8217;s a great user experience.</li>
+<li><a href="https://fedoraproject.org/">Fedora</a> - a good classic. Very polished. This is what the CS servers run, so if you&#8217;re <em>really</em> looking for exactness, this is the one for you.</li>
+</ul>
+
+<p>Of course, there is always this <a href="http://www.zegeniestudios.net/ldc/">awesome site</a> that decides for you <code>:)</code>.</p>
+
+<h2 id="gdbaliases">GDB Aliases</h2>
+
+<p>You should all use these GDB / GCC aliases in your <code>~/.bashrc</code>.</p>
+
+<pre><code>alias mygcc='gcc -Wall -pedantic -std=c99'
+alias dgcc='mygcc -ggdb -g3 -gdwarf-2'
+</code></pre>
+
+<p><code>-Wall</code> is meant to enable all warnings in your code - this is useful because warnings in C are often sources of error.</p>
+
+<p><code>-pedantic</code> forces you to stick to strict style conventions - this also helps in debugging.</p>
+
+<p><code>-std=c99</code> avoids many of the more &#8220;useless&#8221; warnings. C has adopted many of the better features from C++, and almost nobody codes in standard C79 anymore. Use either this one or <code>std=gnu99</code>.</p>
+
+<p>If you haven&#8217;t guessed yet, <code>dgcc</code> is meant for debugging. <code>-ggdb</code> enables GDB hooks into your code. <code>-g3</code> and <code>-gdwarf-2</code> are both used to enable macro hooks for GDB. Remember how GDB couldn&#8217;t understand the macro <code>TOTAL_ELEMENTS</code>? That problem goes away with these two flags. Unfortunately, the output of <code>d &lt;= (TOTAL_ELEMENTS - 2)</code> doesn&#8217;t change, so it <em>still</em> doesn&#8217;t help in debugging the other example, but that doesn&#8217;t meant it won&#8217;t be useful in future problems!</p>
+
+<h2 id="thelab">The Lab</h2>
+
+<p>This lab is fairly simple - you could do this in Java or Python in a breeze. Rock-paper-scissors is as hard as it gets. It&#8217;s not designed to be difficult conceptually. Like the last lab, the purpose is for you to get used to C programming. You don&#8217;t know the libraries, you don&#8217;t know the functions. This is to get you used to the quirks of the C language before the hard stuff comes - and believe me, <a href="http://theoatmeal.com/comics/winter_is_coming">winter <em>is</em> coming</a>.</p>
+
+<p>There are some resources you may want to learn about!</p>
+
+<p><a href="http://www.cplusplus.com/">Your new C bible</a> - internet edition. Seriously - it has every C function, an example of how it&#8217;s used, the parameters it takes, and what it returns. Learn it. Cherish it. Love it.</p>
+
+<p><a href="http://beej.us/guide/bgnet/">Anything network related ever</a> - Okay, to be fair you won&#8217;t do this until later on in the term, but since this is a comprehensive guide for C, I might as well just put this here. The final project will heavily involve this stuff.</p>
+
+<p><a href="http://www.amazon.com/C-Programming-Language-2nd-Edition/dp/0131103628">The <strong>actual</strong> C Bible from the creators of C</a> - read if you have lots of time. A lot of this is very interesting for historical stuff, and there <em>is</em> some phenomenal content in there, but odds are you don&#8217;t have time for this or you probably would have learned Vim already, right? <a href="https://www.youtube.com/watch?v=COf8NIIV7Z0">RIGHT!?</a></p>
+</body>
+</html>

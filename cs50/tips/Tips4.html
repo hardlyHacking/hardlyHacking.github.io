@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tips4</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="tips5">Tips 5</h1>
+
+<h2 id="thecpreprocessor">The C PreProcessor</h2>
+
+<p>Thought CPP was C Plus Plus? Nope. Not this time, at least. It&#8217;s the C Pre-Processor.</p>
+
+<p>Preprocessing directives are something that are unique to C - they can technically be used in C++, but they should be avoided, as there are safer and more technically efficient ways to do the same things in a more evolved language like C++.</p>
+
+<p>So what&#8217;s a pre-processing directive? Let&#8217;s take a step back first. What the heck is a <strong>pre-processor</strong>? The pre-processor modifies the source code before it hands it over to the compiler, which creates the actual executable (with help from the linker and the loader, and some other steps, but forget about those for now).</p>
+
+<h2 id="definestatements">Define Statements</h2>
+
+<p>There are three main things that the pre-processor takes care of - and you&#8217;ve already seen two of them. Here is the first example.</p>
+
+<pre><code>#define PI 3.14159
+</code></pre>
+
+<p>Define statements! Specifically, define statements for constants. The source code is directly modified so that, in this case, every instance of <code>PI</code> is replaced with <code>3.14159</code>. Or take this one for example.</p>
+
+<pre><code>#define PI_PLUS_ONE (3.14 + 1)
+</code></pre>
+
+<p>Is this good practice? There&#8217;s nothing wrong with <code>define</code> statements per se, but the way <em>this</em> statement is written may lead to some mysterious results. For example, look at the following situation:</p>
+
+<pre><code>int x = PI_PLUS_ONE * 5;
+</code></pre>
+
+<p>This is actually re-written as the following:</p>
+
+<pre><code>int x = 3.14 + 1 * 5;
+</code></pre>
+
+<p>Oops! The first set of parenthesis in the actual define statement are not carried over. Define statements can certainly be useful, and should be used, but the moral of this story is simply to be careful with them so that they don&#8217;t create unexpected bugs in your code.</p>
+
+<p>Hmm, how about &#8211; oh I don&#8217;t know &#8211; <em>testing</em> your define statements and macros? Sounds like a good idea&#8230;</p>
+
+<h2 id="macros">Macros</h2>
+
+<p>Speaking of macros, they are another good use of the pre-processor.</p>
+
+<pre><code>#define MULT(x, y) (x * y)
+</code></pre>
+
+<p>This creates a little function called <code>MULT</code> which takes <code>2</code> parameters, and returns the output of the two multiplied together. Or does it? Macros introduce a new level of complexity &#8211; and with complexity, comes new bugs. Take a look.</p>
+
+<pre><code>int x = MULT(3 + 2, 4 + 2);
+</code></pre>
+
+<p>What&#8217;s the output? <code>30</code>? Nope! This is how it actually expands.</p>
+
+<pre><code>int x = 3 + 2 * 4 + 2;
+</code></pre>
+
+<p>Uh oh. We get <code>13</code> instead. So we have to change our macros.</p>
+
+<pre><code>#define MULT(x, y) ((x) * (y))
+</code></pre>
+
+<p>You can actually define multi-line macros for more complex functions. Simply separate the lines by semicolons (<code>;</code>). Remember our old swapping trick with the xor function? A macro is a perfect place to use them because you don&#8217;t have the luxury of temporary variables.</p>
+
+<pre><code>#define SWAP(a, b) a ^= b; b ^= a; a ^= b;
+</code></pre>
+
+<p>Assume both <code>a</code> and <code>b</code> are <code>int</code>s. Can you think of a case where this doesn&#8217;t work? How about this.</p>
+
+<pre><code>int x = 4;
+int y = 3;
+int z = 2;
+if (x &gt; 0)
+    SWAP(x, y);
+else
+    SWAP(x, z);
+</code></pre>
+
+<p>Because the <code>if</code> statement doesn&#8217;t have braces, only the first statement <code>a ^= b</code> will be executed. What can we do? Surrounding the expression with parentheses doesn&#8217;t work. To really get this macro down, we have to use braces (<code>{ }</code>, not <code>[ ]</code>). If you read K&amp;R, aka the C Bible, you remember that braces can be used to group statements together, which is exactly what we do.</p>
+
+<pre><code>#define SWAP(a, b) {a ^= b; b ^= a; a ^= b;}
+</code></pre>
+
+<p>What&#8217;s the general pattern? All pre-processor related activities begin with the pound sign (<code>#</code> - no, not the &#8220;hash-tag&#8221;&#8230;).</p>
+
+<p>But there are some more tricks to macros! By now you&#8217;ve realized that the C Pre-processor doesn&#8217;t do any evaluation - just rote changes to the source code (copy-paste commands, if you will). Which means macros cannot evaluate their arguments. This can get us into some sticky situations. Take this seemingly innocuous macro:</p>
+
+<pre><code>#define MAX(a, b) ((a) &lt; (b) ? (b) : (a))
+</code></pre>
+
+<p>Can we break it? Of course we can - I wouldn&#8217;t be asking otherwise. But how?</p>
+
+<p>If you guessed <strong><a href="https://en.wikipedia.org/wiki/Side_effect_%28computer_science%29">side-effects</a></strong> then you should leave this class because you&#8217;re a genius. (Just kidding, don&#8217;t leave&#8230; please.) Yes, side effects! Let&#8217;s give an example.</p>
+
+<pre><code>int x = 5, y = 4;
+int z = MAX(x++, y++);
+</code></pre>
+
+<p>Uh oh&#8230; <code>x++</code> and <code>y++</code> just get pasted in wherever <code>a</code> and <code>b</code> are found respectively. Which means they&#8217;ll be incremented far too many times.</p>
+
+<pre><code>int z = (x++ &lt; y++ ? y++ : x++)
+</code></pre>
+
+<p>That&#8217;s not what we want at all. Macros are incredibly useful, but they are <em>not</em> functions. They have their limitations, and it&#8217;s very important to be aware of those limitations.</p>
+
+<p>What about multi-line macros? Of course we can. Here is the familiar swap function.</p>
+
+<pre><code>#define SWAP(a, b) {            \
+    a ^= b;                     \
+    b ^= a;                     \
+    a ^= b;                     \
+}
+</code></pre>
+
+<p>Notice that the last line <em>does not</em> have a backslash. The backslash simply tells the preprocessor that the macro continues onto the next line - which is false in the case of final line. This is also why pre-processor commands are not ended with semicolons - because they&#8217;re not normal lines of code that the compiler deals with. Pre-processor directives are assumed to be single-line statements, unless specified otherwise with a backslash.</p>
+
+<p>Another useful feature of macros is converting tokens into a string. Ever thought the structure of <code>printf</code> statements was annoying? Especially when you had to do it over and over again? Use macros!</p>
+
+<p>Putting a pound sign as the prefix to your macro parameter turns it into a string.</p>
+
+<pre><code>#define PRINT_TOKEN(token) printf(#token &quot; is %d&quot;, token)
+</code></pre>
+
+<p>In your code, that gets converted to the following:</p>
+
+<pre><code>printf(&quot;&lt;token&gt; is %d&quot;, token);
+</code></pre>
+
+<p>For debugging purposes, you can actually use the fact that macros <em>do not</em> evaluate parameters as an advantage. For example,</p>
+
+<pre><code>PRINT_TOKEN(x+y);
+</code></pre>
+
+<p>would expand to</p>
+
+<pre><code>printf(&quot;x + y is %d&quot;, x + y);
+</code></pre>
+
+<p>Pretty cool for debugging!</p>
+
+<p>Have a complex structure which is a pain to write out ever single time? Use macros here as well. This is a common problem in crawler, where we have a hash table that contains DNODE structs, which then contain URL structs.</p>
+
+<pre><code>#define BUILD_FIELD(index, field) hash_table[index]-&gt;url_struct-&gt;##field
+</code></pre>
+
+<p>Now, if you want to access a URL struct that is contained within a DNODE struct at index <code>index</code> within the hash table (assuming no collisions,) you can simply use a handy macro. I&#8217;ll leave it to you to generalize this macro for other cases, like the ones that include collisions.</p>
+
+<p>This is known as <strong>pasting tokens</strong>, and is done by the double pound sign prefix.</p>
+
+<h2 id="directives">Directives</h2>
+
+<p>The third use of the pre-processor is what is called <strong>pre-processing directives</strong>, the subject of today&#8217;s tip. Technically speaking, the first two are just subsets of pre-processing directives, but it&#8217;s an overloaded term, so usually people mean this third category when they speak of directives (but you should always make sure!).</p>
+
+<p>Directives are commands that tell the pre-processor to either skip parts of a file or include parts of a different file. Here&#8217;s an example of something in the third category - you might have already guessed this was coming.</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+</code></pre>
+
+<p>Yes, include statements are pre-processing directives. It tells the pre-processor to go and fetch certain libraries. Besides the simple case of include statements, there are two main uses for this third category:</p>
+
+<ul>
+<li>Conditional compilation</li>
+<li>Include guards</li>
+</ul>
+
+<p>Conditional compilation is extremely useful if you want to set certain flags at compile time and have your program behave differently. Let&#8217;s say for example you want to combine using <code>printf</code> and GDB together for debugging. Conditional compilation is a great way to do that. Look at the file <code>flag.c</code>.</p>
+
+<pre><code>int main() {
+    #ifdef DEBUG
+    printf(&quot;Debugging is totally on.\n&quot;);
+    #endif
+    printf(&quot;Normal, non-debugging output.\n&quot;);
+    
+    return 0;
+}
+</code></pre>
+
+<p>How do we utilize this flag? (Note that these are different from the flags used to mimic boolean values in C - usually <code>int</code>s holding values of either <code>0</code> or <code>1</code>.) The <code>-D</code> option is used to define certain flags, so we do <code>gcc -DDEBUG flag.c</code>. Now, when we run the executable, both statements will be printed instead of just the latter. That&#8217;s a very useful way of getting certain parts of your code to run!</p>
+
+<p>The second function, include guards, you&#8217;ve already seen in your crawler skeleton code. They look something like this:</p>
+
+<pre><code>#ifndef _FILE_NAME_H_
+#define _FILE_NAME_H_
+
+/* lots of header file code */
+
+#endif
+</code></pre>
+
+<p>What&#8217;s the purpose of this? Imagine you include a large number of header files. What happens if two of these libraries name a function the same? Remember, unlike Java, there is no notion of namespaces or even public or private functions. Even worse, C has no overloading or polymorphism - so it simply wouldn&#8217;t compile. Header guards prevent all of these problems.</p>
+
+<p>Something similar can and should be done for constants as well.</p>
+
+<pre><code>#ifndef NULL
+#define NULL (void *)0
+#endif
+</code></pre>
+
+<h2 id="cnomacros">C++ No Macros?</h2>
+
+<p>Why no macros in C++? You have templates, classes, generalizable code, and anonymous and in-line functions. You&#8217;ve already seen how buggy and unpredictable macros can be. While great for C, more evolved languages certainly needn&#8217;t use them.</p>
+
+<h2 id="furtherreading">Further Reading</h2>
+
+<p>Reading is nice, isn&#8217;t it? So do some.</p>
+
+<p><a href="http://www.cprogramming.com/tutorial/cpreprocessor.html">C Programming Guide</a> - much shorter, more readable; where most of the examples for this recitation came from.</p>
+
+<p><a href="http://gcc.gnu.org/onlinedocs/cpp/">C PreProcessor Guide</a> - the real deal; full documentation, complete with <em>every</em> trick in the book.</p>
+</body>
+</html>

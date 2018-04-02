@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recitation5</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="recitation5">Recitation 5</h1>
+
+<h2 id="whybother">Why Bother?</h2>
+
+<p>Many of you may be wondering why bother with this notion of dynamic memory allocation at all. Why not just statically allocate <em>everything</em>?</p>
+
+<p>Here is the excerpt from the <a href="http://www.cs.dartmouth.edu/~campbell/cs50/dynamicmem.html">class notes</a> pertaining to this question.</p>
+
+<blockquote>
+<p>Memor[y] allocation functions allow programmers to dynamically allocate memory from the heap for variables, arrays, and structures; rather tha[n] statically allocating space on the stack. Many times it is not possible to know in advance of run time of a program what the memory demands for the program are. People that use static allocation somewhat have to second guess what the worst case memory needs are and statically allocation that at compile time. This is not a good programming principle. Better to make your program general and capable of dealing with a wide variety of demands &#8211; the message, but the smarts into the program and don’t second guess. </p>
+</blockquote>
+
+<p>For many of you, this may not be a satisfying answer. What if I <em>am</em> smart enough to know the memory demands ahead of time? (Unlikely, I say, considering you haven&#8217;t used valgrind or gprof yet&#8230;) But let&#8217;s accept that premise for the time being.</p>
+
+<p>What if the computer you&#8217;re using cannot support the memory requirements? Uh oh. Static allocations don&#8217;t return error codes! <code>malloc</code>, on the other hand, will return <code>null</code> upon failure, which is something your code can anticipate and account for. Not so with static allocation &#8211; here, your code will simply segfault without any helpful messages whatsoever.</p>
+
+<p>Hmm, okay. What are the other differences? Statically allocated data are born from the stack, and this is where they reside, while dynamically allocated data are from the heap. What does this mean?</p>
+
+<p>Here is an example of a standard process memory.</p>
+
+<figure>
+<img src="http://www.cprogramming.com/tutorial/memorg.png" alt="" />
+<figcaption></figcaption></figure>
+
+<p>This diagram is very famous &#8211; it is the standard <strong>virtual memory</strong> diagram. Why is it called <em>virtual</em> and not actual memory? To understand that you will have to take the very excellent Operating Systems course taught by our own <a href="http://www.cs.dartmouth.edu/~sws/">Professor Smith</a>.</p>
+
+<p>&#8220;Text&#8221; here stands for the <strong>source code</strong> that your program is running. It is at the bottom most layer and almost always in a read-only region of memory (we wouldn&#8217;t want to change the code while it was being run!). &#8220;Data&#8221; refers to <strong>global variables</strong>; some are initialized and some are not. You can ignore the environemnt section for now; simply pretend that this is indeed the stack or it does not exist. The stack, as all stacks do, grows downards. The heap, on the other hand, grows upwards. Of course, they cannot overlap.</p>
+
+<p>Many operating systems have a harder limit on their stack size than their heap size for reasons we won&#8217;t discuss here. If you are curious, feel free to take <a href="http://www.cs.dartmouth.edu/~cs58/">cs58</a>, Operating Systems. (They also have heap size limits.) This poses an inherent limitation on stack-based memory allocation. But even fundamental than just memory size is the <em>scope</em>.</p>
+
+<p>Some memory has <strong>automatic storage duration</strong>. Have you ever wondered why it is that C, which does not have garbage collection, seems to be able to free memory like <code>int a = 5;</code>. Why is it that <code>a</code> never causes a memory leak? Or for that matter even statically allocated structures, like <code>struct foo bar;</code>. How does C know to free <code>bar</code>?</p>
+
+<p>The answer is that C does not know. Rather, these structs reside in a stack frame for a particular function. Thus, when the function returns and the frame for it is popped off, all memory associated with that function is then automatically &#8220;freed&#8221;. Thus, the statically allocated memory is destroyed along with it.</p>
+
+<p>This means that you only have access to a particular variable so long as it is within the function; hence, we derive our notion of <em>scope</em>. Memory in the heap, on the other hand, has <strong>dynamic storage duration</strong>, which means that it will continue to reside there until it is manually freed by the programmer. This is the real reason many programs <em>have</em> to use dynamic memory allocation, despite the difficulties with memory leaks.</p>
+
+<p>One last tidbit regarding the virtual memory space. As we all know, stacks grow downwards. But when you statically create an array, C actually grows the array <em>upwards</em>. It calculates the size of the array, moves that far down, and that&#8217;s where it places the zeroeth element. With this information, you can predict what the output of the following program <code>stack.c</code> will be.</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+int main(int argc, const char *argv[]) {
+  int a = 4;
+  int b[3];
+  printf(&quot;b[0]: %d b[1]: %d b[2]: %d\n&quot;, b[0], b[1], b[2]);
+  printf(&quot;b[3]: %d\n&quot;, b[3]);
+  return 0;
+}
+</code></pre>
+
+<p>Yes, <code>b[3]</code>, which is beyond the bounds of the array, actually accesses <code>a</code>! As the array grows upwards, it accesses the beginning of the stack. Sure enough, here is the output.</p>
+
+<pre><code>b[0]: 0 b[1]: 0 b[2]: 0
+b[3]: 4
+</code></pre>
+
+<p>Of course, when you run it, the regular portion of the array may contain values other than <code>0</code> &#8211; it is uninitialized garbage memory, after all. But the key point is that <code>b[3]</code> will be equal to <code>a</code>. Pretty neat!</p>
+
+<h2 id="allocatingmemory">Allocating Memory</h2>
+
+<p>The lecture does a pretty good job of explaining how to allocate memory.</p>
+
+<ul>
+<li><code>malloc</code> is the standard <strong>m</strong>emory <strong>alloc</strong>ation function. Simply allocates memory and returns a <code>void *</code>, or <code>null</code> if it fails to allocate the memory.</li>
+<li><code>calloc</code> is the continuous version of malloc. It ensures that all of the memory that is allocated is in the same block of memory and not split over multiple areas. For example, if you wanted to create a linked list of 10 nodes but ensure that all of the nodes were in the same block of memory, you would use <code>calloc</code>. This would allow you to simply do pointer arithmetic to access the next element rather than iterating through the linked list! Pretty neat.</li>
+<li><code>realloc</code> is primarily used to resize a portion of memory. Imagine you have a dynamically allocated array, but you need to add more elements to it. <code>realloc</code> is the way to grow your memory.</li>
+</ul>
+
+<p>Deallocating memory is fairly simple: just call <code>free</code>. One function handles it all.</p>
+
+<p>It has been mentioned repeatedly, but I cannot stress this point enough. It is paramount that you verify the return status of <code>malloc</code>. Do not be so carefree as to assume your Operating System will always have memory for you.</p>
+
+<pre><code>int *data = (int *) malloc(sizeof(int) * 10); // array of 10
+if (NULL == data) {
+    perror(&quot;Mallof failed for data! Program exiting.&quot;);
+    return 1;
+}
+</code></pre>
+
+<p>Seriously. Always check the return value. Make a macro for it. Whatever makes it easy, but have a check in there.</p>
+
+<p>The other rule of thumb to avoid memory leaks is quite simple: <em>however many allocations you have, you must have an equal number of deallocations</em>.</p>
+
+<h2 id="whynogarbagecollection">Why No Garbage Collection?</h2>
+
+<p>Why doesn&#8217;t C have garbage collection? Java has it; heck, even interpreted languages like Ruby have it!</p>
+
+<p>The answer is that garbage collection is not as easy as it seems. It&#8217;s an extremely difficult task, and optimizing garbage collection is a full time job. Seriously. People are paid hundreds of thousands of dollars to make GC occur faster and in a less painless manner.</p>
+
+<p>Take a look at <a href="http://blog-assets.newrelic.com/wp-content/uploads/bad_oob_gc.jpg">this</a>.</p>
+
+<p>Any guess as to why the server response time jumped five fold? Yup, that spike is when garbage collection happened. It doesn&#8217;t matter what company you&#8217;re working for &#8211; a five fold increase in response times is absolutely unacceptable. Ads won&#8217;t be served, customer requests will be denied, money will be lost. In the worst case, servers will have to be restarted.</p>
+
+<p>Without proper tuning, you get performance that looks like this.</p>
+<div><img src="http://blog.mgm-tp.com/wp-content/uploads/2013/03/Figure-1.png" alt="" /></div>
+
+<p>Not pretty. Not stable. Not acceptable.</p>
+
+<p>Then there&#8217;s of course the question of which <em>kind</em> of GC you want, which is its own bag of worms. Do you do <a href="https://en.wikipedia.org/wiki/Reference_counting">reference counting</a> (Python), <a href="http://blog.newrelic.com/2013/05/28/unicorn-rawk-kick-gc-out-of-the-band/">Out of Band</a> (Ruby), Java&#8217;s version of <a href="http://www.oracle.com/webfolder/technetwork/tutorials/obe/java/gc01/index.html">young and old</a>, or something completely different?</p>
+
+<p>These questions miss the spirit of C. It is meant to be a language that has little to no abstraction and one in which the programmer is empowered completely, and part of being completely in control means that your memory shouldn&#8217;t be secretly deallocated without your knowledge.</p>
+
+<h2 id="indexerlab">Indexer Lab</h2>
+
+<p>Some thoughts about the lab.</p>
+
+<ol>
+<li>Testing! You&#8217;ll find that testing is an actual requirement for this lab, so I do hope you&#8217;ve been writing unit tests for your code like I suggested, because if that&#8217;s the case then this is no additional work for you.</li>
+<li>Memory leak extra credit - use valgrind, make sure there are no memory leaks. This is important. Next time it will be a requirement and not just extra credit.</li>
+<li>Refactoring code is mandatory. Look at the data structures and compare how they differ with the previous crawler implementation. Start here with refactoring. It builds your familiarity with the given code and at the same time gives you a better idea about what the indexer actually does.</li>
+<li>No segmentation faults. I will not grade any lab that seg faults. No exceptions. No sob stories. Start early; you have been warned.</li>
+</ol>
+
+<h2 id="resources">Resources</h2>
+
+<p>Cool posts on dynamic memory allocation:</p>
+
+<ul>
+<li><p><a href="https://stackoverflow.com/questions/8504070/c-dynamically-allocated-memory">Storage duration</a></p></li>
+<li><p><a href="http://www.cprogramming.com/tutorial/virtual_memory_and_heaps.html">Virtual memory guide</a></p></li>
+<li><p><a href="http://www.cprogramming.com/tutorial/dynamic_memory_allocation.html">Dynamic memory allocation</a></p></li>
+</ul>
+</body>
+</html>

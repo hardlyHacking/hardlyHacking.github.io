@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab4Announcement</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="lab4announcements">Lab 4 Announcements</h1>
+
+<h2 id="unittests">Unit Tests</h2>
+
+<p>I&#8217;m sure you&#8217;ve all read my recitation lecture on why test driven development has taken off, and particularly how unit testing actually saves you time in the long run. And since you&#8217;re read the lecture, you&#8217;re all using MinUnit as your unit testing framework.</p>
+
+<p>Here&#8217;s another golden rule of unit testing.</p>
+
+<p><strong>Whenever you discover a bug, create a unit test to make sure that bug does not resurface ever again.</strong></p>
+
+<p>So perhaps you&#8217;re out of ideas on what to unit test? Out of the goodness of my heart, I&#8217;ve given you some.</p>
+
+<p><strong>Dictionary</strong></p>
+
+<ul>
+<li>Set dictionary size to 1 and verify collision cases are handled appropriately</li>
+<li>Add an element to the dictionary</li>
+<li>Remove an element from the dictionary</li>
+<li>Iterate over / print all elements in the dictionary</li>
+<li>Set dictionary size to 1; verify collision handling</li>
+</ul>
+
+<p><strong>Queue</strong></p>
+
+<ul>
+<li>Add element to front of queue</li>
+<li>Add element to back of queue</li>
+<li>Remove element from front of queue</li>
+<li>Remove element from back of queue</li>
+<li>Iterate over / print all elements in queue; verify order</li>
+</ul>
+
+<p><strong>URL</strong></p>
+
+<ul>
+<li>Create URL struct, verify its contents</li>
+<li>Error checking on URL structs (negative numbers?, etc)</li>
+</ul>
+
+<p><strong>Crawler</strong></p>
+
+<ul>
+<li>Seed URL has no other URL&#8217;s</li>
+<li>Bad URL (not an actual URL)</li>
+</ul>
+
+<p>Add more as you think of them!</p>
+
+<h2 id="livetesting">Live Testing</h2>
+
+<p>So after you&#8217;ve done all this unit testing, you decide you&#8217;re <em>still</em> not completely certain of your code (as you shouldn&#8217;t be, quite frankly!). So what do we do? Well, we need live testing with fake data.</p>
+
+<p>All of you have <code>public_html</code> folders in your linux account. Ever wonder what this is for? It&#8217;s to create web pages! My username is <code>chander</code>, so if I create a page <code>~/public_html/index.html</code>, you can find it at <code>http://www.cs.dartmouth.edu/~chander</code>. Similarly, if I create a web page in the folder <code>~/public_html/cs50/dude.html</code>, then you&#8217;ll find that page at <code>http://www.cs.dartmouth.edu/~chander/cs50/dude.html</code>. Why doesn&#8217;t the first <code>index.html</code> appear in the URL? There&#8217;s a special rule for files called <code>index.html</code>. Read more about that feature <a href="http://www.htmlgoodies.com/tutorials/getting_started/article.php/3479371">here</a>.</p>
+
+<p>So create some sample set of web pages in your linux account, and crawl your own home directory! Once you have that working, you&#8217;re <em>really</em> off to a good start.</p>
+
+<p>Towards the end of the period, I&#8217;ll create <em>my</em> own set of pages right here on this web site for you to crawl, and you can verify your results against what it should be to make sure that it works.</p>
+
+<p><a href="static/crawlerTesting/index.html">Live testing</a> is now up and running. This link has been deprecated, though. For more in-depth testing please visit <a href="labannouncements/Lab5Announcement.html">lab5 announcements</a>.</p>
+
+<p>Good luck!</p>
+</body>
+</html>

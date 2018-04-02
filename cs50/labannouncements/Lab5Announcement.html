@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab5Announcement</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="lab5announcements">Lab 5 Announcements</h1>
+
+<h2 id="changestocrawler">Changes to Crawler</h2>
+
+<p>Sometimes, a server can be overloaded, and a perfectly valid URL may return with a failure for <code>wget</code>. For this case, good practice (which you should implement) is trying multiple times with a small <code>sleep</code> in the middle. In other words, with the sleep you&#8217;re simply trying to make sure the server has returned to a normal state. For my code, I tried three times with a sleep of two seconds in between each try.</p>
+
+<h2 id="refactoringcrawler">Refactoring Crawler</h2>
+
+<p><strong>After reading the lab assignment</strong> (seriously, go read it. Twice. Thrice.), you&#8217;ll find out that the data structures required for this lab are very similar to the ones used in Crawler, albeit with slight modifications.</p>
+
+<p>Some students have already remarked on this in Piazza. In case the assignment was not clear enough, I&#8217;ll say it once more here: this is precisely why we need to refactor our code. Below is the discussion I had with the student on Piazza.</p>
+
+<blockquote>
+<p>lab5 needs a dictionary, a word node list, and document list for each word node.
+I am asking if DICTIONARY struct and DNODE struct defined in crawler can be reused in indexer. I guess we don&#8217;t have to define a new WordNode which essentially have the same elements as in DNODE.
+But we do need to define a new document node struct, because document nodes are linked together, unlike the url node.</p>
+</blockquote>
+
+<p>And here is my response.</p>
+
+<blockquote>
+<p>You&#8217;re correct that they have essentially the same elements. :) Hence, we have to refactor our code.</p>
+
+<p>Any time you see that you&#8217;re using basically the same thing with very slight modifications, you have to wonder if you can refactor your code to more efficiently use the same thing for all purposes.</p>
+
+<p>So you&#8217;ll need to change / refactor old code such that you create a generic Node structure.</p>
+
+<p>But how can that work?
+Remember that in C, void pointers can point to <em>anything</em>; and since the data is always a void pointer&#8230; you see where I&#8217;m going with this. </p>
+
+<p>So specifically, you need to develop a single node struct that can be used for the entire search engine, and get your crawler working once again with this new structure breakdown. </p>
+
+<p>If you&#8217;re thinking this is a lot of work, you&#8217;re right. Refactoring code is not an easy process, and it should be done asap before code gets unwieldy.</p>
+</blockquote>
+
+<p>This should clarify what we mean by refactoring your code. Make your data structures that were highly specialized for crawler into generic ones that can be used across the entire search engine project. Then, get your crawler working once more with the generic data structures.</p>
+
+<p>Does this mean I need to re-test my crawler? Of course. That&#8217;s why you made a testing script for it.</p>
+
+<p><strike></p>
+
+<h2 id="testingcrawler2.0">Testing Crawler 2.0</h2>
+
+<p>I&#8217;ve changed the directory where you should be testing your crawler. Previously, my website redirected you to its custom 404 page that I set up; this, unfortunately, is not kosher with <code>wget</code>. So I&#8217;ve moved it to a different directory where this problem will not occur. The URL is <a href="http://chanderramesh.com/crawlerTesting">http://chanderramesh.com/crawlerTesting</a> .</p>
+
+<h2 id="strappedfortime">Strapped for Time?</h2>
+
+<p>You don&#8217;t have to turn in crawler again for this lab. So if you&#8217;re feeling especially strapped for time, just turn in a refactored version of the indexer and refactor crawler later. Note that this <strong>is</strong> a requirement for the next lab, so you&#8217;ll have to do it at some point&#8230;</p>
+
+<h2 id="testingindexer">Testing Indexer</h2>
+
+<p>Sometime this weekend I will put a tarball of some sample web pages you can download and the results you should get when running your indexer on this. To test your code, run the indexer on the web pages you download from me (the tarball), and then run <code>diff</code> between your results and mine. If <code>diff</code> outputs nothing, then they are the same, and your indexer likely works!
+</strike></p>
+
+<h2 id="seelab6">See Lab 6</h2>
+
+<p>All testing material here has been deprecated. See the Lab 6 announcement for how to test all parts of your Tiny Search Engine.</p>
+</body>
+</html>

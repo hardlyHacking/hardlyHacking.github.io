@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recitation1</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="recitation1">Recitation 1</h1>
+
+<h2 id="lab1-youdiddoitright">Lab 1 - You DID Do It, Right?</h2>
+
+<p>Great! I knew you would. Let&#8217;s go over it.</p>
+
+<h2 id="versioncontrol">Version Control!</h2>
+
+<p>Version control is absolutely essential in modern coding, especially when working in groups or working on rather large code bases.</p>
+
+<p>So what is version control exactly?</p>
+
+<p>Version control is a tool designed to keep a software system well organized through many development cycles, bug fixes, and feature iterations. It keeps a history of all the changes you&#8217;ve made to the code on a separate server. This is useful for several reasons:</p>
+
+<ul>
+<li>What if you lost all the data on your laptop?</li>
+<li>What if you accidentally <code>rm -Rf &lt; dir &gt;</code>? Linux has no way of undoing that. With version control, that&#8217;s not an issue</li>
+</ul>
+
+<p>But it&#8217;s <em>more</em> than just an external backup tool. Imagine you thought you were doing a wonderful fix, and five hours in your realize this added a far more horrific bug, and you just want to undo it all? No problem! Version control has the entire history so you can revert the project to any of its past states.</p>
+
+<p>Let&#8217;s go over a brief tutorial of version control.</p>
+
+<p>To create a new repository, you do <code>svn checkout &lt; url path &gt;</code> or <code>svn co &lt; url path&gt;</code> if <code>checkout</code> is too long. So for me, it would be <code>svn co https://svn.cs.dartmouth.edu/classes/cs50-S12/chander/lab2</code>. It will ask you for your username and password - should you not know them, speak with the sysadmin (<a href="http://www.cs.dartmouth.edu/~wbc/">Wayne Cripps</a>).</p>
+
+<p>Great, now start coding as normal. How often should you save to SVN? As often as you save a file! But if that&#8217;s too much work, remember this rule of thumb: <em>whenever you make any significant changes, you should upload them to SVN</em>. This will save you many headaches in the future.</p>
+
+<p>So let&#8217;s fast-forward half an hour and you think you&#8217;ve finished a large portion of the first part of the lab. Great. How do we commit the changes to SVN?</p>
+
+<p><code>svn status</code> will give you a synopsis of all changes that are <em>not</em> committed to the SVN server. If you see something like <code>A   README.txt</code>, it means you&#8217;ve added a new file. To add it, simply execute <code>svn add README.txt</code>. Conversely, if you see <code>D  README.txt</code>, it means you&#8217;ve deleted it. If you really want to delete it, type <code>svn rm README.txt</code>.</p>
+
+<p>Once you&#8217;re done with the changes, commit them to the server with <code>svn commit -m &quot; A descriptive message explaining changes so you can find them later &quot;</code>.</p>
+
+<p>And you&#8217;re done! It&#8217;s committed. To see all past commits, execute <code>svn log</code>.</p>
+
+<p>One critical thing to remember is that every time you go to your svn repo (repository), <strong>execute</strong> <code>svn update</code> <strong>before you start any coding</strong>. This is particularly important in group projects. Imagine you&#8217;re in a group of three people. You make some changes, and you upload them to the server. Then, <em>without updating</em>, your friend makes changes on his local repo and tries to upload <em>them</em> to the server&#8230; Well, his copy was out of date! This is what&#8217;s called a <strong>conflict</strong>.</p>
+
+<p>There&#8217;s an entire tutorial on resolving svn conflicts, which can sometimes be quite complicated. It&#8217;s much better to avoid them entirely. So make sure you <code>svn update</code> before you do any <code>svn commit -m</code>&#8217;s.</p>
+
+<h2 id="lab2">Lab 2</h2>
+
+<p><strong>Some instructions regarding spy.sh:</strong></p>
+
+<p>Our section server is moose.
+If you are visiting this page from another section, please note down which server your section will be using:</p>
+
+<ul>
+<li>Chandrasekar Ramesh: moose</li>
+<li>Guanyang Yu: pierce</li>
+<li>Samuel J. Tan: goatisland</li>
+<li>Charles B. Pastuszenski: sabattus</li>
+<li>Mehdi Oulmakki: halfmoon</li>
+<li>Robin Wang: merced</li>
+<li>Shuyang Fang: hancock</li>
+<li>Tianlong Yun: wildcat</li>
+<li>Fanglin Chen: kinsman</li>
+</ul>
+
+<p>Substitute < server > for whichever your section&#8217;s server is, and <section leader> for whoever is your particular section&#8217;s leader..</p>
+
+<ol>
+<li><p>Login to < server > using <code>ssh &lt; username &gt;@&lt; server &gt;.cs.dartmouth.edu</code></p></li>
+<li><p>Run only one spy.sh at a time during the debug phase. Kill it when you don&#8217;t need it. See &#8220;<a href="http://www.cs.dartmouth.edu/~campbell/cs50/programming.html">How do I kill my spy deamon?</a>&#8221; in the lab notes.</p></li>
+<li><p>Mail &#8220;Andrew Campbell&#8221; and &#8220;< section leader >&#8221; in your spy.sh.</p></li>
+</ol>
+
+<p><strong>Change of the Important Note:</strong></p>
+
+<p>Important: Professor Campbell and I will each log on to < server > (important) a number of times on Sunday until 10 PM - we&#8217;ll sneak on, and your mission if you accept it is to take us down.</p>
+
+<p>To allow you to test your script Andrew and I will sneak onto < server > on Saturday, too. I will post what we did on Saturday to see if you caught us so you can more accurately test your code.</p>
+
+<p><strong>Extra Credit</strong></p>
+
+<p>Just after 10 PM Sunday send an e-mail to Andrew and the section leaders that lists the following:</p>
+
+<p>Dear Sneaky cs50 Guys:</p>
+
+<p>Caught you sneaking on to sabattus today. Here’s a summary of my surveillance:</p>
+
+<p>Professor Campbell, you logged on N times for a total period of X. Here is the breakdown:
+1) Logged on Sat Jan 12 18:40:34 EST 2008; logged off Sat Jan 12 18:40:34 EST 2008</p>
+
+<p>2) &#8230;</p>
+
+<p>< Section leader >, you logged on Z times for a total period of X. Here is the breakdown:</p>
+
+<p>1) Logged on Sat Jan 12 18:40:34 EST 2008; logged off Sat Jan 12 18:40:34 EST 2008</p>
+
+<p>2) ..</p>
+
+<p>3) ..</p>
+
+<p>Looks like <code>Professor Campbell or &lt; section leader &gt;</code> the spent most time on <server> today - X&#8217; mins in total for all his sessions; <code>Professor Campbell or &lt;section leader&gt;</code> was on for the shortest session for a period
+of Y&#8217; mins, and therefore the most sneaky; and, <code>Andrew or &lt; section leader &gt;</code> logged on the longest session of 15 mins.</p>
+
+<p>(Note that three variables need to be maintained by spy to be able to correctly fill in the paragraph above correctly &#8211; i.e., Andrew OR < section leader >. This is a note and should not be included in the email.)</p>
+
+<p>Thought you could sneak by my code hey - nailed you.</p>
+
+<p>Best,</p>
+
+<p>Your name</p>
+
+<p>Please test the spy.sh on your section&#8217;s machine.</p>
+
+<h2 id="bashscripting">Bash Scripting</h2>
+
+<p>How do I do bash?</p>
+
+<p>You have sufficient resources for this - the lectures, your terminal, and this <a href="http://lmgtfy.com/?q=bash+script+tutorial">handy tutorial</a>.</p>
+
+<p>Good luck on lab 2! Start early, <code>spy.sh</code> is no pushover, especially if you are new to bash.</p>
+</body>
+</html>

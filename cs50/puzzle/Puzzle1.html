@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Puzzle1</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="puzzle1">Puzzle 1</h1>
+
+<p>Let&#8217;s talk about bit shifting!</p>
+
+<p>Now I&#8217;m sure we all know this already, but since I&#8217;m nice and want to give you all a chance to seem smart, let&#8217;s do some basic review.</p>
+
+<p>We know what <strong>binary</strong> is - <code>0</code>&#8217;s and <code>1</code>&#8217;s. So in binary, <code>101</code> is? Yes, <code>5</code>. Now we have a couple bit shift operators.</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:left;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Name</th>
+	<th style="text-align:left;">Description</th>
+	<th style="text-align:left;">Example</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;"><code>|</code></td>
+	<td style="text-align:left;">Bit-wise or</td>
+	<td style="text-align:left;"><code>101 | 111 = 111</code></td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>&amp;</code></td>
+	<td style="text-align:left;">Bit-wise and</td>
+	<td style="text-align:left;"><code>101 &amp; 000 = 000</code></td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>&gt;&gt;</code></td>
+	<td style="text-align:left;">Right shift</td>
+	<td style="text-align:left;"><code>101 &gt;&gt; 1 = 10</code></td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>&lt;&lt;</code></td>
+	<td style="text-align:left;">Left shift</td>
+	<td style="text-align:left;"><code>101 &lt;&lt; 1 = 1010</code></td>
+</tr>
+</tbody>
+</table>
+
+<p>Great! So, here&#8217;s the easy question to help defrost your frigid brains.</p>
+
+<p><em>Let&#8217;s assume an integer is 4 bytes (32 bits). What happens when I shift any int left 32 times? Example</em> <code>int x; x &lt;&lt;= 32;</code> <em>What must the value of</em> <code>x</code> <em>be?</em></p>
+
+<p>If you said <code>0</code>, give yourself a manicure. Congratulations. Yes, we pad with <code>0</code>&#8217;s, so it must be zero.</p>
+
+<p><em>What if I shifted <strong>right</strong> 32 (or more) times?</em></p>
+
+<p>If you said <code>0</code> once again, great! Your brain is now fully defrosted. Let&#8217;s go to the actual puzzle.</p>
+
+<p>Here&#8217;s my sample C program, in file <code>stuff.c</code>:</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    int b = 100000;
+    printf(&quot;%d\n&quot;, b &gt;&gt; b);
+    b = b &gt;&gt; b;
+    printf(&quot;%d\n&quot;, b);
+    b &gt;&gt;= b;
+    printf(&quot;%d\n&quot;, b);
+    return 0;
+}
+</code></pre>
+
+<p><em>What <strong>should</strong> the program print out?</em></p>
+
+<p>Should be all <code>0</code>&#8217;s, right? I&#8217;m shifting by <em>one hundred thousand</em> (to heck with 32!). How could it be anything else?</p>
+
+<p>Well then, let&#8217;s try it out.</p>
+
+<p>If we do <code>gcc stuff.c</code>, we produce an executable file called <code>a.out</code>. (Remember, if you don&#8217;t like the standard <code>a.out</code> you can always use <code>gcc stuff.c -o &lt;yourname&gt;</code>.)</p>
+
+<p>We execute this with <code>./a.out</code>. And here&#8217;s the output.</p>
+
+<pre><code>100000
+100000
+100000
+</code></pre>
+
+<p>What the heck!? What&#8217;s going on here?</p>
+
+<p><em>How do you debug this?</em></p>
+
+<p>Debugging strategies are important. I don&#8217;t expect any of you to know the answer to this particular puzzle right off the bat; there&#8217;s no way at this point in the course do you have enough knowledge for that. But that&#8217;s precisely the <em>point</em>. You will run into these kinds of situations plenty of times in the real world, and having a good debugging strategy is critical. So I really want you to pause for a moment and consider what you would do.</p>
+
+<p>Hypothesis 1: You think to yourself, &#8220;Self, maybe we were wrong. Maybe we can&#8217;t just do arithmetic math inside a printf like we do with <code>b &gt;&gt; b</code>.&#8221; Hmm, okay. Let&#8217;s test that out.</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    int b = 0;
+    printf(&quot;%d\n&quot;, b+1);
+}
+</code></pre>
+
+<p>A short compilation again, we run the program and get the following output: <code>1</code>. Hmm, okay. So that can&#8217;t be it. And that makes sense. Because the <em>second</em> <code>printf</code> doesn&#8217;t do any arithmetic operation inside the <code>printf</code>.</p>
+
+<p>What about another hypothesis?</p>
+
+<p>Hypothesis 2: Maybe <code>&gt;&gt;=</code> is some funky thing that doesn&#8217;t do anything at all? Well, that can&#8217;t be right either. We tried <code>b &gt;&gt; b</code>, <code>b = b &gt;&gt; b</code>, and <code>b &gt;&gt;= b</code>. None of them worked!</p>
+
+<p>A useful strategy when it comes to debugging is trying other ways of writing the code, just to see if it makes a difference. Usually we do this with small toy problems. Breaking the problem down in size is very, very useful. So let&#8217;s do that.</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    int b = 100000;
+    for (int i = 0; i &lt; 100000; i++)
+        b &gt;&gt;= 1;
+    printf(&quot;%d\n&quot;, b);
+    
+    return 0;
+}
+</code></pre>
+
+<p>Okay, great. We&#8217;ve written a smaller, possibly even stupider, program that shifts 1 bit at a time instead of all at once. Is this even useful?</p>
+
+<p>Well, let&#8217;s try it out and see! <code>gcc stuff2.c</code>, and a short <code>./a.out</code> later, voila! We get <code>0</code> as an output!</p>
+
+<p><em>Now</em> things are really starting to get weird. Why does it work when we do it 1 bit at a time but not all at once!?</p>
+
+<p>Let&#8217;s try another program - this seems a little too weird.</p>
+
+<pre><code>#include &lt;stdio.h&gt;
+
+int main() {
+    int b = 7;
+    printf(&quot;%d\n&quot;, b &gt;&gt; 2);
+}
+</code></pre>
+
+<p>Some quick bit shifting mental arithmetic later, we decide we want the answer to be <code>1</code>. Remember, <code>7</code> is <code>111</code> in binary. So if we shift twice, we still have a single <code>1</code>. Okay, so let&#8217;s try that. <code>gcc stuff3.c</code>, <code>./a.out</code>. Sure enough, we get the expected answer!</p>
+
+<p>So we <em>can</em> do multiple bits! Then why doesn&#8217;t <code>100000</code> work?</p>
+
+<p>Hmm. What&#8217;s the best way we can search through this? We&#8217;re pretty sure that at some point shifting breaks, but we&#8217;re not sure <em>where</em>. Well, this is <a href="https://en.wikipedia.org/wiki/Binary_search_algorithm">an algorithm you already know from cs1</a>! 50000? Still breaks. 25000? Still breaks. Hmm, frustrating to be sure.</p>
+
+<p>12500? Nope. 6250? Nada. 3125? Zilch. 1500? Still no! Dammit&#8230; 700? Wrong again. Man this sucks. 350? No change yet&#8230; Phew! Debugging is hard work! But we&#8217;re almost there. 175? Wrong. 50? Nope. 25? YES!</p>
+
+<p>Woah. Works with 25, eh? Okay, what about 40? Nope! Hmm, between 25 and 40. 31? Yes! 32? Yes! 33? Nope! It stops working after <em>32 bits at a time</em>.</p>
+
+<p>Aren&#8217;t you glad you persisted through that? Now you have a tangible observation you can report to the TA/ professor / Google rather than just complaining that your program doesn&#8217;t work!</p>
+
+<p>At this point it&#8217;s fair to consult additional resources for why on earth this could be happening, as you don&#8217;t quite have enough knowledge (yet!) to make an educated guess.</p>
+
+<p>Well, it turns out that most <code>gcc</code> commands actually use C++ compilers, not C compilers (who would&#8217;ve thought that the <em>GNU C Compiler</em> would be a C++ compiler&#8230;). In C++, shifting by more than the size of an int (in this case, more than 32 bits,) is actually an undefined operation! Which means the compiler said hey, this undefined operation is mysterious. I don&#8217;t know what to do with it! So to speed things up, I&#8217;m just going to skip it and not do anything at all!</p>
+
+<p>Which is why <code>b &gt;&gt; 100000</code> still just evaluated to <code>b</code>!</p>
+</body>
+</html>

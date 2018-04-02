@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tips1.5</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="soyouwanttolearnvimfirstcorrectdecisionyouvemadeallweek">So You Want to Learn Vim&#8230; First Correct Decision You&#8217;ve Made All Week</h1>
+
+<p>Congratulations, newbie. You&#8217;ve made the first step towards the side of righteousnous. Vim will guide you towards a place beyond your wildest dreams. Oh, the road shall not be easy. It may test your faith at times, but the rewards will be magnificent.</p>
+
+<p>The cool thing about vim is that it was designed ground up to require the fewest keystrokes possible. Its philsophy is speed when typing and editing, and any time you&#8217;re required to move your fingers away from the base row, you&#8217;re wasting time.</p>
+
+<h2 id="basics">Basics</h2>
+
+<p>Unlike most other editors, vim has what are called modes. In particular, vim has 3 modes: <strong>visual</strong> mode, <strong>normal</strong> mode, and <strong>insert</strong> mode.</p>
+
+<p>Normal mode is the default mode - it&#8217;s meant for fast navigation and large changes in many lines of text.</p>
+
+<p>Insert mode is meant for? You guessed it, inserting text. This is what we think of when we consider most text editors.</p>
+
+<p>Visual mode is what you do when you select text. Imagine you wanted to select a glob of text and replace it with a word. That&#8217;s a job for visual mode.</p>
+
+<p>It seems needlessly complicated at first, but this is at the core of vim&#8217;s advantage.</p>
+
+<p>There are several ways to open vim. <code>vim</code> by itself opens up a new buffer with nothing loaded. <code>vim [filename]</code> opens up a buffer with that file loaded. If that file doesn&#8217;t exist, then it creates a new buffer named <code>[filename]</code>.</p>
+
+<p>Let&#8217;s go over normal mode basics:</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Command</th>
+	<th style="text-align:left;">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;"><code>j</code></td>
+	<td style="text-align:left;">Down by 1 line</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>k</code></td>
+	<td style="text-align:left;">Up by 1 line</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>h</code></td>
+	<td style="text-align:left;">Left by 1 character</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>l</code></td>
+	<td style="text-align:left;">Right by 1 character</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>C-f</code></td>
+	<td style="text-align:left;">Down by a page</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>C-b</code></td>
+	<td style="text-align:left;">Up by a page</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>w</code></td>
+	<td style="text-align:left;">Next word</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>b</code></td>
+	<td style="text-align:left;">Beginning of a word</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>e</code></td>
+	<td style="text-align:left;">End of a word</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>gg</code></td>
+	<td style="text-align:left;">Top of file</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>G</code></td>
+	<td style="text-align:left;">Bottom of file</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>0</code></td>
+	<td style="text-align:left;">Begining of the line</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>$</code></td>
+	<td style="text-align:left;">End of the line</td>
+</tr>
+</tbody>
+</table>
+
+<p>Great, now we can do basic things in normal mode like navigate. How do we quit vim? <strong>To quit vim, you must be in normal mode</strong>. In normal mode, use <code>:q</code>. If your file has unsaved changes, it won&#8217;t let you quit (vim doesn&#8217;t want you to lose changes by accident - how nice!). If you really want to quit without saving changes, use <code>:q!</code> in normal mode.</p>
+
+<p>But how do we save? <code>:w</code>. <code>w</code> for write. If we want to write and then immediately leave vim, we can chain together <code>:w</code> and <code>:q</code> with <code>:wq</code>.</p>
+
+<p>How do we switch between modes?</p>
+
+<p>The best part about vim is the many ways in which we can enter insert mode.</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Command</th>
+	<th style="text-align:left;">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;"><code>i</code></td>
+	<td style="text-align:left;">Insert before the cursor</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>a</code></td>
+	<td style="text-align:left;">Insert after the cursor</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>o</code></td>
+	<td style="text-align:left;">Insert at the beginning of the next line</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>O</code></td>
+	<td style="text-align:left;">Insert at the beginning of the previous line</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>S</code></td>
+	<td style="text-align:left;">Delete the entire line and insert on the same line</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>C</code></td>
+	<td style="text-align:left;">Delete from the cursor to the rest of the line and begin inserting</td>
+</tr>
+<tr>
+	<td style="text-align:center;"><code>A</code></td>
+	<td style="text-align:left;">Insert at the end of the line</td>
+</tr>
+</tbody>
+</table>
+
+<p>And there are many more!</p>
+
+<p>Once in insert mode, you simply type like a normal text editor and it simply adds the text. <code>C-W</code> deletes the previous word, just like on the terminal, when you&#8217;re already in insert mode.</p>
+
+<p><strong>No matter what mode you&#8217;re in, pressing</strong> <code>Esc</code> <strong>will take you back to Normal mode.</strong> However, <code>Esc</code> is rather cumbersome, and that violates Vim&#8217;s entire philosophy. Thus, <code>C-[</code> (control-left bracket) is often much easier to do, and equivalent. For convenience, I would recommend remapping Caps Lock and Control.</p>
+
+<p>There are 2 kinds of visual modes. To enter regular visual mode, just press <code>v</code> from normal mode, and begin moving around just as you would with regular normal mode commands. It will begin to select text as normal. Then, when you enter insert mode, your inserts will only apply to that particular block.</p>
+
+<p>For example, if I have </p>
+
+<pre><code>def stuff():
+    print &quot;Omg. So many lines of code.&quot;
+    print &quot;Dude, seriously though.&quot;
+    return 5
+</code></pre>
+
+<p>and I highlight the entire block with visual mode, when I press <code>S</code>, it will delete the entire block and place the cursor at the beginning of that block, and I will be in insert mode.</p>
+
+<p>Another way to enter visual mode is using <code>C-V</code>. This is used for column-wise highlighting. The classic situation is commenting out or commenting in a block of code.</p>
+
+<pre><code>def doge():
+    print &quot;Such code.&quot;
+    print &quot;Much python.&quot;
+    print &quot;Wow.&quot;
+</code></pre>
+
+<p>Let&#8217;s say I wanted to comment out the entire <code>doge</code> function. Obviously, I wouldn&#8217;t shift to insert mode in front of each line, insert <code>#</code>, and then go back to normal mode, and do the same thing for the other lines. That sounds miserable.</p>
+
+<p>Instead, I&#8217;ll press <code>0</code> on the first line, taking me to the 1st character. Then, I&#8217;ll press <code>C-V</code> (that&#8217;s Control, and while holding it, Shift-V). Now I&#8217;m in column-wise visual mode. Then I press <code>G</code> which takes me to the end of the file, highlighting everything in the first column along the way. Now, pressing <code>I</code> allows me to insert at the beginning of the line. I add a <code>#</code> and shift back to normal mode. So much easier!</p>
+
+<h2 id="textmanipulation">Text Manipulation</h2>
+
+<p>This stuff takes a lot of time to learn, so if you&#8217;re feeling overwhelmed, don&#8217;t worry you&#8217;re not alone. Vim is no pushover. Keep using it, and anytime you find yourself doing a repetitive keystroke, search for how that could be faster.</p>
+
+<p>Over time, you&#8217;ll find yourself memorizing many shortcuts and learning new ones along the way (I still learn new ones every day). Did you know that pressing <code>C-A</code> in normal mode over a number automatically increments it? Just learned that one yesterday. Apparently it even works on dates! Vim is incredible, and you really never stop learning.</p>
+
+<p>This goes back to that &#8220;Hacker Spirit&#8221; we spoke of last time. Never stop learning, never stop being curious.</p>
+
+<p>Anyways, vim has many more complicated ways to manipulate text. You can often times string commands together. For example, <code>caw</code> deletes the word you&#8217;re currently on (in normal mode), and automatically shifts you to insert mode. This is an easy way to change a word to something else.</p>
+
+<p><code>daw</code> on the other hand, simply deletes it while keeping you in normal mode.</p>
+
+<p>If you don&#8217;t know regular expressions, you really should consider <a href="http://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124">learning them</a>. The reason languages like Perl are considered the most powerful for text-editing is because of regular expressions, and tools like grep utilize them as well.</p>
+
+<p>Vim is no exception.</p>
+
+<p>Imagine you find yourself in a situation where you need to change every if statement in some section of code from <code>if (a == 5)</code> to <code>if (b == 5)</code>. Would you want to do that by hand? What if you miss one single if statement. Ouch.</p>
+
+<p>This is where regular expressions come in. In normal mode, this is a single line in vim. <code>:%s/if (a ==/if (b ==/g</code>. Can you believe such a small line can do something so powerful? Of course, there are <em>much</em> cooler things vim can do - this is simply to give you a taste.</p>
+
+<h2 id="buffersfileswindowstabs">Buffers? Files? Windows? Tabs?</h2>
+
+<p>What if you want to edit multiple files in Vim? Should we open multiple terminals and have each one have a single vim file? Of course not.</p>
+
+<p>Vim has many solutions for this. Most novice users will use tabs. <code>:tabnew</code> in normal mode will create a new tab in vim. Close tabs like you would close vim, with <code>:q</code> or <code>:wq</code>. <code>:gt</code> can be used to cycle through tabs.</p>
+
+<p>Once you create a new tab, it will be empty at first. What if you wanted to load a file onto that tab? Use <code>:e [filename]</code> to open a particular file. You&#8217;ll have to put its relative path from the directory in which you initially opened vim.</p>
+
+<p>That&#8217;s decent, but what if you wanted to have multiple files on the same screen? For example, I wanted to have the file <code>a.c</code> in the top half of my screen and <code>b.c</code> in the bottom half? Of course, we can do that as well. I open the first file by <code>vim a.c</code>. Then, in normal mode, I can do <code>:split</code> or <code>:sp</code> for short. <code>:sp</code> Creates a horizontal split where, if I supply no parameters, it uses the current buffer. So there will be 2 <code>a.c</code>&#8217;s. Since I wanted <code>b.c</code>, I instead type <code>:sp b.c</code>, and voila! My screen is split.</p>
+
+<p>But I have an extra long monitor, you say. I want to split vertically, not horizontally! Not to worry, that is what vertical splits are for! <code>:vsplit</code>, or <code>:vsp</code> for short will do just what you desire.</p>
+
+<p>You can navigate between windows in normal mode. If you want to move to the window above you, instead of <code>k</code> you would do <code>C-w-k</code>. Similarly, to go to the window below you, instead of <code>j</code>, use <code>C-w-k</code>. Easy enough!</p>
+
+<p>But what if I want to view multiple files without using tabs <em>or</em> windows? What if I just wanted one buffer open, but at times I wanted to rapidly switch between files inside that one buffer?</p>
+
+<p>Absolutely. Do note that there are plugins that make this significantly easier (like Unite and Control-P), but of course Vim has a native solution.</p>
+
+<p>How do we even get many files in one buffer? Imagine you did <code>vim file1.txt file2.txt file3.txt</code>. All three of the files wouldn&#8217;t be opened in tabs. Instead, there would be a single buffer with <code>file1.txt</code> showing. <code>:buffers</code> lists all buffers currently open - it would show <code>file2.txt</code> and <code>file3.txt</code> as well. <code>:ls</code> and <code>:files</code> also do the same. (Normal mode, remember!)</p>
+
+<p>Switch to any buffer by doing <code>:buffer &lt;name&gt;</code> where <code>&lt;name&gt;</code> is the name of the buffer.</p>
+
+<h2 id="pluginsgalore">Plugins Galore!</h2>
+
+<p>There are many many plugins out there. Vim has been around for longer than most of us have been alive. There are plugins to make installing other plugins easier.</p>
+
+<p>Some are clearly better than others. There are autocomplete plugins (so vim can do things like eclipse and fill in words). There are many syntax highlighting options.</p>
+
+<p>If you ever feel unsatisfied with vim, edit your <code>~/.vimrc</code> file. There are tons of sample vimrc files out in the interwebs, and many people have extremely useful tips. Feel free to steal them and make it your own! I&#8217;ve posted my own vimrc (minus plugins) on <a href="https://piazza.com/class/hq2zclcjlic4rv?cid=26">Piazza</a>.</p>
+
+<p>Several of the top plugins include:</p>
+
+<ul>
+<li><a href="http://www.vim.org/scripts/script.php?script_id=1658">NerdTree</a> - a file exploration plugin so you can navigate and open files from within Vim. I&#8217;ve configured my vim such that <code>nt</code> automatically opens/closes NerdTree</li>
+<li><a href="https://github.com/kien/ctrlp.vim">Control-P</a> - awesome buffer, file navigation</li>
+<li><a href="http://www.vim.org/scripts/script.php?script_id=1643">SuperTab</a> - tab completion on keywords</li>
+<li><a href="https://github.com/Shougo/neocomplete.vim">neocomplete</a> - awesome auto complete</li>
+<li><a href="https://github.com/kien/rainbow_parentheses.vim">Rainbow parentheses</a> - make matching braces / brackets / parentheses much easier</li>
+<li><a href="https://github.com/tpope/vim-pathogen">Pathogen</a> - install plugins <strong>way</strong> easier</li>
+<li><a href="https://github.com/Lokaltog/powerline">Powerline</a> - make vim not look like it&#8217;s from the 70&#8217;s</li>
+</ul>
+
+<h2 id="installationpsh.wouldyoulikeaspooninyourmouth">Installation? Psh. Would You Like a Spoon in your Mouth?</h2>
+
+<p>See <a href="http://chanderramesh.com/cs50/Recitation1.html">Recitation 1</a>. At the bottom, there&#8217;s a section entitled &#8220;The Hacking Spirit&#8221;. I&#8217;ve decided after much deliberation that although I <em>could</em> go into exactly how I installed this stuff (on a Mac), it would spoil your educational opportunity!</p>
+
+<p>Much of learning is done through Googling, Stack Overflow-ing, and mucking around the terminal to see what works. So go, explore! And if you have any truly dastardly bugs, well then you know where to find me (Sudi 005) <code>:)</code></p>
+
+<h2 id="mustreadresourcesonvim">MUST READ Resources on Vim</h2>
+
+<p>Seriously, these are must reads. You will learn much.</p>
+
+<p><a href="http://blog.sanctum.geek.nz/buffers-windows-tabs/">Buffers, windows, and tabs</a></p>
+
+<p><a href="https://stackoverflow.com/questions/102384/using-vims-tabs-like-buffers">Using Vim&#8217;s tabs like buffers</a></p>
+
+<p><a href="http://joelhooks.com/blog/2013/04/23/5-essential-vim-plugins/">5 Plugins Some Dude Thought were Cool</a></p>
+
+<p><a href="http://statico.github.io/vim.html">Vim Bible Part 1</a></p>
+
+<p><a href="http://statico.github.io/vim2.html">Vim Bible Part 2</a></p>
+
+<p><a href="http://vim-taglist.sourceforge.net/">The number 1 rated Vim Plugin in the World</a></p>
+
+<p><a href="https://github.com/Shougo/unite.vim">A replacement for PowerLine and every other plugin</a></p>
+
+<p><a href="http://vim.wikia.com/wiki/Vim_Tips_Wiki">Vim Wiki Website</a></p>
+
+<p>I&#8217;ll add one last thing - whatever you&#8217;re looking for, guaranteed there&#8217;s a plugin out there somewhere. Just look for it first. Vim can do most everything an IDE can do, but sometimes there <em>is</em> such a thing as too much. At one point I was having vim do literally everything Eclipse did - debugger and all - and vim was just as slow. There&#8217;s a reason to use vim - it&#8217;s fast. Don&#8217;t lose sight of that amidst the sparkle of new plugins.</p>
+</body>
+</html>

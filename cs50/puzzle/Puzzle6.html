@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Puzzle6</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="puzzle6">Puzzle 6</h1>
+
+<h2 id="nopolymorphism">No Polymorphism</h2>
+
+<p>We all know C doesn&#8217;t support polymorphism. You all have taken CS 10 in Java, so you know what that means. It means you can&#8217;t have something like the following:</p>
+
+<pre><code>int sum(int a, int b);
+double sum(double a, double b);
+int sum(int a, int b, int c);
+double sum(double a, double b, double c);
+</code></pre>
+
+<p>Nope. We have to have independent sum functions like this:</p>
+
+<pre><code>int sum2int(int a, int b);
+double sum2double(double a, double b);
+</code></pre>
+
+<p>You get the point.</p>
+
+<p>Anyone disagree / find a way to do polymorphism in C? No? Okay, so we all agree. This is a limitation on the language.</p>
+
+<h2 id="variadicfunctions">Variadic Functions</h2>
+
+<p>Well if that&#8217;s the case, how does a function like <code>printf</code> exist? Isn&#8217;t this a perfect example of a function that takes multiple arguments? Hmm. This is today&#8217;s puzzle.</p>
+
+<p>As it turns out, there is another feature of C that you haven&#8217;t learned about! Functions in C can accept a variable number of arguments. These are known as <strong>variadic functions</strong>.</p>
+
+<p>Let&#8217;s take a look at the file <code>stuff.c</code>:</p>
+
+<pre><code>#include &lt;stdarg.h&gt;
+#include &lt;stdio.h&gt;
+
+double f1(int argNum, ...) {
+    va_list arguments;
+    va_start(arguments, argNum);
+    
+    double sum = 0;
+    for (int i = 0; i &lt; argNum; i++)
+        sum += va_arg(arguments, int);
+        
+    va_end(arguments);
+    
+    return sum / argNum;
+}
+
+int main(int argc, const char *argv[]) {
+    printf(&quot;average: %lf\n&quot;, f1(4, 1, 2, 3, 4));
+    return 0;
+}
+</code></pre>
+
+<p>Pretty cool, eh? The ellipses <code>...</code> are used to indicate a function takes a variable number of arguments. Note that the compiler cannot know how many arguments are being passed, so the first argument must be the number of arguments. The function <code>printf</code> gets around this by having the first parameter be the format of the string, and the code then deduces how many parameters there must be from the format of the string.</p>
+
+<p>Note the inclusion of <code>stdarg.h</code> which is required to define the <code>va_list</code> structure along with <code>va_start</code>, <code>va_arg</code>, and <code>va_end</code> functions.</p>
+
+<p>In Java terms, <code>va_list arguments</code> is declaring an iterator <code>arguments</code>, while the line <code>va_start(arguments, argNum)</code> is establishing how many arguments there are to iterate over.</p>
+
+<p>The actual <code>.next()</code> &#8220;method&#8221; of the iterator is called using <code>va_arg</code>, which simply returns the next argument.</p>
+
+<p>Once this is done, you call <code>va_end</code> to cleanup any memory associated with the argument parsing. Obviously, the code prints <code>2.5000</code> as the result.</p>
+
+<p>So is this polymorphism? No, not really. Note that the second argument for <code>va_arg</code> is the type of the argument! The compiler really does not know what the argument can be. If the caller has to specify the type of the arguments at every point of invocation, then it removes the entire benefit of polymorphism in the first place. This is the first step necessary to achieve polymorphism, but until you can deduce the type you cannot achieve the full power of polymorphism.</p>
+
+<p>Another useful function in this set is <code>vsprintf</code>. You can use this to copy the contents of the variable arguments into a character buffer, just like <code>sprintf</code>.</p>
+
+<p>Here is an example.</p>
+
+<pre><code>void function(const char *fmt, ...) {
+    // setup
+    char buffer[MAX_BUFFER_SIZE];
+    va_list arguments;
+    va_start(arguments, fmt);
+    
+    // copy content
+    vsprintf(buffer, fmt, arguments);
+    
+    // cleanup
+    va_end(arguments);
+    
+    fprintf(stdout, &quot;%s\n&quot;, buffer);
+}
+</code></pre>
+
+<h2 id="variadicmacros">Variadic Macros</h2>
+
+<p>One of the new features introduced in the new C99 standard is variadic macros. As the name suggests, they are macros that also take a various number of arguments.</p>
+
+<p>You may remember from two recitations ago that Vipul mentioned you can use <code>__FILE__</code> and <code>__LINE__</code> within your print statements to help debug what file and what line this particular statement is printing from. That&#8217;s pretty cool.</p>
+
+<p>But what if we could create a wrapper around <code>printf</code> that did that for us automatically so we could do <em>even</em> less work?</p>
+
+<p>Here is our wrapper around <code>printf</code> and the macro that calls the wrapper:</p>
+
+<pre><code>#define dbgprintf(...) realdbgprintf (__FILE__, __LINE__, __VA_ARGS__)
+void realdbgprintf (const char *SourceFilename, int SourceLineno, const char *CFormatString, ...);
+</code></pre>
+
+<p>Nice! How does this work? The call</p>
+
+<pre><code>dbgprintf (&quot;Hello, world&quot;);
+</code></pre>
+
+<p>expands out to</p>
+
+<pre><code>realdbgprintf (__FILE__, __LINE__, &quot;Hello, world&quot;);
+</code></pre>
+
+<p>Another example? Why not.</p>
+
+<pre><code>dbgprintf(&quot;%d + %d = %d&quot;, 2, 2, 5);
+</code></pre>
+
+<p>becomes</p>
+
+<pre><code>realdbgprintf(__FILE__, __LINE__, &quot;%d + %d = %d&quot;, 2, 2, 5);
+</code></pre>
+
+<blockquote>
+<p>Without variadic macros, writing wrappers to printf is not directly possible.
+&#8211; <cite>The Wisdom of Wikipedia</cite></p>
+</blockquote>
+
+<p>But what did people do <em>before</em> the existance of C99 standard that allowed this feature within macros? Remember that old parentheses trick with macros? We exploit the same thing.</p>
+
+<pre><code>#define dbgprintf(x) realdbgprintf x
+</code></pre>
+
+<p>Then you would call it with something like this:</p>
+
+<pre><code>dbgprintf ((&quot;Hello, world %d&quot;, 27));
+</code></pre>
+
+<p>Which would expand to </p>
+
+<pre><code>realdbgprintf (&quot;Hello, world %d&quot;, 27);
+</code></pre>
+
+<p>Which is what we wanted! Cute.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p>Reading is good! Sort of. Minimal reading is good &#8211; we&#8217;re not the humanities. So here is some minimal reading.</p>
+
+<p><a href="http://bobobobo.wordpress.com/2008/01/28/how-to-use-variable-argument-lists-va_list/">Understanding <code>va_list</code></a></p>
+
+<p><a href="https://stackoverflow.com/questions/1124265/what-does-mean-in-an-argument-list-in-c">Variadic functions in C</a></p>
+
+<p><a href="http://www.cprogramming.com/tutorial/c/lesson17.html">Example above</a> came directly from C++ . com and Alex Allain&#8217;s brilliant tutorials. If you haven&#8217;t guessed by now, I&#8217;m a big fan of Alex.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Variadic_macro">Variadic macros</a></p>
+
+<p><a href="https://stackoverflow.com/questions/695982/passing-an-ellipsis-to-another-variadic-function">Interesting Case &#8211; read this</a></p>
+</body>
+</html>

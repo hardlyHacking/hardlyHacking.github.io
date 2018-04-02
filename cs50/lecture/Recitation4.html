@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recitation4</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="recitation4">Recitation 4</h1>
+
+<p>The actual recitation portion today will be rather light because the pointers section is quite intensive and has a <em>lot</em> of information. I <em>was</em> going to spend time on the indexer today, but given that many of you aren&#8217;t done with the crawler and Winter Carnival is coming up, I know the number of people interested is <code>NULL</code>.</p>
+
+<h2 id="style">Style</h2>
+
+<p>You&#8217;re starting to become something of C experts, and that means the code you write should reflect that. With that in mind, we&#8217;re going to discuss style. So far I&#8217;ve not really been picky about style (with the exception of annoying facets like <a href="http://stackoverflow.com/questions/9446109/soft-tabs-or-hard-tabs">soft tabs</a>), but now that you&#8217;ve matured into fairly advanced C coding, it&#8217;s time to start coding efficiently and following C conventions.</p>
+
+<ul>
+<li>Pick a capitalization style and be consistent. C is actually <em>very</em> friendly towards the underscore style (you&#8217;ll often see <code>uint_32</code> type). Despite my leanings towards this style (this is C, after all,) I don&#8217;t particularly care whether you use camelcase or underscores so long as you&#8217;re consistent.</li>
+<li>Code defensively &#8211; always error check.</li>
+<li>Avoid using global variables; pass by reference instead to change values.</li>
+<li>Line length is critical. <strong>No lines over 80 characters.</strong> C is used for kernel development, and this is a requirement. Comments, actual code &#8211; <em>nothing</em> can be over eighty characters in length.</li>
+<li>Comment your code part 1: Use block comments. There should be block comments above each function that illustrate what the function does, what each of the parameters are, and what the return value is, if one exists.</li>
+<li>Comment your code part 2: Use Inline comments. Inline comments are used for any particularly tricky or non-obvious lines of code. With C pointers, especially, there can be many strange things happening.</li>
+</ul>
+
+<p>Here are some other <a href="http://www.cs.swarthmore.edu/~newhall/unixhelp/c_codestyle.html">pointers</a> for style.</p>
+
+<p>Standard <a href="http://www.possibility.com/Cpp/CppCodingStandard.html">C++ Coding style</a> can also apply.</p>
+
+<p>For those of you who are lazy, use automated style / indentation checkers. Popular ones are <a href="https://www.gnu.org/software/indent/">GNU Indent</a> and <a href="https://en.wikipedia.org/wiki/Indent_%28Unix%29">indent</a>, which is available on every Unix machine. Some really pouplar ones are <a href="http://astyle.sourceforge.net/">A Style</a> and <a href="http://uncrustify.sourceforge.net/">Uncrustify</a>.</p>
+</body>
+</html>

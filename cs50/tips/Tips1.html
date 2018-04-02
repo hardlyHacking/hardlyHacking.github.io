@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tips1</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="improvingyourworkflowsoidontfeellikekillingyoufortypinglikemygrandma">Improving Your Workflow So I Don&#8217;t Feel Like Killing You for Typing like My Grandma</h1>
+
+<p>No IDE&#8217;s in this class (Integrated Development Environment)</p>
+
+<ol>
+<li>Eclipse</li>
+<li>IntelliJ</li>
+<li>Visual Studio</li>
+<li>XCode</li>
+<li><a href="https://en.wikipedia.org/wiki/Comparison_of_integrated_development_environments">Others</a> &lt;When in doubt, ask me, and I&#8217;ll say no&gt;</li>
+</ol>
+
+<p><em>Why does Chander care that my workflow is bad?</em></p>
+
+<p>Unfortunately for both of us, I&#8217;m your TA. This means you&#8217;re going to ask me questions. Which means I&#8217;ll stroll over to your laptop to explain things to you. And when you inevitably type / navigate / work like a slow old blind person, I will stab my eyes out with the nearest fork, and in my blind rage, flail violently until I kill you.</p>
+
+<p>To prevent your death and my life sentence, let&#8217;s work together on this and not type like old, slow people.</p>
+
+<h2 id="applicationlauncher">Application Launcher</h2>
+
+<p>What in the heck is an <strong>application launcher</strong>? An application launcher is a tool to quickly launch applications (duh). Rather than going through the Mac &#8220;Dock&#8221;, or going through Applications folder, (or whatever horrific thing you windows users do now that the Start menu is gone,) this application&#8217;s sole purpose is helping you to quickly and speedily launch things.</p>
+
+<p>Examples:</p>
+
+<ul>
+<li>Quicksilver (Mac)</li>
+<li>Spotlight (Mac)</li>
+<li>Alfred (Mac)</li>
+<li>Gnome Do (Linux)</li>
+<li>Buying a Mac/Linux (Windows)</li>
+</ul>
+
+<p>If you&#8217;re on a Mac, I recommend <a href="http://qsapp.com/">Quicksilver</a>.</p>
+
+<p>By the way, I assume you all know that <code>CMD-&lt;Tab&gt;</code> and <code>CMD-Shift-&lt;Tab&gt;</code> are ways to quickly cycle through your programs, yes? And <code>CMD-~</code> is to cycle through windows belonging to the same program. Please tell me you knew that already. (<code>CTRL</code> for linux users, and <code>Windows</code> key for Windows users.)</p>
+
+<p>Purpose: So you don&#8217;t take 3 minutes just to open an application.</p>
+
+<h2 id="terminalnavigation">Terminal Navigation</h2>
+
+<p>This is something more directly related to the &#8220;not type like an old person&#8221; theme. Whenever I see someone press backspace / delete more than 9 times in a row, it makes me want to claw my eyes out.</p>
+
+<p>Here are some short-cuts you should all commit to memory:</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Name</th>
+	<th style="text-align:left;">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">C-W</td>
+	<td style="text-align:left;">Delete 1 word back. A word is defined as the last whitespace</td>
+</tr>
+<tr>
+	<td style="text-align:center;">C-A</td>
+	<td style="text-align:left;">Go to the beginning of the line</td>
+</tr>
+<tr>
+	<td style="text-align:center;">C-E</td>
+	<td style="text-align:left;">Go to the end of the line</td>
+</tr>
+<tr>
+	<td style="text-align:center;">C-R</td>
+	<td style="text-align:left;">Search through history in reverse</td>
+</tr>
+<tr>
+	<td style="text-align:center;">Esc-b</td>
+	<td style="text-align:left;">Go one word backwards</td>
+</tr>
+<tr>
+	<td style="text-align:center;">Esc-f</td>
+	<td style="text-align:left;">Go one word forwards</td>
+</tr>
+</tbody>
+</table>
+
+<p>Those of you who are familiar with Emacs will realize that these are the same navigation commands! That&#8217;s true. Remember, <strong>most terminals will use Emacs-style navigation</strong>. So your python interpreter? Same thing. Your MySQL interpreter? Same thing.</p>
+
+<p>If you use your up and down arrow keys, you will start cycling through your history of past commands. So if you want to repeat a command you just did, just hit the up arrow and press <code>Enter</code>.</p>
+
+<p>There are, of course, <a href="https://stackoverflow.com/questions/657130/fastest-ways-to-move-the-cursor-on-a-terminal-command-line">many many more</a>. The more you learn the more you know. And the less of a n00b (that&#8217;s a technical term) you seem.</p>
+
+<p>If you decide you&#8217;re a hard-core vi kind of gal, you can switch your shell to use vi navigation instead! <code>set -o vi</code>. If you have regrets after doing so, just go back with <code>set -o emacs</code>.</p>
+
+<p>Tab completion is another important feature. Most shells by default tab complete on filenames, which means if there&#8217;s a file called <code>sample.txt</code>, you can just type <code>cat s-&lt;TAB&gt;</code>and it will auto-complete to <code>cat sample.txt</code>.</p>
+
+<p>It disambiguates by using the least characters to get uniqueness. So if there&#8217;s another file called <code>sniffles</code>, <code>s</code> alone isn&#8217;t enough to know what file you mean. So if you hit <code>cat s-&lt;TAB&gt;-&lt;TAB&gt;</code>, it will output <code>sniffles</code> and <code>sample.txt</code> because those are the two files that begin with <code>s</code>.</p>
+
+<p>If you then hit <code>cat sn-&lt;TAB&gt;</code>, it will correctly fill in <code>sniffles</code> because there are no other files that begin with <code>sn</code>, and so the disambiguation is complete.</p>
+
+<h2 id="vim-stylenavigation">Vim-Style Navigation</h2>
+
+<p>Although many things use Emacs-style navigation, there are also many programs and commands that use Vi-style navigation. For example, <code>man</code> and <code>less</code> both display the results using a buffer that navigates like Vim. So it&#8217;s useful to learn.</p>
+
+<table>
+<colgroup>
+<col style="text-align:center;"/>
+<col style="text-align:left;"/>
+</colgroup>
+
+<thead>
+<tr>
+	<th style="text-align:center;">Name</th>
+	<th style="text-align:left;">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+	<td style="text-align:center;">gg</td>
+	<td style="text-align:left;">Go to beginning of file</td>
+</tr>
+<tr>
+	<td style="text-align:center;">G</td>
+	<td style="text-align:left;">Go to end of file</td>
+</tr>
+<tr>
+	<td style="text-align:center;">C-f</td>
+	<td style="text-align:left;">Forward by a page</td>
+</tr>
+<tr>
+	<td style="text-align:center;">C-b</td>
+	<td style="text-align:left;">Backward by a page</td>
+</tr>
+<tr>
+	<td style="text-align:center;">j</td>
+	<td style="text-align:left;">Up by 1 line</td>
+</tr>
+<tr>
+	<td style="text-align:center;">k</td>
+	<td style="text-align:left;">Down by 1 line</td>
+</tr>
+<tr>
+	<td style="text-align:center;">q</td>
+	<td style="text-align:left;">Quit</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="getagoodterminalapplication">Get a Good Terminal Application</h2>
+
+<p>A good terminal application can be the world of a difference. You will spend most of your time as a developer here, just like you spend 1/3 of your day sleeping. Investing in a good bed, like a good terminal, will lead to a much happier life. I promise.</p>
+
+<p>If you&#8217;re on a Mac, get iTerm2 . But not all of you use Macs. Here are awesome features your terminal should have:</p>
+
+<ul>
+<li>Keyboard shortcut for new tabs (does anyone these days <em>not</em> do this?)</li>
+<li>Keyboard shortcut to split screen horizontally</li>
+<li>Keyboard shortcut to split screen vertically</li>
+<li>Autocompletion. Seriously. The less you type, the better for both of us</li>
+<li>256 colors! I can&#8217;t emphasize this enough</li>
+<li>Paste history</li>
+</ul>
+
+<p>If you&#8217;re on a Mac, I strongly recommend <a href="http://www.iterm2.com/#/section/features">iTerm2</a>.</p>
+
+<p>There are <a href="https://github.com/mbadolato/iTerm2-Color-Schemes">so many damn themes</a> out there. Find one you like. Get a terminal with 256 colors, and it will make your world beautiful. Or, if you&#8217;re like me and believe the world is a horrible place with no happiness, the ever-popular <a href="http://toddwerth.com/2011/07/21/the-original-ir_black-for-os-x-lion/">IR_Black</a> is the one for you (and <a href="https://gist.github.com/meqif/1238378">here</a> is IR_Black for the iTerm2 crowd).</p>
+
+<h2 id="texteditorsarethenewreligion">Text Editors Are the New Religion</h2>
+
+<p>You will not be allowed to use IDE&#8217;s in this class. We are here to learn how to hack (no, not <a href="http://www.techrepublic.com/blog/it-security/hacker-vs-cracker/">crackers</a>). As such, you will now live in the terminal. Welcome home!</p>
+
+<p>There are many, many <a href="https://en.wikipedia.org/wiki/List_of_text_editors">text editors</a> out there. Without a doubt, though, the three most popular ones are the following:</p>
+
+<ol>
+<li>Vim</li>
+<li>Emacs</li>
+<li>Sublime</li>
+</ol>
+
+<p>Honorable mentions go to Text Wrangler and Notepad++, both of which were <em>extremely</em> popular once upon a time and are still widely used. Sublime is a relatively new player in this - both Vim and Emacs have been around for <em>decades</em>. (To be fair, not quite accurate. Vim stands for <em>V</em> i <em>Im</em> proved. Vi is the really old school one.)</p>
+
+<p>Which you pick doesn&#8217;t really matter, so long as you become <strong>really</strong> proficient. Watching someone who doesn&#8217;t know how to navigate their way around a text editor is even more painful than not knowing how to navigate around a terminal. Seriously.</p>
+
+<p>There is a <a href="https://en.wikipedia.org/wiki/Editor_war">huge debate</a> between Emacs and Vim for first place; there has been for decades, and there will continue to be.</p>
+
+<p>The war is silly, and those of us affected by it personally have found it especially hard. I used to have many good friends. There was a time when we didn&#8217;t know&#8230; Perhaps it&#8217;s better to not know. How I <em>wish</em> for the days of innocent not knowing. Imagine my surprise when my best friend turned out to be an Emacs user. That was the last I heard from him.</p>
+
+<p>Jokes aside, I have a very strong bent towards Vim. Here is my fair attempt at being neutral:</p>
+
+<p>If you wish to be productive immediately and cannot invest time in learning, use Sublime. If you have just a little bit of time, learn to use Emacs. If you have lots of time to invest, but seek the best rewards, learn to use Vim. The learning curve is <strong>not</strong> for the faint of heart, but its rewards are boutiful and shall lead ye to the <a href="https://en.wikipedia.org/wiki/Words_per_minute">promised land</a>.</p>
+
+<p>There are several important differences though.</p>
+
+<ul>
+<li>Vim is more lightweight - starts up faster, and consumes less memory</li>
+<li>Emacs is in someways more powerful. Did you know you could browse the web from within Emacs? Yep. Vim can&#8217;t do that.</li>
+<li>Vim doesn&#8217;t <em>want</em> to do that. It wants to be the most specialized, best text editor in the world. Some say it achieves that.</li>
+<li>Both free, both open source</li>
+<li>From my personal experience, more people use Emacs in school, more people use Vim in industry. (Obvious bias of small sample size.)</li>
+</ul>
+
+<p><em>But why would I ever have to learn these?</em></p>
+
+<ul>
+<li>When you SSH into something, you may not have permissions to install something like Eclipse. You&#8217;ll have to use whatever is already there - only 2 are, by the way: Vim and Emacs (guaranteed). There is also a third (pico, or if you&#8217;re on a Mac, nano.) But we don&#8217;t speak of him. He&#8217;s the incestuous cousin that no one wants to mention.</li>
+<li>Even if you can install something, doesn&#8217;t mean you&#8217;ll always have X windows available. (Remember those? When you ssh -X with X11 turned on so you can launch firefox remotely and have it show up on your screen?) Not always possible.</li>
+<li>Definitely slower to run Eclipse and display the X window to your computer, even if it&#8217;s possible.</li>
+</ul>
+
+<p>I&#8217;m going to leave it at this for now. I could honestly give a whole separate recitation lecture just on Vim. I won&#8217;t - but if anyone is curious, let me know. If there&#8217;s enough interest, I will give an optional lecture on the best parts of vim, the best plugins, etc.</p>
+
+<h2 id="configuringyour.bashrc.bash_profile">Configuring Your .bashrc / .bash_profile</h2>
+
+<p>If you&#8217;re on a Mac, it&#8217;s your <code>.bash_profile</code>. Otherwise, it&#8217;s <code>.bashrc</code>. Learning to configure this to your liking is <strong>essential</strong>. You&#8217;ll be spending a lot of time here.</p>
+
+<p>Common examples:</p>
+
+<ul>
+<li>aliases that you like</li>
+<li>common command sequences (wouldn&#8217;t it be nice to do an <code>ls</code> after every <code>cd</code>?)</li>
+<li>extended tab completion (what if after <code>kill &lt;Tab&gt;</code> it would show you the list of process ID&#8217;s that you could kill?)</li>
+</ul>
+
+<p>All this and more will one day be yours, if only you spend the time to configure your <code>.bashrc</code>. For those of you interested, a new religious war is starting between BASH (the Bourne Again Shell) and <a href="http://www.zsh.org/"><code>zsh</code></a>. <code>zsh</code> is incredibly useful, and I don&#8217;t mind if you use it provided that <strong>all your scripts be compatible with bash as well</strong>.</p>
+
+<p><code>bash</code>, regardless of what you say, is ubiquitous on all corporate servers. It is absolutely essential that you be familiar with it. <code>zsh</code> is more or less a superset of BASH, which is fine. But it does mean all your scripts cannot use features present in <code>zsh</code> but not in <code>bash</code>.</p>
+
+<p>Configuring your bash prompt so it displays useful things is also super nice. There are lots of things to do here, so explore lots!</p>
+
+<p>Windows people: Install <a href="http://www.cygwin.com/"><code>Cygwin</code></a>. Or get a linux box. Or whatever. Get your shit together is what I&#8217;m saying basically.</p>
+
+<h2 id="screentmux">Screen / TMux</h2>
+
+<p>Unfortunately, SSH isn&#8217;t going away anytime soon. You&#8217;ll use it everywhere. When we can, we should, of course, edit locally on our laptops. But sometimes it&#8217;s unavoidable that we simply must edit on a remote server. So we use SSH and decide we&#8217;re going to do stuff there. Fine.</p>
+
+<p>But imagine for a moment that you&#8217;re working on a fairly large project (as you will be in a month&#8217;s time). You have to edit 6 different files, you&#8217;re running 3 different programs simultaneously, and all of a sudden, you have an ungodly <strong>9</strong> terminal windows (or tabs or whatever) opened up!</p>
+
+<p>Navigating through 9 tabs is miserably painful! And you curse SSH and its creaters (incidentally S, S, and H&#8230; lol jk not this acronym&#8230;) and proclaim unto the heavens &#8220;Isn&#8217;t there a better way!?&#8221;</p>
+
+<p>Why yes, there is. You have 2 options in fact, so you have 2 better ways.</p>
+
+<ol>
+<li><a href="https://www.gnu.org/software/screen/">Screen</a></li>
+<li><a href="http://tmux.sourceforge.net/">tmux</a></li>
+</ol>
+
+<h2 id="thehackingspirit">The Hacking Spirit</h2>
+
+<p>I just wanted to say a few words about this course before I leave you today.</p>
+
+<p>This is not an intro level course. It&#8217;s no longer CS1, where after trying to debug for 10 seconds you could run to a TA. The purpose of this course is to make you really, fully ready for an internship or serious job. On the job, when handed a task, you don&#8217;t run to your manager with every little tiny question.</p>
+
+<p>You figure it out.</p>
+
+<p>Of course there are times when you ask a co-worker, and of course there are times when you can receive help. But the point is that you should value other people&#8217;s time. So if you don&#8217;t spend the due diligence of searching through every possiblity and wracking your brain for answers, not only will you never get better at debugging (which, o-m-g, as it, like so totally turns out, is a skill and not some gift granted by the gods), you will waste the instructors&#8217; time and your classmates&#8217; time as well.</p>
+
+<p>Think about debugging strategies. Use process of elimination. Try the same thing but on a much simpler, smaller problem to isolate the bug. Use google. Search stackoverflow. Use whatever means you can (honor code obviously applies) of solving the problem, and if you still can&#8217;t figure it out, <em>then</em> come to us, but as a last resort.</p>
+
+<p>The final thing I wanted to say is get some of what I call &#8220;The Hacking Spirit&#8221;. Get an eagerness to try things out because it will serve you well. You have at your figertips the most powerful computers ever made. So many people would have killed to get these kinds of tools at their disposal. </p>
+
+<p>Reading about it is boring - that&#8217;s what my cousins in India are doing because they don&#8217;t have the money to get computers like these. They watch videos of people doing the things they <em>wish</em> they could be doing.</p>
+
+<p>So do it! Have fun with it. Try it out, see what happens. You learn by doing.</p>
+
+<h2 id="ohyeah-thelab">Oh Yeah - the Lab</h2>
+
+<p>Things to keep in mind</p>
+
+<ul>
+<li>Your first experience with Linux might be rough. Don&#8217;t get frustrated</li>
+<li>Use the man pages - muck around with a command, it may take several tries before you get to use it right; google how to use the command if you have to</li>
+<li>Bash scripts are geared to be <em>short</em>. I did the lab last night. The first 4 parts <em>combined</em> took me 18 lines of code.</li>
+<li>You, of course, may take longer than this because you don&#8217;t have the same experience with bash. A large part of bash scripting is just knowing what&#8217;s out there. And the only way to do that, is to start programming. You don&#8217;t know what commands are out there. So I will <em>not</em> be coding based on efficiency (or even style! - we&#8217;ll have plenty of that when it comes to C). Just get it working, and you&#8217;ll do fine on the lab. Fair enough?</li>
+<li>But do comment for me, will you? I can&#8217;t read some of the spaghetti code that&#8217;s handed in, and if I can&#8217;t see what you&#8217;re going for, I can&#8217;t give partial credit.</li>
+</ul>
+</body>
+</html>

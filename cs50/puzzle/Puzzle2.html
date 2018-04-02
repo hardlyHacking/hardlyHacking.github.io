@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Puzzle2</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="puzzle2">Puzzle 2</h1>
+
+<p>Let&#8217;s examine how to swap things.</p>
+
+<p>We all remember learning swapping from cs1 when we were learning some type of sorting algorithm - swapping allowed us to sort arrays in place (constant space) rather than constructing a new array.</p>
+
+<p>It goes something like the following:</p>
+
+<pre><code>int temp = array[0];
+array[0] = array[1];
+array[1] = temp;
+</code></pre>
+
+<p>Boom-eth! Thou art impressed with my swapping-eth of array positions <code>0</code> and <code>1</code>.</p>
+
+<p>Hmm. As it turns out, I&#8217;m not impressed. Not at all. What if I don&#8217;t want to use these intermediary variables like <code>temp</code>? After all, if you needed to use extra memory, is it <em>really</em> in place?</p>
+
+<p>How would you do this without that variable?</p>
+
+<p>If you guessed bit-wise operations, you&#8217;d be right. In this case, we&#8217;ll use the exclusive-or (xor) operator <code>^</code>.</p>
+
+<p>Xor has two key properties:</p>
+
+<ol>
+<li><p>Anything xor-ed with <code>0</code> is itself</p></li>
+<li><p>Anything xor-ed with itself is <code>0</code>.</p></li>
+</ol>
+
+<p>So how would we do it?</p>
+
+<pre><code>int a = 5;
+int b = 4;
+
+b ^= a;
+a ^= b;
+b ^= a;
+</code></pre>
+
+<p><em>Huh</em>? That&#8217;s it? Yes, that&#8217;s it. Let&#8217;s take a look as to what&#8217;s going on here.</p>
+
+<p><code>b ^= a</code> expands to <code>b = b ^ a</code>. So now <code>b = 4 ^ 5</code>, and <code>a = 5</code>.</p>
+
+<p>The second statement <code>a = a ^ b</code> expands to <code>a = 5 ^ 4 ^ 5</code>. Using the above two properties, that simpliefies down to <code>a = 4 ^ 5 ^ 5 = 4 ^ 0 = 4</code>. So now, <code>a  = 4</code>.</p>
+
+<p>The final statement then simplifies to <code>b = 4 ^ 5 ^ 4 = 5 ^ 0 = 5</code>.</p>
+
+<p>And we&#8217;ve successfully swapped the two integers!</p>
+</body>
+</html>

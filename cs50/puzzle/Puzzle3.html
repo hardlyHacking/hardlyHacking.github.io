@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Puzzle3</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="puzzle3">Puzzle 3</h1>
+
+<p>So now you know about structs, you know about dynamic memory allocation, and you know about pointers! Think yourself a C expert? We shall see.</p>
+
+<p>Since you&#8217;re all geniuses, surely you know the <code>sizeof</code> function. Remember the other day when we discussed GDB? We had a line of code that went something like this: <code>#define TOTAL_ELEMENTS (sizeof(array)/sizeof(array[0]))</code>. This puzzle will explain all this and more.</p>
+
+<p>Okay, quick quiz. Assume you&#8217;re on a 64-bit architecture. What do each of these return?</p>
+
+<pre><code>sizeof(int);
+
+sizeof(long);
+
+sizeof(short);
+
+sizeof(char);
+</code></pre>
+
+<p>Did you guess <code>4</code>, <code>8</code>, <code>2</code>, and <code>1</code>? If so, give yourself a cookie - you were awake during the second week of classes.</p>
+
+<p>Did you get tricked by that &#8220;64-bit architecture&#8221; stuff? That just determines the size of your pointers. A 64-bit architecture machine is one where every address in memory takes 64 bits, or 8 bytes. Pointers are nothing but addresses, so that means the size of your pointers are also 8 bytes. If you&#8217;re on a 32-bit machine, then your pointers are 4 bytes. And if you&#8217;re on a 16-bit machine, then you&#8217;re probably busy discovering that the world is not in fact flat.</p>
+
+<p>Great, now that you got those correct, we don&#8217;t have to review the <code>sizeof</code> stuff anymore&#8230; right?</p>
+
+<p>You remember structs - the rough C translation of objects? Okay then, here&#8217;s round 2.</p>
+
+<pre><code>struct foo {
+    int a;
+    int b;
+    int c;
+};
+
+struct foo bar;
+
+printf(&quot;%d\n&quot;, sizeof(bar));
+</code></pre>
+
+<p>What does that print? Did you guess <code>12</code>? Are you <em>really</em> sure? Well yes, it is. Unlike in Java, C does not track extra things about structs, and so it the size of structs is many times close to the elements inside. Not bad, not bad at all. What about this then?</p>
+
+<pre><code>struct foo {
+    int a;
+    char b;
+    int c;
+    short d;
+};
+
+struct foo bar;
+
+printf(&quot;%d\n&quot;, sizeof(bar));
+</code></pre>
+
+<p>Did you think to yourself <code>4 + 1 + 4 + 2</code>? Nope! Here&#8217;s a brilliant case of Joel&#8217;s <a href="http://www.joelonsoftware.com/articles/LeakyAbstractions.html">leaky abstraction</a>. Thought you didn&#8217;t have to do the class readings? Wrong!</p>
+
+<p>Turns out, the answer is <code>16</code>! Oh dear, what&#8217;s happened? As it turns out, the x86 and ARM architectures <em>self-align</em> on the widest or largest element in a struct, often called the <strong>stride address of a structure</strong>. Some of you have taken architecture, so you already know what this means. For those that do, please forgive this brief review.</p>
+
+<p>We&#8217;re assuming we&#8217;re on a 64-bit architecture; that means the basic word size is 64 bits, or 8 bytes. When we look into addresses, each address is 8 bytes long - that&#8217;s why pointers are the same size as integers. There&#8217;s a distinct advantage to having your data begin at a multiple of 8. It means that the data can be accessed in a single operation. Imagine your data began at address 5. Well then, the CPU would use one instruction to go to address 0, and then another to increment by 5 (remember, it&#8217;s an 8-byte word, so it can&#8217;t go directly to address 5). This is why we self-align - to speed up memory lookup into a single operation for the CPU.</p>
+
+<p>Not <em>everything</em> aligns to word boundaries, however. This is where the <em>stride address</em> of a structure comes in. Imagine you had an array of characters - each element here is <code>1</code> byte. Would you really want to take up <code>8</code> bytes for every one of those elements? Of course not! That&#8217;s horribly wasteful. In the same vein, C determines padding by using the stride of a struct rather than the word size of a machine.</p>
+
+<p>Let&#8217;s take this example:</p>
+
+<pre><code>struct foo {
+    int a;
+    short d;
+    char a;
+    int c;
+}
+</code></pre>
+
+<p>What&#8217;s the largest element in <code>foo</code>? An <code>int</code>, of course. We know that&#8217;s <code>4</code> bytes, so the stride of <code>foo</code> is <code>4</code> bytes as well. This means all elements in this struct are self-aligned to <code>4</code> byte boundaries. So what&#8217;s the total size of this struct? The compiler re-writes it as the following:</p>
+
+<pre><code>    struct foo {
+        int a; // 4 bytes
+        short d; // 2 bytes
+        char pad[2]; // 2 bytes of padding
+        char a; // 1 byte
+        char pad[3]; // 3 bytes of padding
+        int c; // 4 bytes
+  };
+</code></pre>
+
+<p>So the <em>real</em> size of this struct is <code>16</code> bytes and not <code>11</code>. Now you may already be thinking, &#8220;Hmm, that&#8217;s quite a lot of wasted space!&#8221; And you&#8217;d be right. How can we reorder things to minimize wasted space? Well, that&#8217;s not too difficult.</p>
+
+<pre><code>struct foo {
+    int a;
+    int c;
+    short d;
+    char a;
+};
+</code></pre>
+
+<p>Can you guess the size of this newly re-written struct? It&#8217;s now just <code>12</code>! We reduced the amount of padding by 80% and the space by 25%! By ordering it this way, only <code>1</code> byte of padding is necessary! Not bad for less than two minutes of thinking.</p>
+
+<p>What we&#8217;re discussing here is called <strong>struct packing</strong> - how to efficiently order your struct elements so that you minimize wasted space.</p>
+
+<p>On the other hand, many of you might be thinking - hey now, it&#8217;s just 5 bytes! Who cares? Well, imagine you&#8217;re making 200,000 of these. Those bytes start to add up - and fast. All advanced C programmers are well-versed in struct packing, and it&#8217;s essential to minimizing your memory footprint.</p>
+
+<p>The first time I heard of this, I immediately thought &#8220;If it&#8217;s so damned important, then why doesn&#8217;t the compiler do it for me?&#8221; That&#8217;s a fair question.</p>
+
+<p>It&#8217;s because of the purpose of C. C is designed to be extremely close to the machine and very low level. The programmer is meant to have total control of the ordering - imagine you <em>had</em> to do it in the inefficient way because you&#8217;re adhering to some hardware protocol, etc. Ultimately, the philosophy of C is to leave the power and smarts in the programmer&#8217;s hands because unlike Java, we assume you&#8217;re intelligent. :)</p>
+
+<p>But we&#8217;re not done yet! What about <em>structs within structs</em>? Turns out, those are self-aligned too! But they&#8217;re independently self-aligned. Here&#8217;s an example:</p>
+
+<pre><code>struct foo {
+    char stuff;
+    struct bar {
+        char *other_stuff;
+        char omg[7];
+   } inner;
+};
+</code></pre>
+
+<p>Think you can re-order this struct to save space?</p>
+
+<pre><code>    struct foo {
+        char stuff;
+        struct bar {
+            char omg[7];
+            char *other_stuff;
+     } inner;
+   };
+</code></pre>
+
+<p>Nope. You can&#8217;t. The size of both structs is <code>24</code>. Inner structs are self-aligned independently, which means even though you&#8217;d <em>like</em> to put <code>omg</code> first and match with the <code>1</code> byte character above, you can&#8217;t. No matter what we do, this struct will take up <code>24</code> bytes of space! And that&#8217;s just awful. If you run into a problem like this, you have a bad design and need to restructure your code.</p>
+
+<p>The other benefit to this is fewer cache-misses, which also speeds up your program.</p>
+
+<p>If you&#8217;re interested in other advanced ways to optimize your C programs, do take a look at this <a href="http://www.catb.org/esr/structure-packing/#_alignment_requirements">fabulous article</a>.</p>
+</body>
+</html>

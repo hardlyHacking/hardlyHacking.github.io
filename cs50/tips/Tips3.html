@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tips3</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="tips3-gnuscreen">Tips 3 - GNU Screen</h1>
+
+<p><a href="https://www.gnu.org/software/screen/">GNU Screen</a> has become a fundamental force in reshaping window management tools everywhere. Today, in most production environments you&#8217;ll be using something like <a href="http://tmux.sourceforge.net/">TMux</a> or something like it, but that&#8217;s overkill for this class.</p>
+
+<p>Besides, this class is about old school hacking! So we&#8217;re going to teach old school Linux screen.</p>
+
+<p>So what&#8217;s a window management tool?</p>
+
+<p>Say you&#8217;re working hard on your crawler, doing magical things in C, crawling the web, whatever. All of a sudden, Dartmouth &#8220;<a href="http://thedartmouth.com/2013/02/26/opinion/ramesh-dartmouth-insecure">Secure</a>&#8221; cuts Wi-Fi (you know how things get). You curse and scream, but the gods refuse to hear your pleas. You&#8217;ve lost all your work. Maybe you save frequently, fine. But how often? At least you&#8217;ve lost maybe 30 minutes of work? What if this was the moment you finally had a break through and figured out how to get the code working?</p>
+
+<p>Let&#8217;s take another scenario. Couple weeks from now, you&#8217;re working on the final finishing touches for your search engine, but it&#8217;s a total mess. You have one terminal for the crawler code, one for the indexer code, a terminal for the search engine code, another terminal to run the crawler, one more to run the indexer, and one final one to run the search engine&#8230; Wow.</p>
+
+<p>A window management tool solves <em>both</em> these issues. Screen allows you to have separate &#8220;windows&#8221; (or tabs, if you prefer) within a single SSH connection. This cuts down the number of physical terminal windows you need significantly.</p>
+
+<p>Ah, but where do you configure screen? By now you should have some intuition to how a linux environment works. You guessed it - in your <code>~/.screenrc</code>.</p>
+
+<p>A helpful starting point maybe what&#8217;s in my <code>~/.screenrc</code>:</p>
+
+<pre><code># skip the startup message
+startup_message_off
+
+# Automatically detach on hangup
+autodetach on
+
+# Change default scrollback value for new windows
+defscrollback 10000
+
+# start with visual bell as default
+vbell on
+vbell_msg &quot;bell on %t (%n)&quot;
+
+# look and feel
+caption always &quot;%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %c&quot;
+
+activity &quot;Activity in %t(%n)&quot;
+</code></pre>
+
+<p>Of course, you should play around with it until you get one that satisfies you.</p>
+
+<p>Let&#8217;s get started using screen. Thankfully, both Mac OS X screen and standard linux screen are basically the same, so it doesn&#8217;t matter where you use it. Of course, practically speaking, you wouldn&#8217;t be using screen for local purposes, but this is just to get used to it.</p>
+
+<p>Pull up your favorite terminal and simply type <code>screen</code>. It may not look like much has happened - you should still be in the same directory in which you called screen. On the bottom, however, you&#8217;ll see an indication of which tab you&#8217;re on (there should only be one right now). For me it looks something like this:</p>
+
+<pre><code>0 ../website/cs50                      @chanders-mbp - Sunday 26 January - 16:07
+</code></pre>
+
+<p><code>0</code> being the tab number, <code>../website/cs50</code> is actually the tabname, but it defaults to the directory I&#8217;m in, followed by my username and the date. So let&#8217;s run this super important program of ours.</p>
+
+<pre><code>while [ true ]; do echo &quot;hi&quot;; sleep 60; done
+</code></pre>
+
+<p>Great, now we have some infinite loop running. Hey, while this super important program is running, wouldn&#8217;t it be great if we could do some other stuff in the mean time? Sure, why not.</p>
+
+<p>Fire up a new window with <code>&lt;CTRL&gt;-a-c</code>. All screen commands begin with <code>&lt;CTRL&gt;-a</code>. You can configure this of course, but personally I find the defaults to be pretty good.</p>
+
+<p>Now you have a second tab in the same directory. The line should be the exact same, except now you have a <code>1</code> where the <code>0</code> was, indicating you&#8217;re on the first tab instead of tab zero. Cool! Now let&#8217;s start another program here.</p>
+
+<pre><code>while [ true ]; do echo &quot;bye&quot;; sleep 30; done
+</code></pre>
+
+<p>Aren&#8217;t those long tabnames annoying though? Let&#8217;s rename the tab - I don&#8217;t care what directory I&#8217;m in, and besides I can always find out with <code>pwd</code>. <code>&lt;CTRL&gt;-a-A</code> renames a tab. You can rename a tab even though it&#8217;s currently executing an infinite loop! Pretty nifty.</p>
+
+<p>How do we switch back and forth between tabs? <code>&lt;CTRL&gt;-a-n</code> for the next tab and <code>&lt;CTRL&gt;-a-p</code> for the previous.</p>
+
+<p>But what if you had <em>lots</em> of tabs? <code>&lt;CTRL&gt;-a-#</code> where <code>#</code> is a number between <code>0</code> and <code>9</code> will move you to that tab number. What if you have more than <code>9</code> tabs? <a href="https://lists.gnu.org/archive/html/screen-users/2008-01/msg00005.html">There is a solution for that, too</a>, but in general it&#8217;s best to not go crazy on these things.</p>
+
+<p>If you truly have a lot of tabs, another solution (and a better one) is <code>&lt;CTRL&gt;-a-&quot;</code>. That&#8217;s a double quotation mark, for those whose browsers don&#8217;t support this font or have rendering issues. This will vertically list all the tabs, and selecting between them is standard Vim-style navigation. (Why do we still call it Vim-style? Who uses anything else? It should just be called navigation..)</p>
+
+<p>Now let&#8217;s <strong>detach</strong> our running process to have it run even as we exit screen. <code>&lt;CTRL&gt;-a-d</code> detaches a process so it runs without you. Now when you close your laptop and go play pong, it will still be running - and you can come back and reattach. To see all the screen sessions that you were running, when you&#8217;ve exited screen type <code>screen -ls</code>. Even though we have multiple tabs opened, it only counts as a single screen session. To reattach, simply press <code>screen -r</code> in your terminal, and it brings you right back. If you had multiple screen sessions, it would show you the PIDs and ask you which one.</p>
+
+<p>To kill one tab in particular, press <code>&lt;CTRL&gt;-a-k</code>. It will ask you if you really want to kill this window, and press <code>y</code> in response.</p>
+
+<p>As a final note, there are some differences between linux screen and GNU screen - not all linux distros use standard GNU screen, and there may be some obscure key combinations that aren&#8217;t kept or maintained. But for the most part, they are basically equivalent.</p>
+
+<p>Here are some useful guides. Do check out this one and its <a href="http://www.rackaid.com/blog/linux-screen-tutorial-and-how-to/">screen logging</a> section - that&#8217;s <em>really</em> useful. And here is one about <a href="http://www.linux.com/learn/tutorials/285795-taking-command-of-the-terminal-with-gnu-screen-">GNU screen</a> specifically.</p>
+
+<h1 id="theholywar">The Holy War</h1>
+
+<p>Wait, I thought <strong>the</strong> holy war was Vim vs Emacs? Well, there can&#8217;t be much of a war when Vim has won - it&#8217;s more of a pounding. So&#8230;</p>
+
+<p>Also, we have lots of holy wars. We&#8217;re computer scientists, it&#8217;s what we do when we&#8217;re not reading Isaac Asimov.</p>
+
+<p>Tmus vs Screen</p>
+
+<p><a href="https://www.wikivs.com/wiki/Screen_vs_tmux">Such Holy Wars</a></p>
+
+<p><a href="http://dominik.honnef.co/posts/2010/10/why_you_should_try_tmux_instead_of_screen/">Wow</a></p>
+
+<p><a href="https://superuser.com/questions/236158/tmux-vs-screen">Much arguing</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=QxTse5Elq8s">Kewl terminals</a></p>
+
+<p>Sidenote, Mac users should try <code>pip install doge</code> (install python to use pip). It&#8217;s the most awesome project ever</p>
+
+<figure>
+<img src="http://i.imgur.com/HxH9qka.png" alt="Seriously though" />
+<figcaption>Seriously though</figcaption></figure>
+</body>
+</html>

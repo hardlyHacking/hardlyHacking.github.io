@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Lab6Announcement</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="lab6announcements">Lab 6 Announcements</h1>
+
+<h2 id="unittesting">Unit Testing</h2>
+
+<p>You do not have to unit test anything that is not used in Query Engine. However, any function used in query engine &#8211; even if it is used as refactored code from crawler or indexer &#8211; must be unit tested.</p>
+
+<h2 id="andandor">And and Or</h2>
+
+<p>As has been repeatedly said, AND and OR are reserved words; you do not have to be able to search for it. However, &#8220;and&#8221; and &#8220;or&#8221; are treated as regular keywords for which you have to search.</p>
+
+<h2 id="refactoringcode">Refactoring Code</h2>
+
+<p>We are looking for generalized data structures and generalized code. If there are two extremely similar functions across crawler and indexer, points will be deducted.</p>
+
+<h2 id="polishedcode">Polished Code</h2>
+
+<p>This is the final solo assignment, and an extremeley important one. This is the culmination of a month-long project, and we expect the code to be polished. Standardized comment formats, proper variable names, etc. Style will be scrutinized heavily here.</p>
+
+<h2 id="cleansvnrepositories">Clean SVN Repositories</h2>
+
+<p>This has been said multiple times on Piazza and this website. Look at the previous posts for details. The rough summary is that only the following four things should be in the repository:</p>
+
+<ul>
+<li>source code</li>
+<li>documentation</li>
+<li>build scripts</li>
+<li>test scripts / testing code</li>
+<li>libraries to which you&#8217;re linking <em>only if they cannot be built by your code</em></li>
+</ul>
+
+<p>That&#8217;s it. Nothing else.</p>
+
+<h2 id="testing">Testing</h2>
+
+<p>You will be turning in all three components of the Tiny Search Engine for this, so you will naturally need to test all three.</p>
+
+<p><strong>Crawler</strong></p>
+
+<p>We will be testing crawler on depth 3 at the following URL: <a href="http://www.cs.dartmouth.edu/~campbell">http://www.cs.dartmouth.edu/\~campbell</a>.</p>
+
+<p>How do you know yours worked? You got <code>611</code> files exactly. I&#8217;ve attached the exact files you get in the next section. Note that you <em>could</em> crawl in a different order than me, so my file <code>47</code> does not have to match your file <code>47</code>, but every file of mine should be in yours somewhere and vice versa.</p>
+
+<p><strong>Indexer</strong></p>
+
+<p><a href="static/crawlerTesting/crawlerOutput.tar.gz">Here</a> is a tarball file of all the html files downloaded by the crawler. We are going to be using them to produce the <code>index.dat</code> file (or whatever you named it).</p>
+
+<p><a href="static/crawlerTesting/Index.dat">Here</a> is the <code>.dat</code> file produced. Download it and compare your <code>.dat</code> file with the given one. Does it match exactly? If it doesn&#8217;t, you have a bug.</p>
+
+<p><strong>Query Engine</strong></p>
+
+<p>Here is the result from the query &#8220;Campbell&#8221; using the above HTML files and the indexer output.</p>
+
+<p>A student diligently pointed out that my initial results were incorrect becuase I had foolishly been only displaying the top <code>100</code> results per my ranking algorithm, and this particular query resulted in more than <code>100</code> documents. Here are the <em>new</em>, accurate results.</p>
+
+<pre><code>[bear:queryengine] 109) ./cmd_search ~/index.dat ~/data/
+[Index]:Loading /net/tahoe3/chander/index.dat in, done
+KEY WORD:&gt;campbell
+[cmdline_interface.c:167]Query...
+[cmdline_interface.c:170]Done
+
+Document ID:3 URL:http://www.cs.dartmouth.edu/~campbell/publications.html
+Document ID:20 URL:http://www.cs.dartmouth.edu/%7Ecampbell/publications.html
+Document ID:214 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/shell.html
+Document ID:215 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/shellcontinued.html
+Document ID:216 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/programming.html
+Document ID:33 URL:http://www.cs.dartmouth.edu/~campbell/cs50/svn.html
+Document ID:102 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/started.html
+Document ID:217 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/svn.html
+Document ID:105 URL:http://www.cs.dartmouth.edu/%7Eniclane/papers.html
+Document ID:246 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/lab6.html
+Document ID:110 URL:http://www.cs.dartmouth.edu/%7Ehong/papers.html
+Document ID:55 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture15/lecture15.html
+Document ID:211 URL:http://www.cs.dartmouth.edu/~campbell/cs65/lecture15/lecture15.html
+Document ID:242 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/lab2.html
+Document ID:95 URL:http://www.cs.dartmouth.edu/%7Etanzeem/pubs/pubs.html
+Document ID:191 URL:http://www.cs.dartmouth.edu/~tanzeem/pubs/pubs.html
+Document ID:11 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/cs65.html
+Document ID:222 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/searchingtheweb.html
+Document ID:167 URL:http://www.cs.dartmouth.edu/undergraduate/courses/upcoming-class-schedule
+Document ID:219 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/gdb.html
+Document ID:14 URL:http://www.cs.dartmouth.edu/%7Ecampbell/smartphonesensing.html
+Document ID:18 URL:http://www.cs.dartmouth.edu/~campbell/smartphonesensing.html
+Document ID:15 URL:http://www.cs.dartmouth.edu/%7Ecampbell/mobilephonesensing.html
+Document ID:82 URL:http://www.cs.dartmouth.edu/%7Edfk/papers/index.html
+Document ID:96 URL:http://www.cs.dartmouth.edu/%7Etanzeem/students/students.html
+Document ID:143 URL:http://www.cs.dartmouth.edu/news-events/drs-zhou-and-campbell-win-google-faculty-research-award
+Document ID:192 URL:http://www.cs.dartmouth.edu/~tanzeem/students/students.html
+Document ID:238 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/socketprogramming.html
+Document ID:605 URL:http://www.cs.dartmouth.edu/~dfk/papers/index.html#mhealth
+Document ID:1 URL:http://www.cs.dartmouth.edu/~campbell
+Document ID:2 URL:http://www.cs.dartmouth.edu/%7Ecampbell/index.html
+Document ID:10 URL:http://www.cs.dartmouth.edu/~campbell/human.html
+Document ID:13 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs60
+Document ID:26 URL:http://www.cs.dartmouth.edu/%7Ecampbell/human.html
+Document ID:44 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture03/lecture03.html
+Document ID:61 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lab5/lab5.html
+Document ID:78 URL:http://www.cs.dartmouth.edu/%7Ecampbell
+Document ID:108 URL:http://www.cs.dartmouth.edu/~campbell/index.html
+Document ID:168 URL:http://www.cs.dartmouth.edu/undergraduate/prizes/previous-winners
+Document ID:225 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/dynamicmem.html
+Document ID:234 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/artofdebug.html
+Document ID:256 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs60/lab2.html
+Document ID:266 URL:http://www.cs.dartmouth.edu/%7Edfk/papers/index-t.html
+Document ID:267 URL:http://www.cs.dartmouth.edu/%7Edfk/papers/index-a.html
+Document ID:269 URL:http://www.cs.dartmouth.edu/%7Edfk/papers/index-c.html
+Document ID:610 URL:http://www.cs.dartmouth.edu/%7Etanzeem/teaching/CS188-Winter09/index.html
+Document ID:8 URL:http://www.cs.dartmouth.edu/~campbell/bio.html
+Document ID:12 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50
+Document ID:17 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/dartmouthbiorhythm.html
+Document ID:19 URL:http://www.cs.dartmouth.edu/%7Etanzeem
+Document ID:25 URL:http://www.cs.dartmouth.edu/%7Ecampbell/bio.html
+Document ID:32 URL:http://www.cs.dartmouth.edu
+Document ID:35 URL:http://www.cs.dartmouth.edu/~tanzeem
+Document ID:42 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture06/lecture06.html
+Document ID:43 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture07/lecture07.html
+Document ID:46 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture10/lecture10.html
+Document ID:59 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture19/lecture19.html
+Document ID:68 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/intro2c.html
+Document ID:69 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/assignments.html
+Document ID:75 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs60/assignments.html
+Document ID:94 URL:http://www.cs.dartmouth.edu/%7Etanzeem/index.html
+Document ID:141 URL:http://www.cs.dartmouth.edu/news-events
+Document ID:142 URL:http://www.cs.dartmouth.edu/people
+Document ID:146 URL:http://www.cs.dartmouth.edu/news-events/-grassy-knoll-revisited-probes-chaos-jfks-death
+Document ID:148 URL:http://www.cs.dartmouth.edu/news-events/harnessing-smartphones-prevent-psychosis
+Document ID:190 URL:http://www.cs.dartmouth.edu/~tanzeem/index.html
+Document ID:208 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture07
+Document ID:228 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/datastructures.html
+Document ID:4 URL:http://www.cs.dartmouth.edu/~campbell/teaching.html
+Document ID:5 URL:http://www.cs.dartmouth.edu/~campbell/students.html
+Document ID:6 URL:http://www.cs.dartmouth.edu/~campbell/newsandpress.html
+Document ID:7 URL:http://www.cs.dartmouth.edu/~campbell/demos.html
+Document ID:9 URL:http://www.cs.dartmouth.edu/%7Exia
+Document ID:21 URL:http://www.cs.dartmouth.edu/%7Ecampbell/teaching.html
+Document ID:22 URL:http://www.cs.dartmouth.edu/%7Ecampbell/students.html
+Document ID:23 URL:http://www.cs.dartmouth.edu/%7Ecampbell/newsandpress.html
+Document ID:24 URL:http://www.cs.dartmouth.edu/%7Ecampbell/demos.html
+Document ID:27 URL:http://www.cs.dartmouth.edu/%7Eniclane
+Document ID:28 URL:http://www.cs.dartmouth.edu/%7Ehong
+Document ID:34 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/submit.html
+Document ID:36 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/projects.html
+Document ID:37 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture01/lecture01.html
+Document ID:38 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture05/lecture05.html
+Document ID:40 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture02/lecture02.html
+Document ID:41 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lab1/lab1.html
+Document ID:45 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture04/lecture04.html
+Document ID:47 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lab2/lab2.html
+Document ID:48 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture08/lecture08.html
+Document ID:49 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture09/lecture09.html
+Document ID:50 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture11/lecture11.html
+Document ID:51 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture12/lecture12.html
+Document ID:52 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture13/lecture13.html
+Document ID:53 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture14/lecture14.html
+Document ID:54 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lab3/lab3.html
+Document ID:56 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture16/lecture16.html
+Document ID:57 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture17/lecture17.html
+Document ID:58 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture18/lecture18.html
+Document ID:60 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture20/lecture20.html
+Document ID:62 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture21/lecture21.html
+Document ID:63 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture23/lecture23.html
+Document ID:64 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lab6/lab6.html
+Document ID:65 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture24/lecture24.html
+Document ID:66 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture25/lecture25.html
+Document ID:103 URL:http://www.cs.dartmouth.edu/%7Eniclane/index.html
+Document ID:104 URL:http://www.cs.dartmouth.edu/%7Eniclane/news.html
+Document ID:109 URL:http://www.cs.dartmouth.edu/%7Ehong/index.html
+Document ID:111 URL:http://www.cs.dartmouth.edu/%7Exia/index.html
+Document ID:116 URL:http://www.cs.dartmouth.edu/~xia
+Document ID:123 URL:http://www.cs.dartmouth.edu/undergraduate/honors-program
+Document ID:136 URL:http://www.cs.dartmouth.edu/research/faculty-research-areas
+Document ID:184 URL:http://www.cs.dartmouth.edu/research/projects/smartphone-sensing
+Document ID:199 URL:http://www.cs.dartmouth.edu/~jaypatel/cs65.html
+Document ID:210 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs65/lecture08/MySkeletonFragment.html
+Document ID:212 URL:http://www.cs.dartmouth.edu/~campbell/cs65/lab3/lab3.html
+Document ID:213 URL:http://www.cs.dartmouth.edu/~campbell/cs65/lecture17/lecture17.html
+Document ID:229 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/crawlerdesign.html
+Document ID:241 URL:http://www.cs.dartmouth.edu/%7Ecampbell/cs50/lab1.html
+Document ID:275 URL:http://www.cs.dartmouth.edu/%7Edfk/papers/abstracts/anthony-sith3.html
+Document ID:387 URL:http://www.cs.dartmouth.edu/%7Edfk/papers/abstracts/sheng-map.html
+Document ID:388 URL:http://www.cs.dartmouth.edu/%7Edfk/papers/abstracts/sheng-spoofing.html
+Document ID:566 URL:http://www.cs.dartmouth.edu/~rapjr
+Document ID:574 URL:http://www.cs.dartmouth.edu/reports/abstracts/TR2008-620
+Document ID:575 URL:http://www.cs.dartmouth.edu/reports/abstracts/TR2008-621
+Document ID:576 URL:http://www.cs.dartmouth.edu/reports/abstracts/TR2008-619
+</code></pre>
+</body>
+</html>

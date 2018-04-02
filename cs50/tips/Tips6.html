@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tips6</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="tips6">Tips 6</h1>
+
+<h2 id="whyprofile">Why Profile?</h2>
+
+<p>Profiling code is absolutely important. While algorithms and run time complexities are good first approximations for how to implement code, optimizations can <em>only</em> be done by first and foremost measuring. Getting accurate data for how the code actually runs is the only reliable benchmark.</p>
+
+<p>Otherwise, how do you even know if your optimization worked or not?</p>
+
+<p>The standard way to optimize is to profile your code, find a portion of code that&#8217;s taking far too long (usually within a single function), rewrite that function, and then <em>profile your code once more</em>. You repeat this cycle until you are satisfied with teh code performance.</p>
+
+<p>I&#8217;ll say it again: theories are meaningless. Until you profile your code it does not carry any weight.</p>
+
+<p>With that in mind, we&#8217;ll be studying the <a href="https://sourceware.org/binutils/docs/gprof/">GProf</a>, a well-known C profilers.</p>
+
+<h2 id="macusers">Mac Users</h2>
+
+<p>GProf does not work with Apple. They <a href="https://stackoverflow.com/questions/1101545/problem-with-gprof-on-os-x-program-is-not-of-the-host-architecture">prefer strongly</a> that you use Shark instead, which comes builtin with <a href="https://developer.apple.com/technologies/tools/">Developer Tools</a>.</p>
+
+<h2 id="gprof">GProf</h2>
+
+<p>How do we use <code>gprof</code>?</p>
+
+<p>You have to compile your source code with the <code>-pg</code> option.</p>
+
+<blockquote>
+<p>-pg : Generate extra code to write profile information suitable for the analysis program gprof. You must use this option when compiling the source files you want data about, and you must also use it when linking.
+&#8211; <cite>GCC man page</cite></p>
+</blockquote>
+
+<p>I used <code>gcc -pg -Wall -pedantic -std=c99 blah.c -o blah</code> for this example. After running the <code>./blah</code> executable, a new file <code>gmon.out</code> will be created (no matter your program, it will always be called this).</p>
+
+<p>Time to use GProf:</p>
+
+<pre><code>gprof [executable name] gmon.out &gt; [whatever name you want . txt]
+gprof sleep gmon.out &gt; analysis.txt
+</code></pre>
+
+<p>The analysis will be long. One important aspect is the flat profile. It will look something like this:</p>
+
+<pre><code>Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ms/call  ms/call  name    
+ 33.34      0.02     0.02     7208     0.00     0.00  open
+ 16.67      0.03     0.01      244     0.04     0.12  offtime
+ 16.67      0.04     0.01        8     1.25     1.25  memccpy
+ 16.67      0.05     0.01        7     1.43     1.43  write
+ 16.67      0.06     0.01                             mcount
+  0.00      0.06     0.00      236     0.00     0.00  tzset
+  0.00      0.06     0.00      192     0.00     0.00  tolower
+  0.00      0.06     0.00       47     0.00     0.00  strlen
+  0.00      0.06     0.00       45     0.00     0.00  strchr
+  0.00      0.06     0.00        1     0.00    50.00  main
+  0.00      0.06     0.00        1     0.00     0.00  memcpy
+  0.00      0.06     0.00        1     0.00    10.11  print
+  0.00      0.06     0.00        1     0.00     0.00  profil
+  0.00      0.06     0.00        1     0.00    50.00  report
+</code></pre>
+
+<p>The <code>time</code> column is a percent, and it should all add up to <code>100%</code>. As you can imagine, you want to minimize the big ticket items. For example, the program spends a third of its time in the <code>open</code> function; if you wrote this, you&#8217;d want to do as much as possible to minimize that runtime and ignore something like <code>report</code> which doesn&#8217;t take up any time at all. The key is focusing on those that give the greatest marginal speedup.</p>
+
+<p>Another useful component is the call graph, which shows how much time was spent in each function <em>and its children</em>. So even if one function by itself did not take up too much time, it would show up as a culprit in the call graph if it schildren were very inefficient.</p>
+
+<p>Here is a sample call graph.</p>
+
+<pre><code>granularity: each sample hit covers 2 byte(s) for 20.00% of 0.05 seconds
+
+index % time    self  children    called     name
+                                                 &lt;spontaneous&gt;
+[1]    100.0    0.00    0.05                 start [1]
+                0.00    0.05       1/1           main [2]
+                0.00    0.00       1/2           on_exit [28]
+                0.00    0.00       1/1           exit [59]
+-----------------------------------------------
+                0.00    0.05       1/1           start [1]
+[2]    100.0    0.00    0.05       1         main [2]
+                0.00    0.05       1/1           report [3]
+-----------------------------------------------
+                0.00    0.05       1/1           main [2]
+[3]    100.0    0.00    0.05       1         report [3]
+                0.00    0.03       8/8           timelocal [6]
+                0.00    0.01       1/1           print [9]
+                0.00    0.01       9/9           fgets [12]
+                0.00    0.00      12/34          strncmp &lt;cycle 1&gt; [40]
+                0.00    0.00       8/8           lookup [20]
+                0.00    0.00       1/1           fopen [21]
+                0.00    0.00       8/8           chewtime [24]
+                0.00    0.00       8/16          skipspace [44]
+-----------------------------------------------
+[4]     59.8    0.01        0.02       8+472     &lt;cycle 2 as a whole&gt;   [4]
+                0.01        0.02     244+260         offtime &lt;cycle 2&gt; [7]
+                0.00        0.00     236+1           tzset &lt;cycle 2&gt; [26]
+-----------------------------------------------
+</code></pre>
+
+<p>The line at the top <code>index % time    self  children    called     name</code> is known as the <strong>primary line</strong>.</p>
+
+<p>There are many better resources that go through all the intricacies on how to interpret everything that <code>gprof</code> will output, and I&#8217;ll leave it to the resources section to do that.</p>
+
+<p>The last thing I wanted to talk about was running GProf multiple times (definitely for things that are CPU-bound). GProf is subject to inaccuracies because it works on a sampling method, so the best way to ensure that you&#8217;re being accurate is to do this multiple times.</p>
+
+<p>Once you&#8217;ve produced a <code>gmon.out</code> file, move it to <code>gmon.sum</code>; then, run your program again and merge the new <code>gmon.out</code> using <code>gprof -s [executable-name] gmon.out gmon.sum</code>.</p>
+
+<p>Do this several times until you are satisfied, and then you can produce the final text file with <code>gprof [executable-name] gmon.sum &gt; [textfile name]</code>.</p>
+
+<h2 id="resources">Resources</h2>
+
+<p><a href="https://sourceware.org/binutils/docs/gprof/">Official GProf documentation</a></p>
+
+<p><a href="http://www.thegeekstuff.com/2012/08/gprof-tutorial/">Handy tutorial</a></p>
+
+<p><a href="https://www.cs.duke.edu/~ola/courses/programming/gprof.html">Very short tutorial</a></p>
+
+<p><a href="http://www.cs.utah.edu/dept/old/texinfo/as/gprof.html#SEC2">Lengthy tutorial</a></p>
+</body>
+</html>

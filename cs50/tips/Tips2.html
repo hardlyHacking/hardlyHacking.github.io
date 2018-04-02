@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tips2</title>
+<link rel=stylesheet type=text/css href="../static/css/style.css">
+</head>
+<body>
+<h1 id="tips2">Tips 2</h1>
+
+<h2 id="lessonslearned">Lessons Learned</h2>
+
+<p>From grading lab 2, I saw a couple things that worried me. Since this is the first lab, I didn&#8217;t take off points - but from next lab onwards please do keep this in mind.</p>
+
+<ul>
+<li><p>Shell scripts are not meant to be interactive - the point of a script is to <em>automate</em> things. So if you design your script in such a way that I have to type in information (example <code>Enter your birthday:</code>) rather than allowing me just to have an option to provide this as a parameter, this is counter-productive. Of course, the scripts you wrote are trivial - they run in several minutes. But scripting is used in many situations where it takes hours. Rather than do it manually, or be stuck waiting for it to finish, we write a script that automates the process so we can do other things in the mean time. If you make this interactive, this is a detriment, not a benefit.</p></li>
+<li><p>SVN repos need major, major fixing. I understand many of you had issues because this is the first lab and your first experience with version control. Free pass this time. From now on, I need your lab code to be in the folder <code>lab[x]</code> where <code>[x]</code> is the number of this lab. I went through your repos and resolved conflicts and fixed your <code>lab2</code> folders, so there shouldn&#8217;t be a problem anymore. <em>This is the last time I fix your SVN repositories</em>. Remember the tips we went over in recitation: <strong>always</strong> <code>svn up</code> <strong>before making any changes</strong>.</p></li>
+<li><p>There is also an issue of <em>which</em> files you should include in an SVN repository. Here is the rule of thumb: <strong>only include source code and documentation</strong>. This means any <code>.sh</code>, <code>.c</code>, <code>README</code>, or <code>makefile</code>s. That&#8217;s it. No <code>.html</code>, no <code>.css</code>. Certainly nothing that your code generates (e.g. the <code>1.html</code> from <code>wget_search.sh</code>), and <em>definitely</em> not the binaries. You absolutely should not have any executables in your repo (this means no <code>a.out</code>s). It&#8217;s not only awful programming practice, it explodes the size of your repo! It&#8217;s not uncommon for badly maintained repositories to become 5&#8211;6 gigabytes in size! The larger your repo, the longer every operation will take - every pull, every update, every commit. So keeping your repo trimmed down is important.</p></li>
+<li><p>Use <a href="http://www.emacswiki.org/emacs/TabsAreEvil">soft tabs</a>. Use <a href="http://opensourcehacker.com/2012/05/13/never-use-hard-tabs/">soft tabs</a>. Use <a href="http://www.jwz.org/doc/tabs-vs-spaces.html">soft tabs</a>. Seriously, <strong>use soft tabs</strong>. If you are using vim, add this to your <code>~/.vimrc</code>:</p>
+
+<pre><code>&quot; Expand tabs to spaces
+set expandtab
+&quot; Be smart tabbing
+set smarttabbing
+&quot; 1 tab == 2 spaces
+set shiftwidth=2
+set tabstop=2
+</code></pre></li>
+</ul>
+
+<p><em>But of course you were using my vim configuration, so you already had this on, didn&#8217;t you&#8230;</em> If you are using emacs, <a href="https://superuser.com/questions/109566/configure-emacs-to-insert-spaces-when-pressing-the-the-tab-key">a guide to soft tabs</a>.</p>
+
+<p>The next time I open a file and see:</p>
+
+<pre><code>Lolol some code lolol
+   such stupidity trolol
+   all in the same block heheh
+       but is not indented properly
+because lol no to teh soft tabs
+</code></pre>
+
+<p>I will lose my mind, and you will lose your grade. So we both lose. Use &#8220;teh&#8221; soft tabs.</p>
+
+<h2 id="solutionstolab2">Solutions to Lab 2</h2>
+
+<p><strong>Let&#8217;s talk birthdays:</strong></p>
+
+<pre><code>if [ `date --date=&quot;$1&quot; +%a` = `date --date=&quot;$2&quot; +%a` ]; then
+    echo &quot;Same day!&quot;
+else
+    echo &quot;Not same day.&quot;
+fi
+</code></pre>
+
+<p>The neat <code>+%a</code> operator converts dates to days of the week, which saves you the necessity of having to do the <code>| cut -d' ' -f1'</code>. To me, this solution was cuter. Others may disagree.</p>
+
+<p><strong>Counting the lines in a file.</strong></p>
+
+<p>This one was exceedingly simple if you know the proper linux commands.</p>
+
+<pre><code>find . -type f | xargs wc -l
+</code></pre>
+
+<p>The&#8217;s actually quite a bit going on here, so let&#8217;s dive into it.</p>
+
+<p>The <code>find</code> command is invaluable. Given a directory, it will find whatever you need it to. For example, if you want to find a file named <code>chanderTheBeast.truth</code> and you&#8217;re in your <code>cs50</code> directory, but you want to search from your home (<code>~</code>) directory, simply type <code>find ~ -type f -name &quot;chanderTheBeast.truth&quot;</code> and voila! It searches starting from the <code>~</code> directory. The <code>type</code> parameter is simply the type of thing it&#8217;s looking for. So you can put <code>-d</code> for directory, or <code>-f</code> for file.</p>
+
+<p>Great, so we understand the <code>find</code> command. It gives us a list of all files starting in the current directory - which is what the problem asks of us. The next portion is the mysterious <code>xargs</code> command. This is incredibly useful.</p>
+
+<p>What would happen if I had infinite recursion (<em>not</em> tail recursion, just plain old recursion, but infinite)? Well, I would get a Stack Overflow error, right? Well, you may remember from your architecture classes that parameters / arguments live in the stack, too! So what would happen if I gave this <code>wc -l</code> function one trillion file names as parameters!? Another stack overflow error, or depending on your operating systems, an error. Some OS&#8217;s are smart enough to detect this sort of thing and impose a hard limit on maximum argument count.</p>
+
+<p>The incredibly useful <code>xargs</code> function feeds whatever you&#8217;ve piped to it, <em>one at a time</em> to the function that follows. If it&#8217;s an incredibly long list, it will actually chop it up into pieces to avoid the issue we just discussed above!</p>
+
+<p>And the last piece, <code>wc -l</code> is something we already know about. It gives the number of words for a given parameter.</p>
+
+<p>So altogether, the command finds all the files in a directory (and its subdirectories,) passes them one by one to the <code>wc -l</code> function which gives the number of words for each of the files. In other words, this does what the problem asks!</p>
+
+<p>Pretty neat, eh? <strong>The tell-tale sign of a good bash script is brevity.</strong></p>
+
+<p><strong>Leap Years</strong></p>
+
+<p>This one was rather simple - all you had to do was implement <a href="https://en.wikipedia.org/wiki/Leap_year#Algorithm">Wikipedia&#8217;s algorithm</a>.</p>
+
+<pre><code>if (( $1 % 400 == 0 || ($1 % 4 == 0 &amp;&amp; $1 % 100 != 0) )); then
+    echo &quot;$1 is a leap year.&quot;
+else
+    echo &quot;$1 is not a leap year.&quot;
+fi
+</code></pre>
+
+<p>Not much more to say on that point. The key here understanding <a href="https://en.wikipedia.org/wiki/Short-circuit_evaluation">short-circuiting</a>.</p>
+
+<p><strong>Searching URL&#8217;s</strong></p>
+
+<p>This is one of the few areas where I disagree with Professor Campbell. In my opinion, the command <code>curl</code> is far superior to <code>wget</code>. But then again, <a href="http://daniel.haxx.se/docs/curl-vs-wget.html">this</a> <a href="https://stackoverflow.com/questions/636339/what-is-better-curl-or-wget">is</a> <a href="https://unix.stackexchange.com/questions/47434/what-is-the-difference-between-curl-and-wget">up</a> <a href="http://www.thegeekstuff.com/2012/07/wget-curl/">for</a> debate.</p>
+
+<p>The main differences are the following</p>
+
+<ul>
+<li><code>curl</code> supports way more protocols</li>
+<li><code>wget</code> supports recursive searching, curl does not</li>
+<li><code>wget</code> is command line only</li>
+<li><code>curl</code> provides API&#8217;s that various languages can utilize</li>
+</ul>
+
+<p>Choose what you like, but I prefer <code>curl</code>. Also reminds me of lifting, and we all need some <a href="http://www.reddit.com/r/swoleacceptance/">swole acceptance</a>.</p>
+
+<pre><code>for word in &quot;${@:2}&quot;; do
+    echo $word
+    while read line; do
+        echo &quot;$line `curl -Ss $line | grep -c $word`&quot;
+    done &lt; $1
+done
+</code></pre>
+
+<p>So what&#8217;s going on with this funky outer loop? Well <code>&quot;${@:2}&quot;</code> is basically the easy bash way of skipping the first parameter because that&#8217;s the filename - we don&#8217;t care about searching for the filename, we only want the key words. So the outer for loop just iterates over all the given key words.</p>
+
+<p>Great. What about the inner loop? The while loop with the funky <code>done &lt; $1</code> is the bash way of reading lines from a file. Here, <code>$1</code> is the filename - so we read every line in the given file.</p>
+
+<p>Lastly, the <code>curl -Ss $line | grep -c $word</code> does two things:</p>
+
+<ol>
+<li><code>curl</code>: as mentioned, it downloads a URL, much like <code>wget</code>. The <code>-S</code> option is how to tell <code>curl</code> you want to download something. Unfortunately, <code>curl</code> gives you extraneous information, like how many bytes it downloaded and how fast (it likes to brag about being faster than <code>wget</code>). To silence curl (<a href="https://www.youtube.com/watch?v=hEI5js4RCpc">silence, infidel!</a>) we use the <code>-s</code> option.</li>
+<li>The second thing is searching for how many times in this URL the key word occurs. Well, luckily for us <code>grep</code> has a nice <code>-c</code> option which doesn&#8217;t give anything but the count for how many times that occurred.</li>
+</ol>
+
+<p>Together, we have the complete program.</p>
+
+<p><strong>Mission Impossible 4: Section Leader Protocol</strong></p>
+
+<p>Probably still a better movie than Ghost Protocol. Yeah, I know - I&#8217;m in the minority. Meh. So sue me.</p>
+
+<p>The first challenge in this program is to convert the given name <code>Chandrasekar Ramesh</code> or whoever your section leader is to their username, <code>chander</code>. This is easily done enough by examining the file <code>/etc/passwd</code>.</p>
+
+<p>Here&#8217;s how I got the username from the name:</p>
+
+<pre><code>cat /etc/passwd | grep $name | awk -F: '{print $1}'
+</code></pre>
+
+<p>Pretty nifty. <code>awk</code> and <code>sed</code> are extremely useful commands - you can think of <code>awk</code> as a <a href="http://dragonball.wikia.com/wiki/Super_Saiyan">super saiyan</a> version of <code>cut</code>; it does a lot more than just this, but that&#8217;s a basic explanation for now. If you need to do any find and replace operations, <code>sed</code> is your gal. Learn both of these tools - they are ubiquitous throughout computer science.</p>
+
+<p>Next, all we need to do is determine if the user is online or not. That&#8217;s accomplished through the <code>who</code> command.</p>
+
+<pre><code>if [ -n &quot;`who | grep $name`&quot; ]; then
+    echo &quot;Gotcha!&quot; | mail -s &quot;Gotcha!&quot; $name
+fi
+</code></pre>
+
+<p>The <code>test</code> function has many, <em>many</em> options. It&#8217;s well worth your time to memorize some of them. <code>-n</code> checks if the resulting string is <em>not</em> empty. <code>grep</code> would only return a non-empty string if it found the name. Thus, if it found the name, we simply send them an email.</p>
+
+<p>Lastly, getting the date for right now is done with <code>date -d now</code>.</p>
+
+<p>You have many options for how to store the information, but given that the best design will scale to more than just two users, it&#8217;s better to store this information in an array.</p>
+
+<p>It&#8217;s soon evident that we need 3 arrays: the first is the array of arguments; the second is the Unix usernames associated with each name; and the third is the array of statuses maintaining whether the person is online or not.</p>
+
+<p>The <code>seq</code> command is really useful in being able to produce a range of numbers to iterate over - this helps iterate through array indices, and using the index, you can index into all three of the arrays.</p>
+
+<p>One alternative method you may want to consider, though, is the <code>last</code> command. It shows the log of all logins and their durations and which username it belongs to over the past couple days. Very useful stuff - and could be an alternative to <code>who</code> (or used for the extra credit, eh?).</p>
+
+<p>Ultimately, my implementation wasn&#8217;t so different than the solution, so it&#8217;s not worth presenting at length here.</p>
+</body>
+</html>
