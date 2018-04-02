@@ -1,0 +1,128 @@
+---
+layout: post
+title: Proper Decisionmaking and Argumentation
+date: '2018-02-02 07:17:06'
+tags:
+- debate
+- argumentation
+---
+
+Having done competitive debate for the better part of six years (high school through the first two years of college), it has naturally come to shape the way I think and speak - and argue. One of the things that continues to surprise me in my professional life is how some of the smartest, most brilliant minds I've ever met often make the worst arguments - and are even persuaded by them! Which really drives home one fundamental fact: debate, which is nothing more than a systematic way of making decisions, is a skill that really is quite divorced from intellect. Smart people make really bad arguments all the time. And of course, winning an argument does not mean you're *correct*. Just that you out-argued your opponent.
+
+So this blog post will go over some of the basics that every debater is familiar with.
+
+## Offense vs Defense
+
+### Defense
+
+Most lay-people (non-debaters) don't even categorize arguments as offense versus defense, but every debater does this almost instinctively.
+
+Let's assume you overhear your two coworkers in a frantic argument.
+
+Satoshi: My new plan will increase the company's revenue by seven million dollars because his new algorithm can show twice as many ads to users in the same time slot!
+
+Pavitra: Satoshi's estimates are highly improbable and most likely from some faulty data. At best, Satoshi's plan will earn the company $1 million more.
+
+Who wins the argument? This question, "who wins the argument" can be rephrased quite simply: Should Satoshi's plan be implemented? All else being equal, the answer is yes. Why? Because there is no offense to Pavitra's arguments. Defense equates to - whatever you're saying is good (or bad) is not really as good (or bad) as you claim. Defense alone does not mean anything. The fact of the matter is, if Satoshi's plan earned the company even *one* dollar more, his plan should still be done.
+
+### Direct Offense (Turn)
+
+So what would offense look like?
+
+Satoshi: My new plan is great, it will earn the company 7 million dollars more by showing twice as many ads.
+
+Pavitra: Due to the increased ad load, more users will quit the platform, leading to an overall decrease in revenue!
+
+As you probably guessed by the section title, offense can be both direct and indirect. In this case, we have direct offense to Satoshi's plan. The thing that he claims to make better, his plan actually makes worse! (Assuming Pavitra is of course correct.) In debate parlance, we call this a "turn" because the cause and effect chain is actually reversed.
+
+The initial diagram would look something like `Satoshi's plan -> more money`, whereas with Pavitra's new data, it is the exact opposite `NOT Satoshi's plan -> more money`, or `Satoshi's plan -> LESS money`.
+
+You can see that offense is invaluable in any argument. It's not sufficient to merely rely on defense, though defense is useful as we'll see later on. The bread and butter of any good argument is the offense.
+
+### Indirect Offense (Disadvantage)
+
+What would indirect offense look like then?
+
+Satoshi: New plan is dope. Makes the company 7 million dollars more. Twice the ads, twice the profit.
+
+Pavitra: Implementing Satoshi's plan would derail existing product efforts because we don't have the engineering resources to do both; specifically the products derailed would be A, B, and C - each of which contribute 10 million dollars to the company's revenue, thus losing the company `30 - 7 = 23` 23 million dollars.
+
+Satoshi's plan by itself, all else being equal, would in fact be a good idea. Unfortunately it has certain side effects that would end up losing the company money. Now, coincidentally, this disadvantage also functions as direct offense because the end goal of Satoshi's plan (earning money) is refuted.
+
+What would a disadvantage that *didn't* function as a turn look like?
+
+Pavitra: Showing twice as many ads would severely degrade the company brand and, like EA, we would suffer a massive anti-marketing campaign on social media.
+
+Here we have an advantage, seven million more dollars, weighed against a disadvantage, degraded company brand. Unlike the situations above where we had turns, it's much harder to evaluate these debates. Who won? This is where impact calculus comes into play.
+
+## Impact Calculus
+
+Most debates won't simply be whether or not a plan makes X or Y better or worse. Plans in real life are very complicated. Every time Congress passes a new tax bill, the CBO shows dozens of side effects, each with its own disadvantage and advantage. These must all be aggregated together and weighed somehow - often when the metrics of each are not even the same. How do you compare a reduced deficit versus jobs lost? This is where the art of impact calculus comes into play.
+
+### Uniqueness
+
+Uniqueness is simply saying whether or not a particular thing has already happened. Let's go back to Satoshi and Pavitra for simplicity.
+
+Satoshi: Plan earns 7 million more dollars.
+
+Pavitra: Brand image though - too many ads = users revolt.
+
+Satoshi: We already have shitty brand image. Last week our CEO was caught helping Nazis on Twitter, remember?
+
+In this case, Satoshi is arguing that whatever quantifiable impact brand image has, it's unrelated and non-unique to his proposal. The largest cause of brand image falling is completely unrelated, and the "extra" brand image decline associated with his plan is negligible compared to other factors. In other words, even if it's true that his plan reduces brand image, who cares when a) the brand's image is already in the toilet and b) there are way worse things contributing to it. Comparing earning seven million dollars versus declining an already declined brand image seems like a clear win.
+
+Whatever the impact you are suggesting (of an advantage or disadvantage), it's obviously important to make sure things that disprove your impact have not already happened. In other words, anything that you attribute to a plan must be 'unique' to that plan alone and must not already be happening in the status quo.
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=wU2zvIdld0I&feature=player_embedded&t=300" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+(In case YouTube doesn't allow playing in the iFrame, check out the source [here](https://www.youtube.com/watch?v=wU2zvIdld0I&feature=player_embedded&t=300).)
+
+Sometimes this can be a difficult concept to grasp. Let's examine the following sixty seconds of this video (starting at the 5 minute mark). Pay very close attention to Chris Broussard's off-hand remark, which happens around the 5:40 mark.
+
+> KD already ruined the balance of competition in the league; this would just do it even more. 
+>
+> <cite>Chris Broussard</cite>
+
+This demonstrates a clear lack of understanding of the concept of uniqueness. The key question is whether Lebron James moving to the Golden State Warriors would be bad for the game of basketball or not. The interesting remark here is that Chris Broussard readily concedes that the sport, at least for this year, is already unbalanced. The Golden State Warriors already won a championship having beaten Lebron James, who is at the time of this writing, still widely recognized as the #1 player in the league. They added the second best player in the league who is Kevin Durant. Which is all to suggest that the NBA is already incredibly unbalanced.
+
+In other words, there is no *unique* impact to the marginal *extra* imbalance Lebron's hypothetical move to the warriors creates. It is not sufficient for this argument to say an imbalanced NBA is bad because the league would lose $X millions of dollars. If we could quantify imbalance, Chris Broussard is readily admitting that Kevin Durant's move introduced fifty percent imbalance. Lebron's move after that would create an extra 30% imbalance.
+
+You do not get to leverage the full eighty percent imbalance as your impact if a full fifty-percent of it was already non-unique and present in the status quo. Basically, you can only leverage *unique* impacts in support of your argument.
+
+#### Brink
+
+There is a fairly nuanced argument that is commonly made in certain areas - like global warming. Climate change is difficult because there are not only so many causes but also many uniqueness issues. We've already raised the earth's temperature by many degrees, and most scientists agree that crossing the 2 Celsius average temperature mark is an enormous watershed moment that would doom many species.
+
+If this is the case, and an opposition argument can successfully show that we have already crossed that mark with the existing pollution today, then there's basically nothing we can do. Spending millions of dollars to prevent the 2 degrees Celcius from becoming 4 degrees is meaningless, since most of our studies only quantify the impact of that.
+
+A good nuanced response to this (hypothetically - I have not read all of the climate change literature or data models) is a brink argument. Currently, the ecosystems are on the brink of failure, and we are in a sort of goldilocks period where if we act now, we can prevent real harm from happening.
+
+These sorts of arguments are great shields against challenges to uniqueness because they incorporate timeframe and properly contextualize the marginal impact of a particular plan when implemented now.
+
+### Timeframe, Probability, and Magnitude
+
+These three are more classical elements of impact calculus.
+
+* Timeframe: When does the impact happen? Tomorrow or 3000 years from now when no one cares
+* Probability: How likely is the impact to occur because of said plan?
+* Magnitude: How big is the impact? Did you stub your toe, or is it nuclear war?
+
+Obviously in a debate if you win that your impact is more time sensitive, more probable, and also has more magnitude - then you'll win. No doubt about it. But that's not the case in most debates. What happens if you win that your impact is bigger but less likely, or if your impact happens much sooner, but is much less severe? How do we evaluate these partial victories?
+
+That is the point of impact calculus.
+
+A more advanced argument from Satoshi and Pavitra's example might go along the lines of the following: While Satoshi's proposal is certainly good to consider for the future, our first priority is improving brand image so that our users return to our platform. Once we have our users back, showing them more ads will only help revenue even more, increasing that projected seven million to even greater estimates. But this can only happen once our company is in good public standing.
+
+This line of argumentation is implicitly arguing that brand image has a sooner timeframe - there's no urgency to make seven million more dollars, we can do it at any later date. It's also arguing implicitly that seven million dollars is not that large a figure (which may or may not be true depending on the company). This specific argument is *not* making any probability arguments, however.
+
+## Meta-Questions
+
+Definitions are the bread and butter of all debates. When we casually argue 'who is the greatest basketball player of all time', each person in the conversation has a very different notion of greatest. If you've ever had a conversation with someone where it felt like you were answering two very different questions, a definition-based problem was likely at the root.
+
+Definitions are a great example of meta-level questions because before you can sit down and argue the nitty-gritty details, you must resolve the framework by which the entire debate will be judged. These frameworks ultimately provide a template instructing participants on how to answer the question 'who won?' In other words, before you convince people of your position, you must first convince them of your framework.
+
+Let's go back to our greatest basketball player question. First we need a framework on which we can measure greatness. For some people, greatest means pure talent regardless of accomplishments. These people view basketball as an individual sport because unlike soccer or football, a uniquely talented player can 'take over' a game. They look to games like Kobe Bryant scoring an ungodly 81 points, or Wilt Chamberlain scoring 100 points in a game.
+
+For others, greatness is the most well-rounded player. A player who has mastered each element of the game from rebounds to passing to scoring to defense. The greatest player should be the player that every coach would take first if they were to build a team around.
+
+In other words, before you can answer who is the greatest basketball player of all time, you need to know what greatness is.

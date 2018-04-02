@@ -1,0 +1,25 @@
+---
+layout: post
+title: Welcome
+date: '2014-11-10 07:12:21'
+tags:
+- blogging
+---
+
+> [T]he only difference between science and screwing around is when you write it down.
+
+<cite>Adam Savage, Myth Busters</cite>
+
+This is the third blog I've tried in as many years. Inevitably, the excitement that causes me to want to blog fizzles out, and it ends up becoming a chore. But, with a little inspiration from Mr. Savage, I've decided to give it another shot.
+
+Time seems to fly by on the internet, and every weekend I discover some new technology or TV show or book that has me all fired up, and before I know it, it's Monday. So rather than losing all these weekends to my horrible memory, I've decided to keep a memoir of my random adventures and musings in the form of this blog. This way, I may someday revisit and chuckle at how silly and young I was.
+
+Also, I'd be lying if I said that the software platform I'm using didn't have something to do with it. [Ghost](https://ghost.org/) is cool as heck - even for non-developers, they've made it dead simple to set up, and the interface is incredibly clean. These people really have an eye for design. Writing posts has never been easier.
+
+My first blog was on Blogger, and the second was a self-hosted version I made myself using [Lightpaper](http://www.ashokgelal.com/lightpaper-for-mac/), the popular Markdown application for Mac and Python Flask. Between Blogger's horrifying themes and the work I had to do to make my own self-hosted blog look nice, I simply ended up giving up... Until one bored Saturday, I stumbled upon this on Hacker News.
+
+This time around, I'll end up publicizing my blog more through the normal social channels, to pressure me into actually writing once in a while.
+
+Lastly, publishing my thoughts to the world where everyone can see forces me to be rigorous, which I like. In case you missed it, [most of us](http://bigthink.com/ideafeed/how-social-media-have-created-echo-chambers-for-ideas) are [immmersed](http://blog.chron.com/intheloop/2014/08/the-new-echo-chamber-social-media/) in [echo chambers](http://www.wired.co.uk/news/archive/2013-05/1/online-stubbornness), where we [only hear things with which we already agree](http://www.slate.com/articles/technology/technology/2012/01/online_echo_chambers_a_study_of_250_million_facebook_users_reveals_the_web_isn_t_as_polarized_as_we_thought_.html), which leads to [sloppy thinking](http://www.nytimes.com/roomfordebate/2011/04/21/barack-obama-and-the-psychology-of-the-birther-myth/the-echo-chamber-effect). My views are *really* odd, so my hope is that by publishing them into the wild, between the hate mail and name-calling, I'll find legitimate opposing points of view.
+
+Finally, a little bit about myself. I'm employed in the San Francisco area as a software engineer (surprise, surprise). My hobbies include teaching, coaching debate, dabbling with video games, writing, and climbing.

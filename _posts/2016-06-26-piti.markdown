@@ -1,0 +1,63 @@
+---
+layout: post
+title: 'Piṭi: Dabbling in Angular 2'
+date: '2016-06-26 06:44:15'
+tags:
+- angular-2
+---
+
+Piṭi is a simple card game that my grandfather taught me - think of it as bridge light. Like Hearts, Euker, and many other games, Piṭi has the notion of 'following suite' and trumps. It's a light-hearted, quick four player game that consists of thirteen rounds.
+
+Whenever I go back to India, I play this game with my relatives, and I was looking to learn a new framework one weekend, so I decided to get my boots dirty with Angular 2. The code can be found at my Bitbucket [here](https://bitbucket.org/caliChander/piti), and the new website, ```piti.notablog.xyz```, is [live](https://piti.notablog.xyz).
+
+######Typescript is awesome
+
+[Typescript](https://www.typescriptlang.org/docs/tutorial.html) is awesome. When I first heard that Angular 2 was shipping typescript by default, I was incredibly skeptical. But I've since become a huge fan. Microsoft is doing some awesome work lately, and Typescript is only the latest proof. The typing works really well, and it helped me catch some gnarly errors on the server side.
+
+######Angular 2 Is Not Ready
+
+It's really, really not ready for prime time yet. Seriously. The [website](angular.io) is cool enough, but once you get into the weeds you start seeing all the places in which it is falling apart. The [tutorial](https://angular.io/docs/ts/latest/tutorial/toh-pt5.html) asks you to import ```'@angular/router-deprecated'```, which by itself should make you pause.
+
+And of course, once you get to the 'Routing and Navigation' page in the [developer docs](https://angular.io/docs/ts/latest/guide/router.html), they tell you the non-deprecated, completely new way to do routing.
+
+Add to that the fact that you can't really google / stack overflow your solutions, since nearly everything that's posted will be in reference to either Angular 1 or to an older, deprecated version of Angular 2 (possibly back from when it was in its alpha phase). Ultimately, I had some gnarly troubles getting started.
+
+Bugs like [this one](https://github.com/angular/angular/issues/6188) were super frustrating, and many of them don't really have [any solution](https://encrypted.google.com/search?hl=en&q=TS2305%20Module%20has%20no%20exported%20member%20%27RouterConfig%27).
+
+Or the fact that I would [frequently](https://github.com/angular/angular/issues/4134) just have to put ```ngIf=variable``` in my templates because who knows whether Angular had [made my variables available](http://stackoverflow.com/questions/32831801/angular2-object-undefined) yet or not - no, seriously, [prefacing all your templates](https://github.com/angular/angular/issues/2104) in a huge if statement is [the preferred solution](http://stackoverflow.com/questions/35073267/angular-2-template-tags-say-object-is-undefined). Wat? This was for a simple web app which had no database or any significant network calls, by the way. Running on localhost...
+
+Or that ```ngModel``` setting - surprise - didn't work for [radio buttons](https://github.com/angular/angular/issues/9153). Not all of these are Angular's fault per se - that last one actually makes sense - it's just that when you're learning Angular for the first time, Angular 2's documentation isn't nearly sufficient enough to really understand what's going on. Running into things like this on a regular basis is rather discouraging for a first timer.
+
+Half the time I would end up looking into other people's repos and copy pasta-ing some [example code](https://github.com/mlaval/angular2-bootstrap/tree/master/demo).
+
+The biggest issue, though, is that currently the tooling is simply not there. Chrome, for whatever reason, handles the Angular errors out of the box a bit better than Firefox. But ultimately, unless you have some [nifty external hotloader](http://blog.mgechev.com/2015/10/26/angular2-hot-loader-hot-loading-tooling/), you are absolutely *screwed* when it comes to debugging.
+
+######Angular Is Doomed
+
+Even if Angular fixes all of the above, I think Angular is doomed in the long run.
+
+Any system that prefers runtime errors to compile-time errors is, in the long run, doomed. Particularly for projects that get truly massive. I think the Angular team, to a large degree, realizes this and switched to Typescript precisely because of this reason.
+
+The biggest issue is that Angular does not detect type errors (or even syntax errors, really) in its templates. Rather, it will simply default to the blank 'Loading' screen upon any error at all. So you sit and wonder what exactly you could have done to cause it *this* time, as you slowly backtrack through your changes.
+
+![](https://cdn-images-1.medium.com/max/1200/1*ivDnyMP63YJBBGKCNyRUzQ.png)
+
+[This]() Medium article, from which the above image came, captures the difference perfectly. JSX does a bit of type checking and syntax checking, at least, which Angular simply does not doe. Heck, it doesn't even do type checking within its templates!
+
+If I have a component that takes an object ```A```, and I instead pass it object of type ```B```, it cannot detect that. Think about that for a second - a system that relies on Typescript cannot detect such a simple type error. Ultimately, for me, that was the final nail in the coffin.
+
+[This](https://medium.com/@jeffwhelpley/there-are-some-specific-pieces-of-information-in-this-article-that-are-accurate-315124670b84#.igqm604sy) comment is promising that at least some of these things will get better. And I hope they do. But at least for now, React is the *clear* winner. And if they don't, it wins in the long-run, too.
+
+######Javascript Ecosystem Is Shit
+
+To be honest, I don't understand the raving praise behind Node and the entire NPM ecosystem.
+
+It's shit.
+
+NPM's default behavior is insanity - it forces everything to memory. Which is why on most [deploys](https://www.digitalocean.com/community/questions/npm-gets-killed-no-matter-what) your ```npm install``` keeps [getting killed](https://www.digitalocean.com/community/questions/npm-gets-killed-no-matter-what?answer=18115). So you [add a swap file](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04), great. Why would this be the logical default? Store everything in memory, seriously?
+
+Node in general is overrated to me. Between callback hell and single threading, I don't see any advantage beyond having the same language on the frontend and backend - which, if you're an engineer, is not a real advantage. Learn a language or two, it won't kill you.
+
+Don't even get me started on the [myriad](https://github.com/nodejs/node/issues/3922) of random [issues](https://github.com/nodejs/node/issues/3540) that keep [popping up](https://github.com/sequelize/cli/issues/291) because of random versioning issues and how 'easy' it is to upgrade node itself. The number of days I've spent debugging node, npm, nvm versioning issues... It's 2016 people. Come on. The fact that there's an [in-depth guide](http://benznext.com/2015/04/completely-uninstall-node-js-from-mac-os-x/) to do something as simple as uninstalling speaks volumes.
+
+I think it's time to go back to my roots. Good old [Python](https://realpython.com/blog/python/the-ultimate-flask-front-end/).
