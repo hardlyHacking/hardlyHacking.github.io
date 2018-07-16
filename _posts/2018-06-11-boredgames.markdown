@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduced boredgames.io
+title: Introducing boredgames.io
 date: '2018-06-12 20:45:23'
 tags:
 - Board Games
