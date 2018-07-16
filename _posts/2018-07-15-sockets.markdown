@@ -1,0 +1,35 @@
+---
+layout: post
+title: SocketIO and ReactJs
+date: '2018-07-15 21:36:37'
+tags:
+- SocketIO
+- ReactJs
+---
+
+Over the past couple weekends, I wanted to do a deepdive into Sockets vs REST programming. In particular, I wanted to understand the design pattern variations between the two and whether Sockets could _completely_ replace REST for a particular project. Broadly speaking, we can outline the major differences between the two as follows:
+
+* REST is completely stateless, while SocketIO is stateful
+* REST is a high-level protocol, whereas SocketIO is a much lower-level one
+* REST is a unidirectional protocol, while sockets allow for bidirectional communication
+
+The tradeoff for being stateful is that each individual request is much more efficient, with far fewer bytes of data sent and received. In addition to the payload being significantly smaller, the requests are also much faster for the server to process. Arun Gupta has a great blog post [breaking down](http://blog.arungupta.me/rest-vs-websocket-comparison-benchmarks/) the various benchmarking differences.
+
+While REST is a higher level and far more established protocol, which carries a whole suite of advantages. SEO, proxy and DNS firewalls, security, and caching are all very well defined and established, while companies that use sockets for these have to roll their own implementations. There are common solutions being established for security and scaling, but these aren't standardized across the industry yet.
+
+Speaking of scaling, the chief advantage of REST is that it scales horizontally to many servers, while sockets only scale vertically to a single server. To be clear, there are [plenty](https://medium.com/containers-on-aws/scaling-a-realtime-chat-app-on-aws-using-socket-io-redis-and-aws-fargate-4ed63fb1b681) [of](https://hackernoon.com/scaling-websockets-9a31497af051) [examples](https://goldfirestudios.com/blog/136/Horizontally-Scaling-Node.js-and-WebSockets-with-Redis) [demonstrating](https://blog.jayway.com/2015/04/13/600k-concurrent-websocket-connections-on-aws-using-node-js/) scaling on sockets - it's just that it doesn't come 'free' out of the box, and requires some planning in advance.
+
+In my experience however, every REST application of any significant load requires the same amount of planning and forethought, so this should not be a reason to avoid using sockets. The other issues, like caching and SEO indexing are more valid concerns, though.
+
+For myself, I wanted to push sockets to the edge by relying solely on a single REST endpoint - `GET /` which loads the initial page, and the rest of the website is entirely driven via sockets. For this project, I wanted to write a web app for one of my favorite board games - [
+The Resistance: Avalon](https://boardgamegeek.com/boardgame/128882/resistance-avalon).
+
+The code cane be found [here](https://github.com/hardlyHacking/avalon), and a free-tier Heroku instance running my web app can be found [here](https://sensationnel-croissant-86564.herokuapp.com/).
+
+After reading Rexu co-author Dan Abramov's ["You Might Not Need Redux"](https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367) and ["You Probably Don't Need Redux"](https://medium.com/@blairanderson/you-probably-dont-need-redux-1b404204a07f), I've been stubbornly using pure React without any additional libraries like [React-Router](https://github.com/ReactTraining/react-router) and Redux.
+
+After a couple projects under my belt with pure React under my belt, I can now confidently say that you almost certainly _will_ need Redux. Vanilla react has some serious limitations. First, without React-Router, I almost inevitably have this huge binary-tree for most of my apps; a landing page that contains a login page and a regular game page; the regular game page has a room joining / creation page, and an actual board page; and so on and so forth...
+
+The second issue is that, inevitably, I end up passing click and other event callbacks back and forth through multiple levels of components. With Sockets, any component, no matter how low-level it is, can easily communicate with the server, and I can simply have the server emit a new board state anytime a change occurs. Since the top level components are listening for board state changes, these changes inevitably propagate down to the root level components. In actuality, this is just a fairly awful recreation of what Redux is meant to do anyway. `:)` So while this was an interesting use case for Sockets, I would not recommend it for anyone else.
+
+Overall, my experience is that SocketIO can definitely completely replace REST for basically all side-projects of minimal scale, and with a little planning and forethought, it can probably be used for larger scales as well.
