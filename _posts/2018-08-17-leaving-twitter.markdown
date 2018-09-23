@@ -19,7 +19,7 @@ After a while, I moved to the Commerce team seeking a more product-centered role
 
 I learned a lot and made great friends, but throughout my time at Twitter, I felt a couple consistent themes which ultimately led me to resign.
 
-##Iteration Speed
+## Iteration Speed
 
 Around Q3 of 2016, I discovered how broken our Hashflags infrastructure was. For those who don't know, hashflags are little icons that appear after custom Hashtags that are planned and launched by Twitter. Some of these are paid for by Disney (for example, if a new SpiderMan movie was launching, perhaps typing `#SpiderMan` would show a custom spiderman emoji on the client), while others are planned and executed by Twitter (think `#LoveIsLove` or `#BlackLivesMatter`).
 
@@ -45,7 +45,7 @@ Almost every feature I would try and ship at Twitter that wasn't narrowly tailor
 
 Twitter has a tendency where perfect becomes the enemy of good - the question is rarely "does this make us better off?", but almost always "is this the perfect solution?" And this is absolutely exhausting from a motiviation and morale perspective. Initiative should always be rewarded, and if it's not, I tend to believe that the company has over-hired or is overly-political.
 
-##Impact and Responsibility
+## Impact and Responsibility
 
 Seeking to make a huge and lasting impact should be, I believe, the forefront of every engineer's goal. Building a perfect system that doesn't make anyone's life better is meaningless (as is refactoring / addressing tech debt that doesn't improve the business). It was originally why I moved to the DM team. DMs is one of the 4 core tabs at Twitter, and is extremely underresourced relative to the other tabs.
 
@@ -63,7 +63,7 @@ So it became a bit of a negative feedback loop for me.
 
 I desparately wanted to make an impact, but I wasn't senior enough to get a strong tech lead role. So I ended up grasping at side projects that I saw lacked ownership as a means of substituting that, but this inevitably led me to have a reputation as unfocused and undisciplined. But this was the only way I could really ship something of value, which... led to the start all over again.
 
-##Time to Move
+## Time to Move
 
 Moving was the hardest part. As I stated before, Twitter didn't necessarily do anything _wrong_. My former coworkers are unbelievably brilliant, thoughtful, and kind. Twitter paid me well, and I enjoyed my time there. And it made it very difficult to leave.
 
