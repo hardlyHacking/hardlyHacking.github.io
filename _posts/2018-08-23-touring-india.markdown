@@ -23,29 +23,29 @@ The Taj Mahal was very impressive. Most blogs will tell you that it's best to ar
 
 At the entrance, you'll see a large crowd taking shots in front of the full courtyard. While these shots are decent, I'd recommend almost skipping them entirely and going ahead - there are far better ones to be hand.
 
-![](https://photos.app.goo.gl/LyKnQnQyDcCHoVBAA)
+![](/images/2018/08/2018-08-21-06-00-12.jpg)
 
-![](https://photos.app.goo.gl/CLNNFtj53fjrdnNg8)
+![](/images/2018/08/2018-08-21-06-10-12.jpg)
 
-![](https://photos.app.goo.gl/RYLsTp4s7dAbPBV56)
+![](/images/2018/08/2018-08-21-06-30-54.jpg)
 
 The most coveted shots are usually the water ones where you can see the Taj Mahal and its reflection on the pond below. The Princess Diana bench (which is about halfway between the entrance and the Taj Mahal) is definitely the best spot for this.
 
-![](https://photos.app.goo.gl/xADakoEpJC2V78JAA)
+![](/images/2018/08/2018-08-21-06-17-15.jpg)
 
 Ahead of the bench, you'll get the prized water reflection shots, and this is well worth waiting in line for. If you're lucky and come very early (we were one of the first 100 or so), there will hardly be a queue and you can get pictures without strangers in your shots.
 
-![](https://photos.app.goo.gl/AfhQ813zPXq9dnSr9)
+![](/images/2018/08/2018-08-21-06-24-52.jpg)
 
 Up close there are two symmetrical mosques on either side of the Taj; it's not really necessary to check both out, as they're exactly the same, but I'd recommend taking some nice Instagram shots next to the various arches.
 
-![](https://photos.app.goo.gl/sYwnJdUKJ27PTg1S9)
+![](/images/2018/08/2018-08-21-06-37-38.jpg)
 
-![](https://photos.app.goo.gl/QCwaUN8vVw3se9USA)
+![](/images/2018/08/2018-08-21-06-52-50.jpg)
 
 Behind is the river - typically at night, the moon causes the Taj to reflect onto the river, but in recent years the river has receded quite a bit so it's unlikely to happen.
 
-![](https://photos.app.goo.gl/zkFgxnwHtPjaCMdg9)
+![](/images/2018/08/2018-08-21-07-15-56.jpg)
 
 Inside the Taj Mahal, all photography is prohibited, and to be honest there isn't much to see. The Taj and his most beloved wife are buried there, and there's quite an echo due to the way it's built. There are some surrounding rooms which are empty, but also have a view into the inner sanctum. Overall, I wouldn't worry about rushing inside. Focus on the outside - it's really what you're there for.
 
@@ -55,19 +55,19 @@ After the Taj Mahal, we set off to Jaipur, which was about a 5 hour road trip. O
 
 The stepwell itself is very beautiful - there's not too much to see, but it's hardly 15 minutes out of the way if you're taking the toll road to Jaipur (and there are a _lot_ of tolls, by the way).
 
-![](https://photos.app.goo.gl/9uuweRNmt1WmMG1dA)
+![](/images/2018/08/2018-08-21-11-10-30.jpg)
 
-![](https://photos.app.goo.gl/wGuj3DuVTe6978GHA)
+![](/images/2018/08/2018-08-21-11-40-23.jpg)
 
-![](https://photos.app.goo.gl/xL669Ue3xxEELZYA6)
+![](/images/2018/08/2018-08-21-12-02-07.jpg)
 
 Having seen Batman's training camp, we proceeded to Jaipur playing some card games and other road trip staples along the way. We stopped by a road stall for a quick snack to carry us over to an early dinner. We stopped by the hotel, and after checking in, set off to Chokhi Dani for dinner. For whose who don't know, Chokhi Dani is a resort that's designed to look like a traditional Rajasthani village from the (approximately) 1800's. Entering, you'll see numerous stations featuring traditional Rajasthani dancers, musicians, camels, horses, and all sorts of other stations.
 
 The place itself is very nice and well kept, and it's an interesting sight for first-time visitors to Jaipur. It's actually about 25 kilometers south of Jaipur itself (can be an hour drive with rush hour traffic) - but Google Maps is _awful_ at navigating there. It routed us to all of these insanely small back roads which our van could barely fit through. At one point, we almost got stuck on the road. If you're anywhere near Chokhi Dani, you're much better off asking the locals becuase they'll know where the entrance is far better than Google. After about 30 minutes of wandering, we finally found the entrance.
 
-![](https://photos.app.goo.gl/yhGX3P2sqJui7oV99)
+![](/images/2018/08/chokhi-dani-1.jpg)
 
-![](https://photos.app.goo.gl/3br9t3sjQZfAg2Ps6)
+![](/images/2018/08/chokhi-dani-2.jpg)
 
 Chokhi Dani has multiple dinner options, with some focusing exclusively on Rajasthani food and others having a mixed-cuisine buffet. We ended up going for the 'royal' option which was the mixed-cuisine one. Although the place itself was nice, the food was so-so. Most of the restaurants (Chand Baori has three or four, depending on the meal option that was chosen) are not air conditioned, and even the food quality was only decent. Drinks (even basic ones like a mango lassi) are not included, and combined with the overwhelming heat it did not make for the best dinner.
 
@@ -83,11 +83,11 @@ Eventually we made our way to the Jantar Mantar entrance. In most places in Indi
 
 Jantar Mantar served as an enormous sundial used for astrological and time-measurement purposes. They had various sundials that could measure Jaipur's local time up to a two second accuracy, as well as measuring the altitude of the sun and the rotation of the earth.
 
-![](https://photos.app.goo.gl/PsXEq3P4qKKw8DLy8)
+![](/images/2018/08/2018-08-22-09-20-43.jpg)
 
-![](https://photos.app.goo.gl/gA1Riztfpui3thVHA)
+![](/images/2018/08/2018-08-22-09-30-59.jpg)
 
-![](https://photos.app.goo.gl/VF7NHKnoAmA7pLGV7)
+![](/images/2018/08/2018-08-22-09-16-30.jpg)
 
 This was one of the few locations where I was quite glad we hired a tour guide; otherwise we would have just seen some random machines without a real coherent explanations of what it was or why they built certain objects.
 
@@ -95,19 +95,19 @@ Afterwards, we went to the City Palace. Visitors should be aware that most peopl
 
 The museum itself has four parts. The first was the clothing worn at the time.
 
-![](https://photos.app.goo.gl/ZUfAS3fESzoj554Z8)
+![](/images/2018/08/city-palace-1.jpg)
 
 Followed by a pretty cool armory featuring historical weapons. No photography is allowed in the armory unfortunately.
 
 And finally a large courtyard featuring some very large pots and some artwork made out of guns.
 
-![](https://photos.app.goo.gl/xupJkiRmH2QZ3zv78)
+![](/images/2018/08/city-palace-2.jpg)
 
 In the end, visitors come to a large courtyard in front of the palace that has some reasonable views.
 
-![](https://photos.app.goo.gl/mdPTsVzucW5b3Yb87)
+![](/images/2018/08/city-palace-3.jpg)
 
-![](https://photos.app.goo.gl/xREFUQbZrb9n7Wcs7)
+![](/images/2018/08/city-palace-4.jpg)
 
 We had some difficulty finding the entrance for Hawa Mahal, as Google doesn't really do a good job navigating you to the entrance. We ended up walking all the way around and asking some locals for help, and when they pointed us to a completely nondescript alley, we followed it through and it suddenly ended up at a very unimpressive entrance to the Hawa Mahal. It looks rather small from the outside, but it proves to be much bigger once you get in.
 
@@ -115,11 +115,11 @@ The Hawa Mahal has five stories and 365 windows. From the very top, observers ca
 
 It gives great panoramic views of the city.
 
-![](https://photos.app.goo.gl/sPexDReR8gcwPdsc6)
+![](/images/2018/08/2018-08-22-10-55-34.jpg)
 
-![](https://photos.app.goo.gl/NZhDAYKNX7V78cyk7)
+![](/images/2018/08/2018-08-22-11-02-11.jpg)
 
-![](https://photos.app.goo.gl/rArajXnLv4Mc1Rbq8)
+![](/images/2018/08/2018-08-22-11-07-38.jpg)
 
 Afterwards, we decided to go back to Tripolia Gate and find a restaurant nearby - we settled on Midtown Multicuisine Restaurant, which had decent ratings. It was deep inside some back alleys and up a very sketchy looking elevator, but once we got up to the third floor, the restaurant itself was actually quite decent. We had some traditional rajasthani thalis; overall, this lunch was better than Chokhi Dhani by far.
 
@@ -127,41 +127,41 @@ After lunch, we went to a Lasi Walla based on a friend's recommendation; unfortu
 
 Having explored the Pink City, we decided to move up north. First and furthest away was the Amber Fort. The fort itself is absolutely gorgeous, and when you first arrive you are met with this beautiful scene.
 
-![](https://photos.app.goo.gl/nrrMCGM39QVQPXX18)
+![](/images/2018/08/amber-fort-1.jpg)
 
-![](https://photos.app.goo.gl/sQR8YhzRXxpFASTr6)
+![](/images/2018/08/amber-fort-2.jpg)
 
 It's quite a hike to go all the way up, and on this particularly hot day, many stops and frequent water breaks were taken, but eventually once we got up the view was well worth it. The crowd at Amber Fort is insane, and the composite ticket really paid off here. Amber Fort has more than 8000 visitors each day, and waiting in line for tickets in the sun is not a good idea.
 
-![](https://photos.app.goo.gl/u2XJbJLGapSfLAic8)
+![](/images/2018/08/amber-fort-3.jpg)
 
 Inside the fort is really quite a maze. The views are stunning.
 
-![](https://photos.app.goo.gl/92jd1M7pEXd5Knn98)
+![](/images/2018/08/amber-fort-4.jpg)
 
-![](https://photos.app.goo.gl/xERoaaTkoBCZ1rMz7)
+![](/images/2018/08/amber-fort-5.jpg)
 
-![](https://photos.app.goo.gl/gpaAS4bL4CMAwm4P9)
+![](/images/2018/08/amber-fort-6.jpg)
 
-![](https://photos.app.goo.gl/zzoTwwPFdbgPLX9v8)
+![](/images/2018/08/amber-fort-7.jpg)
 
 On the way down, there's the Water Palace, known as the Jal Mahal. There's not much to do here besides taking pictures of the palace and the surrounding lake.
 
-![](https://photos.app.goo.gl/dKt58XNqDLtvJpha6)
+![](/images/2018/08/2018-08-22-16-30-55.jpg)
 
-![](https://photos.app.goo.gl/3Rs5b4CGu6xYbY7s6)
+![](/images/2018/08/2018-08-22-16-32-09.jpg)
 
 Lastly, we went down to the Galta Gate on the east side to begin our hike up to the Sun Temple. It's a fairly hilly climb, but the most famous part about this hike is that along the way there's a place called 'Monkey Mountain', where you can pay a cheap amount for a bag of peanuts, and the hordes of monkeys all around will gather around you to be fed. Occasionally if you hire a tour guide, they'll give you a taffy with which you can bribe a monkey to jump on top of you.
 
-![](https://photos.app.goo.gl/QC7UX7phMDpxU2es7)
+![](/images/2018/08/2018-08-22-17-01-13.jpg)
 
 Some people enjoy this more than others though.
 
-![](https://photos.app.goo.gl/Pw58zP12UR6iEFhN6)
+![](/images/2018/08/2018-08-22-17-34-05.jpg)
 
 Finally, when you make your way to the very top of the temple, you'll see a rather amazing view of Jaipur.
 
-![](https://photos.app.goo.gl/YLKnDu2WAXzEFU5MA)
+![](/images/2018/08/2018-08-22-17-13-12.jpg)
 
 For dinner, the original plan was to go to Oberoi Rajvilas, which was another fancy dining place - but that proved to be _extremely_ expensive, even in US dollars. So instead we got some friends' recommendations and went to Niros instead. Niros is really amazing; it's well air conditioned (unlike Chokhi Dhani) and the food selection is amazing. If you've never had a great banana lassi, this is the place to try one.
 
@@ -183,6 +183,6 @@ The pool wasn't quite deep enough to comfortably swim, but it was sufficient.
 
 After sometime, we decided to find the closest beach and arrived just in time to catch a pretty great sunset.
 
-![](https://photos.app.goo.gl/svtSYgdHe6aWRrPR6)
+![](/images/2018/08/2018-08-24-18-43-34.jpg)
 
 Coming back home due to some light drizzles, Ahana and I decided to practice our dance for the wedding and have a relaxed night in while the others went out to explore the town.
