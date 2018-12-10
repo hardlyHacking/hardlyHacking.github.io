@@ -8,7 +8,7 @@ tags:
 - CEO
 ---
 
-# Why I Wrote this
+## Why I Wrote this
 
 "Be the CEO of your wedding".
 
@@ -18,9 +18,9 @@ Surviving a wedding was a very interesting period of my life. It was a time when
 
 So I decided to write this after looking back, hoping it will help someone else who's soon to be married. `:)`
 
-# Tips
+## Tips
 
-## Learn to Take a Loss
+### Learn to Take a Loss
 
 Sometimes, life hands you a loss.
 
@@ -43,7 +43,7 @@ A great way to be greeted by your fiancee on the day of your wedding indeed! `:D
 
 Sometimes, life just hands you an L. You get struck by lightning, a drunk driver hits you, whatever it may be. You just have to shrug it off, and move on. Life hands you an L; pick up the pieces, and get going. You're the CEO - you, more than anyone, are stuck. So get going buddy.
 
-## Over Communicate & Follow Up
+### Over Communicate & Follow Up
 
 Unlike in a business context like a startup, you don't actually have many difficult decisions. What's our go to market strategy? How much of our budget should we allocate to hiring versus user acquisition? Most of the tasks surrounding a wedding are actually more mundane and logistical in nature. Who will sit where? How many vans will we need? When is everyone arriving? Who's planning the schedule?
 
@@ -55,7 +55,7 @@ One of my friends actually thought this meant to do something by the End of Mond
 
 Simple things like this we take for granted - so really, wherever possible, over communicate. Explain your *intentions*, so that even if the situation changes, people understand your larger north star goals and can advocate on your behalf. Otherwise, delegation becomes impossible and you really *do* have to be present in every room and every conversation, all the time.
 
-## Keep Perspective
+### Keep Perspective
 
 When everything goes wrong, and things inevitably will, you above all others must keep your cool. Most of the things that go wrong are absolutely trivial - they may not be in the eyes of the bride or your parents or the priest - but they really, really are. Short of the bride or you walking out, nothing matters. A wedding is like applying for a government permit for your product. You've spent all this time investing and researching, you've picked the right product, and you think it's a fit. Now comes time to actually do the business.
 
@@ -69,7 +69,7 @@ For my wedding, we went to a particularly Indian stylist and he gave me what was
 
 In five years time none of this will matter.
 
-## Delegate Everything
+### Delegate Everything
 
 Literally everything.
 
@@ -83,7 +83,7 @@ Quickly decide if this is something that's worth the mental headache to you or n
 
 You need to evaluate quickly and efficiently what are the few key decisions you need to be involved in. For all those that you don't care about, delegate them anyway. You don't care either way, so you might as well let someone else decide! And the few people you do trust absolutely are far too important to be burdened with decisions you don't care about.
 
-## Grab All Decision Makers
+### Grab All Decision Makers
 
 One of the most common issues is that there tends to be too many decision makers.
 
@@ -91,7 +91,7 @@ Each family has an expert on religion or an expert on food, and often times they
 
 If they absolutely can't meet in person, then organize a phone call. Whenever I ended up doing this - and I usually did this as a last resort instead of a first resort, we left that meeting with the absolute final plan, and it always worked out. Do this sooner rather than later, even if they approach you with the attitude of the "you are the most important decision-maker here." As the groom, I can promise you the following: you most certainly are not.
 
-## Understand Your Customers
+### Understand Your Customers
 
 Who are you serving?
 
@@ -105,7 +105,7 @@ As the groom, your customer, regardless of who the wedding is for, is ultimately
 
 Once I realized this and drowned out everyone else's concerns about what's right or how things must be done, my life got incredibly easy. Many of your wife's concerns will be making others happy; for the most part, you can just ignore these. Focus just on the things she *really* wants, even if they're not always communicated in the best way. These are the most important things to get right. If you can get the others right, fine, but focus on *her* intrinsic desires first and foremost.
 
-## Fire People
+### Fire People
 
 You need to be very quick at recognizing when something isn't working out.
 
@@ -117,7 +117,7 @@ But it must be done early and quickly.
 
 I only had to fire two people from tasks during my wedding, and in both cases the difference was night and day. The people that replaced them were more passionate, did the job quicker and better. Ultimately I wondered why I hadn't fired those people *sooner*.
 
-# Conclusion
+## Conclusion
 
 A wedding is an exciting and hopefully once in a lifetime experience. I find that more people should spend time enjoying it than freaking out. I had a pretty incredible time, in no small part due to the incredible amount of help I got from my parents, the parents of my wife, and all our close relatives. Lean on people close to you to help out, let the small things go, and just enjoy it. It's the start to a beautiful relationship, and the more you spend stressing about the small details, the more you're missing out on a rather remarkable change that's happening right before your eyes.
 
