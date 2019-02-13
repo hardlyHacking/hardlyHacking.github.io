@@ -69,7 +69,7 @@ Moving was the hardest part. As I stated before, Twitter didn't necessarily do a
 
 But the longer I stayed, the more antsy I got. Time is the biggest premium, and and I felt I was wasting my potential for fear that I would never be able to get back into a company as technically and financially as sound as Twitter if I ended up going the startup route. I'd have to cook my own food, downsize on some expenses, and probably sell my car to make ends meet.
 
-But at the end of a long career, I didn't want to have regrests. I never wanted to look back and think, "Yeah, I would have been great at startups." And I think, as hard as it is to let go of a steady paycheck from a prestigious company, it's most costly in the long run to avoid trying for fear of failure.
+But at the end of a long career, I didn't want to have regrets. I never wanted to look back and think, "Yeah, I would have been great at startups." And I think, as hard as it is to let go of a steady paycheck from a prestigious company, it's most costly in the long run to avoid trying for fear of failure.
 
 Lest it be misunderstood, I'm incredibly grateful to Twitter. They took a shot on an intern who didn't really have any coding experience at all, and somehow hired the intern full-time after that intern brought down the entire website for 4 hours. Every time I wanted to transition to a role I had no idea about, they were completely supportive and helped me succeed.
 
