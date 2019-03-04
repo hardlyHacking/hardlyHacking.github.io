@@ -130,7 +130,7 @@ This was a very winnable case in my opinion for Mr. Burch (though many of the ot
 
 There were three different arguments the defense advocated throughout the case, and I'll address each of them here.
 
-1. The bid submitted was non-responsive.
+a) The bid submitted was non-responsive.
 
 The FBI's "plans" were pretty awful. In the heading, it claimed the work needed was aobout 4,427 feet mostly on the second and third floors of Building 84. However, when analyzing the actual blueprints, it's much closer to 5,500 square feet of work that needs to be done. Nobody in the FBI could read blueprints (not even the under cover agent), and nobody validated these numbers - instead, they simply took the old estimate for a previous Building 84 project (4.1 - 4.9 million), and used a different set of blueprints (hence the difference in square footage). Even worse, Mr. Burch's own bid was submitted for 7000 square feet, so obviously it was higher, but if it responded to a completely different ask then it could not be bid-rigging.
 
@@ -138,13 +138,13 @@ I was not swayed very much here because the initial bidders in this project (Mr.
 
 In this case, since it was a fake project set up by the FBI, obviously the 'follow through' was never done.
 
-2. Mr. Burch thought he was a sub bidding to Mr. Myles, who was the GC
+b) Mr. Burch thought he was a sub bidding to Mr. Myles, who was the GC
 
 This potentially seemed plausible. Derf Butler has a tendency to speak very vaguely and just try and get people to go along with him. Ultimately, there was only a couple phone calls between Derf and Mr. Burch, and a single meeting between Burch and the undercover. In the very first few minutes, the undercover says something like "why don't you tell me what Derf has told you this is about, and if you get anything wrong, I'll fill in the rest." Anton Kalafati describes a basic bid-rigging scheme, and Clifton Burch basically says "Same thing", as in "I heard the same thing". The defense argued this was just a stock answer, and actually I can believe that, though it's somewhat improbable.
 
 What was especially damaging though is that Mr. Burch then submits his bid to Derf Butler instead of his supposed GC, Mr. Myles. Even worse, in the next email, Butler tells Mr. Burch to send that bid to the DOE - to Maria Robles instead. If Mr. Burch thought this was a sub being a GC, why would he ever send his bid to the owner? That is _never_ done, and a man with as much construction experience as Mr. Burch has would know that. So this seemed very unlikely.
 
-3. The bid submitted was not the product of collusion
+c) The bid submitted was not the product of collusion
 
 The defense argued that in fact Mr. Burch did his own full takeoff of the project, based on the rough blueprints given. They argued that, in fact, although Mr. Burch's bid came in at 7.1 million, there were two 1 million exclusions for elevator and HVAC work, which the blueprints didn't call for. So if this had been a real project, the actual cost of the bid would be down to 5.1 million dollars, and given the increased square footage (7000 instead of 5,500), with that factored in, he would be well on the low side of the DOE estimate.
 
@@ -154,7 +154,7 @@ Amusingly, there was a whole debate about how on one email, there were 2 attachm
 
 As to whether or not Mr. Burch spent money to do a takeoff, no evidence was given - and he was actually subpoenaed by a grand jury in 2015, and no documents to the proof of the takeoff (or the exclusions) were ever produced.
 
-4. The bid was within the DOE range given
+d) The bid was within the DOE range given
 
 The defense finally argued that, even without the million dollar exclusions, the bid Mr. Burch presented was within the DOE authorized range. And that's true. When scaling down from 4,427 square feet to 7,000 square feet (assuming, incorrectly, that all square footage of work is created equal and that the work _can_ even be scaled down like this), the estimate then becomes 4.49 million dollars - well within the DOE range.
 
@@ -166,7 +166,7 @@ Despite all of this, what was really perhaps the most damaging, is that Mr. Burc
 
 #### Corruption in infrastructure is absolutely endemic.
 
-After the trial, I was describing the craziness of everything to one of my friends, and he sent me this ![tweet](https://twitter.com/Noahpinion/status/1097582416984649728) from Noah Smith, and I keep coming back to it. Jacob Bacharach from [Hmm Daily](https://hmmdaily.com/2019/02/15/americas-signature-mode-of-transportation-is-high-cost-rail/) in the linked article absolutely _nails_ it. This is not uncommon, but even more so it's absolutely _everywhere_. I don't know what the solution is, but it does not surprise me anymore.
+After the trial, I was describing the craziness of everything to one of my friends, and he sent me this [tweet](https://twitter.com/Noahpinion/status/1097582416984649728) from Noah Smith, and I keep coming back to it. Jacob Bacharach from [Hmm Daily](https://hmmdaily.com/2019/02/15/americas-signature-mode-of-transportation-is-high-cost-rail/) in the linked article absolutely _nails_ it. This is not uncommon, but even more so it's absolutely _everywhere_. I don't know what the solution is, but it does not surprise me anymore.
 
 > American infrastructure is this costly because of immense, endemic, universal public-private corruption—systems of both direct and financialized graft at every stage of infrastructure development, from the planning to the ribbon-cutting to the use of deferred maintenance to ransack public transportation budgets for cash, year after year, after which the responsible authorities claim that fixing the century-old signals is just too damn pricey. This system of legal fraud begins with the bevies of project consultants, continues through ludicrous private contractor and labor costs, and continues when, years later, high-paid administrative fixers and new armies of consultants and contractors arrive to fix what broke because it was never maintained. It is a system of tolerated kleptocracy that may be the only thing that America still does better than anyone else in the world. It is baked into every assumption about building for the public benefit.
 
