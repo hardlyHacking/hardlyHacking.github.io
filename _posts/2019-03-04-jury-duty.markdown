@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jury Duty: 
+title: Jury Duty
 date: '2019-03-04 20:53:37'
 tags:
 - Jury Duty
