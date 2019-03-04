@@ -1,0 +1,179 @@
+---
+layout: post
+title: Jury Duty: 
+date: '2019-03-01 20:53:37'
+tags:
+- Jury Duty
+---
+
+## Jury Selection
+
+Recently, I was called into jury duty. Unlike most people involved, I was actually pretty excited for it. Having never been called in, I had no idea what to expect, and I decided that, if only for the novelty of it, I really wanted to be selected. Plus, unlike many who were called in for state or local court, this was actually the [federal district court](https://www.cand.uscourts.gov/home) - that by itself made me realize it was a more serious case than most. Who would have thought that by the end, I would actually end up being the jury foreperson!
+
+The jury selection process itself was fairly boring. We were told to arrive at 7:45 AM, but of course due to BART and other delays, and in typical bay area fashion, we didn't end up starting until about 10:30! Luckily, the federal courthouse has free WiFi, so I mostly did work until then. The election took place during the government shut down, but the judiciary had spare funds, so everything was operating as normal. It was two days, with the first day consisting of watching numerous videos on what the selection process _would_ be like, if we were actually called into [voir dire](https://en.wikipedia.org/wiki/Voir_dire), which would only take place on the next day.
+
+We then spent most of the day filling out an extremely long questionnaire which detailed all sorts of things like whether I had interacted with the police, would I trust a police officer's word more than a non-police officer's, and so on and so forth. Everything was patently obvious, and truth be told, if anyone wanted to get out of it, they really could. All someone would have to say is that they would trust an officer's word more or something to that effect. Afterwards, we were all given a list of witnesses that would be called, and we had to swear in writing that we either knew or did not know any of the witnesses on that list. Immediately afterwards, the witness list was taken away from all of us.
+
+All in all, the room had about one hundred people, and I later found out there was actually a second session of another one hundred people. From there, we were told they would select twelve jurors for this criminal trial. Odds were fairly slim at this point that I would be selected (in my view, at least). By the end of the first day, I was allowed to leave and go to work for the remaining few hours.
+
+The next day, they brought back roughly one hundred jurors into court. A bit over half, but I was still somewhat certain I would not get selected. And we began a day-long voir dire. Interestingly, during this process, they had us keep our phones on airplane mode, but we were allowed to take notes or do anything else that we normally could. So I ended up jotting down quite a few notes. (This would not be true later on, however, once the trial started in earnest.)
+
+The judge began explaining everything that would happen - that this was a criminal trial in which twelve of us would be selected, and that we would have to vote unanimously. Each side is then given a moment to speak and explain in their own words what they're looking for.
+
+The prosecution addresses the heart of the issue for most people: nobody wants to send someone to jail at all, let alone for life. They start by describing the importance of separation of powers, how unique something like this is in the global context, and that, most importantly, the actual sentencing would be done by *the judge*, and not by the jury. They could rest easy in knowing that their role would end with the finding of guilt and nothing else.
+
+There were a couple great excuses people used to try and get out of jury duty:
+
+* One individual said that, because he works as security for a casino, he's seen all sorts of bad things and no longer believes people can be good - so he would always trust in the prosecution no matter what
+
+* Another stated he fundamentally did not agree with undercover agents being used, regardless of legality, on moral grounds
+
+* Another stated that even though they were compensated for missing time, he was afraid that his boss would let him go if he were to be selected, so he would be pressured to ending the trial early by whatever means necessary - including voting not guilty no matter what
+
+* A fourth potential juror stated they would never side with law enforcement due to bad history in their past
+
+In each of these cases, the prosecution would then go on to ask if they could put their biases aside and vote yes or no purely on the law. In my opinion, it was obvious it wasn't for selecting the actual juror but for the other potentially unbiased jurors. For example, if one juror said "I find that undercover operatives lie", the prosecution would respond with "Thank you for being honest. It takes incredible courage to admit that. Would you find that, even if an undercover gave you a way out of the crime and allowed you to walk away, would you still find it difficult to vote guilty?" Or something to that effect - not that it mattered (the prosecution wouldn't select this individual no matter what) - but for the others who may potentially be swayed.
+
+In this particular case, there were two defendants, so each of the defense lawyers got a chance to speak. The first begins with explaining how it's important for a unanimous vote, and how no one should feel pressured in anyway to change their mind. If even a single juror feels that they are guilty, it is your responsibility in fact to _not_ be swayed, and stick to your judgement.
+
+The second defense I felt also had a pretty creative introduction. He began with something to the effect of "Does anyone here have a problem with a 6 foot tall Mexican Black man asking difficult questions to an FBI agent? Does anyone here believe a trained special agent of the FBI cannot handle tough questioning?" I think this was one of the best ways to turn the tide against the obvious bias most people have in trusting law enforcement.
+
+In all cases, the lawyers take time to compliment the jurors and are obviously trying to be well liked.
+
+As we went through the jurors one by one, it was particularly annoying in cases where some jurors obviously had a less than fluent grasp of the English language, but the lawyers would repeatedly come back to them and ask them more questions. They probably had good reasons (perhaps they wrote down something worth pursuing, I'm not sure), but it slowed down the selection process by several hours.
+
+I found that most people were also hilariously predictable. Having been praised constantly for being honest for most of the day, many began admitting to things that they perhaps shouldn't have. One individual admitted, like many, that he would weigh the testimony of an officer more than a non-officer, regardless of evidence. The lawyer double checked and the man again, admitted that he would. So the lawyer asked - "So you're biased?" The man immediately back-pedals and says "No, I'm not biased." The lawyer then says something like: "Okay, imagine this were a red-light incident. And the cop says my client ran a red light and my client says the light was green. Would you be able to take one person's word over another?" The man stammers for a few moments and eventually just claims that, since it's California, we have red-light cameras everywhere, and he would simply defer to the evidence. Finally, after getting clearly flustered, he says - and I quote word for word - "I don't believe I would rely on law enforcement testimony more than anyone else's. That's not in my DNA."
+
+Needless to say, this individual was not selected.
+
+Pretty much only one person answered to the point - an elderly lady said "If it was a purely he said she said without any evidence, I would defer to the police officer. But if there was any evidence at all, I would obviously rely on that instead." Which I felt is the presumption most people would hold. Surprisingly, this person was not chosen either.
+
+Overall, even though this was strictly a _jury selection_ process, it was obvious that the trial had already begun in all but name.
+
+After the defendants' lawyers had questioned each juror to their satisfaction, sixteen of us were called (twelve jurors with four alternates), and everyone else was dismissed. After this, we were all given further instructions as to how to get into the court room, our juror badges and where to show them, along with our official court-provided notebooks. These were the only places we were allowed to take notes, and after the trial they would all be disposed of.
+
+The trial actually didn't begin for another three weeks!
+
+## The Trial
+
+At this point, I can safely disclose that the trial, [described here](https://www.justice.gov/usao-ndca/pr/bay-area-contractors-convicted-scheme-rig-bids-department-energy-building-contract) was the United States vs Clifton Burch and Peter McKean. The article describes the majority of the background. Given the background of the corrupt Leland Ye and many others associated with him who were getting bribed (including many recordings featuring London Breed, mind you!), several names kept popping up over and over. One of those individuals was Derf Butler.
+
+The FBI set up an undercover operation using a man named William Myles, who went by the name of William Joseph. His story was something straight out of Hollywood. As a contractor, he was operating in New Haven, but the corrupt mayor was pressuring him to do many illegal things. One day, however, his son was caught with drugs. Living in the south, and as a young black male, propsects were not good for his son. William Myles was informed his son would face up to a maximum of 45 years in jail. So he hired a lawyer (his best friend), and went back to the FBI to inform them of this corrupt mayor in hopes that the FBI could do something. The FBI never promised anything (that's not how this sort of thing works), but after two years of working with them as an undercover agent, William Myles' son never saw a day in jail. And ever since then, he's been working as an undercover agent for the FBI (for the better part of two decades now). Frankly, I was in awe of William Myles. It was an extremely ballsy and impressive move he did to save his son, and I'm glad it worked out well for him.
+
+So the FBI set up a fake construction project in the Lawrence Berkeley National Lab's Building 84. It was actually a previously held project that had been shelved that the DOE had run the numbers for before. (Note that even though the lab is just outside the UC Berkeley campus, it's entirely federally funded by the DOE, and so any sort of bid-rigging case would be a federal one, since such actions would be defrauding the federal government.)
+
+A lot of the case was mostly pulling in witnesses to describe how construction projects operate and all the various terminology involved. The federal procurement process, roughly described, happens in the following way:
+
+1. Each project is looked into by engineers of whatever agency needs work to be done. So if it was the DOE, they come up with their own numbers which are often extremely specific (to the dollar and cent amount), but given the market variations, they will instead keep that specific number close to their chest and publicize a range they expect
+
+2. The government then puts out a public solicitation advertising the work that needs to be done. Federal projects are obviously very lucrative, so there is expected to be a great degree of competition for these projects.
+
+3. The government gets multiple bids, and depending on the bids presented, they may choose a minority-owned / female-owned contractor (an 8A contractor). Depending on the size of the contract, they may even 'sole-source' a bid (meaning they circumvent the bidding process and go directly to one individual - this is done extremely rarely, however.)
+
+4. In order to put up a bid, usually a GC (general contractor), or a Prime, must have a bond. The bond is secured by the GC's own assets and is used in case the GC either does not deliver or decides to walk away (similar to the 3% good faith deposit on a house - used by the owner in case they need to re-bid the project if you walk away, to compensate the owner for saying no to the other bidders, etc).
+
+5. Once the contract has been secured by a GC, the GC is obviously allowed to subcontract out as much of the project they want. For example, if a project involved concrete, electical, and plumbing, and the GC only knows how to do the first two, they may choose to sub-contract out the last element. The owner typically does not care as long as all the work gets done on time and on budget, roughly.
+
+6. On occasion, mobilization funds may be provied to a prime - things like setting up the site and getting ready for the actual construction to take place. It's also not unheard of for takeoff compensation to be provided. A 'takeoff' is the actual scoping out of work, and that itself may have a cost associated with it.
+
+Big-rigging is, at its heart, a collusion between several GC's to make what should be a competitive process (bidding) into a non-competitive one. Typically something like this uses an insider / corrupt individual susceptible to bribes. Here, the FBI set up a fake agent to serve as 'Maria Robles' (who is a real contractor of the DOE and is not corrupt at all `:)`). "Maria" and our undercover William Myles set up a scheme such that he and Maria had worked together many times, and he was "taking care of" her with bribes. Thanks to the bribes, William would get the project. But he needed three or four more bids to make his look competitive, so that she would give the deal to him.
+
+The DOE engineers had estimated the plans would cost from 4.1 to 4.9 million, and William Myles would come in at a cool 5.6. He then would ask Derf Butler (who was very eager to prove himself) to ask all of Derf's buddies (the "A Team", who were experienced in this sort of thing) to come in north of William's own number. The number at times was specified and at other times not, but as long as they came in above William's, he would get the job and pocket the extra 1.5 mil, and everyone was happy. Some would be compensated in cash, and others in the actual work given by becoming subs to William, who would GC the project.
+
+There were a lot of characters involved, but ultimately the trial focused on two: Clifton Burch and Peter McKean. Interestingly, there were two different defenses. Peter McKean claimed he was entrapped, and Clifton Burch just plead not-guilty. One of the most annoying things about this trial was that we were only told the actual law at the very end! We were given a rather large notebook of 80 pages, and I took almost 65 pages of notes - to the point where I had to go back with a highlighter after we were told the actual law to figure out what was relevant and what was not. Hardly ten pages ultimately proved to be relevant in any way.
+
+Each witness would be presented in roughly the following manner:
+
+An hour to establish who this witness is, why are they credible, why are they a good human being, their life story from childhood on, etc. ("Born and brought up in the Bay Area" is a huge one, and if it's any indicator to how many NIMBYs are in the bay, SF is doomed.)
+
+They would then finally start to focus on the specifics of the case, which would take anywhere from 2-3 hours depending on the witness.
+
+Then, each defense would cross-examine the witness. This would take another 2-3 hours.
+
+This would be followed by a prosecution redirect, where the lawyer would refute whatever points the opposing lawyers made.
+
+Finally, it would end on the opposition's redirect.
+
+This is the general pattern for all witnesses, where the opposition has the final say (if the defense brought a witness, the prosecution would have the final redirect, and if the prosecution brought a witness, the defense would have the final say).
+
+Most of the witnesses, of course, did not end up mattering in the slightest.
+
+## Verdict
+
+Ultimately, we unanimously voted guilty.
+
+I'll start with Peter McKean, becuase in many ways the decision is simpler. Peter McKean from the very outset admitted he did the crime - his defense instead is that he was entrapped. Since the burden is on the government (a burden of proof beyond reasonable doubt, _not_ beyond all possible doubt), the _government_ must proved that Mr. McKean was _not_ entrapped. They can do this in one of two days:
+
+* Claim he was predisposed to commit the crime. Basically that he was chomping at the bits to commit a crime, and they just gave him an opportunity, which he leapt at.
+
+* Claim that there were no inducements. Without inducements, there is no possibility of entrapment.
+
+So what kinds of things can we use to determine predisposition? Disposition, hesitation, reluctance, and any number of things that address the mental state of Mr. McKean can be used. Most of the jury decided, in fact, that Mr. McKean was pre-disposed to commit this crime, and thus voted him guilty on that count. I was the lone juror not convinced of this at all.
+
+Mr. McKean's business was in deep trouble, as they had just lost one of the major contracts. There were various stories thrown around like McKean staying up until 1:30 in the morning of September 5th internally debating whether or not he should or should not submit the false bid - should he save his business or not commit a crime, etc. The prosecution responded saying that it is not enough to just have reluctance in one's mind, but McKean must _show_ reluctance (this was a very good counter-argument, and true).
+
+The other jurors would then argue that, if Mr. McKean was _not_ predisposed, why did he suggest bribing other officials on later dates, and in fact even hope to get into other corrupt dealings later on. _Obviously_, all of this was after McKean had already agreed to join the conspiracy, and none of this speaks to his predisposition (or lack thereof) _prior to_ September 5th.
+
+But on the other hand there is *nothing* the government had to show McKean _was_ pre-disposed. Instead, they simply had great responses to the defense's arguments that he was not predisposed. But again, the burden of proof is on the government to show that McKean _was_ pre-disposed prior to committing the crime on September 5th.
+
+So in that situation, to me, it came down to whether or not there were inducements.
+
+Inducements can also be a variety of things: promises of future reward, harassment, threats, pleas based on sympathy or friendship, and other things. Most of these items do not apply in this case. There was no harassment or threats - obviously the undercover didn't threaten McKean or harass him into this. And there were no pleas based on sympathy or friendship, as the undercover did not know McKean prior to this case, and given his character as wealthy Texan developer, the undercover certainly was not seeking any sympathy. So it came down to whether or not there was a promise of reward. In this case, the reward promised cannot be, legally, a reward from an ill-gotten again. For example, if I ask you to rob a bank with me, you cannot claim entrapment because you were lured in by the promise of the spoils from a robbery, as those would be ill-gotten gains. Not only was that the case here, but there was not even a _promise_. There were hints and perhaps suggestions that, if they landed this case and did a good job, there would be another hundred million dollar case afterwards - also enacted by bribing Maria Robles. But again, these would also be ill-gotten gains.
+
+So there was no doubt in my mind that there was no inducements, and I voted guilty. I ultimately did not point out the logical fallacies in my fellow jurors' prior arguments about predisposition, as we were all mostly in agreement regarding the ultimate verdict, but it was truly baffling to me how many (if not most) actually felt there _were_ inducements, but that McKean was also predisposed (all citing those October incidents that came _after_ the crime had already been committed).
+
+Burch's case is a bit more complicated.
+
+I must preface this by saying that I think a lot of the jury was turned off by the style of Mr. Burch's lawyer. While I personally was not (having done competitive debate for many years, I've developed a somewhat ruthless ability to separate the strength of an argument from the person or style in which it's being made), I can't help but wonder if many of my fellow jurors could not.
+
+This was a very winnable case in my opinion for Mr. Burch (though many of the other jurors disagreed from the outset).
+
+There were three different arguments the defense advocated throughout the case, and I'll address each of them here.
+
+1. The bid submitted was non-responsive.
+
+The FBI's "plans" were pretty awful. In the heading, it claimed the work needed was aobout 4,427 feet mostly on the second and third floors of Building 84. However, when analyzing the actual blueprints, it's much closer to 5,500 square feet of work that needs to be done. Nobody in the FBI could read blueprints (not even the under cover agent), and nobody validated these numbers - instead, they simply took the old estimate for a previous Building 84 project (4.1 - 4.9 million), and used a different set of blueprints (hence the difference in square footage). Even worse, Mr. Burch's own bid was submitted for 7000 square feet, so obviously it was higher, but if it responded to a completely different ask then it could not be bid-rigging.
+
+I was not swayed very much here because the initial bidders in this project (Mr. Burch, and Mr. Kalafati, at the direction of Mr. Butler) both submitted the exact same bid for 7000 square feet. Even if the square footage was wrong, there was obviously collusion involved in making the same square footage error, and they all came in higher than Mr. Myles. It reminds me of school, where a student copies another student's test paper, and the teacher easily catches them because they both make the same, ludicrously wrong, mistake. Furthermore, there was a contracting expert who was brought in previously by the prosecution who said that these sorts of mistakes happen all the time, and just because the square footage was slightly off does not make a bid non-responsive; instead, her department would follow up with the submitter to make sure they got the details right.
+
+In this case, since it was a fake project set up by the FBI, obviously the 'follow through' was never done.
+
+2. Mr. Burch thought he was a sub bidding to Mr. Myles, who was the GC
+
+This potentially seemed plausible. Derf Butler has a tendency to speak very vaguely and just try and get people to go along with him. Ultimately, there was only a couple phone calls between Derf and Mr. Burch, and a single meeting between Burch and the undercover. In the very first few minutes, the undercover says something like "why don't you tell me what Derf has told you this is about, and if you get anything wrong, I'll fill in the rest." Anton Kalafati describes a basic bid-rigging scheme, and Clifton Burch basically says "Same thing", as in "I heard the same thing". The defense argued this was just a stock answer, and actually I can believe that, though it's somewhat improbable.
+
+What was especially damaging though is that Mr. Burch then submits his bid to Derf Butler instead of his supposed GC, Mr. Myles. Even worse, in the next email, Butler tells Mr. Burch to send that bid to the DOE - to Maria Robles instead. If Mr. Burch thought this was a sub being a GC, why would he ever send his bid to the owner? That is _never_ done, and a man with as much construction experience as Mr. Burch has would know that. So this seemed very unlikely.
+
+3. The bid submitted was not the product of collusion
+
+The defense argued that in fact Mr. Burch did his own full takeoff of the project, based on the rough blueprints given. They argued that, in fact, although Mr. Burch's bid came in at 7.1 million, there were two 1 million exclusions for elevator and HVAC work, which the blueprints didn't call for. So if this had been a real project, the actual cost of the bid would be down to 5.1 million dollars, and given the increased square footage (7000 instead of 5,500), with that factored in, he would be well on the low side of the DOE estimate.
+
+The problem was that there was no documented proof anywhere that these exclusions were real. There were a couple voice recordings captured from the wire of the undercover operative, and although they discuss the possibility of elevator or HVAC work (the actual blueprints are very vague and don't really specify), there is no evidence that Mr. Burch submitted exclusions as part of his bid.
+
+Amusingly, there was a whole debate about how on one email, there were 2 attachments shown, but only one was presented - the bid document. The defense tried to argue that the second attachment was purposefully clipped out, but it was actually just an attached JPEG image for the email signature.
+
+As to whether or not Mr. Burch spent money to do a takeoff, no evidence was given - and he was actually subpoenaed by a grand jury in 2015, and no documents to the proof of the takeoff (or the exclusions) were ever produced.
+
+4. The bid was within the DOE range given
+
+The defense finally argued that, even without the million dollar exclusions, the bid Mr. Burch presented was within the DOE authorized range. And that's true. When scaling down from 4,427 square feet to 7,000 square feet (assuming, incorrectly, that all square footage of work is created equal and that the work _can_ even be scaled down like this), the estimate then becomes 4.49 million dollars - well within the DOE range.
+
+The issue is that producing a legitimate in-range bid as a product of collusion is still illegal. It is in fact how _most_ bid rigging is done - one must be within the range to be somewhat convincing, and allow the insider to give you the job without raising suspicion. The charge was never that the defendant came _over_ the undercover's bid necessarily, but that he colluded and took direction from another GC, which is illegal.
+
+Despite all of this, what was really perhaps the most damaging, is that Mr. Burch confessed on the stand. This was truly unbelievable - it felt like something that only happened in TV shows or the movies. One would think that, if there was a single thing you had to do as a defense lawyer, it would be to prepare your client to _not_ confess if they had pled not guilty...
+
+## Lessons Learned
+
+#### Corruption in infrastructure is absolutely endemic.
+
+After the trial, I was describing the craziness of everything to one of my friends, and he sent me this ![tweet](https://twitter.com/Noahpinion/status/1097582416984649728) from Noah Smith, and I keep coming back to it. Jacob Bacharach from [Hmm Daily](https://hmmdaily.com/2019/02/15/americas-signature-mode-of-transportation-is-high-cost-rail/) in the linked article absolutely _nails_ it. This is not uncommon, but even more so it's absolutely _everywhere_. I don't know what the solution is, but it does not surprise me anymore.
+
+> American infrastructure is this costly because of immense, endemic, universal public-private corruption—systems of both direct and financialized graft at every stage of infrastructure development, from the planning to the ribbon-cutting to the use of deferred maintenance to ransack public transportation budgets for cash, year after year, after which the responsible authorities claim that fixing the century-old signals is just too damn pricey. This system of legal fraud begins with the bevies of project consultants, continues through ludicrous private contractor and labor costs, and continues when, years later, high-paid administrative fixers and new armies of consultants and contractors arrive to fix what broke because it was never maintained. It is a system of tolerated kleptocracy that may be the only thing that America still does better than anyone else in the world. It is baked into every assumption about building for the public benefit.
+
+#### If It's Too Good to Be True, It _Is_
+
+I hate to think of how mostly good people were ultimately lured in by a fundamentally bad friend in Derf Butler, and the possibility of something so great. Growing up, I was fortunate enough to have my parents tell me almost constantly that if something was too good to be true, then it was. Coming from India, where scams were ubiquitous, almost everyone knew _someone_ who was "that person" - gullible enough to believe in every short-cut advertised. Take a pill - you won't need to diet or change anything about your lifestyle - it'll magically help you lose weight, and no side-effects! Apply this cream - you'll magically have fairer skin. I think most Indians and Asians operate on a default of skepticism, whereas in America these sorts of scams are so rare that if someone - particularly a friend - mentions it, many default to belief rather than the opposite.
+
+#### Basic Argumentation Skills
+
+People still do not understand burden of proof or other basic argumentation skills. I cannot tell you the number of times during delibration I heard 'Peter McKean did not convince me he was not predisposed'. Peter McKean does not _have_ to convince you he was not. The government has to convince you that he _was_! It didn't end up mattering, since there were no legal inducements either way, but it was still shocking. What if the case _had_ come down to this. The thought is pretty frightening...
