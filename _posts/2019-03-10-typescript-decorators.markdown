@@ -394,3 +394,5 @@ export const postHelloWorld = functions.https.onRequest(HelloWorldApi.postHelloW
 Of course, this would require a minor change to our `post` decorator, but you can see how with these changes we have established a contract for all of our endpoints to follow a specific json scheme that the backend can then enforce at runtime.
 
 This was the product of roughly two days of thinking and playing around with type erasure, and it's a pretty cool testament to how extensible and powerful typescript really is! The [Typescript Playground](https://www.typescriptlang.org/play/) is also extremely useful in quickly prototyping and testing when unsure of the exact capabilities of a language.
+
+If anyone wants to see the full parsers library in action, it is available [on Github](https://github.com/hardlyHacking/ts-parse) and on [npm](https://www.npmjs.com/package/tsc-parsers).
