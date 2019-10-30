@@ -1,0 +1,23 @@
+---
+layout: post
+title: wh3re.app
+date: '2019-10-29 18:41:46'
+tags:
+- H3
+---
+
+When I was working at Skip Scooters, one of the most common problems we faced was how to efficiently and accurately data model shapes on a map. For example, San Francisco gave us a definite operating area, and they prohibited us from allowing users to rent scooters inside of San Francisco and dropping these scooters outside the operating area. But even within SF, we had various no parking zones, low speed zones, and some no riding zones. As we expanded, these regulations only introduced new types of zones and areas.
+
+We quickly had to find a way of efficiently detecting what zone is a scooter currently in, and what rules applied to that particular zone. More importantly, we had to find a way to efficiently encode these zone boundaries themselves.
+
+Initially, we naively had a simple square around each city, comprised of 8 points (4 latitude, longitude pairs). This made point detection (what zone am I in?) a constant time operation. In order to render these zones on the clients, however, we would resort to GeoJson. GeoJson, confusingly, prefers longitude first, while most of our mapping software preferred latitude. This mismatch, while inconvenient, wasn't nearly as problematic as when we finally launched two markets right next to each other. San Francisco, meet Oakland.
+
+We quickly ran into trouble determining what fine grained 'squares' would count as oakland, and what as SF. Increasingly, the shapes we were trying to make were becoming very complicated, and it was obvious a new solution would have to be found.
+
+This is where [H3](https://eng.uber.com/h3/) came to the rescue. H3 divides the world into hexagons at various zoom levels. Importantly, each hexagon ID is globally unique - meaning that given a hex ID, you can not only determine the hexagon location but also the zoom level. Looking at the [resolution table](https://uber.github.io/h3/#/documentation/core-library/resolution-table), you can see that the widest H3 level divides the globe into just 122 hexagons, but at level 15, each hexagon represents just 0.9 square meters!
+
+With the various zoom levels, we could encode almost any shape at all and efficiently calculate whether we were in a given tile.
+
+The only difficulty with H3 was how to choose zoom levels when polyfilling a particular area or how one would quickly translate an H3 ID into a specific location on the map. Many beginners seem to [run into this issue](https://stackoverflow.com/questions/50725530/how-to-choose-the-suitable-h3-resolutions-when-use-polyfill). To help with that, this past week I made [wh3re](https://wh3re.app). wh3re quickly and easily translates shapes into hex IDs, along with quickly finding a particular hex and drawing it on the map.
+
+As an aside, Mapbox provides a pretty remarkable API, and between that and H3's own great library, this project took under 3 hours! Software development has truly never been easier than it is today. `:)`
