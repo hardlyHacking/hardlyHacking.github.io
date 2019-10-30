@@ -39,7 +39,7 @@ However intense having cats can be - and it [_can_ be intense](https://notablog.
 
 * Establish limits early. Expanding limits is always easier than putting new limits on later. No dog has the privilege of accessing the entire house from the get go. Don't allow them on the couch or the bed. These are privileges that they unlock as they settle in and become well behaved.
 
-I think while cats become an addition to your life, dogs tend to become a lifestyle. Since getting a dog there hasn't been a day where I haven't walked 25_000 steps. I wake up every single day at 7:30AM now, weekends or not, long weekends or not. And I tend to go to sleep _much_ earlier. Dogs are incredibly social, and while cats get lonely, too, dogs have an overwhelming need to constantly be with you.
+I think while cats become an addition to your life, dogs tend to become a lifestyle. Since getting a dog there hasn't been a day where I haven't walked 25,000 steps. I wake up every single day at 7:30AM now, weekends or not, long weekends or not. And I tend to go to sleep _much_ earlier. Dogs are incredibly social, and while cats get lonely, too, dogs have an overwhelming need to constantly be with you.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Looking at me like I sentenced her to life in prison 😂 <a href="https://t.co/sbP0CgPGnr">pic.twitter.com/sbP0CgPGnr</a></p>&mdash; Chander (@chander) <a href="https://twitter.com/chander/status/1185712158807445504?ref_src=twsrc%5Etfw">October 20, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
