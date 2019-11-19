@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Macgee Homestead
+title: Magee Homestead
 date: '2019-11-18 19:00:00'
 tags:
 - Flying Private
@@ -9,7 +9,7 @@ tags:
 - Horseback Riding
 ---
 
-A couple months ago, I was fortunate enough to be invited on an all-expenses paid trip to [Macgee Homestead](https://www.brushcreekranch.com/magee). For those who haven't been, I cannot recommend it enough. I don't feel comfortable sharing photos of the trip, as several people who accompanied me have requested I not publically share those pictures, but the website linked above should give you a sufficient idea regarding what kinds of activities and sights one can see.
+A couple months ago, I was fortunate enough to be invited on an all-expenses paid trip to [Magee Homestead](https://www.brushcreekranch.com/magee). For those who haven't been, I cannot recommend it enough. I don't feel comfortable sharing photos of the trip, as several people who accompanied me have requested I not publically share those pictures, but the website linked above should give you a sufficient idea regarding what kinds of activities and sights one can see.
 
 The trip was absolutely amazing. Starting off, we actually flew on a private aircraft, and it was a testament to how airtravel _could_ be, without many government regulations. We arrived at the [SFO Private airport](https://www.flysfo.com/flight-info/private-aircraft), and in addition to free drinks, food and comfortable sofas, the most impressive aspect were the things missing. No TSA, no security. And no baggage check. Just show up with your bags, have a soda (or a cocktail that you'd have to pay for), and five minutes before your flight the pilot would show up! The crew would help load your bags onto the flight, and off you went!
 
