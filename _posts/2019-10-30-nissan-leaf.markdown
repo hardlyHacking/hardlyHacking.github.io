@@ -7,7 +7,7 @@ tags:
 - Nissan Leaf
 ---
 
-After [MoMo](https://notablog.xyz/2019/10/29/dog-ownership.html) came into our lives, I found myself needing a car for various errands. We'd need to go to the vet, or take her to dog training classes, or maybe rush her to the emergency room because she at some unleavened pizza dough... Whatever the case, we never really went far.
+After [MoMo](https://blog.chander.app/2019/10/29/dog-ownership.html) came into our lives, I found myself needing a car for various errands. We'd need to go to the vet, or take her to dog training classes, or maybe rush her to the emergency room because she at some unleavened pizza dough... Whatever the case, we never really went far.
 
 By this point, I had already transformed into a pretty heavy anti-car person. I'd been working at Skip Scooters which focused on micromobility, I had sold my Subaru WRX STI, and my wife and I were bicycling to work on a pretty consistent basis (on some days I'd still ride the motorcycle). Cars are pretty much essential in California due to the various unwise urban planning policies, but I never really enjoyed having one. Traffic is awful in the bay area, and it's only getting worse. Rush hour traffic is incredibly stressful - despite my best efforts with Audible - and [numerous studies](http://www.cityclock.org/driving-stress/#.XboCRpNKiL4) show that [driving](https://remoteyear.com/blog/commute-negative-side-effects) is the single worst form of commuting and the largest contributor to people's daily unhappiness. Add on to that the various expenses from maintenance, and it just felt like something I had to be rid of.
 

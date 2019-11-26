@@ -29,7 +29,7 @@ No seriously. Don't forget.
 
 Or when we had to take her to the emergency room twice in one week because she ate unleavened pizza dough, which is one of the most [dangerous foods](https://www.akc.org/expert-advice/nutrition/can-dogs-eat-bread/) a dog can eat.
 
-However intense having cats can be - and it [_can_ be intense](https://notablog.xyz/2015/10/20/new-experiences.html) - having a dog is a **lot** more on a day to day basis. Below are the following lessons I've learned from having a dog for... four months :)
+However intense having cats can be - and it [_can_ be intense](https://blog.chander.app/2015/10/20/new-experiences.html) - having a dog is a **lot** more on a day to day basis. Below are the following lessons I've learned from having a dog for... four months :)
 
 * Routine is absolutely vital. You can't be sure your dog is potty trained until you've had no accidents for _six months_. Six months is a long time. We're already positive MoMo is potty trained, and we haven't even had her that long yet! But be wary - surprises can always happen. Dogs don't have weekends. You really _have_ to get up at the same time every day, and go to bed at the same time every day. Dogs thrive on routines.
 

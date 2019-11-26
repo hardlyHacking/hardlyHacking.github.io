@@ -7,7 +7,7 @@ tags:
 - github
 ---
 
-Way back in 2015, I described how I moved my blog over to [Ghost](https://notablog.xyz/2015/11/21/setting-up-my-ghost-blog.html). Until then, for small static websites, I had been using [Jekyll](https://jekyllrb.com/). Ghost had nearly everything I wanted - great design, fancy UI editing, and a reasonable blend of customization options and self-hosting ability. Ultimately, this was a huge mistake.
+Way back in 2015, I described how I moved my blog over to [Ghost](https://blog.chander.app/2015/11/21/setting-up-my-ghost-blog.html). Until then, for small static websites, I had been using [Jekyll](https://jekyllrb.com/). Ghost had nearly everything I wanted - great design, fancy UI editing, and a reasonable blend of customization options and self-hosting ability. Ultimately, this was a huge mistake.
 
 My previous set up was just using [Github Pages](https://pages.github.com/) with Jekyll. It had out of the box support for github-style syntax hilighting for code along with far more customization, but also various plug-in themes.
 

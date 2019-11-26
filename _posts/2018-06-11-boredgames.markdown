@@ -8,7 +8,7 @@ tags:
 
 A little side project that I completely forgot about: [boredgames.io](http://boredgames.io/)
 
-[Way back in 2016](https://notablog.xyz/2016/06/26/piti.html) I dabbled in Angular at a time when React.js was all the rage, but I never really made a full-fledged sample project in pure React. Most people like myself use React with Redux, but I decided that a Codenames clone was a great opportunity to build something that I would use on a semi consistent basis (it's the most popular game at virtually every party) and at the same time, learn real native React to get a better appreciation for the platform and its vanilla limitations (or lack thereof!).
+[Way back in 2016](https://blog.chander.app/2016/06/26/piti.html) I dabbled in Angular at a time when React.js was all the rage, but I never really made a full-fledged sample project in pure React. Most people like myself use React with Redux, but I decided that a Codenames clone was a great opportunity to build something that I would use on a semi consistent basis (it's the most popular game at virtually every party) and at the same time, learn real native React to get a better appreciation for the platform and its vanilla limitations (or lack thereof!).
 
 Overall, it took me about [four hours](https://github.com/hardlyHacking/spymaster) for the original commit, though I have gone back and added a couple retouches.
 
