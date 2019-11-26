@@ -20,7 +20,7 @@ Software/Apps I love:
 * Audible
 
 Portfolio
-* Dartmouth CS1: [https://cs1.notablog.xyz/](https://cs1.notablog.xyz/)
-* Dartmouth CS50: [https://cs50.notablog.xyz/](https://cs50.notablog.xyz/)
+* Dartmouth CS1: [https://cs1.chander.app](https://cs1.chander.app/)
+* Dartmouth CS50: [https://cs50.chander.app/](https://cs50.chander.app/)
 * H3 locator / utility: [https://wh3re.app](https://wh3re.app), or at [https://h3.chander.app](https://h3.chander.app)
 * Codenames clone: [https://boardgames.chander.app](https://boardgames.chander.app)
