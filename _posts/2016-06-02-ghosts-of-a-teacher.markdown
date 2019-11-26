@@ -26,4 +26,4 @@ The real problem is that our educational system - even at top institutions - are
 
 Of course, being a TA was certainly not all bad; there were many fun moments and rewarding ones where I was fortunate enough to inspire and help students. But I think most of all it was valuable because, while fun to do occasionally, it taught me that it was certainly not the career for me.
 
-And so, as a token of an old dream, [cs1](https://cs1.notablog.xyz) and [cs50](https://cs50.notablog.xyz) are up. Take it as a window to a younger, and in some ways, more passionate, version of myself.
+And so, as a token of an old dream, [cs1](https://cs1.chander.app) and [cs50](https://cs50.chander.app) are up. Take it as a window to a younger, and in some ways, more passionate, version of myself.
