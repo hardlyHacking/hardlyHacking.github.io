@@ -1,0 +1,85 @@
+---
+layout: post
+title: YC Hackathon
+date: '2019-11-24 09:29:22'
+tags:
+- Progressive Web Apps
+- Caltrain
+---
+
+Over Thanksgiving break, I finally got around to seeing what all the fuss was about when it came to Progressive Web Apps. One of my great inconveniences is that the Caltrain website is not only notoriously unfriendly (no HTTPS, does not preserve the stations column as I scroll horizontally, takes forever to load). Because I have T-Mobile, more often than not near 4th and King I can't even load the page at all! PWAs are meant to be write once, run everywhere (Windows, MAC OSX, iOS, Android, Chrome OS, etc), and they're supposed to work offline. That, combined with all the fuss people have been making about this technology convinced me to give it a shot.
+
+And I have to say, it did not disappoint. From now on, I, too, will be making a fuss. `:)`
+
+If you want to skip right ahead, check out [caltrain.chander.app](https://caltrain.chander.app)!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://t.co/2ej1pAPpuC">https://t.co/2ej1pAPpuC</a> , my first PWA!<br>trip planning, purchasing tickets, etc coming soon! <a href="https://t.co/4Iy4LLHYBv">pic.twitter.com/4Iy4LLHYBv</a></p>&mdash; Chander (@chander) <a href="https://twitter.com/chander/status/1200127627064827904?ref_src=twsrc%5Etfw">November 28, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## What Is a PWA
+
+A PWA, or progressive web app, is a web app that is capable of working offline, and functions like a native app. It has a sandboxed environment, has native home screen icons, and can even be deeplinked like regular apps. Basically, it's a web app that emulates many features of a native app for a fraction of the storage, memory, and cost of development.
+
+## Why PWAs?
+
+So what's all the hype?
+
+First, it's a cross-platform solution. Basically every browser supports PWAs by now, though not all of them support every feature that Chrome does.
+
+Second, the apps made via PWAs are incredibly tiny. Unlike Flutter which embeds its own rendering engine inside every single app, or React Native that imports expensive bridges, these apps are not megabytes, or even tens of KBs. Safari, Chrome, etc are already installed on the device - why not just use those?
+
+And lastly, it's only getting better. Desktop support has been announced, and it works seamlessly on Windows and Mac OSX. Google is heavily investing in web APIs thanks to Chrome OS, and as far as performance goes, Rust and WebAssembly have shown that web apps can infact be blazingly flast.
+
+## Friction Log
+
+So what went wrong? As with any technology, nothing is perfect. And even though PWAs are getting better all the time, it's still far from perfect.
+
+Apple requires a [special link tag](https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html) in the header to point to the icons for iOS, and unfortunately Lighthouse does not yet detect if that's missing.
+
+In fact, to support all the various device sizes (including the plus models of the iPhone and iPads), they want 8 different icon sizes. I ended up going with something like the following:
+
+```html
+<link rel="apple-touch-startup-image" href="images/splash/launch-640x1136.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="images/splash/launch-750x1294.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="images/splash/launch-1242x2148.png" media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="images/splash/launch-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="images/splash/launch-1536x2048.png" media="(min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="images/splash/launch-1668x2224.png" media="(min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+<link rel="apple-touch-startup-image" href="images/splash/launch-2048x2732.png" media="(min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)">
+```
+
+Generating the various required icon sizes was pretty annoying, so in the end I created an SVG in [Figma](https://www.figma.com/) and then using (librsvg)[https://github.com/GNOME/librsvg] to render various sizes from the command line. Specifying the height alone is sufficient, since librsvg by default maintains the aspect ratio and deduces the width.
+
+```bash
+rsvg-convert -h 180 logo.svg > logo-180.png
+```
+
+As [this Medium article](https://medium.com/@applification/progressive-web-app-splash-screens-80340b45d210) describes, creating splash screens can also be quite annoying. This ultimately proved to be too much work for a simple side project for me, so I forwent the splash screens altogether. Android and Windows seem to intelligently use the title and the icon to auto generate a splash screen.
+
+What about app theme color? Again, ios here is a [huge pain](https://medium.com/appscope/changing-the-ios-status-bar-of-your-progressive-web-app-9fc8fbe8e6ab). Android and Windows seem to _just work_ based on the values given in the `manifest.json` file - they see a simple hex value and style the toolbar accordingly. iOS on the other hand only has 3 values it can support - black (background is white, text is black), white (background is black, text is white), and "translucent" (backbround is transparent, text is white). So in order to get the background working, I set the html body background color to red and wrapped my entire page in a scroll view with a sticky nav bar, so that when I scrolled up the text would still remain red. Felt sort of hacky, and despite my best efforts, for whatever reason, sometimes when I launch the app to this date in iOS 13, it still shows up as black text. Then when I background the app and come back to it, it turns white!
+
+Deep linking is yet another feature that doesn't quite [work on iOS yet](https://stackoverflow.com/questions/45979191/deep-linking-from-web-to-pwa-standalone-version) - only on Android and Windows. (Are you picking up on the general theme of my complaints, yet?)
+
+Service worker upgrades are also slightly difficult on iOS because they seem to have [abandoned the traditional lifecycle for their own](https://stackoverflow.com/questions/55581719/reactjs-pwa-not-updating-on-ios), more complicated version. It's basically impossible to know ahead of time when the update event will fire, so I saved myself the headache and just closed all tabs in Safari that used my site, uninstalled the PWA, went to system settings and cleared the cache for that site, and then re-installed it. This way I could guarantee an update to my PWA every single time.
+
+And while iOS 12 is certainly [much better](https://medium.com/@firt/whats-new-on-ios-12-2-for-progressive-web-apps-75c348f8e945) than the previous incarnations of PWAs on iOS, it still leaves a lot to be desired:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">iOS PWA update (as of 12.0.1) for standalone webapps. They:<br>😡 still force reload every time app is shown/hidden<br>✅ now retain cookies after being reloaded (i.e. login possible)<br>😡 forget deep links<br>✅ support localStorage<br>😡 don&#39;t support sessionStorage<br><br>No one talks about them.</p>&mdash; Justin Searls (@searls) <a href="https://twitter.com/searls/status/1051459860192202755?ref_src=twsrc%5Etfw">October 14, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+## Lighthouse
+
+As an aside, it's pretty awesome how seamlessly Google has integrated [Lighthouse](https://github.com/GoogleChrome/lighthouse) into the PWA development process. Since it's right there on the audit tab, I constantly looked at it and tried as much as I could to keep the score high after every single patch.
+
+It can be pretty disheartening thoguh when you finally come across an issue that you just can't solve, and you end up losing that glorious straight perfect audit score.
+
+For example, Bootstrap has a [bug right now](https://github.com/twbs/bootstrap/issues/25126) about the lack of [color contrast](https://getbootstrap.com/docs/4.0/getting-started/accessibility/#color-contrast), where you pretty much *have* to roll your own colors, or you won't get a perfect accessibility score.
+
+Similarly, I was docked points originally on performance because my DOM had over 1500 elements - it had 6500 elements when I showed all the tables on the same page, even though many were hidden. So I refactored the app away from a single page application (SPA) to a multi page app PWA, but even then the largest table was still 1600 elements, which is over the lighthouse limit, so I'd only get a 99 on performance.
+
+## Conclusion
+
+I definitely believe PWAs are the future. It's funny that, when the iPhone first came out, people begged for an App Store and the ability to make native applications - to which Jobs initially said no, and that the web should fill that void. He eventually relented, and the native has been the de factor way to do things for a long time now, but I think things have fianlly come full circle.
+
+Web techology has evolved, and things have gotten significantly better. More advanced APIs are being released every quarter thanks to the Chrome OS and Mozilla teams, and native just seems less and less worthwhile. With basically minimal effort, I have a truly cross platform near-native experience that _just works_ - in under 30 minutes.
+
+The best part is that it's a joy to develop for the web again, and it's only getting better. To anyone who hasn't tried PWA's, please give it a shot. They'll pleasantly surprise you, despite all the Apple pain points.
