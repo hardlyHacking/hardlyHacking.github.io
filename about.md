@@ -7,12 +7,19 @@ permalink: /about/
 Ahoy there! You've stumbled upon one of the more useless but entertaining blogs out on the internet `:)`
 
 Should you desire a more minute-by-minute update system, you may find me on Twitter [here](https://twitter.com/chander).
-Before you ask, I did indeed have a battle to the death with all the other Chander's to get Twitter supremacy.
+Before you ask, I did indeed have a battle to the death with all the other Chanders to get Twitter supremacy.
 
-Books I love:
+NonFiction Works I Love:
 * [A Guide to the Good Life](https://www.amazon.com/Guide-Good-Life-Ancient-Stoic/dp/1522632735)
 * [The Life Changing Magic of Tidying Up](https://www.amazon.com/Life-Changing-Magic-Tidying-Decluttering-Organizing/dp/1607747308)
+
+Fiction I Love:
 * [The Wheel of Time](https://www.amazon.com/Wheel-Time-14-Book/dp/B00VZIF6VO)
+* [Avatar the Last Airbender](https://www.imdb.com/title/tt0417299/)
+* [Star Wars: The Clone Wars](https://www.imdb.com/title/tt0458290/)
+* [The Dragon Prince](https://www.imdb.com/title/tt8688814/)
+* [Justice League Unlimited](https://www.imdb.com/title/tt6025022/)
+* [The Name of the Wind](https://www.amazon.com/Name-Wind-Patrick-Rothfuss/dp/0756404746)
 
 Software/Apps I love:
 * Vim, Sublime
