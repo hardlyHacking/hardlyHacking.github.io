@@ -1,0 +1,121 @@
+---
+layout: post
+title: Piṭi: Dabbling with Vue.js
+date: '2019-12-39 01:25:53'
+tags:
+- Vue.js
+- Piṭi
+---
+
+I've been hearing a lot of great things about [Vue.js](https://vuejs.org), so I finally decided to give it a shot. My family loves the card game Piṭi, so during one of these winter day-long Piṭi sessions, I decided to whip up a VueJs PWA to help calculate and notate the game scores.
+
+Check it out at [here](https://boardgames.chander.app/piti).
+
+## Piṭi
+
+In Piṭi, 2 is the lowest card, and Ace is the highest.
+
+Any number of players (two or more) can play, but I've found the game works best between three and six players.
+
+A game has 52 ÷ number of players rounds - so with 4 players, there's 13 rounds, and with 5 players, 10 rounds. 
+
+Each round has two phases: a prediction phase and a play phase.
+
+#### Prediction Phase
+
+In Tamil, Piṭi means to catch. In a round where there's five cards in a player's hand, it means that there's five possible 'catches'.
+
+During the prediction phase, players look at their cards and predict how many catches they'll win. At the end of the round, if a player correctly predicted the number of catches they'd win, they receive points equal to 2 times the predicted total.
+
+So if a player correctly predicted 5 catches, they would get 10 points - or if they predicted 3 catches, only 6.
+
+The more incorrect a player is, however, the more heavily they are penalized. For every off by 1 relative to the predicted total, a player receives -2 points. So a player who guessed 3 but got 5 would get -4 at the end of the round. Note that it does not matter whether someone is above or below their prediction; in the eyes of Piṭi, over-estimating and under-estimating are both equivalently sinful. In otherwords, the only thing that matters is how far away frm the prediction you end up, in either direction.
+
+You can see that high value predictions which yield more points are often the easiest way to win. To prevent this mechanism from reducing Piṭi to just a game of chance as to who has the highest cards, there is a balancing mechanism specific to predicting 0 catches in the beginning.
+
+0 is a special prediction in Piṭi. If a player successfully achieve 0 after predicting it, they are rewarded with the maximum points for the round. As an example, in round 5 where there are 5 catches, a player who predicted getting all 5 catches would get 10 points. A person who claimed and received 0 would _also_ get the maximum - 5 * 2 = 10 points.
+
+However, 0 is an all or nothing proposition. If the person claiming 0 gets even a single catch, they are deducted the maximum points. From 0's point of view, it does not matter if you get 1 or 2 or 8 catches; as long as you claimed to get 0 but did not actually _get_ it, you get penalized with the maximum points. From our previous example, if this were round 5, a player who guessed 0 catches but got even 1 would receive -10 points.
+
+Each round increases the number of catches. So in the first round, everyone just gets one card, and people guess either 0 or 1. In round 2, everyone gets 2 cards, and so on and so forth until round 13 (in a 4 player game) when everyone gets 13 cards. Thus, the number of catches in a round is equivalent to the round number - the number of cards in each player's hand at the start of the prediction phase.
+
+Since the person who guesses last has a large information advantage, we typically rotate who goes first in a clockwise order. So in a 4 person game, a player should expect to guess first every 4 turns.
+
+#### Play Phase
+
+Okay, so how does one actually win a catch, or a piṭi? This is the play phase, the second part of each round.
+
+A catch is won by the highest card in the suit that's first played. This suit that's played first is the "trump suit", and only cards in that trump suit can win.
+
+At the start of the round, the person who first predicted has the honors of also playing first. So if this were round 1, in a 4 player game, then it would be player 1 who plays first. In round 2, in a four player game, player 2 would go first. And so on and so forth.
+
+Player 1 is allowed to place any card they wish, and for the rest of this catch, this suit is the trump suit. So if player 1 plays a 9 of hearts, then hearts is the trump for that catch. Every other player, if they have a heart, _must_ play a heart. If the have more than one heart, they can choose whichever they like. If they don't have a heart, they can play any card at all. Players play in a clockwise order, starting with player 1. At the end, the highest Heart wins.
+
+Let's imagine player 1 played a 9 of Hearts, 2 played 3 of Clubs because 2 has no Hearts, 3 played a King of Spades because 3 had no Hearts, and 4 played a Jack of Hearts. In this example, player 4 wins the catch - even though a King is higher than a Jack, the Spades is not the trump suit; hearts is. Since the highest Heart wins, it's player 4.
+
+In future rounds, whoever wins the previous catch begins the next one.
+
+Then, points are assigned based off of the predictions prior to the round.
+
+In the next round, round two, player 2 would be the first to guess and player 1 would be the last to guess.
+
+## Vue
+
+Vue's templating language is very similar to Angular. There's `v-if` for conditionals, `v-for` for loops and iterating, and a whole host of other template directives. Similar to Angular, it's also based on templating. Each Vue instance passes the element it should be bound to (usually a `#container` `div`), methods that the template can call, and data in which state can be saved.
+
+```javascript
+const store = {
+  cardsPerPlayer: 26,
+  gameCreated: false,
+  numPlayers: 2,
+  playerNames: ['Player 1', 'Player 2'],
+  scores: [0, 0],
+}
+
+const createGame = (e) => {
+  console.log('Game Created!')
+  // Whatever else you want here
+}
+
+window.onload = function () {
+  new Vue({
+    el: '#game-setup',
+    data: {
+      store,
+    },
+    methods: {
+      createGame,
+    }
+  })
+}
+```
+
+Vue is nice enough to automatically refresh any component when data changes. One exception is arrays - simply modifying an index of an array in state will not actually trigger a refresh:
+
+```javascript
+const changeName = (index, newName) => {
+  store.playerNames[index] = newName // THIS WILL NOT WORK
+}
+```
+
+Instead, we have to use Vue to set the new property, which will then trigger a refresh on the next tick.
+
+```javascript
+const changeName = (index, newName) => {
+  Vue.set(store.playerNames, index, newName)
+}
+```
+
+There's also optional keys in the `Vue` object called `mounted` and `nextTick`, which take functions as values and can be run whenever the component is first mounted, or on the next tick before each re-rendering. These are pretty similar React's new hooks, or the legacy `componentWillMount` call. Check out the lifecycle hooks documentation [here](https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks).
+
+Similar to React's Redux, Vue also offers its own elm-inspired state management for large projects called [VueX](https://github.com/vuejs/vuex). My calculator app was simple enough that this felt like overkill, but for anyone who's used Redux it should feel very familiar.
+
+Similar to React Router, Vue offers [its own routing](https://vuejs.org/v2/guide/routing.html).
+
+Overall I was very pleasantly surprised with how quickly I was able to get up and running with Vue. In terms of hello world setup time (which, let's face it, _most_ side projets don't get too much further than that), it absolutely wins over React. React has an entire hello world app as an npm project to help people create new projects. Vue just feels like it can get up and going super quickly.
+
+If my project ever _does_ feel like it needs that level of complexity, I can always start using VueX and bringing in more React-y concepts.
+
+One slightly strange thing about Vue is how there's actually two different types of templating syntax. Mustache can be used for standard templating, but inside html elements, attributes cannot be produced by using mustache. Instead, [v-bind](https://it.vuejs.org/v2/guide/syntax.html#Attributes) directives must be used. This can take a hot second to get used to, but overall it's just a minor inconvenience.
+
+[Vue 3.0](https://www.vuemastery.com/blog/vue-3-start-using-it-today/) seems to have officially adopted Typescript in its massive rewrite, which I'm generally pretty bullish on. Even if, like Angular, it ends up relying heavily on reflection to the point where all Vue projects must be in Typescript (hopefully it doesn't though), I'd still be happy with it as I generally think the need for JS is over. Typescript has been _awesome_, and I can't see myself going back.
