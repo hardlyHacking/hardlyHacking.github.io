@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Piṭi: Dabbling with Vue.js'
-date: '2019-12-39 01:25:53'
+date: '2019-12-29 01:25:53'
 tags:
 - Vue.js
 - Piṭi
