@@ -6,11 +6,11 @@ tags:
 - Jumpy
 ---
 
-# Introducing Jumpy
+## Introducing Jumpy
 
 [Jumpy](http://jumpy.dev/) is my latest side project! It's an intelligent router where folks can map keywords to links to find and navigate the web by meaningful words and phrases instead of by arbitrary URLs [groked](https://en.wikipedia.org/wiki/Grok) only by computers.
 
-## Origins
+### Origins
 
 Back in July my friend [Roopak](https://twitter.com/roopakv) invited me to a fintech event jointly hosted by [Brex](https://brex.com/) and [Bolt](https://www.bolt.com/), where we had the opportunity to hear from the founders of both companies. Having heard their founding stories, we were both re-inspired to do a startup at some point. I had just joined Stripe after having been at [Skip Scooters](https://rideskip.com/) for the better part of a year, and there was naturally some post-startup fatigue.
 
@@ -18,15 +18,15 @@ Roopak had brought up previous small-team startups that could lower the bar from
 
 While [GoLinks](https://www.golinks.io/) was made for the corporate use case, I found that there wasn't anything similar for the consumer use case. With that in mind, I set out to making [Jumpy](http://jumpy.dev/).
 
-## Stack
+### Stack
 
 The tech stack I chose was something I was most familiar with: the [GCP serverless ecosystem](https://blog.chander.app/2018/11/16/serverless.html) that I [fell in love with](https://blog.chander.app/2019/03/10/typescript-decorators.html) during my time at Skip. Typescript helps to minimize the most common Javascript errors, and VS Code is an IDE built to perfectly handle this sort of codebase.
 
 For the frontend, I'm most familiar with React, so I stuck to what I'm good at.
 
-# Lessons Learned
+## Lessons Learned
 
-## Time Is Precious
+### Time Is Precious
 
 A side gig - even one as tightly scoped and feature contained as Jumpy - takes longer than I initially expected. First and foremost was just the friction of getting _started_. Finding a consistent time to work and preventing context loss is easier said than done, especially when one already has a full time job.
 
@@ -38,7 +38,7 @@ One of the weekend days we'd typically do some sort of activity in addition to o
 
 This meant that anything that couldn't get shipped in that tightly scoped context basically didn't get done. I didn't want to leave anything hanging for the next time becuase it would often take me a half hour just to remember where I had left off. It also meant that bugs were particularly grueling, as it would take me far longer than usual to fix. Or I'd just sleep less on Sunday nights.
 
-## Burnout Is Real
+### Burnout Is Real
 
 Eventually, life stabilized. MoMo got used to our routines, and I got used to Stripe. This allowed me to dedicate slightly more time to Jumpy, so for a couple weeks my schedule became as follows: 6AM wake up and walk MoMo, and then go to work. 7:30AM-9AM work on Jumpy, 9AM-5PM work on work, and then go home. 6PM-8PM is dinner and walk MoMo again, and then 8PM-midnight work on Jumpy some more.
 
@@ -46,11 +46,11 @@ Needless to say, there wasn't very much time for decompressing. I got quite a bi
 
 Coding for long stretches so you can have this 'grand reveal' at some point when everything is done is super demoralizing. This strategy may work for Apple, but typically engineers are happiest when the time between code pushed to master and launch is minimized as much as possible.
 
-## Beta Early and Often
+### Beta Early and Often
 
 Following my previous statement, one of the best ways to get the excitement back is to have mini launches where you beta with friends and family. At various milestones, reach out to close friends who are willing to try stuff. Not only does this give the periodic boost of shipping something, it also forces you to get in touch with your customers more often, which is tough to do when you're a single-dev shop.
 
-## Code Is *One* Way to Solve Problems
+### Code Is *One* Way to Solve Problems
 
 Coding is ultimately just a way to solve problems. But it's not the only way. And as engineers, that's pretty hard to remember. Since I was the only dev on this project, I wanted to do _everything_ from scratch in just the right way. This was pretty easy with most things, but frontend work and designs are something I'm not good at.
 
@@ -62,6 +62,6 @@ I asked a friend what he used for this sort of stuff, and he recommended contrac
 
 Just a couple weeks after switching to Divjoy, Jumpy was ready to go!
 
-# Conclusion
+## Conclusion
 
 Overall, I'm really glad I worked on Jumpy. It's not going to be a huge VC thing - I'm not even sure it's going to be a _thing_ at all. But I learned a ton along the way. I told myself I'd easily be able to launch this small project by August... It's now February, and I'm only now readying to go live. `:)` [Estimation is hard](https://www.gun.io/blog/why-are-we-still-so-bad-at-software-estimates), true, but side gigs are hard as well. I think I've underestimated just how hard such a small thing can be!
