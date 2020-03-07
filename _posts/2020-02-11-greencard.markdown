@@ -9,7 +9,7 @@ tags:
 
 Ahana recently got her conditional greencard, so I wanted to spend some time describing our process.
 
-While there is a *lot* of paperwork, there were plenty of forums to help answer most of the common questions, so we decided not to pay for an immigration lawyer. It's actually quite doable on your own, providing you set aside enough time.
+While there was a *lot* of paperwork, there were also plenty of forums to help answer most of the common questions, so we decided not to pay for an immigration lawyer. It's actually quite doable on your own, providing you set aside enough time.
 
 Besides the standard paperwork, the most important aspect is the evidence of a bona fide marriage. Always err on the side of caution and overprovide when possible. Since Ahana and I started long distance, we gave *all* of our communications:
 
