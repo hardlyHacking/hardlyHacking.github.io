@@ -33,7 +33,7 @@ In January, we finally got the notice for the interview.
 
 Our local interview center was down in Santa Clara - right next to the Caltrain, so we showed up at 6:50 for our 7:15 interview, as the notice said... only to discover they don't even open the doors until 7:45. `:)` After waiting, we went through the standard metal detector / security process, and then, like the DMV, stood in line to get a ticket, and then waited for our number to be called.
 
-The actual interview was incredibly easy and took just 20 minutes. The interviewer was nice and professional, and was already knew all about Indian arranged marriages. We briefly talked about the timeline of our relationship along with the various addresses we had lived in.
+The actual interview was incredibly easy and took just 20 minutes. The interviewer was nice and professional, and already knew all about Indian arranged marriages. We briefly talked about the timeline of our relationship along with the various addresses we had lived in.
 
 We actually brought a *lot* more evidence to the interview, but given the volume we had provided earlier the case worker didn't need anything except for the copy of the deed to the house we bought. And after 20 minutes, we were out!
 
