@@ -20,71 +20,93 @@ While the [getting started](https://developers.google.com/identity/sign-in/web) 
 
 ## Integration
 
-Adding the given script is simple enough.
+Google recommends doing something like the following.
 
 ```html
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 ```
 
-As normal, we begin with providing Firebase to our application.
+Unfortunately, makes it messy for me later on down the road. Instead, I decided to initialize it entirely with Javascript, so that by the time I launch my main React App, googleApi is ready to go and loaded. The other benefit of doing it this way is that we can use the Context.Provider and Consumer model to access googleApi.
 
 ```javascript
-import React from "react"
-import ReactDom from "react-dom"
-import "./styles/global.scss"
-import App from "./pages/_app"
-import FirebaseContext from "./util/firebaseContext"
-import Firebase from "./util/firebase"
+function loadGapiAndAfterwardsInitAuth() {
+  const script = document.createElement('script')
+  script.src = 'https://apis.google.com/js/platform.js'
+  script.async = true
+  script.defer = true
+  script.onload = initAuth
+  const meta = document.createElement('meta')
+  meta.name = 'google-signin-client_id'
+  meta.content = '79407791349-ar4ivj4dimqr1ocov49f6u7hq484qh59.apps.googleusercontent.com'
+  document.head.appendChild(meta)
+  document.head.appendChild(script)
+}
 
-
-ReactDom.render(
-  <FirebaseContext.Provider value={new Firebase()}>
-    <App />
-  </FirebaseContext.Provider>,
-  document.getElementById("root")
-)
+loadGapiAndAfterwardsInitAuth()
 ```
 
-The App then loads the `gapi` script and prepares it for use by other components.
+Then, once platform.js is loaded and has fetched the regular google apis, we are ready to launch our react app.
 
-Note the `/* global gapi */` which lets babel and other JS compilers know that the variable is loaded globally.
+The `init` function returns a promise, so it's important to wait for the promise to load before saving an instance of `googleAuth`.
 
-The `init` function returns a promise, so it's important to wait for the promise to load before saving an instance of `gapi`.
+```javascript
+function initAuth() {
+  window.gapi.load('auth2', function () {
+    window.gapi.auth2.init({
+      client_id: '79407791349-ar4ivj4dimqr1ocov49f6u7hq484qh59.apps.googleusercontent.com'
+    }).then(googleAuth => {
+      if (googleAuth) {
+        ReactDom.render(
+          <GoogleAuthContext.Provider value={googleAuth}>
+            <FirebaseContext.Provider value={new Firebase()}>
+              <App />
+            </FirebaseContext.Provider>
+          </GoogleAuthContext.Provider>,
+          document.getElementById('root')
+        )
+      }
+    })
+  })
+}
+```
 
-Note that, since we're passing `gapi` to child components which will make use of it, we use the `render` method in react router to pass the property on.
+We create the context as normal, with some helper methods like `withGoogleAuth`:
+
+```javascript
+import React from 'react'
+
+const GoogleAuthContext = React.createContext(null)
+
+export const withGoogleAuth = Component => props => (
+  <GoogleAuthContext.Consumer>
+    {googleAuth => <Component {...props} googleApi={googleAuth} />}
+  </GoogleAuthContext.Consumer>
+)
+
+export default GoogleAuthContext
+```
+
+One benefit to doing it this way is that we avoid the unnecessary `/* global gapi */` that you'll find with other implementations. Since everything is loaded into the react scope, we don't need any mysterious global variables polluting up our namespace.
 
 ```javascript
 /* global gapi */
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import Navbar from './navbar'
 import DashboardPage from './dashboard'
-import IndexPage from './index'
+import GoogleAuthContext from './googleauthContext'
 
 function App(props) {
-
-  const [googleApi, setGoogleApi] = useState(null)
+  const googleApi = useContext(GoogleAuthContext)
   const [isSignedIn, setIsSignedIn] = useState(false)
 
   useEffect(() => {
-    window.gapi.load('auth2', function () {
-      gapi.auth2.init({
-        client_id: '<YOUR_CLIENT_ID>.apps.googleusercontent.com'
-      }).then(() => {
-        const auth2 = gapi.auth2.getAuthInstance()
+    // Needed to check if they're opening a new tab having already been signed in
+    // The listener below only listens to *future* changes
+    setIsSignedIn(googleApi.isSignedIn.get())
 
-        // Needed to check if they're opening a new tab having already been signed in
-        // The listener below only listens to *future* changes
-        if (auth2.isSignedIn.get()) {
-          setIsSignedIn(true)
-        }
-
-        // Listen to future auth changes
-        auth2.isSignedIn.listen((isLoggedIn) => {
-          setIsSignedIn(isLoggedIn)
-        })
-
-        setGoogleApi(auth2)
-      })
+    // Listen to future auth changes
+    auth2.isSignedIn.listen((isLoggedIn) => {
+      setIsSignedIn(isLoggedIn)
     })
   }, [])
 
@@ -94,40 +116,17 @@ function App(props) {
       <Navbar
         color="primary"
         spaced={true}
-        googleApi={googleApi}
         isSignedIn={isSignedIn}
       />
 
       <Switch>
         <Route exact path="/" component={IndexPage} />
 
-        <Route exact path="/dashboard"
-          render={(props) => <DashboardPage {...props} googleApi={googleApi} />} />
-
-        <Route
-          component={({ location }) => {
-            return (
-              <div
-                style={{
-                  padding: "50px",
-                  width: "100%",
-                  textAlign: "center"
-                }}
-              >
-                The page <code>{location.pathname}</code> could not be
-                found.
-              </div>
-            )
-          }}
-        />
+        <Route exact path="/dashboard" component={DashboardPage} />
       </Switch>
     </Router >
   )
 ```
-
-Remember that React components don't re-render on prop changes, but only on state changes.
-
-To make sure that our Navbar re-renders when the gapi loads, and when the user logs in or logs out, we desugar `props` to the individual variables passed in, and set up an effect hook that depends on the two we care about - in this case, `googleApi` and `isSignedIn`.
 
 Since we're using the google API to render our log in button, it's important to call `signin2` to re-render anytime the user logs out. Simply setting a conditional visibility doesn't seem to work.
 
@@ -137,12 +136,12 @@ Lastly, we can conveniently pipe the data from `gapi` into Firebase with the `si
 const Navbar = ({
   color,
   spaced,
-  googleApi,
   isSignedIn,
 }) => {
   const [menuOpen, setMenuOpen] = useState(false)
   const router = useRouter()
   const firebase = useContext(FirebaseContext)
+  const googleApi = useContext(GoogleAuthContext)
 
   useEffect(() => {
     if (!isSignedIn && googleApi !== null) {
@@ -155,7 +154,7 @@ const Navbar = ({
         gapi.signin2.render('loginButtonGoogle', opts)
       })
     }
-  }, [googleApi, isSignedIn])
+  }, [isSignedIn])
 
   useEffect(() => {
     firebase.auth().onAuthStateChanged(async user => {
