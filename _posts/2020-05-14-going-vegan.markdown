@@ -48,3 +48,7 @@ For the most part, I've found that these reasons don't really convince the major
 This is part of the reason I don't side with the ultra militant vegans. The world as we know it _is_ doomed already - one hamburger isn't going to make a difference. We're literally talking about the extinction of [all insects](https://www.theguardian.com/environment/2019/feb/10/plummeting-insect-numbers-threaten-collapse-of-nature) within a century.
 
 Ultimately what changed my eating habit is that going vegan was potentially more healthy for us, too. I'd been on a related track of [reading about](https://www.greatveganathletes.com/) [vegan athletes](https://www.businessinsider.com/vegan-athletes-and-why-they-changed-their-diet-11) when [The Game Changers](https://gamechangersmovie.com/) documentary came out. I won't go on and on about the various claims made here, but I followed up on the sources presented there (with my very limited nutrition understanding), and I found the evidence extremely convincing.
+
+## Conclusion
+
+I don't think veganism is for everyone. Specifically, if you're in a food desert with limited options or unwilling to really *prepare*, then veganism definitely is not for you. But if you're an athlete, or you're in a relatively food-rich country preparing your own meals, then it's definitely for you. I think the evidence - especially when considering the quality and _source_ of the evidence - shows without a doubt that veganism can be for everyone.
