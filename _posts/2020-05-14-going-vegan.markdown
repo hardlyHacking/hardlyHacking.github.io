@@ -3,7 +3,7 @@ layout: post
 title: 'Going Vegan'
 date: '2020-05-14 10:25:32'
 tags:
-- Vegansim
+- Veganism
 - Vegetarianism
 ---
 
