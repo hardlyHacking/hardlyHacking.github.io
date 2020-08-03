@@ -20,6 +20,7 @@ Fiction I Love:
 * [The Dragon Prince](https://www.imdb.com/title/tt8688814/)
 * [Justice League Unlimited](https://www.imdb.com/title/tt6025022/)
 * [The Name of the Wind](https://www.amazon.com/Name-Wind-Patrick-Rothfuss/dp/0756404746)
+* [Haikyuu](https://haikyuu.fandom.com/wiki/Haikyuu!!_Wiki)
 
 Software/Apps I love:
 * Vim, Sublime
