@@ -1,0 +1,69 @@
+---
+layout: post
+title: 'My First iOS App'
+date: '2020-10-25 18:56:25'
+tags:
+- iOS
+- Swift UI
+---
+
+Recently I made a clone of Google Authenticator using [Swift UI](https://developer.apple.com/xcode/swiftui/), and I have seen the light! Swift UI is _amazing_ to work with and built really great UI's. I really liked that, since UI's only need to implement the `View` protocol, you can gradually migrate a project to using Swift UI instead of adopting it all at once. That, more than anything, gives me hope that it will actually get adoption. Similar to the various Javascript-replacement candidates, the reason Typescript ultimately won (in my opinion) is because it allowed very large professional codebases the option of gradual adoption.
+
+## Documentation and Tools
+
+iOS in general seems like it has an incredible number of design tools, especially when compared to Android. For example, I found [this Figma template](https://www.figma.com/resources/assets/ios-app-icon-template/) which was awesome! Apple's documentation also has a lot of walkthroughs with code on one side and the explanation on the other - a format which I wish Google would adopt.
+
+![](/images/2020/10/ios-2.png)
+
+## Animations and Icons
+
+I actually really liked the built in icons supplied via the [SF Symbols app](https://developer.apple.com/sf-symbols/), which seems way better than Android's [examing the /data/res folder](https://stackoverflow.com/questions/13185722/where-can-i-find-androids-default-icons) option to examine the built in icons.
+
+Swift UI also had _tons_ of built in animations that made it so simple to have an elegant and functional UI that has absolutely no comparison on Android.
+
+```
+Image(systemName: "plus")
+    .rotationEffect(.degrees(open ? 45 : 0))
+    .foregroundColor(.white)
+    .font(.system(size: 28, weight: .bold))
+    .animation(.spring(response: 0.2, dampingFraction: 0.4, blendDuration: 0))
+```
+
+Seriously, I can't express how impressed I am by the animation function, and how many sensible, common defaults there are in iOS built right in.
+
+## Swift
+
+As an Android developer, a lot of the things I had to get used to were Xcode-related, but Swift is actually [remarkably similar to Kotlin](https://www.raywenderlich.com/6754-a-comparison-of-swift-and-kotlin-languages), so that took virtually zero ramp up time.
+
+## XCode
+
+As great as iOS is, XCode is equivalently awful. Android Studio is *lightyears* ahead of XCode in its ability to navigate through and refactor codebases, but I was particularly disappointed by how even small codebases - a project of just 3 .swift files - took almost 3 full minutes to command click into the method definition.
+
+I'm not even joking, look at this video:
+
+<iframe src="https://player.vimeo.com/video/472070378" width="640" height="522" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/472070378">XCode Lags</a> from <a href="https://vimeo.com/user106010677">Zomg Tacoliscious</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+Here's another example - the final required screenshot for the App Store, an iPad Pro 12.9 inch 2nd generation, isn't even available on Xcode by default. Instead you have to create the simulator yourself. If it's mandatory on App Store uploads, it feels like one of those 'sensible defaults' that should be included out of the box.
+
+Additionally, in a very non-Apple way, the defaults XCode seems to roll out with make no sense at all. XCode randomly adds white spaces on every new line. There is a way to disable this, but why wouldn't this be the default for example.
+
+![](/images/2020/10/ios-1.png)
+
+## App Store Submission
+
+Unlike the Play Store, the App Store has a lot of rigor built into the submission process which I actually liked! Apple mandate 3-10 screen shots of 4 different devices, including iPads. It's a really easy way to make sure developers consider thinking about iPads as well as the phones, and sure enough, this very process uncovered two separate iPadOS bugs.
+
+The App Store submission site is actually really nice, unlike the Play Store developer portal.
+
+A couple rather strange issues I found along the way that I wish were documented better:
+
+1. Uploading an app without an icon results in a _truly_ bizzare bug that had basically no solution
+
+2. Took me way too long to figure out how to remove [the old build from iTunes Connect](https://stackoverflow.com/questions/25767777/how-to-remove-a-build-from-itunes-connect) - and for that matter, what on earth does iTunes have anything to do with my iOS submission build? Seems odd that, even if they were once linked together for tech debt reasons, Apple still hasn't un-linked them.
+
+3. Why can't I [archive old builds](https://stackoverflow.com/questions/36799156/archive-button-grayed-out-in-xcode), and where is the archive manager that I'm supposed to use? This took me literally two hours to find.
+
+4. Ran into some very odd [upload-related errors](https://stackoverflow.com/questions/52226070/xcode-9-3-build-upload-error-exception-occurred-when-creating-mzcontentprovider) a couple times and could never figure out, until [I restarted my laptop](https://stackoverflow.com/questions/46351487/exception-occurred-when-creating-mzcontentproviderupload-for-provider-1004/52227760) and eventually it went away?
+
+5. After all of this (a process that took about a full day), the binary was invalid because I built using XCode 11.6 beta. :( If Apple can detect all of this and has a decompiler for all their published XCode versions, so if they can detect this why can't they just create a new binary with the proper XCode version though? Presumably they have the ability to do that. At the very least it could be a user setting possibly to allow for that.
