@@ -54,6 +54,8 @@ Additionally, in a very non-Apple way, the defaults XCode seems to roll out with
 
 Unlike the Play Store, the App Store has a lot of rigor built into the submission process which I actually liked! Apple mandate 3-10 screen shots of 4 different devices, including iPads. It's a really easy way to make sure developers consider thinking about iPads as well as the phones, and sure enough, this very process uncovered two separate iPadOS bugs.
 
+![](/images/2020/10/ios-4.png)
+
 The App Store submission site is actually really nice, unlike the Play Store developer portal.
 
 A couple rather strange issues I found along the way that I wish were documented better:
@@ -67,3 +69,5 @@ A couple rather strange issues I found along the way that I wish were documented
 4. Ran into some very odd [upload-related errors](https://stackoverflow.com/questions/52226070/xcode-9-3-build-upload-error-exception-occurred-when-creating-mzcontentprovider) a couple times and could never figure out, until [I restarted my laptop](https://stackoverflow.com/questions/46351487/exception-occurred-when-creating-mzcontentproviderupload-for-provider-1004/52227760) and eventually it went away?
 
 5. After all of this (a process that took about a full day), the binary was invalid because I built using XCode 11.6 beta. :( If Apple can detect all of this and has a decompiler for all their published XCode versions, so if they can detect this why can't they just create a new binary with the proper XCode version though? Presumably they have the ability to do that. At the very least it could be a user setting possibly to allow for that.
+
+![](/images/2020/10/ios-3.png)
