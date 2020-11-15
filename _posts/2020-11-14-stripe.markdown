@@ -1,0 +1,47 @@
+---
+layout: post
+title: 'Things Stripe Does Well'
+date: '2020-10-25 18:56:25'
+tags:
+- Stripe
+---
+
+I joined Stripe roughly 18 months ago, and within the first few days I was struck by how thoughtful and intentional the company is in nearly every aspect. This blog post is really just a list of things I've noticed, from small to large, about Stripe handles various situations better than most companies.
+
+## Interviewing
+
+Interviewing is never pleasant. It's barely even tolerable most of the time. So when I _do_ find myself having a good time interviewing, it's absolutely amazing. Having done a Stripe interview, I can confidently say I cannot and _will not_ go back to the dark ages where interviews grill candidates on things they never do during their day to day activities.
+
+Greg Brockman, Stripe's former CTO, wrote a [great blog post](https://www.quora.com/What-is-the-engineering-interview-process-like-at-Stripe) about what the interview process at Stripe is like. I think in general, focusing on the 3 things most engineers are commonly asked to do (fixing bugs, implementing features, and designing systems) is a fantastic start. In addition, we strive to make candidates feel as comfortable as possible, which means allowing them to use whatever systems they normally have access to (Stack Overflow, IDE's, Google, etc). And lastly, it's important to not let one bad interview taint the rest, so in any interview we typically try and guide the candidate towards a working solution by the end.
+
+Maybe I'm just drinking the coolaid, but I genuinely feel that Stripe does onsites at least an order of magnitude better than any other company.
+
+## Benefits
+
+In general, Stripe is frugal. That said, they're smart in their frugality, and this is something I really appreciate.
+
+* If you elect not to use Stripe's health benefits (say a spouse covers you), you are eligible for a $150 / mo pay out! This feels like an obvious win-win that more companies should do.
+
+* Many companies pay for your monthly phone bill if you're on-call or are a mobile engineer. At Twitter, for example, they covered up to $90 / mo from a phone bill... Which naturally meant that spending less had absolutely no benefit, so most people would try and spend it all, as it's a use-it-or-lost-it situation. At Stripe, they issue a blanket $50 / mo stipend to your pay check as cash, and if you choose to be ultra frugal and use Mint Mobile (as I did), well you get to pocket the rest of the $20 / mo. This saves the company money, and the employee nets more money as well!
+
+* Stripe does a great job at providing healthy, tasty meals to employees while maintaining low costs. Unlike other companies where there's 8 different cafeteria stations with different cuisines and options, Stripe instead rotates the entire menu each day, but each day they only serve a single set of options for each meal. This way costs are streamlined and operations are run far more efficienty. There's four different serving stations, but they all have the same food.
+
+## Written-First Culture
+
+Stripe religiously takes notes for all meetings. This is something that took a while for me to warm up on, particularly as listening intently while taking notes, and taking notes while talking, were two skills that I certainly did not possess prior to joining Stripe. But after some time it's become second nature.
+
+The proliferation of docs can certainly be overwhelming to a new Stripe, but I find that they lend themselves well to an increasingly globally distributed workforce. Decisions should no longer be made via ad-hoc huddles or lunch-time drive-bys. Instead, it's absolutely vital that a large company have "gavel" periods where folks can review docs in their own working timezones and arrive at the meeting with everyone having already read the doc.
+
+Synchronous meetings are incredibly expensive, and as such it's important that everyone arrives to the meeting with the doc already read, wherever possible. Certainly we're all imperfect and from time to time, we need five minutes at the start of a meeting to catch up on a doc, but it's a general north star we try and adhere to.
+
+## Dropbox Paper
+
+I know this is a strange point to focus on, but as any writer can tell you, having a well-designed writing environment makes writing docs not just easier, but actually _enjoyable_. And Dropbox Paper is just so much better than Google Docs. It's not close. Syntax highlighting for code snippets, really nice calendar-views for project planning, and even in-image commenting on specific locations!
+
+## Slackbots
+
+I _love_ how many amazing Slackbots Stripe has. Almost once a month I'll paste an obscure error I faced in our #dev-productivity channel and immediately a perfectly tailored response will arrive from Slackbot that solves my problem. Slackbot also organizes many of our common on-run / on-call tasks that folks forget about along with security short-cuts like typing in `ssss` for see-something-say-something, which automatically pings the on-run security team member where you can follow up. Slackbots seem like a criminally under-utilized mechanism for nearly _everything_. There are even feedback opportunities on various bots for grading whether their response was appropriate or not!
+
+## Team Offsites
+
+Stripe has a rule where the focus of an off-site should not be alcohol. Alcohol can be present at the event, but it shouldn't be the main activity. As an example, we've gone to [Spin](https://wearespin.com/location/san-francisco/) in SF, where the primary focus is playing Ping Pong, but optionally folks can have beer and food. Going to a pub is an example of something that would never happen at Stripe. In general, I find fewer alcohol-based activities taking place at Stripe because of this overall philosophy, and in general it's an attitude that I appreciate.
