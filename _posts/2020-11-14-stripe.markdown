@@ -45,3 +45,13 @@ I _love_ how many amazing Slackbots Stripe has. Almost once a month I'll paste a
 ## Team Offsites
 
 Stripe has a rule where the focus of an off-site should not be alcohol. Alcohol can be present at the event, but it shouldn't be the main activity. As an example, we've gone to [Spin](https://wearespin.com/location/san-francisco/) in SF, where the primary focus is playing Ping Pong, but optionally folks can have beer and food. Going to a pub is an example of something that would never happen at Stripe. In general, I find fewer alcohol-based activities taking place at Stripe because of this overall philosophy, and in general it's an attitude that I appreciate.
+
+## New Hire Orientation
+
+When you first join, Stripe creates a start class slack room with everyone who joined in your group. I think this is a fantastic idea. Over the first three weeks, you have a group where there's no shame in asking stupid questions, and as you as a large group onboard you can help answer each others' questions!
+
+In addition, since each start class inevitably will contain people from various organizations throughout a company, you automatically have contacts throughout the company instead of being isolated to just your team. Stripe invests pretty heavily in new hires and gives a week-long onboarding where new hires are taught the basics of fintech needed to succeed at Stripe. I think this is a particularly smart move since most engineers don't have a fin-tech background.
+
+After this week-long fintech education session, engineers are grouped into dev-start projects, where they work on something small that can be shipped in two weeks' time, guided by a mentor. This takes off the pressure to become instantly productive while at the same slowly ramping up on Stripe's tooling and ecosystem. Usually one becomes reasonably close to their dev-start group, furthering that cross-team bond.
+
+Lastly, Stripe gives every new hire a $20 Philz gift card. This encourages new hires to have meet and greets with various people on their orgs without the awkwardness of who will pay for the coffee, etc. In fact, since most employees know this, many will go out of their way to set up meetings with new hires to get free coffees. :)
