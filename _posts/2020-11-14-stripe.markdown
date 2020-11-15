@@ -6,7 +6,7 @@ tags:
 - Stripe
 ---
 
-I joined Stripe roughly 18 months ago, and within the first few days I was struck by how thoughtful and intentional the company is in nearly every aspect. This blog post is really just a list of things I've noticed, from small to large, about Stripe handles various situations better than most companies.
+I joined Stripe roughly 18 months ago, and within the first few days I was struck by how thoughtful and intentional the company is in nearly every aspect. This blog post is really just a list of things I've noticed, from small to large, about how Stripe handles various situations better than most companies.
 
 ## Interviewing
 
@@ -14,7 +14,7 @@ Interviewing is never pleasant. It's barely even tolerable most of the time. So 
 
 Greg Brockman, Stripe's former CTO, wrote a [great blog post](https://www.quora.com/What-is-the-engineering-interview-process-like-at-Stripe) about what the interview process at Stripe is like. I think in general, focusing on the 3 things most engineers are commonly asked to do (fixing bugs, implementing features, and designing systems) is a fantastic start. In addition, we strive to make candidates feel as comfortable as possible, which means allowing them to use whatever systems they normally have access to (Stack Overflow, IDE's, Google, etc). And lastly, it's important to not let one bad interview taint the rest, so in any interview we typically try and guide the candidate towards a working solution by the end.
 
-Maybe I'm just drinking the coolaid, but I genuinely feel that Stripe does onsites at least an order of magnitude better than any other company.
+Maybe I'm just drinking the koolaid, but I genuinely feel that Stripe does onsites at least an order of magnitude better than any other company.
 
 ## Benefits
 
