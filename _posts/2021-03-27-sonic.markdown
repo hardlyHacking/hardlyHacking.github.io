@@ -1,0 +1,141 @@
+---
+layout: post
+title: 'The Quest for Gigabit Fiber'
+date: '2020-10-25 18:56:25'
+tags:
+- Networking
+- Sonic
+- Home Improvement
+---
+
+What's a guy gotta do to get a network capable of handling two adults working from home during COVID 😭😭😭
+
+# Part one - ~~Winter~~ Fiber Is Coming
+
+So around February of 2020, I saw that sonic was working on expanding its fiber network throughout the peninsula, and like anyone who was absolutely fed up with Comcast, I immediately signed up pre-paid for the first month. Sonic was using the number of pre-payments in each block to gauge overall interest level, so Ahana and I ran a quick promotion sale to encourage other residents in our townhome complex to sign up as well.
+
+Somehow, we only got one other pre-payment. Speeds up to three times faster than Comcast, symmetric upload and download speeds, and $10 _cheaper_... Why isn't everyone signing up??? I'll never understand consumer psychology.
+
+Finally, on september 9th, a glorious _glorious_ email arrived.
+
+![](/images/2021/03/sonic_available.png)
+
+I hopped on a call and immediately scheduled my appointment.
+
+![](/images/2021/03/sonic_appointment.png)
+
+Happy birthday to me indeed! What better birthday present than gigabit internet, during a pandemic?
+
+# Part Two - Fiber to the Node
+
+The morning of, I was _super_ excited. I woke up early, took the day off, and began imagining all the glorious things I would do at gigabit speeds.
+
+I'm not sure what issue they ran into, but by the end there were no fewer than **6** sonic vans outside our townhome complex. My only regret is that I didn't take a picture of all six of them.
+
+Apparently, Sonic had been hiring rapidly, but not every technician had all the tools for every sort of issue. So one van would show up and start installing, only to find out they didn't have a tool needed. And then they'd call another... And then _that one_ would one call another.
+
+b]But eventually, they got fiber to our garage and the modem was happily chirping away (unconnected to anything on the other end, of course).
+
+After the garage was set up, all but one technician left. Here i was thinking we'd surely be on sonic by the end of the night, right? How naive I was.
+
+# Part Three - Cat5E to the Home
+
+The first problem was the horrible mess that is our cable room. While our townhome was only constructed a decade ago, various residents have swapped different service providers. The original builders had a contract with AT&T. Then, inevitably, many units got Comcast. And then others got Wave. And now Sonic.
+
+We have a whole slew of equipment out and eventually made sense of this disastrous cable room.
+
+Despite two hours of this, the Sonic technician literally could not figure out which cable was ours and left me to reschedule.
+
+So we got another appointment for two weeks later, and this guy came in armed with a toner and a cat5e tester to verify the cables are working.
+
+After three hours we correctly found our cables and were even able to get _some_ signal, but unfortunately only 6 of the 8 pins were working and my router couldn't actually ever detect internet for some reason. As you can see in the image below, even though _only_ channels 1 and 2 are connected, they're not working, for whatever reason.
+
+![](images/2021/03/broken_channels.jpeg)
+
+He said that in his personal experience we'd need to have an electrician come and just install a brand new wire. since this was a shared complex, any of this would involve an HOA and for liability reasons, sonic wouldnt' let him do something like this.
+
+# Part 4 - Juggling Electricians
+
+A couple weeks go by and we call an electrician. He sees this mess and literally just says, in a Russian accent, "it's not possible" and leaves. I wish I were making this up.
+
+We call our second electrician, and he says he could drill down, but this really is a job for a general contractor of a larger scale.
+
+By sheer luck on my third attempt I get an electrician on thumbtack hwo seems to have done a lot of commercial scale properties. I call him inm and wouldn't you know it – he's amazing. He noticed that some sonic tech had the cat5e end with [t568 a instead of b](https://www.flukenetworks.com/knowledge-base/application-or-standards-articles-copper/differences-between-wiring-codes-t568a-vs#:~:text=T568A%20and%20T568B%20are%20the,and%20green%20pairs%20are%20interchanged.)! For context in the US, except for government buildings, most things are type B.
+
+So we changed that, and success -- we got fiber to the unit! In addition, the cable panel inside our home was in the pantry, and that was a mess, too. There were old wires that weren't in use anymore due to a previously installed ADT security system. After some work, we narrowed down the one white cat5E cable that was coming in from the garage. In addition, we had three blue cat5e cables that were all internal to the house. One went to each bedroom, and the third went to the living room. The electrician removed the three extraneous (and confusing!) cables, and cleanly terminated the ends in this nice looking panel.
+
+![](images/2021/03/cable_panel.jpeg)
+
+This only cost us like $550. We were about to end up drilling into the concrete and install a whole new line, but we think it'll _probably_ work without it anyway since we're able to get a singal from the modem.
+
+Unfortunately, we couldn't test the speed that night because Sonic had actually deactivated the modemm and somehow they couldn't activate it remotely. (To this day I still don't understand why – I called them and after two hours they told me that my account "does not exist on the backend" and that they'd need a couple hours to figure it out). So they said they'd send a technician out as soon as possible to activate it.
+
+# Part 5 - Slow Internet
+
+So the guy comes a couple days later, does his magic, and voila! We have internet!
+
+Only problem is that we're getting 85-100 mbps.... So, not gigabit. not even close.
+
+Because it's the pandemic, unless they're wearing PPE gear, Sonic won't let their technicians come inside customers' homes (totally understandable, just frustrating that not many techs have PPE gear). I ask him if he has the tool to test whether the ethernet cable is the issue, but he doesn't have it. It seems like a general pattern that Sonic techs are underequipped due to how quickly they're hiring. I decide to go buy it for myself and test it. Sonic asks me if i want to schedule a PPE technician to come. At this point I'm basically 100% convinced we're going to have to drill a brand new cable. On a whim I decide, fine, let's schedule the PPE technician. I'm _very_ skeptical that it will actually help, but fine.
+
+After a quick trip to Home Depot, I come back and test the cable. Sure enough, only 6 of the channels are working... Again.
+
+![](images/2021/03/cat5e_testing.jpeg)
+
+# Part 6 - Always Get PPE
+
+Two weeks later, the PPE technician shows up. Miraculously, the tech comes in and finds _more_ issues inside the home! He re-punches the ends on every single termination, and amazingly, it works! He plugs in his laptop and goes to [fast.com](https://fast.com)m and he's getting 1.3 gbps. Amazing. we're super excited.
+
+Apparently, it's a common problem that when you punch down the ends of the cat5e cable too often or too many times, they typically break. If you lightly pull on the punched-down cat5e and the ends break, that's a problem.
+
+We thank him profusely, and once he leaves, we're ready to to set up our own network. We plug in our router and... of course, becuase of our shitty router, we're basically getting 200-250 mbps, same as comcast. Except Sonic doesn't throttle Netflix or have a 1 terabyte per month data cap. So a nice improvement to be sure, but not gigabit. And we don't have any devices that really use ethernet.
+
+So we decide to start researching various router options. We learn about [WiFi 6](https://www.theverge.com/2019/2/21/18232026/wi-fi-6-speed-explained-router-wifi-how-does-work), and [WiFi 6E](https://www.pcmag.com/news/what-is-wi-fi-6e), which hasn't come out yet, and the difference between mesh networks and range extenders or signal boosters, etc etc. In the end, we resolve to just getting [Eero](https://eero.com/)s. We were debating between Eero and Asus XT8, but a 3 pack of Eeros was cheaper than 3 Asus XT8's, so we went with that.
+
+# Part 7 - Eero
+
+As mentioned above, we have 3 ethernet ports (one in each bedroom, one downstairs in the living room). The ideal solution is to buy the Eero 3 pack, along with a simple [unmanaged network switch](https://www.amazon.com/NETGEAR-8-Port-Gigabit-Ethernet-Unmanaged/dp/B07PFYM5MZ/ref=asc_df_B07PFYM5MZ/?tag=hyprod-20&linkCode=df0&hvadid=343224652930&hvpos=&hvnetw=g&hvrand=16253575010160871361&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031973&hvtargid=pla-729340060977&psc=1&tag=&ref=&adgrpid=71764766791&hvpone=&hvptwo=&hvadid=343224652930&hvpos=&hvnetw=g&hvrand=16253575010160871361&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9031973&hvtargid=pla-729340060977), and then run the line from the garage to the network switch, then the network switch to each of the 3 lines. have an eero at each end, and boom. Good to go.
+
+Except! Eero doesn't like that topology. They want a 'gateway' Eero to be between the unmanaged switch and the modem (garage line). As mentioned in the [Eero support articles](https://support.eero.com/hc/en-us/articles/360000830546-Examples-of-common-network-topologies), the gateway Eero _must_ be between the modem (garage line) and the network switch.
+
+![](images/2021/03/eero_topology.png)
+
+I tried researching many ways to get around this, but it was basically impossible, so in the end I resigned myself to having to buy a _fourth_ eero (one in each bedroom, one in the pantry as our gateway, and another in the living room). It's worth noting that our pantry is basically surrounded by concrete, so while it functions as our traffic redirector and performs all the smart packet switching a managed switch would, it doesn't actually serve as a router due to its horrible reception.
+
+So we order a switch from amazon and decide to live with the mesh wifi for now.
+
+# Part 8 - Do You Even Switch
+
+Two to three business days later, our switch arrives, and immediately I unplug everything and move the gateway downstairs... except! Suddenly, all gigabit stops working... This is like a repetitive nightmare.
+
+I go downstairs to the garage where everything seems fine. The fiber light is on, LAN light is on, and the power seems to be okay. I come back and plug the laptop directly into the ethernet, and it doesn't work! Two hours of debugging, and I'm at my wits' end.
+
+So I call sonic at this point, internally getting ready to schedule yet another PPE appointment.
+
+What follows is the strangest conversation I've ever had. The sonic tech goes through the regular authorization process to look into my account, and immediately I hear a very loud "what!?". At this point I'm alarmed. First my account doesn't exist on the backend. Then the fiber is intermittent? What could it be? The technician says "Uhhhh, I don't know how this happend, but... Your MAC address table is _completely_ full. How is this possible?" In my head I'm saying, "You tell me!?" For those unaware, if a MAC address table is completely full, the switch on a network can't find the proper device, so instead of targetting traffic to specific devices, it just floods the network. This can cause the appearance of your network being down. You can read more about how this situation is exploited in attacks [here](https://howdoesinternetwork.com/2011/mac-address-flooding#:~:text=When%20the%20MAC%20address%20table,on%20a%20switch%20per%20minute.).
+
+And of course, one cannot connect any new devices to a network either. So the technician cleared our entire table and then the internet immediately began to work one more.
+
+I'm writing this blog post several months later, and my best guess is that, initially when we were setting up the eero mesh network, I did the incorrect topology of putting the modem directly into the switch and then to each Eero. This then probably caused the Eero to just go haywire and flood our mac address table as it looped in a boot cycle, registering a new mac address each time for minutes on end until it exhausted our entire table.
+
+Okay, so that was a fun two hours of debugging, so we should be good to go now right?
+
+Well not quite. As I said above, our pantry has _horrible_ reception in general, and the Eero really likes both the phone that it's initially paired with _and_ itself to both have network connection. As it turns out, Mint Mobile had zero connection, so we spent 90 minutes in various race conditions until we got out Ahana's work phone that had AT&T.
+
+So at this point, it's been five hours, and we set up the one gateway in the pantry and connect it to the switch and connect the eero upstairs and finally! Finally!!! At long last, now that we're ethernet-backed, with wifi 6 routers, we're getting the gigabit we were promised so long ago. Of course, most of our devices don't actually support WiFi 6. I bust out my new Galaxy S21 Ultra 5G and run a quick speed test.
+
+![](images/2021/03/speed_test.jpeg)
+
+Yup, you're reading that right. 800 mpbs _upload_ on WiFi!
+
+# Part 9 - Remaining Ethernets
+
+So now we're in business, right? We got our gateway, we have our switch, and we just need to connect the last two Eeros. Of course, I'm going to buy a fourth eero eventually, but for now we can make do with just three. The living room works great without any problems. We connect the ethernet cable and we're getting crystal clear WiFi throughout the bottom floor.
+
+We then go upstairs, and what do I find? The previous owner had converted it to a phoen line!
+
+Luckily, I already know there's a cat5e cable behind there, so all I have to do is unscrew the phone line and buy a new rj45 end from Home Depot.
+
+![](images/2021/03/bedroom_phone_line.jpeg)
+
+After a 10 minute punch down installation (the previous sonic techs had just left like 10 cat5e connections lying around), we can't get channels 1 and 2 to work. (Thank god we bought that cat5e tester, right?) We try three more times and can never get 1 & 2 channels to work. `:(` So we sadly decide we're going to have to call an electrician and settle on having the third eero downstairs for now, where the cat5e cable definitely works. It's been a journey of too many months, and I'm honestly exhausted dealing with so many cat5e issues. I'm not sure why this cable now doesn't work, but since our internet is fast enough, for now I'm going to leave it this way. Maybe in a couple months if we _really_ need that second Eero upstairs we'll do it then.
