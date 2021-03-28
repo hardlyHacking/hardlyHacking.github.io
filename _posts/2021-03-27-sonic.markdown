@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'The Quest for Gigabit Fiber'
-date: '2020-03-27 20:38:13'
+date: '2021-03-27 20:38:13'
 tags:
 - Networking
 - Sonic
