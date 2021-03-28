@@ -34,7 +34,7 @@ I'm not sure what issue they ran into, but by the end there were no fewer than *
 
 Apparently, Sonic had been hiring rapidly, but not every technician had all the tools for every sort of issue. So one van would show up and start installing, only to find out they didn't have a tool needed. And then they'd call another... And then _that one_ would one call another.
 
-b]But eventually, they got fiber to our garage and the modem was happily chirping away (unconnected to anything on the other end, of course).
+But eventually, they got fiber to our garage and the modem was happily chirping away (unconnected to anything on the other end, of course).
 
 After the garage was set up, all but one technician left. Here i was thinking we'd surely be on sonic by the end of the night, right? How naive I was.
 
