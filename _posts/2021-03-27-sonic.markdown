@@ -84,7 +84,7 @@ After a quick trip to Home Depot, I come back and test the cable. Sure enough, o
 
 # Part 6 - Always Get PPE
 
-Two weeks later, the PPE technician shows up. Miraculously, the tech comes in and finds _more_ issues inside the home! He re-punches the ends on every single termination, and amazingly, it works! He plugs in his laptop and goes to [fast.com](https://fast.com)m and he's getting 1.3 gbps. Amazing. we're super excited.
+Two weeks later, the PPE technician shows up. Miraculously, the tech comes in and finds _more_ issues inside the home! He re-punches the ends on every single termination, and amazingly, it works! He plugs in his laptop and goes to [fast.com](https://fast.com), and he's getting 1.3 gbps. Amazing. we're super excited.
 
 Apparently, it's a common problem that when you punch down the ends of the cat5e cable too often or too many times, they typically break. If you lightly pull on the punched-down cat5e and the ends break, that's a problem.
 
