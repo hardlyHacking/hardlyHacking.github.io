@@ -50,7 +50,7 @@ So we got another appointment for two weeks later, and this guy came in armed wi
 
 After three hours we correctly found our cables and were even able to get _some_ signal, but unfortunately only 6 of the 8 pins were working and my router couldn't actually ever detect internet for some reason. As you can see in the image below, even though _only_ channels 1 and 2 are connected, they're not working, for whatever reason.
 
-![](images/2021/03/broken_channels.jpeg)
+![](/images/2021/03/broken_channels.jpeg)
 
 He said that in his personal experience we'd need to have an electrician come and just install a brand new wire. since this was a shared complex, any of this would involve an HOA and for liability reasons, sonic wouldnt' let him do something like this.
 
@@ -64,7 +64,7 @@ By sheer luck on my third attempt I get an electrician on thumbtack hwo seems to
 
 So we changed that, and success -- we got fiber to the unit! In addition, the cable panel inside our home was in the pantry, and that was a mess, too. There were old wires that weren't in use anymore due to a previously installed ADT security system. After some work, we narrowed down the one white cat5E cable that was coming in from the garage. In addition, we had three blue cat5e cables that were all internal to the house. One went to each bedroom, and the third went to the living room. The electrician removed the three extraneous (and confusing!) cables, and cleanly terminated the ends in this nice looking panel.
 
-![](images/2021/03/cable_panel.jpeg)
+![](/images/2021/03/cable_panel.jpeg)
 
 This only cost us like $550. We were about to end up drilling into the concrete and install a whole new line, but we think it'll _probably_ work without it anyway since we're able to get a singal from the modem.
 
@@ -80,7 +80,7 @@ Because it's the pandemic, unless they're wearing PPE gear, Sonic won't let thei
 
 After a quick trip to Home Depot, I come back and test the cable. Sure enough, only 6 of the channels are working... Again.
 
-![](images/2021/03/cat5e_testing.jpeg)
+![](/images/2021/03/cat5e_testing.jpeg)
 
 # Part 6 - Always Get PPE
 
@@ -98,7 +98,7 @@ As mentioned above, we have 3 ethernet ports (one in each bedroom, one downstair
 
 Except! Eero doesn't like that topology. They want a 'gateway' Eero to be between the unmanaged switch and the modem (garage line). As mentioned in the [Eero support articles](https://support.eero.com/hc/en-us/articles/360000830546-Examples-of-common-network-topologies), the gateway Eero _must_ be between the modem (garage line) and the network switch.
 
-![](images/2021/03/eero_topology.png)
+![](/images/2021/03/eero_topology.png)
 
 I tried researching many ways to get around this, but it was basically impossible, so in the end I resigned myself to having to buy a _fourth_ eero (one in each bedroom, one in the pantry as our gateway, and another in the living room). It's worth noting that our pantry is basically surrounded by concrete, so while it functions as our traffic redirector and performs all the smart packet switching a managed switch would, it doesn't actually serve as a router due to its horrible reception.
 
@@ -124,7 +124,7 @@ Well not quite. As I said above, our pantry has _horrible_ reception in general,
 
 So at this point, it's been five hours, and we set up the one gateway in the pantry and connect it to the switch and connect the eero upstairs and finally! Finally!!! At long last, now that we're ethernet-backed, with wifi 6 routers, we're getting the gigabit we were promised so long ago. Of course, most of our devices don't actually support WiFi 6. I bust out my new Galaxy S21 Ultra 5G and run a quick speed test.
 
-![](images/2021/03/speed_test.jpeg)
+![](/images/2021/03/speed_test.jpeg)
 
 Yup, you're reading that right. 800 mpbs _upload_ on WiFi!
 
@@ -136,6 +136,6 @@ We then go upstairs, and what do I find? The previous owner had converted it to 
 
 Luckily, I already know there's a cat5e cable behind there, so all I have to do is unscrew the phone line and buy a new rj45 end from Home Depot.
 
-![](images/2021/03/bedroom_phone_line.jpeg)
+![](/images/2021/03/bedroom_phone_line.jpeg)
 
 After a 10 minute punch down installation (the previous sonic techs had just left like 10 cat5e connections lying around), we can't get channels 1 and 2 to work. (Thank god we bought that cat5e tester, right?) We try three more times and can never get 1 & 2 channels to work. `:(` So we sadly decide we're going to have to call an electrician and settle on having the third eero downstairs for now, where the cat5e cable definitely works. It's been a journey of too many months, and I'm honestly exhausted dealing with so many cat5e issues. I'm not sure why this cable now doesn't work, but since our internet is fast enough, for now I'm going to leave it this way. Maybe in a couple months if we _really_ need that second Eero upstairs we'll do it then.
