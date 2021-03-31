@@ -34,7 +34,7 @@ Afer that day with tubing, MoMo learned to love snow, and snowshoeing was the be
 
 She had a blast and ran into each snow bank at full fource.
 
-![](/images/2021/03/snowshowing.jpg)
+![](/images/2021/03/snowshoeing.jpg)
 
 The final day was MoMo's least favorite by far. They wouldn't really allow dogs near the snowmobiles, so we had to keep her in the car for the two hours we were gone. Snowmobiling is _super_ fun, but I'd _definitely_ recommend a guided tour unless your party has all gone snowmobiling before. Back country routes can be pretty difficult, and the corners have to be taken slow and deliberately. I was right behind a snow mobile that flipped over end to end, and the guides had to come and rescue the two!
 
