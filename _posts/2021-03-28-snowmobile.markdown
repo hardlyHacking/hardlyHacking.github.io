@@ -15,7 +15,7 @@ We got to the AirBnb pretty late the night of the 18th, and we didn't want to ri
 I woke up early to walk MoMo, and to see her first sight of snow. She was... not enthused.
 
 <video controls>
-    <source src="images/2021/03/momo_hates_snow.mp4" type="video/mp4">
+    <source src="/images/2021/03/momo_hates_snow.mp4" type="video/mp4">
     Your browser does not support videos.
 </video>
 
@@ -24,7 +24,7 @@ This wasn't too surprising honestly - MoMo _hates_ water, even though her feet a
 This video is taken literally two minutes after MoMo saw the two huskies.
 
 <video controls>
-    <source src="images/2021/03/momo_loves_snow.mp4" type="video/mp4">
+    <source src="/images/2021/03/momo_loves_snow.mp4" type="video/mp4">
     Your browser does not support videos.
 </video>
 
@@ -34,13 +34,13 @@ Afer that day with tubing, MoMo learned to love snow, and snowshoeing was the be
 
 She had a blast and ran into each snow bank at full fource.
 
-![](images/2021/03/snowshowing.jpg)
+![](/images/2021/03/snowshowing.jpg)
 
 The final day was MoMo's least favorite by far. They wouldn't really allow dogs near the snowmobiles, so we had to keep her in the car for the two hours we were gone. Snowmobiling is _super_ fun, but I'd _definitely_ recommend a guided tour unless your party has all gone snowmobiling before. Back country routes can be pretty difficult, and the corners have to be taken slow and deliberately. I was right behind a snow mobile that flipped over end to end, and the guides had to come and rescue the two!
 
 We went around the back country for a while until we eventually came to the top of this gorgeous view.
 
-![](images/2021/03/snowmobile_view.jpg)
+![](/images/2021/03/snowmobile_view.jpg)
 
 They also took us to this small pond that had completely frozen over, where they allowed us to go as fast as we wanted. Even Ahana took a turn driving :) It's very similar to motorcycling, so I had a blast. Surprisingly, I enjoyed it even more than skiing.
 
