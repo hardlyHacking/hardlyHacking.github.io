@@ -14,7 +14,7 @@ We got to the AirBnb pretty late the night of the 18th, and we didn't want to ri
 
 I woke up early to walk MoMo, and to see her first sight of snow. She was... not enthused.
 
-<video controls>
+<video controls height="600px">
     <source src="/images/2021/03/momo_hates_snow.mp4" type="video/mp4">
     Your browser does not support videos.
 </video>
@@ -23,7 +23,7 @@ This wasn't too surprising honestly - MoMo _hates_ water, even though her feet a
 
 This video is taken literally two minutes after MoMo saw the two huskies.
 
-<video controls>
+<video controls width="300px">
     <source src="/images/2021/03/momo_loves_snow.mp4" type="video/mp4">
     Your browser does not support videos.
 </video>
