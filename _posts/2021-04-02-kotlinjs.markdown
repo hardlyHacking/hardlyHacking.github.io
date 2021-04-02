@@ -1,0 +1,29 @@
+---
+layout: post
+title: 'Exploring Kotlin/JS with PaintMix'
+date: '2021-04-32 16:08:56'
+tags:
+- Kotlin
+- Javascript
+- React
+---
+
+[Kotlin MultiPlatform](https://kotlinlang.org/lp/mobile/) has been taking off, and for a while now I've _felt_ that it's probably the best way forward. The problem it attempts to solve is very real, and at Skip Scooters I saw first hand how expensive it was to write the same business logic three times over. Startups want to move quickly, and hiring developers is extremely difficult across all companies. But up until now, I haven't been happy with any solution.
+
+React Native, while easy to get started, has severe performance implications, which led even the most [ardent supporters](https://medium.com/airbnb-engineering/sunsetting-react-native-1868ba28e30a) to abandon it after thousands of engineering hours were invested.
+
+Flutter's very approach seems doomed to fail. Embedding a full V8 engine inside every application causes unnecessary bloat - and still can't compete with native performance.
+
+I'll freely admit I never seriously considered Cordova, Xamarin, or any others.
+
+For the first time, however, we have a multiplatform solution that seems to not make any compromises. The UI can deliver native-level performance precisely because the UI code is written natively. Kotlin multiplatform handles all the business logic that needs to be thoroughly tested and validated, and it exports libraries compatible with various platforms. It even supports Desktop!
+
+I was pretty optimistic when I saw that Square's CashApp was [written in Kotlin Multiplatform](https://kotlinlang.org/lp/mobile/case-studies/cash-app), especially becuase it's an app I've always admired. From my time on Stripe Terminal, we spent a great deal of energy looking into Square's apps, and they always impressed. Then Netflix announced that [they, too, switched to KMM](https://netflixtechblog.com/netflix-android-and-ios-studio-apps-kotlin-multiplatform-d6d4d8d25d23) for their apps.
+
+If Square and Netflix can use KMM without too many gotchas, then my confidence that KMM was ready for prime-time enterprise level loads grew. I decided to check out Kotlin/JS + React first, since it had the lowest barrier to entry. I already knew Kotlin, Javascript, and React after all.
+
+I decided to make a simple app – [paintmix](https://paintmix.web.app) – to test out how KMM behaves, the learning curve, and any known gotchas. Check it out!
+
+For a full, technical write-up with all the nitty gritty details, check out [my Medium](https://medium.com/@c5r), where I keep more technical posts. For this blog post, I'll give a quick summary of my findings. Kotlin/JS does a great job of making web development more typesafe. I loved how few logic errors I had due to Kotlin, and the type-safe wrappers JetBrains provided by default made basic views incredibly easy. My velocity was _definitely_ slower though. Part of this is learning Kotlin/JS, but part of it is just the various gotchas. Integrating with NPM libraries, while possible, isn't as easy. You have to write your own type-safe wrapper. Even making API requests seems harder than it has to be, and the debugging story isn't all the way there yet. The actual recommendation is just to have a console.log statement, then click on the message in chrome and use chrome's debugger. Ouch. I wish IntelliJ could just connect instead.
+
+Overall, KotlinJS is ready to go if you have dedicated developer productivity resources to help iron out these issues. I can definitely see that in an enterprise setting, trading some marginal velocity for the improved typed safety is worth it. For a personal project though, I wouldn't recommend it unless you were already going to pursue multi-platform. In that case, Kotlin/JS would likely save you some time.
