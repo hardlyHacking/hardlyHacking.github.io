@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Exploring Kotlin/JS with PaintMix'
-date: '2021-04-32 16:08:56'
+date: '2021-04-02 16:08:56'
 tags:
 - Kotlin
 - Javascript
