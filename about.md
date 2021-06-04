@@ -23,7 +23,7 @@ Fiction I Love:
 * [Haikyuu](https://haikyuu.fandom.com/wiki/Haikyuu!!_Wiki)
 
 Software/Apps I love:
-* Vim, Sublime
+* Vim, Sublime, VSCode
 * Twitter, Reddit
 * Audible
 
@@ -38,3 +38,5 @@ Portfolio (rough order of creation)
 * Jumpy: [https://jumpy.app](https://jumpy.app)
 * Firestore chrome Extension: [chrome web store](https://chrome.google.com/webstore/detail/firestore-utils/oebknnjfpdekbaalhncaifcddmeijlkn/related)
 * Avalon: [https://boardgames.chander.app/avalon](https://boardgames.chander.app/avalon)
+* PaintMix: [https://paintmix.web.app/](https://paintmix.web.app/)
+* Ampi: [https://ampi.io](https://ampi.io)
