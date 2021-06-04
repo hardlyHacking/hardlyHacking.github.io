@@ -1,0 +1,69 @@
+---
+layout: post
+title: 'Ampi'
+date: '2021-06-04 13:26:24'
+tags:
+- Ampi
+---
+
+## Introducing Ampi
+
+[Ampi](https://ampi.io) is my latest side project! For the first time, thanks to Google AMP being widely available for email, completely dynamic emails are possible. It's been a bit of a wild ride, but already there's been several vital lessons learned despite how new this endeavor is.
+
+### Sales
+
+Sales is so, _so_ important. And it's also a _grind_. Engineers too often fall prey to the "build it and they will come" mentality, but sales is just as - if not more important than - the actual coding. The corollary to this is that churn is the death of any side project. And learning _why_ customers are churning is the only thing that may keep your business alive for the long-term.
+
+I've hinted at these lessons before when I tried [Jumpy](https://blog.chander.app/2020/02/10/jumpy.html), but because Ampi is a B2B SASS company, I was forced to come face to face with the reality of sales in a much harsher way.
+
+### The Importance of Cofounders
+
+Ampi is the second business of a similar idea. The first company was one where a cofounder and I ended up parting ways for a variety of reasons. In many ways, it was like a bad divorce – _super_ stressful and when it was finally over, I breathed a huge sigh of relief.
+
+My cofounder was a coworker at a previous company, and he was the one who had the inspiration for the original idea. It was his idea, and out of respect, I didn't want to take over the project or feel like I was intruding. So when he invited me to work on it together, I gladly hopped on board. I had some reservations (some personality clashes, and working style differences), but I put them aside because I believed in and loved the idea so much.
+
+We both took off two weeks in December to hack on the project, and we got a working MVP demo. I reached out to my friend who's a VC, and he thought it was great, too. This was where the differences began. My cofounder wanted to remain in 'stealth' and not tell anyone. I thought that my friend (whose coworker led a round in Klayvio, our chief competitor) – who I knew to be a great guy who was genuinely helpful – could give us really valuable insights and tips.
+
+This led to a discussion of talking about roles. My cofounder wanted to be CEO, and I could be CTO. I didn't really care for roles. At this early of a stage, roles frankly don't matter since everyone has to do a bit of everything. In my heart of hearts, I wanted to be CEO, but again, I really liked this idea, and we were splitting equity 50/50. So I said fine.
+
+As soon as we finalized these roles, things began to change for the worse. I had a reasonable number of VC connections, and we wanted to raise money. But any time I'd reach out, my cofounder would ask if he could "lead" this conversation. Again, I didn't really care, so I said sure. I made the initial intros and let him drive it from there.
+
+One of the conversations came out of a meet and greet event I attended, and that irked him. He had a conversation about how the CEO is responsible for sales, raising money, and all personell decisions - and that everyone, including the CTO, must report to the CEO. In hindsight this was a huge red flag, but at the time it was delivered in such an out of the blue manner that I just shrugged it off. From that point on, I wasn't invited at all to _any_ VC conversations. Even coffee chats.
+
+Ironically, the only secure funding ($10k from an accelerator) was secured by me. I wrote the application myself, led the initiative, and led the presentation on the day they were choosing between the finalists. But I didn't want to make waves, so I shrugged it off.
+
+From there, the disagreements only got worse. We were both employed at other companies at the time, and my cofounder was switching teams and then moving. Because of this, progress on his end was (understandably) quite slow. When I offered to take up his technical portion, he resisted. Finally I had to explain that if he's responsible for sales and VC interactions, and I'm responsible for the code, why can't I touch this part of the code? He relented after a while, but I felt it was pretty grudging to the end.
+
+This whole time, we were also disagreeing on strategy. Do we pursue VC funding so we can quit our jobs, or do we build out a full end to end demo for the one (non-paying) customer that we have already? I wanted to get VC funding. Suddenly, my cofounder decided he wanted to quit his job next week, and he was going to work on this full time. I noted that it was a fairly frothy VC market right now, and if we wanted to, we could easily raise enough money for both of us to quit. Or we could go to YC.
+
+He didn't want to apply to YC because he felt 7% for 120k was not a good deal. Fair enough, but it probably beats raising nothing. (I had some YC partners who I had contracted for who could vouch for me, effectively guaranteeing at least an interview... It's not lost on me that, once again, I had the VC connections, but I wasn't allowed to use them.)
+
+Finally, the straw that broke the camel's back. My cofounder wanted to re-negotiate the 50/50 equity split. He said if he's going to work on this full time, and I wouldn't be, then he deserved more equity. I argued the only reason he's working full time is because he didn't want to raise money. If we just raised money we could both work on it full time.
+
+At that point I had an awakening. I called my VC friend and he told me this is a _huge_ redflag. I should simply not accept this at all.
+
+### Breaking Up
+
+We established the original company with Stripe Atlas. Since the company had no revenue, the only major question was who gets the IP. In most modern founding documents, the company itself (neither cofounder) owns all the IP. Since we both own 50% of the company, neither of us can be forced out.
+
+We decided to dissolve the original company, and that way both of us own any code we had written up to that point. We drew up a google doc with the list of items we wanted to iron out, and then contacted a lawyer (we used [BizCounsel](https://bizcounsel.com/), as they seemed relatively inexpensive) to create first a [Memorandum of Understanding](https://en.wikipedia.org/wiki/Memorandum_of_understanding#:~:text=A%20memorandum%20of%20understanding%20(MoU,intended%20common%20line%20of%20action.) and eventually a proper dissolution contract.
+
+The biggest lesson learned here is that it's _very_ important to make sure you remain on good terms with the other person. Getting emotional or making life difficult for the other person will only end badly for _everyone_ involved. At the same time, caving and "not making waves" was what got me in this mess to begin with. Ultimately I decided to walk a fine line. I knew the one thing I wanted from the discussion - dissolving the company and getting the IP (shared). Everything else was more or less acceptable.
+
+My cofounder wanted to keep the existing customer relationship, so I said fine. YC was a non-starter because by the dissolution was negotiated upon, the YC deadline had actually passed. We only had two major sticking points. One, he wanted me to sign a non-compete with him. I flat out refused. I asked him if he would sign a non-compete with me, and he didn't seem to have a response. I shrugged it off and calmly said sorry, but I'm not signing a non-compete.
+
+The other sticking point was the matter of the accelerator, and the 10k funding. We both wanted to go. Ultimately, we decided to just contact the accelerator's organizer and explain what happened. The organizer said there was going to be another event in a couple months in the summer, and one of us could go then and one could go now in April. That sounded fair, so we flipped a coin and I ended up getting the April slot.
+
+Since we were fairly early on in our process, we were able to file a [Short Form Dissolution](https://corpfiles.delaware.gov/Dissolution%20-%20275%20Short%20Form%20-%20web.pdf), which is cheaper and easier than the traditional long form. Not all states allow for this though, so if you're not incorporated in Delaware, be sure to check your particular state's legal code.
+
+In the end it came out to $275 for the MOU and $550 for the dissolution agreement.
+
+Overall, this whole process was very stressful! It's hard to imagine that just four months in, there would be this much drama already. There's a ton of conflicting advice about whether cofounders should split equity 50/50 or not. YC, for example, [whole heartedly recommends it](https://www.ycombinator.com/library/5x-how-to-split-equity-among-co-founders). [Many others](https://www.thienel-law.com/blog/2020/9/7/the-only-wrong-answer-is-5050-calculating-the-co-founder-equity-split) go as far as to say a 50-50 split is the [only wrong answer](https://linkilaw.com/startup-advice-tips/why-avoid-a-50-50-equity-split/).
+
+### Execution > Idea
+
+The biggest lesson of all here is that the execution and team matter far more than the idea. Because of my excitement to work on what I thought was an amazing idea, I jumped in and chose to work with someone I probably wouldn't have otherwise. I accepted roles I wouldn't have otherwise. And I made compromises I never would have otherwise.
+
+Being more honest with yourself, even if it means making waves for others and rocking the boat, is not just a better path forward - it's the _only_ path forward. From the moment I said "yes" to working on this project, it was basically a ticking time bomb for how long I could keep lying to myself before things blew up. How far would I let myself be pushed?
+
+I'm currently reading [Radical Honesty](https://www.radicalhonesty.com/), and going forward, I'm going to be much more honest about my preferences.
