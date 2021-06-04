@@ -1,0 +1,917 @@
+---
+layout: post
+title: 'ZFellows'
+date: '2021-06-04 15:20:31'
+tags:
+- ZFellows
+- Startups
+- Ampi
+---
+
+I was recently fortunate enough to attend [ZFellows](https://www.zfellows.com/), a one-week accelerator where I was granted $10k for my idea. This week was one of the most energizing weeks of my life. Doing a startup is not only incredibly difficult but also very lonely - you don't have many coworkers (if any), and you're experiencing a grind that very few have any idea about. Surrounding yourself with entrepreneurs in a similar stage is one of the best things you can do as a startup founder. Bouncing ideas off of each other, exchanging advice, and networking are all good - but the best thing by far is simply knowing that there are other people dealing with the _exact_ same issues.
+
+It's not sustainable necessarily, but it was one of the happiest 100 hour weeks. I've been to many hackathons, both internally at Twitter and externally at [YCombinator](https://blog.chander.app/2019/11/24/yc-hackathon.html). Hackathons start out with a similar amount of energy, but by the end I've always been _exhausted_. I think it's because hackathons are fundamentally a very poor environment to learn. Hackathons are all about _execution_. In a blitz of coding, you don't have time to learn a new framework or to try and understand a new problem. Instead, accelerators are all about identifying unknowns and trying to find ideas to map out those unknowns.
+
+To me, accelerators are energy positive while hackathons are extremely draining.
+
+Of course, eventually once you map out said unknowns, you're going to have to move into hackathon mode and execute - and quickly. But when it's _your_ idea, and it's _your_ startup, and you have the authority to do whatever you want (at least at this early stage), there's nothing more liberating. I think almost every instance of burnout / frustration I've had in my career has been when I've been tasked with improving a system but don't have the authority to do so.
+
+In addition to the energy and enthusiasm of the group, the talks were also phenomenal. Below are my best attempts at note-taking these various talks.
+
+# Jon Oringer
+
+Jon Oringer, [CEO of Shutterstock](https://en.wikipedia.org/wiki/Jon_Oringer)
+
+I didn't think shutterstock would be the thing that would take off. I had started like 10 other businesses, and I realized when we were doubling revenue month over month, maybe this is the one. My situation was pretty unique. Back in 2003 in NYC for sure it was not the usual path - the recommendation back then was to be in Silicon Valley.
+
+I brought in a COO - not a cofounder, but I gave them lots of equity. I knew I wasn't a good manager at the time, so hired that out. I hired the first people about 2-ish years in. I needed someone to help onboard first 30 employees, and they got 5-7% of the business. These first hires will obviously be very important people.
+
+Be prepared to give up chunks of equity for things you're not good at. You won't necessarily need cofounders per se though.
+
+
+I look for people who are good at things I'm not good at. For me at the time, it was marketing and people management. We were selling subscriptions, and people were calling us up, and the operations and people was the hard part. I was the engineer coding away at the time.
+
+> What questionss should we ask "value add investors"?
+
+1. Investors should b eaccessible - how quickly do they respond?
+2. Evaluate your brand
+3. Have they been through what you've been through?
+
+Ask them point blank - how are they going to be helpful on a day to day basis. Can you help me find people, for example? We took a secondary funding round before going public, and it was from insight venture partners (a growth fund in NYC), and they were super helpful in helping me find my new COO. You need people like that - do they have the network. Are they going ot answer their emails? Check with other investments they've made - the other CEO's - how long did it take to reply to your email? It shouldnt take very long.
+
+> Starting in NYC, venture money wasn't easy to come by. How did you overcome these hurdles? Why not just go to California, etc. I'm also curious about where companies are starting today - sfo vs miami, etc
+
+When i started in 2003, banking was the thing - you worked at Goldman. Now you work at Facebook or Google if you're a rockstar. So today you're competing with these two, while I was competing with Goldman. In New York I had something that was new and different - I was able to compete, and I was able to pay them less. If you're competing with Facebook, you have to pay less - so compete on something. Give them some equity, show them stories like Coinbase, etc etc. Either way, you need to be different.
+
+What I'm seeing in Miami now is what I saw in NYC in '03.
+There's so many people in other places - I see on LinkedIn all these amazing people working at jobs, and I pull them out and make them entrepreneurs and invest in them. There are plenty of people who are smart enough, but they just need a boost in confidence or something to break them out of their day job that's underutilizing them.
+I try to find smart, underutilized people in Miami - and that's my arbitrage.
+
+These are people who think for whatever reason, they can't go work at a huge company. And I give them a big stake in the company and recruit. It's hard to do that in NYC and SF today - but Miami is perfect. I found my next CTO this way who is an amazing unity gaming developer. I find it amazing that I can come to a place like Miami and build something from scratch here and get them to do something - that's definitely a secret weapon. Everyone in 2005 is running to SF, and I was plucking people out of Goldman. It's a strategy that works for me - that's why im excited about Miami.
+
+NYC is still not SF - it never will be.
+
+Miami will never be SF. But there's a solid tech scene.
+
+It's a diff type of competition - it's a different type of development of talent.
+
+> How do you know if people want waht you're building? I have very few users - there's a leap of faith you have to make. And between the iterations and pivots how do you measure progress?
+
+You start w/ a core few people and build the product for them. I built a product for myself, and my own personal frustrations were the best to work off of. Is this something that you yourself would use? And if so, you're probably on to something.
+
+I started 10 companies, they all needed images, and I hated to negotiate for each and every iamge, so annoying.
+So i started a subscription - if they think you're crazy and it's something you yourself would use, you're probably on to something.
+
+Somethign you feel passionate for and things other people say you're crazy - those are two great signals.
+
+> Regarding the value of bootstrapping - can you talk about the decision on bootstrapping vs raising capitol and how this has changed recently?
+
+These days are the craziest most frothy market ever. It wasn't always this easy to raise money.
+
+Today, I'd say go raise money it's so god damn easy.
+
+At the time, I was resisting - I didn't want more people in my business telling me what to do. These are preferred shares, etc - they can distract you from your mission. So I refused at the time.
+
+Today it's _so_ easy to raise capitol - it also distorts how much we're paying our talent and how much it costs.
+
+There will be a correction - but when is who knows. maybe another decade. But there's something out of wack right now - take advantage of the money, but also be careful. If there's a pull back and it's harder to raise money and there's all these expensve people on your payroll. It's very hard to go to them and say "I have to pay you less now". There's no guarantee things stay like this.
+
+As long as your realize things can change - what happens if you need to do a down round, what happens if people are more expensive than anticipated, what makes sense for your business to operate, etc etc. Look at the unit economics of what you're doing and make sure you factor in a rainy day. Take the moeny, but be disciplined.
+
+Some of you may not have seen this previous environment but you've probably _heard_ of it. I've been through the 99 and 08 corrections, since then it's been on a tear. The corrections are painful for sure.
+
+> What are you most excited by right now?
+
+Excited about miami for sure, and launching businesses down here. The disruption of covid has been hard, but at the same time it's opened up a lot of opportunity. Excited about starting some real businesses down here in Miami.
+
+> What's one thing you'd known much earlier in your life when starting a businses?
+
+My initial advice - do everything and delegate later on. I held on way too long; I didn't delegate enough. I was CEO for 18 years - 8 of those were public. Now i realize the early stage is what excites me. I should have hired a CEO sooner - I hired a CEO in 2019. I went through multiple COO's. Realize what you're good at, what's fun for you, and delegate the rest.
+
+> What about competition?
+
+I entered the market when there was a leader - Getty Images. I wouldn't let competition dissuade you. There's probably room for more and they (whoever your competition is) are likely doing something wrong.
+
+# Brad Bao
+
+Brad Bao, [CEO of lime](https://www.linkedin.com/in/bradbao/)
+
+> What's the biggest mistake first time founders make?
+
+1. Not thinking big enough.
+
+It's ok to start somewhere small that you can focus on (you've personally experienced maybe), but in terms of the future, you gotta think big - don't think small and be stuck in a pond.
+
+Regardless of how big or small it is, it will take all the time and energy and focus you have. If you're not working on a big problem, you're wasting your time. It's going to be hard to attract talent and investors in a small problem.
+
+2) We're all optimistic as founders - but respect the data and facts.
+
+You don't get to the point where you convince yourself of an unreality. We all want to pick up the things that support your own thinking, but that's  not objective enough to be a founder. A good founder must put aside the bias and look at the facts.
+
+3) Choose your initial team
+
+When you approach a cofounder / core team member, the most important thing to keep in mind is it's like a marriage. Can you get along w/ the person. Are your skillsets complimentary, and do they have the common values?
+
+The last part is the hardest - the first few are easy - look at the resume, I need a tech cofounder, great. This person is an engineer, etc. The second part is easy too - are you interested in ecommerce, social, gaming, etc. That third part is the most crucial.
+
+We ask how long you've known each other and in what capacity. That's the most important part of due diligence. You spend more time with your cofounders than your life partners! So treat it even more importantly. Get to know them a bit more, and do some stuff with them. Hang out with them.
+
+The other mistakes you make are more learnings / explorations and experiments. These are the real 'mistakes'
+
+> How do you think cities will be different after covid? Lime obviously has a huge impact on how people get around.
+
+I've invested in a couple companies and am starting a fund to facilitate this.
+
+Covid is somethiNG we didn't want to have happen, but it did. But there is a silver lining - it broke a lot of bad chains of habits - being resistant to change, the habit of 'we can get by'. But now everything has a reset. Even post covid a lot of things will go back to the old way, but there are many that have been forever changed.
+
+Number one is remote working and collaboration - most of us are knowledge workers; we don't have to be in the physical place. It frees up the time - at least 2 hours of commute on average. And you now have the choice as to where you want to be
+we've seen trends now of cities like organizations - given the age and generation, most of you probably live in cities.
+But also you want to stay close to work. That has been the significant driving force to where people choose to live.
+But now if you're home 4 days in a week, or even only meet up once or twice a month, your life quality can be dramatically better.
+
+There's now a re-suburbanization movement, and talent will eventually be more spread out.
+
+Local businesses have to reform themselves, given ecommerce doordash, etc. REstaurants used to be where you get food. Not anymore. Restaurants will be social locations now, since you can now get food delivered to you.
+
+There will be a craving for gathering right after covid after being pent up. Fear comes fast, but it goes away slowly. There'll be variants of covid, etc. It'll be a _very_ long time before you go to an absolutely packed crowded bar again - it'll be weird for a bit.
+
+> In the early days of lime, how did you think of regulations? Since you started some cities have banned electric scooters, etc. did you just put the product out there or did you talk to cities and make deals for example? How did you tradeoff between moving quickly and bringing a product users love vs getting the regulations dotted i's and crossed t's.
+
+Before we started lime, we spent 8 months doing research and thinking about strategies about what steps we would take. Whatever steps we take now is the unfolding of the strategy we set out 4 years ago.
+
+We got a lot of pressure to launch first and ask permission later - that was the 'winning formula', and Uber Lyft and Bird all did it.
+
+The biggest thing - your goal as the company leader is the ultimate impact and growth, not in the short term. Your goal is what do we see in 10 years. You could go very fast and plateau, or slow and accelerate. I think the latter is better.
+
+In order to do that, we analyzed a couple things
+
+a) who are our customers - that's the cities too. neighborhoods / governments, etc
+b) we wanted to generate a movement of people joining us - that you cannot achieve w/o cities
+
+We need the infrastructure, create bike lanes, update outdated regs. etc. France and Sweden even announced if you give up a car and get an ebike or escooter we'll give you $3,000. That's the most important thing for the product.
+
+With that in mind, the city becomes the real customer and our allies. But on the other hand, that tradeoff becomes velocity. We moved slow, we provided data for them to think about - we have to prove ourselves. We launched the first city w/ 10k people. But then it started to accelerate.
+
+The speed and the regulation could work out well together if you can make it work for you / become your friend.
+The other byproduct is that it becomes the moat - the cities like us more than others, and the cities are conservative. The regulatory bodies are conservative. They want to work with people they know and trust.
+
+> If you have a time machine and you can go back a couple years, what would you do differently with lime?
+
+Covid is something in my strategic plan I didn't plan for. We got a big hit for sure, but we are recovering. Whatever you're going to work on should be innovative and new - nobody's done it before. So there's just going to be many things you'll have to experiment with on your own.
+
+If i could change, I wish we focused on operational efficiency even more early on. That'll make the business sustainable. Improve unit economics. That's the tendency w/ hyper growth companies - we're one of the fastest growing companies ever in history. that goes to your head and your ego. but we could have slowed down that a little bit and improved the unit economics.
+This is also aligned with long term mission - long term impact is critical, and whether it's sustainable.
+
+Many companies come and go, that's not what you're aiming for.
+
+Focus a bit more on the people and culture. we grew too fast and lost some culture along the way.
+
+We grew form 2 people to 100 in the first year. And 2000 in year 2. And that's just full time people - not including contractors, etc. Including those by year 2 it's 4k. That's insanely fast.
+
+Hardware i wished we could innovate even faster. Hardware is _very_ hard. Software has been relatively advanced compared to hardware. we've really perfected user experiences, analytics, ai, databases, etc all in software. not as much has been put into hardware, and yet we're all living into the physical world. Your interface is all hardware.
+
+> What are the challenges to building a hardware company? What are somme tips on how to grow fast and build momentum despite the challenges?
+
+Every sector is different, but the biggest challenge is the experimentation validation cycle.
+At Tencent we developed our own version of agile development - we do 50 releases a day.
+That's how fast software can be implemented and validated and iterated.
+
+Hardware iteration cycle obviously not, and if you're talkinga bout complete product - the typical cycle is 2 years.
+Apple's new phones are 4-5 years. Bikes / scooters, 2 years. Cars 5 years.
+
+From your idea to the design to the prototype to ship to testing to get data, which data isn't readily available instantly, to then reapply to the cycle - that's _really_ long.
+
+Narrow down what you focus on - innovation doesn't mean brand new, it could just be improvement.
+
+For the initial version we focused on the brake and the tires. The personal use tires are too narrow, and the brakes aren't reliable enough and dont' last as long. We focused on those two, came up with a model, and used the same frame but safer on the street.
+
+Then build an internal machine that's integrated with the supplier - that takes a lot of convincing. They need to retool a lot. We have a cross border team that's in the market of hte supplier. They live and sleep in the manufactury. That helps a lot.
+
+And lastly, data. Fortunately our devices are all connected, but we did develop modules to collect data and analyze it in real time. We put more sensors to see how the user breaks, etc etc. The scooters have gps, gyroscope, accelerometer, thermometer, humidity sensor, etc. to collect it all.
+
+Typical go to market for a scooter - 2 years. Might be longer. We came up with the idea, and 42 days later we launched a whole fleet on the street.
+
+We took some of the initial designs, did an assessment and just changed those two parts. We had an ebike with a control module already, so we integrated that with some minor changes, and then integrated with the manufcaturer for new tires. Vertical integration there.
+
+If you work on retail, you have to have something that's perfect. Like an iphone. But if you're iterating during testing, Perfection doesn't matter - you just need to focus on the key things. For us it was just the breaks. I don't care how pretty it looks like. Our control modules were horrendous for example. We knew users would potentially damage or mess with it. We know in later production builds we can do something. We weren't going to waste our time with those things - let's focus on the tires.
+
+People will come inevitably and say xyz all unrelated. Forget all of that stuff. Those are for optimizations when you've validated and innovated on the key things.
+
+Don't apply the wrong thinking analogy - many people in my team were from the retail business. But without providing why this advice works in our space, that advice was bad. Retail does stuff we don't do - or maybe it was things retail _did_ in the past, but no longer. So it's either antiquated or wrong sector.
+
+I'll tell you a quick story. Napoleon (true or not I don't know) goes to the army and one cannon with three guys. One guy aim and shoot. One guy cleans after every shot. The third guy holds a rope and does nothing. Napoleon asks why does this guy need to be here? Nobody even thinks about it, that's just how we've always done it.
+
+You'll see a lot of that in the hardware space. Some of the things we do just don't make sense anymore.
+
+The cannon used to be drawn by horses - when the cannon shoots the horse will jump. One guy has to hold the horse every time. After that, nobody uses horses anymroe, but the guy is still there holding the ropes.
+
+> Early days of lime - on wikipedia - you started in jan, raised money in mar, bikes on the street in june. could you talk about the timeline - what were you actually doing in each of those steps and those days? at what point did you feel confident that this idea is what im working towards as the vision.
+
+We started a lot earlier than that, we just never incorporated the company.
+
+We spent 8 months doing prep work. Started april / march ish the year prior, 2016.
+
+I tend not to jump on things but really think through things before I commit. I need to have self conviction. I don't have the passion otherwise.
+
+Key formula for happiness is something you believe in and then you devote yourself completely. Missing either component (devotion or belief) is awful.
+
+Believe in but don't devote - you feel you miss out.
+
+Devote without belief feels like a huge chore.
+
+We already had a working prototype when we started to raise money. The vehicles were already being produced.
+
+We had a very clear plan for what we should do at what stage. Is there anything we need to do in advance? If we wanted to launch in june, we had to launch before the new year - since after that is chinese new years so factories shut down for 1-2 months. Then shipment is another month. Then here we have to assemble and final examinations that's another 2-3 weeks.
+So the order _must_ go in before the new year, before we even incorporate.
+
+The vision often is not validated, that's why it's a vision. But it came out of solid thinking from first principles and fundamentals. Just like online media will replace paper media - 15 years ago no validation, but it's obvious from thinking.
+People will come up w/ all sorts of reasons to think paper media will still win.
+
+1. For us we believe in electricity and green power will overtake gas powered.
+2. We believed in shared space is too crowded - traffic is too bad, and it's better to reclaim that for the city and for commuting
+3. We believe that for the cities and communities, everyone wants that - but sometimes there's a collective decision problem that we need to work on (generate a movement and a trend)
+4. We also believe that shared mobility is the only way. not everyone owns a car, and not that everyone owns an ebike or scooter. not economically viable or convenient.
+
+Never spent a penny on marketing. Organic traffic is a *great* validation about are we on the right track. The vision never changed. But is the product / service on the right track? You can use marketing to accelerate it, but initially if there's not enough organic interest, the problem is either not that big or the user doesn't love it.
+
+> Is there something during the non-incorporated period that you felt was a risk you felt was substantial so you went to try and derisk it?
+
+We did a lot of that, but before we started manufacturing hte prototype. The prototype we weren't worried at all for 2 reasons
+
+a) we know it has to be something the user has to be familiar with - which means it's a mature product, so I know I can manufacture it. If a scooter is selling for 400, I can manufacture at 200, with volume. GPS and all connection is very mature. That's why I started lime in 2017 - I had a similar idea much earlier, but the gps alone cost $100, and data cost $30 / GB with very limited access. So it didn't make sense.
+
+What we were worried about was is there any validation the user will use the bike? Or any means of transport.
+
+There was a parody company called lemon donkey - even more organic. Hire a donkey, etc.
+
+That could be us though - is there any validation people want to ride a donkey in new york? Is it socially acceptable - is it limited by your outfit, where you're going, etc.
+
+We looked at data around the world. Citibike and Motivate are in NYC and SF. Looking at the data, it's actually amazing. In the summer it's 9x 10x - as a reference, we need 1 ride to break even, and they're doing 10 rides. And they're only limited to 10 because they run out of inventory. Wow.
+
+In europe you look at amsterdam / copenhagen, 50% of their traffic is on bikes already. Physically possible, socially acceptable.
+
+We didn't go further to figure out why they use it, etc - that's not my concern, as long as they use it.
+
+b) Will the city accept it?
+
+That's a big risk - that was a _ton_ of research looking at very hard to read city doucments and regulations, but luckily it's all public.
+
+The common theme are 2 things - every city claims they want to be carbon neutral, they want to reduce traffic, carbon emissions, and increase occupancy of shared public space. eveyr city. The question is how can we work together to achieve this goal - not just my goal - your goal.
+
+The other thing is most cities say we cannot afford it. Citibike costs 180mil in nyc, and they take grants and they're limited in scale. Most cities can't afford that.
+
+Seattle also shut down their bike share at that point. Is there need? yes - validated. If they're well served we don't have to do anything.
+
+Then the answer is simple - can we create a bike share or scooter share program at ZERO cost to the city, and will they accept?
+
+The answer is firmly yes, even though it'll take some time initially beucase it'll take time for them - public hearings, community comments, etc. that's just how they operate.
+
+We did think about charging the city as well, since they pay for even smaller scale things. It's against our vision (we want to create a movement) and it also goes to speed - can we make it faster? If it gets into city even paying you even a penny, then it goes to validation budgeting etc etc. Nope. 2 years of black hole. We can just say fuck it we'll offer it to you for free - just redraft your permit and allow us to operate.
+
+And the business is not new - you have bike rentals in your city already.
+
+We tradeoff a little short term revenue for speed.
+
+If you work on any sort of gov tech, they'll tell you getting 1 client is on average 2 years. we got 120 in 18 months. That's normally 150 years!!!
+
+> Why switch from VC to startups? is there any overlap of skills? does having that previous experience help you? and also, do you pay full price for lime scooters?
+
+Haha, I do. I think that's important actually! We gave some operators credits and discounts to use the fleet to go around and do maintenance. We don't want them to mentally calculate which paths save them more money. But other than that the whole company pays full price. It's good validation - if you're not willing to pay for your own services, you have a problem.
+
+The best product / services are you're willing to pay full price and you still feel it's quite cheap. I'm a big fan of apple - they're _expensive_ - but I still feel that compared to the value im getting, I'm still getting a good deal. It goes back to that. Apple has the best products.
+
+To me i'm always a builder. Even for vc, I cofounded - we did research and structured a fund very differently from others. I grew up in china, from a little town, where everyone is an entrepreneur. If you look around your house, more than 50% of the products came from there. One of the highest concentration of billionaires in any town in the world.
+
+My father was a nuclear scientist and my mother was a doctor. I grew up realtively differently but alwasy influenced by them. My first startup was in junior high - and then another 2 in high school. in college I never attended class even once, but I had 4 companies. Then when the internet started i started an internet security space. I don't like it - it's just not for me. I don't feel the passion. so I came to silicon valley, wanted to learn about it.
+
+I was at tencent for 8 years - when I joined it was 700 million, today 600billion. I went to a small company instead of the large company - the offer was half of the other offers. No equity even!! And I have to work day shift and night shifts. But the reason why is the mandate was 'we dont know, you have to figure it out'. you have to set up an office and figure out a proper way to pay a talent here. So i loved that - I built everything from the ground up. I built the international strategy and built the team.
+
+Then I went to a venture fund. Then i did another startup.
+
+Then I did lime.
+
+And now I want to do another startup.
+
+I tried to retire a couple times now, but I get bored - it's boring. That's just me.
+
+Realistically, I benefit from knowing a lot of investors. that does help - access and connections are valuable. The biggest benefit is the thinking process. All the research I've done i've benefited. It's forced me into thinking in that way.
+
+The best knowledge structure is T shape. Broad knowledge but deep in one area. Entrepreneurs are deep, like an l, but they forget about the broader knowledge elsewhere. How do you think about the whole world. Being an investor helped me on that front - I know a lot about the broader comprehensive thinking.
+
+> So what's next?
+
+Urban living is something I'm always interested in. I've been spending a lot of time there - I haven't settled on any specific idea yet, but daily living in urban environments. I have a passion for social gaming which I did a lot, and real world living.
+
+Definitely it's consumer and consumer interent - that's where my passion is.
+
+# Stanley Tang
+
+Stanley Tang, [Co-Founder / Chief Product Officer at Doordash](https://www.linkedin.com/in/stanleytang/)
+
+> What age did you start doordash?
+
+I started in 2013, so I had just turned 20
+
+> What were you working on before, and what was the discussion when you first started doordash - basically the super early days?
+
+Doordash was an accident - it didn't start out as a startup, It started as a typical class / dorm project where a group of us wanted to work on something that was interesting and fun that maybe could become a startup, but really was more because we all liked workign with each other and wanted to work on an interesting problem.
+
+This was summer 2012
+
+I met my cofounders at Stanford. We first got together because all shared a similar passion around this idea of building software for the physical world - specifically for brick and mortar businesses. Especially back in 2012 no one was focused on this space - back then everyone was building online social apps. These offline small businsesses were the 'unsexy' ones. We felt these were underserved.
+
+The intention was not to start a food or delivery company, just wanted to see if we could build software for small businesses, and what that would look like. We'd get together every couple days and brainstorm ideas, and we'd go to Palo Alto / Mountain View after class and would go door to door to learn what their problems were. We'd talk to them and understand what their day to day lives were like.
+
+It was through these convos that the delivery idea first emerged. It was one afternoon in this macaroon shop on University Ave, and we sat down with Chloe who was the owner at the time. And 20 minutes in she had to take a phone call, and came back with this really thick booklet. And this was her bookkeeping method - of all her orders. And we started to notice a lot of these were canceled, or not fulfilled. And all these canceled orders had one thing in common - they were all delivery requests
+people called in, they heard about it, but for some reason she turned all of these down.
+
+We asked why are you turning away business? Why reject money / sales?
+
+She explained I don't want to do this but I don't have a choice; I have no capacity to fulfill these deliveries. This is a one person shop. In order to do these deliveries, I have to personally drive and do that - my life is busy enough.
+
+That's where the delivery idea came from - there must be hundreds of other Chloe's out there with the same issue. Hiring a driver, doing logistics, most people just dont want to do that. What if a service out there offered delivery on behalf of these businesses - so we can just call them. That was the inspiration of doordash
+
+> How many ideas were you working on before that? Weren't you doing some social app before?
+
+Maybe around my freshman year, but we quickly gave up on that. Then i worked on a calendar app. Then right before doordash, it was how to track marketing for offline businesses.
+
+How do you know when a customer walks in, where did they come from? We built a simple survey on the tablet and put it on a restaurant counter and see if people fill it out. But we realized that's not very valuable - what's more valuable is to bring them in in the first place, and the untapped channel is delivery.
+
+> I'm a doordash driver as well (and have a high rating!) - my question is, you guys were a cross-school team - not everyone was at stanford. some were at business school. How did you meet them and also what made thsi partnership work well? Especiallly the cross age.
+
+The nice thing about stanford is cross-core. Design, project-based classes or startup-based classes, you typically have undergrads, grads, gsb, med school, everyone - you get a cross section. Try to take as many of those classes as you can.
+I actually met my cofounder from gsd through a class in teh communications department - nothing to do w/ journalism or startups, but it was a projects based class.
+
+There was a design class called startup garage that we all took together.
+
+That's the best way to meet folks across schools at least at stanford.
+It's probably the best proxy for what it's liek to work at a company together.
+
+I think the biggest reason it worked well is that Tony was not your typical gsb-er.
+We went into this as equal partners, instead of 'Oh I'm just looking for someone who can help me build a prototype'
+or 'someone to fundraise for me'. We liked workign with each other, and it just happened to be that Andy and I were engineering and Tony was gsb. Rather than getting together because of that.
+
+When you try to go out and find someone in eng or in gsb, it doesn't work as well than just finding someone you really like. If they happen to all be from one school whatever. Does this person share common values - ethics integrity, but also compliments you from skillsets.
+
+It was just so natural with the three of us were all so good at diff areas and we didn't have too much overlapping responsibilities. The tension often comes when two people own the same thing and they both want to do it. I was good at product and design, Andy was good at backend and eng, Tony was good at sales, fundraising and strategy. And that's how we split our responsibilities early on.
+
+> What did you learn from your cofounders, what were some take aways?
+
+I think communication is the most important thing - you don't want to assume things. Don't let small problems grow into larger problems. People often dont want to bring stuff up becuase they don't want to get into conflict. They try and shrug it off into oh its not a big deal and that grows and grows over time. You want to address that.
+
+You want to delegate as well - you need to trust that the other person is going to own that and do their job; fundraising is a great example where early on it sounds sexy and cool where investors are writing checks, and everyone wants to do it. But really just need one person to go fundraise and everyone else run the business. And you also don't want three people making product decisions.
+
+Just knowing how to support each other - but letting the other person make the final call. Need to disagree and commit.
+
+> Jumping back to when you were trying to find product market fit, I heard that you and your cofounders would do deliveries yourself, and you had little to no infra. As demand kept increasing, how were you able to scale and grow on the same trajectory?
+
+That's the hardest part - we still deliver to this day, and that's the most important thing. You need to stay really close to the details, especially in a business like ours where logistics and details are key. Scaling delivery is very diff than scaling sass software.
+
+Each delivery is a physical thing that needs to ahppen in the real world. The marginal cost of scaling a delivery is really expensive for a human. Just because you can do deliveries in Palo Alto doesn't mean you can deliver in NYC or other cities. Small orders vs large, catering orders, food vs alcohol vs grocieries. They're all very diff. It's the hardest part of our business. Scaling is very tough for logistics.
+
+We still do deliveries and customer support once a month. Sitting in on a customer support session saturday night and you'd learn everything that's wrong with your business. You'll be surprised how far unscalable things can take you
+
+We still do things that we do today that are 'unscalable'. Things that we hacked together in 2013 that still run. Placing orders at restaurants for example. When we first started, there was no way to send it directly to restaurants, so we'd just call and pick up the phone - call the restaurant, read off the order, and place the takeout order, and a driver would show up and pick it up.
+
+We thought this was a temp thing, once they integrate we give them a tablet and integrate with our point of sale.
+
+Well it turns out 8 years in, we still do that to this day. It just turns out the rate at which you can integrate these restaurants far slower than signing up restaurants, so to this day we still place them through the phone, and we scale by hiring many order placers. And built a dashboard for them with a queueing system, and people can 'claim' an order to place it
+and they make X$  / order they place. We have like 8000 workers placing orders every night.
+
+> What have you learned going through this process
+
+I've thought about this a lot, and I used to think a great product person just sits in a room and comes up with epiphanies.
+I've come to realize the best product people are not these siloed folks - these product geniuses don't exist. The best ones are able to iterate very very fast.
+
+Product innovation = rate of iteration
+
+What's more sustainable -  you just come up with an idea in the room and you hope you hit the lottery? Or you just try everything and run a bunch of experiments. 99 / 100 fail, but 1 succeeds and on the outside it looks like wow they're hitting everything. But really you bought yourself 1000 lottery tickets.
+
+How you design and set up product culture where you can run these experiments in a decentralized way
+where anyone can run these experiments and anyone can iterate. And then you can replicate it - you dont need to hire 20 product geniuses, just 20 disciplined PM's who can quickly build MVPs and build hacks for proof of concepts quickly. The things that are working you can accelerate with eng resources the faster you can do this whole thing, the more innovation that comes out.
+
+As you iterate you're making sure you're talking to customers and getting feedback and looking at metrics to make sure you're iterating on the right things. Make sure you're continuing to undersatnd the problems at an individual delivery level, not at an aggregate level. How do you cycle through this as fast as you can?
+
+Early days that feedback is pretty fast - not a lot of process. But as you scale and introduce 1000 engineers and 100 pm's across many products, how do you replicate that? That's when it's really hard.
+
+> What's your personal opinion on deliver everything - I remember in the s1 something came up where it's good now but in the future everything could be same day delivery in a few hours - what do you think about the 'whats next' outside of food delivery right now
+
+That's still the long term vision - to deliver everything not just food. The idea didn't come from a restaurant but from a macaroon store. You have to pick something to start with and have a first use case.
+
+It's hard to build something for a generic use case - start small and expand over time. Amazon started off by selling books first, and now you can buy everything. We started off with just food cuz it's a focused, high frequency use case - people eat all the time.
+
+Once you scale you can start thinking about what's next - and you want to pick things that are complimentary. Don't go from food to laptops right away.
+
+Food -> Alcohol -> Groceries, etc -> probably day to day essentials, toothbrush snacks etc. Convenience became the next strategy. Then food, day to day taken care of, what's next? then health - > prescriptions, etc. Then eventually work your way to laptops. Pick things that are very tangential where there's a lot of synergy.
+
+We're still in that process - we're still very much a food company right now. But we're in the process of evolving. We're starting to make that transition and that's part of the journey of reinventing yourself. It's almost liek this is another startup now, that's how we think about it.
+
+> I know doordash labs team has been working on robotics for a while now. Thoughts? what do you see as the future of robotics at doordash
+
+2 use cases
+
+1) Delivery itself - obviously, autonomous vehicles, what does that look like?
+
+Specifically, what does a delivery version of an autonomous vehicle look like - probably doesn't look like a normal car, since there's no person, so no passenger, no leather seats, no AC, etc etc, maybe not even a ground based solution - maybe aerial, when do drones even make sense? No traffic, or maybe next to a river
+
+2) Kitchens themselves
+
+Ghost kitchens and ghost warehouses are starting to take off, so these are delivery only. Right now we just acquired a robotics food prep company - probably the only thing I can publicly talk about for now, but we're in the very early phases of that
+
+> At what point did you start believing doordash was working?
+
+I guess the definition of 'working' depends - 
+
+a) oh i found PMF, this product seems to be working
+
+b) the other is oh this business works
+
+Those are two very diff things.
+
+From the product side it was very early on - the first day even - the first verison was a landing page called paloaltodelivery.com with a static landing page - probably any of you have built a better one - and a landing page with a bunch of phone number and it said call this number if you want food.
+
+Someone called in within 40 minutes - we were just going to collect data initially, but we decided when we got our first phone call, we felt bad to tell them this isn't a real website, so we delivered. The fact that people would go to this ugly website and make calls, and be super happy when the food showed up, that's when we knew we were onto something.
+
+The business side took _much_ longer. Is this just for rich people in PA? Is it just a college thing? Does the unit economics even work? How do you scale it? How can we hire drivers and support, etc?
+
+So many open questions - I don't know if there was an exact time when I knew this would work. I don't think that ever goes away, even to this day you have doubts - ok we figured out food but then what about ghost kitchens and other things. is that going to be a disruption, is autonomous going to disrupt. How do you know uber isn't going ot come in and kill us the next day?
+
+That never really goes away in my opinion - you just keep chugging along and going forward. For every hypothesis you validate, a whole new set of questions come up.
+
+There's always new things, things change, trends emerge, in 10 years time autonomous becomes a thing and who knows maybe doordash doesnt even exist.
+
+> What do your parents / friends / family think when you quit shcool? did they think you were crazy?
+
+I'm super thankful to have all this awesome support all these years. my parents were super supportive. I actually got to hire a lot of my friends early on, so seeing them all grow along side is the more fulfilling part - you make everyone else around you grow adn improve and succeed as well.
+
+> Curious to hear your perspective on competition - is there anythign your competitor did that you're jealous of, and on the contrary what are things your competitors haven't done that doordash did that's worked out great?
+
+I honestly don't think about competition that much. That might be weird to say because 'what are you doing to do about it?' The best way to beat them is to deliver a better product. The way to win is to go talk to your customer and figure out what youre missing .What can we offer that others can't?
+
+Delivery isn't some complicated idea, it's just how do you execute that better. We try to do things from first principle rather than what our competitors are doing.
+
+Simple example, early on one of our insights is that people care the most about selection. Doordash is kind of like netflix - it doesn't matter how cheap or affordable your product is, or how fast your data streaming is. If you don't have the shows I want to watch, I'm not gonna use you. So for us we really believe that. Customers use doordash because mcdonalds or chipotle is on doordash or orin's hummus is on Doordash.
+
+So we really really doubled down on selection - we got to win the merchant - we have to build the best merchant experience and buil dthe best support. Uber was so consumer obsessed, they never build a merchant product. They have a successful rideshare app, but they never really emphasized that when a merchant worked with uber and something went wrong, you're shit out of luck.
+
+At doordash there's an AM with a dedicated phone # for you. We spent more time on the merchant experience than consumer honestly.
+
+Speed worked in ridesharing, doesn't always work in food delivery Uber launching X isn't a reason to do X. We should do X becuase our customers want this and from first principles they need this.
+
+## Cory Levy
+
+Cory Levy, [Founder of FirstText](https://www.firsttext.com/)
+
+I started working in tech in high school, interned at startups and VCs. Tried to go work at event brite and square when it was 10 employees, and Twitter / FB at 15, but they wouldn't hire me. So someone recommeneded I reach out to vc's and shadow them.
+
+I shadowed someone at Founders Fund and Union Square Ventures and the founder of TechStars. Studied CS at UIUC for 1 year and then built various consumer apps, grew to 10s of millions of users. Now im doing angel investing and doing things like First Text and ZFellows.
+
+I was funded freshman year over a tweet by Keith Rabois
+
+> How do you manage so many people texting you?
+
+Two phones - it's much easier to do a text than an email, I can be far more concise. I find it a lot more efficient. People do ask can they call, which is funny because it's called First Text :) But i don't say that. Texts you can do all hours of the day.
+
+Sometimes people graduate into the second phone number. It's all imessage - I don't like green bubbles. There's many new services like community.com which all shows up green and i don't like it.
+
+> How does ancestry get interested in this teen app?
+
+This was an acquihire - they acquired the team and shut down the app. We had people engage for about 3 months but couldn't figure out long term engagement. We almost got acquihired by reddit and the team, which would have made more sense, but ancestry (I didn't join the company actually) but if I recall they were started in the 80s and reinvented themselves 3-4 times, and more recently entered the genetics business, and they worked with our team to reinvent themselves further as an experiment.
+
+They had a couple of different ideas for what we were going to do, but to be honest our team left shortly after - they didn't stick around for too long.
+
+I have a short memory when it's not stuff im working on, so I can't even remember what they wanted us to do.
+
+But the 20m users is a more interesting story becuase we did it with 0 money spent. That's the beauty of not having money, you have to get very creative. Ads cpc are just way too high - can't compete against these larger companies with money. If you're a consumer product not making money, buying ads / users is the worst thing you can do with vc money.
+
+After school - for high schoolers, and at the time we were closer to high school our team, was a couple years out of high school, our team dressed up as high schoolers in SF and went into 5-6 high schools and flyered the whole school and asked people to post about us on their stories, etc. We were able to get 90% of the school on the app within a week, and then we were one of the earliest to use social media youtubers / viners to promote us.
+
+Back in the day we made jake paul's website in exchange for you promoting us on youtube / vine or twitter or snapchat. We bartered our way into promotions, and they did it!
+
+Once we got early signs that people aren't deleting this app and they're using and sharing it, they were
+early influencers.
+
+One of my friends helped start tinder, and they didn't have much money. They'd go to coachella and then go give the bouncer $100 and then put the tinder stickers everywhere. In the bathroom attendants, sticker everything. So it looked like tinder sponsored coachella, but in reality they were just hustling and paid the workers to not take stickers down.
+
+Most of the companies that aren't big do weird, creative, controversial thigns to get users, and they rarely involve large sums of money.
+
+> Spearhead? Shat's your involvement and how did you get started?
+
+Naval was one of our closest investors and he started spearhead, and it was a pretty smart concept and hypothesis that founders are the ones who have the best deal flow. If you're an old VC, you're not as close to the ground as to what's happening - you get in later. So for spearhead, just back your smartest friends. And he doesn't want anyone to change their behavior, tweet with twitter threads or anything announcing you're doing angel investing now. If you're a ceo and your vp of eng starts a company, go support them - monetarily.
+
+They gave me some money to angel investments and I carry in some of their funds. They want to be the YC for investing - spearhead's claim is we're gonna teach you how to become an investor.
+
+The older you get the more out of tune you become with at least consumer. My cousins are the ones who told abt snapchat 5-7 years ago when nobody in SV had hear about it. I beta tested tinder and knew about it when it was blowing up in the midwest, but no Silicon Valley investor was talking about tinder. I think the spearhead model works, founders to have better ears / eyes on the ground.
+
+> How's it been doing tiktok investing?
+
+It's controversial for sure. For context, I was the first investor in jake paul. Very controversial - he's a big youtuber and now a boxer. Just launched a rolling fund on angel list, and obviously TikTok is big.
+
+There's a house called the sway house made up fo the really big TikTokers, and they asked if I wanted to invest, I said no but I'd help advise but not invest. Now they've grown to become huge and now they're investing.
+
+Now they're taking 5, 10, 25k but as little as 2500 and putting it into startups. In the last year or so, now they're raising a fund. They're super young, 18, 19, 21, Jake is 24
+
+Investing is a compounding skill - a lot better than buying cars or watches or homes.
+
+From a founder's perspective would you rather take vc money and/or someone that has the ability to reach millions of people
+they've coinvested in roughly a half dozen things w/ me? Some things seem totally random but when you dive in the founders rave about how these people are so helpful. They open doors and when we need to talk to people they can do it.
+
+Lend table - 401k matching for people who can't afford to put money into their 401k. We've gotten them into the press a bunch and got them eyes.
+
+> How did you initially start connecting with meeting people who are hard to get a hold of?
+
+Throwing events is a great way to meet people. If you throw an event at stanford, many people will come for example.
+
+Or do more bartering - e.g. I had friends at instagram, tell Jake hey I can get you the instagram handle you want / need
+but in exchange promote xyz.
+
+Sounds obvious but it's always good to think in that lens. I want x to promote my app, how can I differentiate myself from all the others who want him to promote it? I can build the website ahead of time and say hey look, do you want this, I can transfer this to you.
+
+I'm sure it's backfired sometimes but that's ok.
+
+The interesting tricks i would use today:
+
+1) venmo - almost everyone has a venmo account, but that's not used for attention purposes. If i sent you a venmo w/ a message on it, you'd read it
+
+2) text message - take someone's email address and put it in imessage, and it shows up blue, it means you can text them
+but 70% of people I can just text them like this
+
+It works for elon's email. It worked for sheryl sandberg's for a bit, and then she disabled it
+
+> How did you get into investing? What was the first opportunity?
+
+It arose from naval from the spearhead front and I'm super grateful to him. The world of Silicon Valley is amazing, people just give you capital to go work on cool projects. We're super lucky to be living in 2021 where that's the case. What im doing is not unique fortuantely, many others doing this.
+
+Because of that, there is so much capital out there, it's the best time to take risk and try and start a company. Capital won't solve your problems, won't create your success, it does help a bit. These times could disappear anytime so take advantage.
+
+> Would you describe one of the best mentors you had, what made them so good and how did you cultivate this relationship? (don't have to say their name)
+
+Keith Rabois told me somethign that I repeat often - when thinking about raising capital, things take longer than expected and more time and money than you think. So he's willing to give up extra dilution for safety that things take longer than we anticipate. You never hear someone say oh I wish we would have waited to fundraise and given up slightly less dilution here.
+
+Edward is a very close friend and inspiring - he really understands this wild time and really is taking advantage of it by starting many many companies, throwing many things at the wall to see what sticks.
+
+He's probably done the best job - very underrated - of taking advantage of the times we're living in. Obviously tough to do that before you have some success under your belt. He's been starting a new company every month or two, since he was 22 - for the last 6-7 years.
+
+Tinder founder saying the best things in life typically don't cost money. Same thing with startups - best things are usually free for startups, it's not money that solves the problem.
+
+Stanford professor did an experiment where she gives people some paper clips to start a company in a few hours?
+
+Basically you have a very limited budget where you trade your way up to something sellable and then market and sell it
+only do it on the stanford campus, the whole point is to not use money, just to be super creative. Get a lot done with very little resources.
+
+Journalists have an amazing set of tips on how ot get anyone's phone numbers. They also have legal directories for all phone numbers. Like the new yorker has every single celebrity's phone nubmer because they're in that world. Tools like lusha are also insanely helpful.
+
+> When did you get the idea for ZFellows and what's the thinking on that?
+
+My old roommate, worked at google, came to me and said I'm quitting my job and I'm, starting a company. And I was like what do you mean, with this dude you just met? He said yeah I just met him, and I'm putting my two weeks notice.
+
+I, knowing my roommate often got excited about things quickly, I said how many vacation days do you have at google? He said 2-3 months. I said just take a month of vacation first, start your company. If you like it, great, quit. If you don't like it, come back to google.
+
+In that month, he was able to raise capital, people wired the money, and then he was like fuck I dont trust my cofounder. I think he's shady, I don't share the same morals, I got to stop. So he returned the capitol, shut down the company, went back to google.
+
+Then i had another set of friends at UT Austin, and during spring or winter break, they tried the startup live, and ended up leaving UTA. so it was a low commitment, try a startup life for a short period of time is needed. I've seen a few examples of it working, and a few examples of it when people went back to their company / school.
+
+I had the idea in late december, made the website. I changed the length of it maybe 4 times. 4 weeks, then 2 weeks, then 4 weekends, then just settled on 1 week. Would be the easiest to take off and also the easiest for me to plan on the side.
+
+I had a whole plan to tweet it out and get a bunch of friends to help. Tweet went viral, then I didn't even need to do the marketing. Seems like there was demand for this. We may do a few more, we may not.
+
+I think the speakers are incredible too, and they're just like us, not uber celebs. They give us their time, and it's cool for everyone to meet each other. It's also nice that teh groups are small. No set plan necessarily fo rnay of this, but that was the inspiration.
+
+## Edward Lando
+
+Edward Lando, [CEO of Goody](https://www.linkedin.com/in/edwardlando)
+
+> What are the best tips you can offer to avert problems?
+
+If you can try out working with someone before actually doing so, that'll be huge. A lot of companies implode because of that.
+
+Many companies don't work on an idea that's interesting or that makes sense, but I think choice of idea is another big one.
+
+These are the biggest 2
+
+> Let's dive into the choice of idea - what does that mean, what have you personally experienced?
+
+I started doing startups in college. The general thought is that people in school are only exposed to a certain set of ideas, and so often you hear the same couple of ideas that come out. Oh a marketplace to sell used books, or an anonymous something app.
+
+Some of these are good ideas but these aren't a great diveristy of ideas. Finding a way to combine the young hustle with the real problems in industry is interesting.
+
+When working on one company, you'll encounter a series of problems - and you'll end up fixing the meta problem for your own company.
+
+Or the cliche thing of you've thought about this for a long time - I keep a long list of ideas of stuff I really want to work on. The ones i trust the most are the ones that nag me the msot over time. If you think of a good idea, just give it another couple weeks or a couple months.
+
+> What are some frameworks that you or your 20-year old self experienced when working on these problems? How would you step away from selling used fridges, etc
+
+I worked on a lot of diff ideas in college and then went to YC striaght out of school. I didn't care much for the idea, just wanted to work with that person.
+
+The biggest thing i got interested in was the healthcare space, so we listened to 30-40 doctors. Even though it's boring and you don't get to start immediately. We were at penn, we had a gerat medical center there.
+
+We heard we should build a better ehr / emr system, they're all antiquated. Then you realize these systems are so ingrained in these hopsitals that they're almost impossible to dislodge. Then we eventually got to know one doctor who said actually if you could build this particular thing for me, my team and I would use it. He was a dermatology specialist, and he wanted to build a system to share my records w/ a general patient record. It was a much more specific version of the original idea.
+
+> In that past you've said that business entrepreneurship is just applied philosophy - how has your philosophy in the world translated into your businesses?
+
+If we are in a posittion to build startups, we're very lucky. We get to pick what we do everyday - most people don't get to do that.
+
+Some of those might be good opportunities, but what do you deem to be an important problem to solve? People were writing books throughout history - what were the important things for man to tackle? Now anyone with a computer and some funding can go and say "Oh I think X is broken, lemme build a better way".
+
+My point was, in backing and choosing ideas, pick things that are hitting the important problems and not who cares if this exists or not. In Silicon Valley I hear a lot of VCs who say we only back SASS companies who do X, nobody really cares. I still think a lot of smart people are misallocated, and should be working on more important problems.
+
+> We spoke w/ your associate John Orringer, and all of us were blown away by the shutterstock story, and obviously you're very prolific in all your projects too. John said once he realized shutterstock was the thing, he threw all his resources into that. I'm curious - do you believe in doing a lot of diff things, is that smoething you want to sustain? Or do you want to focus in on something.
+
+This is something very top of mind for me - it's so meta - how do we use our time. Shutterstock is a success, amazing company - but im sure if you asked John or any entrepreneur who's worked on a company for a decade or more, there's an opportunity cost to everything. He had to shut down 9 other cmopanies, but he thinks he may have been able to keep going in some way. I'm sure many admire Elon Musk - he works on a couple things side by side.
+
+I think it depends on what stage of life you're in, too. Many people if they have a first success, and they make a lot of money and have resources, they can work on more ambitious problems and self fund and have more flexibility.
+
+I haven't come to a full answer about this - if you got to build one of the most meaningful companies, what would be more interesting or can you do both. I don't know.
+
+I think the most important thing is that the sooner that you have a significant success, the sooner you can find more leverage. I think that's mostly luck - some people have their ultimate life company when they're young - start FB when they're young. Certainly the founder is very talented but there's some amount of luck as to the eventual exit for sure.
+
+I think you can do both, but it's important to do something very well and deep first, and then expand from there.
+
+> What would you tell your earlier self, if you were getting out of college - what was the first idea?
+
+Too many things - I taught myself how to code in college, I had like 90+ repos. Many were for learning, many side projects.
+
+I'd tell myself, two ways to shortcut picking somethign that works:
+
+a) compete with a company that's already doing well - that nobody likes - build a better version
+
+b) other way is my now increasing belief which is tha the most important thing is the market
+
+If it's healthcare or real estate or wealth management, etc - if you iterate long enough you'll find a way to success
+
+> I want to talk about the feeling of success - how do you know when to shut down and work on somethign idff or keep going
+
+I think you neverknow fully - I've worked on a couple things.
+
+I helped start a company in the online grocery space, and before that helped start a better coding bootcamp that was doing pretty well and mostly bootstrapped.
+
+People still loved the product and growing but the slope wasn't great. The online grocery company grew _much_ faster, so again, everything has an opportunity cost.
+
+You could open a restaurant and then another and then slowly get a conglomerate in 30 years, but the time it takes to do that, a very long time.
+
+In my opinion, the things that work within the first few weeks, the projects immediately take off and do really really well.
+
+Obviously, this doesn't work for everything. If you're building a new db or some deep tech this doesn't apply, but the things for me have taken off immediately. I do believe you should be loyal to the people you work with, if you like them, but do not be loyal to the idea. Keep the same team, throw the idea in the trash, and pivot.
+
+> Context switching between ideas is often hard -thinking like a biologist or another framework, etc - I often spin my wheels - how do you manage this?
+
+I think it's a mix of each person is different - some universalities in terms of how people find flow. Some people find switching contexts exhausting - I enjoy it. I also like 5 hours of no meetings uninterrupted; you just get into a deep flow. I get a sense of flow from heavy context switching as well - it's kind of fun to experiment and just try. Try a day with a lot of context switching and a day without and see what works better for you.
+
+I actaully realize on the days I don't meet anyone new, I feel low energy. And the days w/ too many meetings I implode a bit - also unhealthy because I do coffee everytime haha. After meeting 10 it's no longer enjoyable.
+
+A couple good meaningful interactions / day really works for me.
+
+> You're often the very first investor in many companies, what are the traits you look for?
+
+I don't think there's a rule for everything. If you look at shutterstock, it took John 15 years to build it up, mostly bootstrapped. It was mostly a slow grind. Especially these days there's a lot of funding available, many these days can become fake unicorns in a year.
+
+All the ones that have impressed me, they're able to get started in a fairly self reliant way. Maybe i got to know them over a couple interactions and they've already improved a lot and made something happen. A lot of people have this more analytical thing - they act like consultants - oh I think we should do X or Y, and others just like oh I did two A/B test and got more traffic on this one, so let's just do this.
+
+The people who go out and confront reality and make somethign happen, that's my top one. Who has the hustle.
+
+> I read you and John are moving to Miami and starting the next google - any details?
+
+We are in miami, it's great. We moved here for several reasons - it's enjoyable to live and it's also fun to be in a place that's on the rise, others feel flat or decreasing. There's an influx of talent and local talent too. We want to back smart people that are fun to work with, but we also have ideas that we've thought about and we want to build companies too.
+
+Re the next google - there isn't a recent company of this size that has been started in this area. We're looking to team up with people and raise and build some stuff.
+
+> Earlier you mentioned your two paths of starting a business - competing vs an incumbent. A common refrain is that 'it has to be 10x better' - is your point just that make sure it can be 10x better? Or what's the logic?
+
+Obviously if you can do something 10x better, great. But the general point is to pick an incumbant that's not incredible at what they do. The big markets are deep enough and big enough that even if you compete with a person really good at what they do, you will find some success. But it'll be much easier to just compete with a crappy one.
+
+There are companies that compete with stripe now for example - checkout.com - in the uk. Payments is so huge that it doesn't matter. Even though stripe is the sterling example.
+
+LinkedIn is not fun to use - not easy to disrupt, but definitely not fun. Restaurant systems before toasts. Or companies that build better hotel software instead of using opera and other bad oracle products.
+
+It's easier to have a bad competitor to take on for sure. But even if you have an amazing cmopetitor, like uber vs lyft, they still did really well! The space you pick is the most important thing.
+
+I've been involved with a couple ecommerce subscription things online. When you do that on shopify you need to use another company called recharge to do this. It's very clunky and a horrible product. We built a better one called smartrr.com.
+
+Same with zoom - I was actually the first investor in teamflowhq.com.
+
+> Do you think the people who moved to Miami from NYC are actually gonna move back or stay?
+
+I think a lot of people who changed something huge in the pandemic will find they like it. I can't speak for miami, but it seems to be that people who moved cuz of covid - not sure if they'll move back. It seems like there is momentum here, and there's a couple new rapidly growing companies here with an ecosystem of hundreds or thousands of people.
+
+It's nice to have local leaders here, and there's always hype in anything for sure, but they're actually supportive here. Other cities aren't making themselves friendly to business at all. I think some people might go back but it just depends.
+
+> One the one hand, you mentioned that a great way is to find an incumbent and compete - shows a good market is out there - care about the slope of your growth - but on the other hand, going back to the applied philosophy - do things that matter to you, but maybe won't see success for quite a while. Is there a conflict there? Is there a tradeoff? How does it make sense?
+
+I think I believe several things contradictory to each other, and I change my mind pretty often honestly. Let's take Elon, he did a couple software cmopanies before he staretd going after the big things. zip2 was acquired, etc.
+
+I'd say one example synthesis is that life is long, work on a few diff things - there is some strategy to having a win early on
+so maybe just do your SASS and get it out of the way, and then move onto something. But i think anything that's growing super quickly is inherently fun and exciting. You'll have fun doing this.
+
+But yeah ideally, in a perfect way, you do your 10 minutes of meditation, and then you focus what you want to spend your minutes on earth doing. I do think there's some agile synthesis for sure. There's different strategy things that are just more tactical on what you want to approach.
+
+'Do I contradict myself? Very well, then I contradict myself, I am large, I contain multitudes.' Walt Whitman.
+
+I do think there are tons of contradictory startup advice just because it's such a large space with so many outliers and exceptions.
+
+> Let's say you were 20 years old and had very little / no resources - what would you do today to build back up what you have?
+
+I think it depends what is in your arsenal. If you're no longer viewing the world inside the eyes of yourself but viewing from a 3rd person, if you're an amazing software engineer, and if you have no resources, and you don't have a point of entry into the most long term idea you wanna work on, then I'd find a way to win as soon as possible. And get something working - I do believe in this slope thing.
+
+If you had to cross the atlantic, you could start swimming, or spend some time building a boat / plane, and then cross.
+
+I think there's many ways to get to the other thing - the moment you have more leverage, you can move a lot faster.
+
+Musk was worth 4bn when I graduated from college. Today, 50x more. When things compound they _really_ compound - so make the base of what you're compounding as large as possible.
+
+> What would you have done differently?
+
+I would have started working on my own ideas even sooner.
+
+I went to a good college and surrounded by smart people, and i got a lot out of it.
+
+I got really good grades in high school and the things that were interesting I liked, but the boring stuff I ignored it.
+I wish I had done that even sooner honestly.
+
+I did a lot of these side projects before pursuing one as a company. I'd have gone out and done one of these more seriously  and live out the full narrative even sooner.
+
+If you keep exploring maybe you'll find your huge huge thing. I really do believe in my framework - if you find something that you can execute on for yourself do it, it'll create some crazy compounding effects that you won't realize until you live them.
+
+> Out of the startups that you've invested in, which are the most exciting to you?
+
+It's essentially split between the ones that are the most ambitious and meaningful and the ones growing the fastest. I've invested in a couple fintech companies with like corporate credit card - that have no meaning, but they're doing super super well. It's exciting to see them crush it.
+
+And I've also invested in some med tech to detect tumors, some stuff dealing with longevity, etc.
+
+I'm also building a new gifting company which im very excited avbout - www.ongoody.com, and helping build a new telemedicine company with John.
+
+> What was your biggest failure / best learning experience?
+
+The YC company that I helped start is an example - that was a govtech company that I didn't have an interest in. I just wanted to work with my friend who was really brilliant. And that time I helped him build a prototype, helped him raise some funding, and he ended up building it for 6-7 years and it sold for a good outcome.
+
+I loved buliding our coding school which was super fun, but it was a fairly low leverage thing to work on for 3.5 years. If we picked some other idea that would have been better.
+
+Everyone has their own way to learn though, so it's all part of your education.
+
+And there's others we shouldn't have given up on - we worked on an early version of trunk club in college and deliver boxes of clothes to on campus.
+
+> Describe one of your most impactful mentors and what made the relationship so successful?
+
+Cory has been a huge mentor :)
+
+But more seriously, a couple of them.
+
+One of them, I really like literature in high school and college, and had a couple of amazing lit profs who expanded my way of thinking. If you're buliding a company to fix problems of the world, have some insight into humanity.
+
+There were a couple of friendly investor / entrepreneurs who were great at helping me think about things and also get opps early on. When you start investing, who is gonna send you deal flow for example?
+
+Wery few people did, becuase it's a competitive thing. But there were a few who were really amazing.
+
+> What would you say are your biggest strengths, and how did you cultivate those strengths, as well as some weaknesses?
+
+Haha, I like asking founders when I'm talking to them about their company. A lot of people in tech have a pure CS background - some humanities background makes you maybe more inclined to be interested in certain ideas and some people.
+
+I think I'm some type of extroverted introvert, so I enjoy meeting people and I enjoy context switching / doing several thigns at once. There's a mix of "I'm foruntate where I'm in a good position to do this" and also "why not we're all here for a limited amount of time" - so I allow myself to pursue ambitious problems.
+
+Weaknesses - tied to the strengths. For a while I was frustrated I couldn't focus on something, I'm wasting so mcuh time abandoning projects after a couple months. I can't stick to anything, what's wrong with me. If you get more leverage, if you get to invest, that can turn into an actual strength / business model.
+
+Another weakness many of us have at some point, all of us compare ourselves to others. These days especially there's an IPO every 2 days. You're not part of most of them, so it's an unhealthy distraction.
+
+Hard not to compare yourself implicitly when you take a lot of meetings and meet a lot of people.
+
+> If you took your current company goody and stretch it out to the most ambitious experience possible - how do you make sure goody doesn't get the same stigma as a gift card?
+
+I think if you look at mobile commerce, uber has done a great job of transportation
+and food delivery is done - doordash, etc.
+
+But other mobile commerce transactions aren't good - they don't have your info or the other person's info. So building a really optimized shopping experience on the phone is key. And starting w/ gift giving is a good opportunity. And maybe wish did a good job with the cheap stuff.
+
+So the 5-10 year pitch is we are mobile commerce. The gift card space is huge, there is some stigma there. We try and stay away from that.
+
+> Favorite book?
+
+I really like 'the little prince', very simple book, very cliche - maybe the most read books in the world. I think it's wonderful and it appeals to everyone. Written by someone who went to war and still managed to write something extremely tender.
+
+## Lucy Guo
+
+Lucy Guo, [CEO of Scale AI](https://www.linkedin.com/in/lucy-guo-a7804955/)
+
+> What are the common mistakes that 1st time founders make / can easily avoid?
+
+So many founders build out the product before they know if it's something people want. On the b2b enterprise side, just have a landing page. Sometimes you dn't even need that - just find a point of sale and get an LOI and now you know what you want to build. Harder on the consumer side - sometimes you don't know what to build beforehand.
+
+> Question about managing risk - obviously starting a company and dropping out, how do you think about that / how do you manage risk - when do you know if something is a good idea / good decision?
+
+I think people think these things are a lot higher risk than they are. Let's say ou raise a preseed round and it didn't work out. If you and your cofounder are really talented, or let's say you hired some great teams. Chances are you'll get an acquihire - that's already 7+ figures.
+
+It was almost like I never fit the new grad bucket anymore anyway, so I was able to get way higher offers than as a new grad
+so my stock options were way more senior than my years of experiences.
+
+The case you lose out is if you could have joined a really great startup and then you lose your value, or maybe you actually get somewhat successful and it gets to series c and then dies. Then you def lost out on a few years and lost out on some money.
+
+But that's why many founders derisk so that as you raise from a to c you go to secondary markets and derisk. VC's like this too cuz this way you don't give up as well.
+
+> You had so many different experiences before scale, with so many diverse experiences, what aspects of your background proved to be most helpful for scale?
+
+Being operational / building products helped me understand who was good. I was able to recruit some of my close friends and signed right out of carnegie mellon, I found people much smarter than me and hired them right away.
+
+> Follow up to that - how would you recommend builidng out your network if you were right in or right out of school?
+
+I was living in a lot of living communities in SF - houses anywehre from 12-70 people, and almost everyone was an engineer. Made lots of friends at hackathons. I was going to every single major hackathon all through college. And after that volunteered at a bunch as well.
+
+> As a vc now, would you have done anything differently as a founder?
+
+As a foudner we did make a giant list, and maybe pissed off a few investors, becuase it took sooo long to decide who would get what allocation. We really wanted to decide who would be the most value add. I think a lot of founders think investors are going to be insanely helpful. That's just not true.
+
+It's probably smarter to raise a party round - you're getting a lot more value / small check and you can have a higher valuation than if a large fund steps in. If you choose your partner correctly at a large fund, they can be insanely helpful.
+
+Depending on what kind of product you're building, ask for customer intros beforehand as diligence on VCs.
+
+> Early stage question - when did you know it was going to work and how di you meet your cofounder?
+
+I was at snap before scale, and before snap i was at quora. We met at quora. We were two kids who wanted to start a company. I was doing all the design / frontend, and he was doing backend of random projects. We were hacking random projects together before he left MIT and before he left snap. We applied to yc and it all sort of happened from there.
+
+We initially worked on healthcare app and we wished we had an API to call doctors for us. We created an API for humans - thought it would be controversial. Thought it would just be for phone calls. Accel came in and said we can use AI for this come on. Phone calls were very hard to monitor for quality.
+
+And Cruise became one of our first customers. It was evnetually AI / ML - it was 100 people for a very long time.
+
+We knew it was working when I was able to hire my friend who was a huge revenue driver. He laid down the ground work for sales and after his hire sales started flooding in. This was a few months maybe after YC.
+
+> Saw you worked on many diff side projects - I assume you were pretty hands on on the design / product side of things, how did the dynamic change in the company like scale when in the early days you're super hands on and over time it changes?
+
+I actually think it depends a lot. Personally yes, my time became much more about hiring. Most founders go into those roles eventually. Sometimes a cofounder decides they just want to do IC work, and it's just discussed. And sometimes a cofounder stays doing that. Evan Spiegal at Snap is very very hands on with product and design. Depends on how you want to structure the company
+
+> Have you ever faced any obstacles being a woman in tech / people not taking you as seriously, and how would you handle these situations?
+
+I think nowadays the answer is no. When i first dropped out, my house mate who is also a Thiel Fellow, told me I only got my FB internship cuz i was a woman and i probably got easier interview questions. People saying a lot of wierd shit to justify how i got it. As more success has happened from viral projects to consistently getting good offers and performing well, it almost became advantageous to be a woman.
+
+Especially nowadays when people want to fund women and poc, it's gotten easier once you hit a certain threshold.
+
+> Strategies for finding / evaluating new designers? What are your strategies?
+
+(Editor's note: I think I mis-typed or misunderstood what she was saying here, becuase I really don't understand waht she meant by the best designers being contract only... Maybe she meant brand designers? I'm not sure, it was hard to keep up the pace of note taking at this part of the conversation.)
+
+I think the easiest thing is to look at companies where designers ahve been there for 4 years and are about to IPO. Their golden cuffs are off, and refreshers are not as great anymore. Dribble / word of mouth are both great influences.
+
+Best UI designers tend to be contract only, up until we finally convinced one to join.
+
+> Any example of good companies? For example, Stripe
+
+Haha yeah i was just about to say stripe. But you should look at any startup w/ design you admire - Square even. I think the people working there probably have a different risk tolerance level.
+
+> What trends do you think have been accelerated by covid and are here to stay?
+
+Obvious answer is remote work. My personal preference is for my portfolio companies to still have an office and have remote be optional. I guess the flip side is for remote only hyou could hire more people and maintain the same progress and pace. Market for remote fitness has expanded - at home fitness.
+
+> Curious if you can give insight on every day people to interact with AI 5-10 years from now, how will that be?
+
+I think more obviously everyone will have an AI assistant for example.
+
+> What about creative tools - helping people learn skills?
+
+I think what I see happening, and it's already started, software looks at top 40 songs and look at patterns and generate a good beat. Theoretically in 10 years, the top 0.01% of musicians are here to stay. They'll use this ai and add their own flavoring. But I do think AI will replace a lot of producers
+
+> Do you think there'll be standards in place to distinguish between pure human creations and AI levels?
+
+I think it'll be mixed together, hard to tell.
+
+> What if multiple ideas you test have similar dmeand?
+
+I heard this from someone else but, in terms of testing demand. Rumor has it parson script came out with 50 pages
+more on the consumer side - have a waitlist or something.
+
+But on the enterprise side, just scrape a list of startups and first name @ startup name .com and mass spam people for demand
+and that works really well actually.
+
+If it's a product that'll save a business a lot of time, they'll probably be willing to prepay or give you an LOI.
+
+> What's an opinion you've changed over the years? Where did you start and how did that opinion evolve?
+
+i used to think copying ideas wouldn't really work
+and i think if you copy something and do it better and hire smarter people, you can very easily win
+this might go back to the story of scale - in terms of crowdflower
+we decided to brand and be a bit more controversial
+we just saw all their endpoints, copy those endpoints, and just moved a lot faster
+
+so then we got into self driving car space, then they started copying us to go into self driving
+but we just had a more talented team that moved very quickly
+
+> Should I move to miami? Should early career engineers move to miami?
+
+I think there's a big networking opportunity you wouldn't get outside of Miami. When Keith lived in SF he never went out or went to parties, but here in Miami a regular person can hang out with him and grab his time. These folks are trying to develop a new network in miami, so it's easier to get that in Miami than in SF.
+
+A lot of my friends from NYC who were planning on leaving in march just came and bought houses. I think 30% of people end up converting and move down here permanently. Obviously it's going to take a while before it's anytihng like SF pre pandemic.
+
+But I do think the people who moved down here, at least in my head, are my most impressive friends that I look up to.
+
+> Do you think yc was indispensible for scale ai?
+
+Uh, no. They actually told us it's a very bad idea but supported us in the end.
+
+> Why did they think it was a bad idea?
+
+I think they were trying to get me to pivot. I made a crowdsourced pokemon go map - that got 5mil users in 1 week. They really wanted us to build that full time. It was at the height of pokemon go. Accel was the one who wanted us to stop pivoting. They literally dropped a term sheet so we would stop pivoting.
+
+> Thoughts on copying someone vs mission oriented?
+
+I think both are fine. Some founders have to be mission oriented. Many don't - that's why so many startups are pivots. People can be motivated by many diff things. They're all valid reasons to start a company. Some people are even motivated by making money. A lot of vc's don't care about that because it's aligned with the business
+
+In terms of finding and incumbent and copying them I think that's just smart. You just want to make sure it's a large business - it shouldn't be a dying zombie business.
+
+> Is there a company you would copy right now?
+
+Basically the ad industry right now is manually tracking how many times a commercial is shown and how many shoutouts are getting, etc. I've seen people try to build companies around it, but a strong eng team can go do it. The incumbents are worth a few billion and it's all manual
